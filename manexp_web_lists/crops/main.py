@@ -1,6 +1,6 @@
-from manexp_web_lists.client import JsonClient
-
-# from manexp_web_lists.mail import Mailer
+from manexp_web_lists.crops.models import Varieties
+from manexp_web_lists.json_client.client import JsonClient
+from manexp_web_lists.mailer import Mailer
 
 
 def main() -> None:
@@ -16,20 +16,16 @@ def main() -> None:
         client.download_file()
 
         # 2. Load and validate the downloaded json
-        data = client.load_file()
+        varieties = client.load_file(Varieties)
 
-        # print(data)
-        print(type(data))
+        print(varieties)
 
     except Exception as e:
         # TODO: Uncomment the email notification once code is in production and remove print
         print(f"An error occurred in the main process: {e}")
-        # mailer = Mailer()
+        mailer = Mailer()
 
-        # mailer.send_email(
-        #     subject="Error fetching crops list",
-        #    body=f"An error occurred in the main process: {e}"
-        # )
+        mailer.send_email(subject="Error fetching crops list", body=f"An error occurred in the main process: {e}")
 
 
 if __name__ == "__main__":

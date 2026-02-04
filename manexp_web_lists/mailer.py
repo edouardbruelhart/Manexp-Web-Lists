@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 
 class Mailer:
-    """Client to download and validate JSON files."""
+    """Simple mailer class to send emails using SMTP."""
 
     load_dotenv()
 

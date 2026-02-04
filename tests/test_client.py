@@ -1,4 +1,5 @@
-from manexp_web_lists.client import JsonClient
+from manexp_web_lists.crops.models import Varieties
+from manexp_web_lists.json_client.client import JsonClient
 
 
 def test_download(tmp_path):
@@ -19,6 +20,7 @@ def test_load_file(tmp_path):
     client = JsonClient(url, file_path)
     client.download_file()
 
-    variety = client.load_file()
+    varieties = client.load_file(Varieties)
 
-    assert variety is not None
+    assert varieties is not None
+    assert len(varieties.varieties) > 0.0

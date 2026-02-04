@@ -2,8 +2,10 @@ import json
 from pathlib import Path
 
 import requests
+from pydantic import BaseModel, ValidationError
 
-from manexp_web_lists.models import Variety
+from manexp_web_lists.json_client.errors import InvalidJson, JsonNotFound
+from manexp_web_lists.json_client.types import Structure
 
 
 class JsonClient:
@@ -28,15 +30,14 @@ class JsonClient:
             encoding="utf-8",
         )
 
-    def load_file(self) -> Variety:
+    def load_file(self, structure: Structure) -> BaseModel:
         if not self.file_path.exists():
-            raise FileNotFoundError(self.file_path)
+            raise JsonNotFound(self.file_path)
 
-        with self.file_path.open("r", encoding="utf-8-sig") as file:
+        with self.file_path.open("r", encoding="utf-8") as file:
             data = json.load(file)
 
-        return Variety.model_validate(data.get("varieties")[0])
-
-        # print(type(data))
-
-        # VarietiesResponse.model_validate(data)
+        try:
+            return structure.model_validate(data)
+        except ValidationError:
+            raise InvalidJson(self.file_path, structure) from None
