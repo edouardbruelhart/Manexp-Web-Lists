@@ -1,8 +1,9 @@
 from pathlib import Path
+from typing import TypeVar
 
-from pydantic import ValidationError
+from pydantic import BaseModel
 
-from manexp_web_lists.json_client.types import Structure
+T = TypeVar("T", bound=BaseModel)
 
 
 class JsonNotFound(FileNotFoundError):
@@ -14,11 +15,11 @@ class JsonNotFound(FileNotFoundError):
         return f"Json not found at {self.path}"
 
 
-class InvalidJson(ValidationError):
-    def __init__(self, path: Path, structure: Structure):
+class InvalidJson(Exception):
+    def __init__(self, path: Path, structure: type[T]):
         self.path = path
         self.structure = structure
         super().__init__(path)
 
     def __str__(self) -> str:
-        return f"Json at {self.path} is not validated by {self.structure.__class__.__name__}. For more details, see the validation errors."
+        return f"Json at {self.path} is not validated by {self.structure.__name__} structure. For more details, see the validation errors."

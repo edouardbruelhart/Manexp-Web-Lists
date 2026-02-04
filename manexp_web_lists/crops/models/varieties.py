@@ -1,26 +1,9 @@
-from datetime import date
-from typing import Annotated, Optional
+from typing import Optional
 
-from pydantic import BaseModel, BeforeValidator, ConfigDict, Field
+from pydantic import Field
 
-
-def parse_iso_date(value: str) -> date:
-    try:
-        return date.fromisoformat(value)
-    except ValueError as e:
-        raise TypeError(e) from None
-
-
-ISODate = Annotated[date, BeforeValidator(parse_iso_date)]
-
-
-class StrictModel(BaseModel):
-    model_config = ConfigDict(
-        extra="forbid",
-        populate_by_name=True,
-        frozen=True,
-        strict=True,
-    )
+from manexp_web_lists.utils.date_converter import ISODate
+from manexp_web_lists.utils.strict_model import StrictModel
 
 
 class Address(StrictModel):
@@ -85,7 +68,7 @@ class VarietyContacts(StrictModel):
 
 class Variety(StrictModel):
     id: str
-    dossier_status: str = Field(alias="dossierStatus")
+    status: str = Field(alias="dossierStatus")
     trade_names: Optional[list[str]] = Field(default=None, alias="tradeNames")
     brand_names: Optional[list[str]] = Field(default=None, alias="brandNames")
     breeders_reference: Optional[str] = Field(default=None, alias="breedersReference")
@@ -99,4 +82,6 @@ class Variety(StrictModel):
 
 
 class Varieties(StrictModel):
+    """Represents the raw data model for plant varieties."""
+
     varieties: list[Variety]

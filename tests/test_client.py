@@ -1,4 +1,4 @@
-from manexp_web_lists.crops.models import Varieties
+from manexp_web_lists.crops.models.varieties import Varieties
 from manexp_web_lists.json_client.client import JsonClient
 
 
