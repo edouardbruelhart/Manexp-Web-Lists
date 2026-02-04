@@ -5,7 +5,7 @@ site_description: A repository to fetch and host lists for Manexp-Web project, n
 site_author: Edouard Brülhart
 edit_uri: edit/main/docs/
 repo_name: edouardbruelhart/Manexp-Web-Lists
-copyright: Maintained by <a href="https://edouardbruelhart.com">edouardbruelhart</a>.
+copyright: Maintained by <a href="https://github.com/edouardbruelhart">edouardbruelhart</a>.
 
 nav:
   - Home: index.md
