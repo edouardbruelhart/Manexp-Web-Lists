@@ -1,0 +1,3743 @@
+{
+  "taxons": [
+    {
+      "crop_category": "Vegetable Crops",
+      "taxon_rank": "species",
+      "family": "Solanaceae",
+      "genus": "Solanum",
+      "species": "Solanum lycopersicum",
+      "crops": {
+        "crops": [
+          {
+            "id": "e6367871-435a-3c6e-aed7-20fee0b10ae9",
+            "status": "Finalized",
+            "upov_code": "SOLAN_LYC",
+            "denomination": "Vitalion"
+          },
+          {
+            "id": "2e3fd1c2-1aab-d184-febd-504589193e51",
+            "status": "Finalized",
+            "upov_code": "SOLAN_LYC",
+            "denomination": "Ronvine"
+          },
+          {
+            "id": "3df8c7e4-502a-f4f3-a9eb-e73d3411dd3a",
+            "status": "Finalized",
+            "upov_code": "SOLAN_LYC",
+            "denomination": "NUN 09399"
+          },
+          {
+            "id": "44572e78-4009-a39c-e59f-dc4e9244cf43",
+            "status": "Finalized",
+            "upov_code": "SOLAN_LYC",
+            "denomination": "Sunvine"
+          },
+          {
+            "id": "2ce0a7b0-1f3b-1013-bed3-37f3187b077e",
+            "status": "Finalized",
+            "upov_code": "SOLAN_LYC",
+            "denomination": "Dreamvine"
+          },
+          {
+            "id": "e6cc845c-ac71-6b4b-1a76-2c526c9c8bfa",
+            "status": "Finalized",
+            "upov_code": "SOLAN_LYC",
+            "denomination": "Yverdion"
+          },
+          {
+            "id": "323d394e-a44a-6b00-546a-4ad142068626",
+            "status": "InProgress",
+            "upov_code": "SOLAN_LYC",
+            "denomination": "Luvion"
+          },
+          {
+            "id": "ea4ffefe-ebbe-1d11-68e7-01bfaed5034e",
+            "status": "InProgress",
+            "upov_code": "SOLAN_LYC",
+            "denomination": "Pulsion"
+          },
+          {
+            "id": "1d16d8a0-7110-e9fc-8173-1614db8f0982",
+            "status": "InProgress",
+            "upov_code": "SOLAN_LYC",
+            "denomination": "NUN 09225"
+          },
+          {
+            "id": "9e38369e-9505-eb4b-4d53-2e59482383ef",
+            "status": "InProgress",
+            "upov_code": "SOLAN_LYC",
+            "denomination": "NUN 09261"
+          },
+          {
+            "id": "035f6c8f-45ff-2ec5-a7ff-dc9bb56abbe7",
+            "status": "InProgress",
+            "upov_code": "SOLAN_LYC",
+            "denomination": "Nun 09085"
+          },
+          {
+            "id": "4d5d8391-286b-6c85-5c2f-481b64a87eae",
+            "status": "Finalized",
+            "upov_code": "SOLAN_LYC",
+            "denomination": "Marvellion"
+          }
+        ]
+      },
+      "translations": {
+        "fr": {
+          "name": "tomate",
+          "source": "wikidata"
+        },
+        "en": {
+          "name": "tomato",
+          "source": "wikidata"
+        },
+        "de": {
+          "name": "Tomate",
+          "source": "wikidata"
+        },
+        "it": {
+          "name": "pomodoro",
+          "source": "google"
+        }
+      }
+    },
+    {
+      "crop_category": "Ornamental and medicinal plants",
+      "taxon_rank": "species",
+      "family": "Geraniaceae",
+      "genus": "Pelargonium",
+      "species": "Pelargonium peltatum",
+      "crops": {
+        "crops": [
+          {
+            "id": "91e9cdb5-86c5-5549-d27c-4b7e3a895db2",
+            "status": "Finalized",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 23766"
+          },
+          {
+            "id": "590def18-0f10-4872-4546-ecfe067249ac",
+            "status": "Finalized",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 22649"
+          },
+          {
+            "id": "c9c491a5-c45e-153e-ca07-880e4a7e9150",
+            "status": "Finalized",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacbecky"
+          },
+          {
+            "id": "2ed7f40b-91cb-8bef-767a-d88afc4d57a2",
+            "status": "Finalized",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacsandy"
+          },
+          {
+            "id": "9e8c3ad5-a31a-ed46-b9b7-1c62c906ad85",
+            "status": "Finalized",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Packitty"
+          },
+          {
+            "id": "15e6d632-c0fa-3df3-6491-1dcfccfce8f3",
+            "status": "Finalized",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacvint"
+          },
+          {
+            "id": "75da06e7-6bf4-a4ee-ba50-af37b8c84ad7",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 19072"
+          },
+          {
+            "id": "07024269-b2fb-2dd1-e720-71359686fa37",
+            "status": "Finalized",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 20294"
+          },
+          {
+            "id": "a519d1a3-0e07-f220-217d-e7b2400b75da",
+            "status": "Finalized",
+            "upov_code": "PELAR_PEL",
+            "denomination": "IRTPP19151"
+          },
+          {
+            "id": "fb0d4721-f9f7-ac48-19c1-7222a9d49f61",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 19069"
+          },
+          {
+            "id": "519d489f-939a-1244-8d1d-971dd258122c",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pachaflil"
+          },
+          {
+            "id": "ea44bda8-a0ef-0bdc-d100-0a2dae17a390",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pachafapri"
+          },
+          {
+            "id": "58f72eb4-91d6-a280-de10-796aa68965c9",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 17459"
+          },
+          {
+            "id": "128b1e4e-b2a5-1cc5-8833-d8b281bb36f6",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacamy"
+          },
+          {
+            "id": "861b4c1f-4afd-24cf-eb9b-cc8e5758850a",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacperosy"
+          },
+          {
+            "id": "861b1fbe-1eb5-6db8-9ea6-419a9819c78f",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacpolly"
+          },
+          {
+            "id": "e99a4528-131f-785d-8be2-ce875d154e20",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 16381"
+          },
+          {
+            "id": "e63816b7-eccc-92b7-d5b0-ad4ed2089310",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 16382"
+          },
+          {
+            "id": "32d27cd7-68af-33a0-4354-e5ae2c023780",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 16393"
+          },
+          {
+            "id": "ae365649-0d43-00e6-e4bc-c7309c9e86f1",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 16394"
+          },
+          {
+            "id": "ffcbfe26-f89d-6958-537e-aa4c2ad27aab",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacviddi"
+          },
+          {
+            "id": "22be076a-0b4e-9c88-ebbd-1280a559715e",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 15385"
+          },
+          {
+            "id": "f185e1d7-4bce-70dc-ce58-725781fae653",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pachafdare"
+          },
+          {
+            "id": "7c6be549-47b8-5527-2e67-28c0d727c523",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pachaforg"
+          },
+          {
+            "id": "79e6f656-ed07-3685-7f0f-9a0e64835c16",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pachafred"
+          },
+          {
+            "id": "8ecd5a76-3f59-6c47-f733-723eb78fecea",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 14355"
+          },
+          {
+            "id": "90a47878-800a-6fe4-9a3b-efcb8c36d321",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pachafpur"
+          },
+          {
+            "id": "eeddf508-4cfa-63cd-fc1d-768aac2314d7",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacpemary"
+          },
+          {
+            "id": "5750d492-7bbd-a391-d63a-9b2afa0dd2c7",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacsally"
+          },
+          {
+            "id": "92fca7e7-9dba-fb7b-a315-487f0602cbf2",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacrocky"
+          },
+          {
+            "id": "b9fada9d-436b-81c6-cb9f-6e937775d033",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pachafmag"
+          },
+          {
+            "id": "00c59bb5-8297-37ce-db42-180a435d5154",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KlePP 13330"
+          },
+          {
+            "id": "4f1543de-208b-a1db-b4fd-6267d4b7209a",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Packate"
+          },
+          {
+            "id": "157148c6-7dbb-692e-0994-1a4fc4f0a0cc",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 12267"
+          },
+          {
+            "id": "b0aa9aab-c94e-d3f8-4f65-0df1f229f60e",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 10266"
+          },
+          {
+            "id": "0ac91f11-d07b-dd9e-5bff-6863c8ee9748",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 11273"
+          },
+          {
+            "id": "067d0e43-94fd-3526-2caf-aecdcc7b4797",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 11274"
+          },
+          {
+            "id": "318ac815-7d6d-0bd3-8728-3b62da8a519f",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 11311"
+          },
+          {
+            "id": "671d14a0-dd51-d7f2-0131-e1776a0e3970",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 11312"
+          },
+          {
+            "id": "234bc40e-b48f-7e7f-7d19-8a3c490e23d0",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Zopflair"
+          },
+          {
+            "id": "f40c13fc-8a9a-4589-cc81-6b673b07fcfa",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacruby"
+          },
+          {
+            "id": "f04bec16-76d0-b447-f7a4-918c1072a75c",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacwhipearl"
+          },
+          {
+            "id": "5aa69de0-8358-1174-fb0a-b3da576b4b1d",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 08207"
+          },
+          {
+            "id": "d9494826-439a-f97a-2461-6dad12c768af",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 08209"
+          },
+          {
+            "id": "5970fc69-68ed-ef30-823c-13ea7bb25bcb",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 08218"
+          },
+          {
+            "id": "182367ac-ba74-082b-df85-42718d738028",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 07196"
+          },
+          {
+            "id": "b34958ed-0f77-c0e9-e1ec-8cd0ec10c1d7",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisblanc"
+          },
+          {
+            "id": "02d864a4-700f-23eb-6131-367127a0e32e",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisrubito"
+          },
+          {
+            "id": "6179b44c-d9d6-28ba-bac2-458cdd8d0c61",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisblirange"
+          },
+          {
+            "id": "a1e26a26-3e50-9e66-3a1a-cf2c3061a161",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fix 137"
+          },
+          {
+            "id": "f056ac3b-228a-f92c-e3ba-1b485a1b2893",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 07195"
+          },
+          {
+            "id": "3ce49bcc-5514-dc5d-bae4-e7f123d51d93",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 06122"
+          },
+          {
+            "id": "18481670-5431-6616-d643-9ee24a3bd662",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 06123"
+          },
+          {
+            "id": "80861dc4-82fb-b1ed-8ffc-09cd53111910",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 06124"
+          },
+          {
+            "id": "bb631c68-1708-422b-6da0-67b5d74576c0",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 05113"
+          },
+          {
+            "id": "b9f590a3-a9e4-c576-fab2-1738fa29ea88",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 05117"
+          },
+          {
+            "id": "cce722e5-9861-6a7f-2eb0-29124bf9236f",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 05118"
+          },
+          {
+            "id": "eb394ad9-79ce-0d52-4bcd-2d7ebb045670",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Free Derose"
+          },
+          {
+            "id": "2abe23c1-0b36-8f7e-07f1-7bf692ecb6c1",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Free Orch"
+          },
+          {
+            "id": "a3748190-7c31-54e2-a9aa-b30a5f5b5725",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Free Rured"
+          },
+          {
+            "id": "9f9078cb-7cfe-1f40-ca6f-e224d8fa2c56",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEP 04112"
+          },
+          {
+            "id": "df125dc3-5fb8-ab51-f4e9-6639eacd155f",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEP 04114"
+          },
+          {
+            "id": "ad0bd33b-7ffd-f590-7b46-9738fcae7fc3",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEP 04116"
+          },
+          {
+            "id": "89b06945-f496-25f7-5027-99b72861cc4b",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEP 04096"
+          },
+          {
+            "id": "c454de60-7040-2b68-a779-d908127ac6c6",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacvet"
+          },
+          {
+            "id": "1037fbd2-ac8b-ce62-1009-5b5dd7de069a",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacvicky"
+          },
+          {
+            "id": "88e40c71-5f01-191c-7b3f-da41666666a8",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pacameli"
+          },
+          {
+            "id": "fae5733e-f6fd-6d64-d20d-e3611e410ea7",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fismaxi"
+          },
+          {
+            "id": "786f5063-fd3a-f2c5-484c-88812fb2d298",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fiswipink"
+          },
+          {
+            "id": "ef959a93-54cb-00ad-e47b-033c95a37ad5",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fislina"
+          },
+          {
+            "id": "983c7d7c-04f0-d257-25e7-c106a21a5a41",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Filun"
+          },
+          {
+            "id": "64e3bd2d-282d-de1d-ef0b-cd9b4c3752c6",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisruby"
+          },
+          {
+            "id": "99e4c1d6-b367-8be8-a0a5-006e59db9fce",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEP 02102"
+          },
+          {
+            "id": "547b363f-26eb-5ed0-4cc2-58940a3c122c",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEP 02038"
+          },
+          {
+            "id": "ac69732e-fd62-538f-ddca-b2f0d78ed29d",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEP 02060"
+          },
+          {
+            "id": "af214dcb-7467-e7b1-5229-7f9ce0f76d72",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pactomgi"
+          },
+          {
+            "id": "4827467c-dfe3-2834-0b7f-90fb5cc523d9",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisblipur "
+          },
+          {
+            "id": "c5b450fc-a562-e89c-278b-add1c353b97b",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisdream "
+          },
+          {
+            "id": "5b6bf1d3-ef1d-d2ac-8ac9-5ed38e0e1240",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Paccherry"
+          },
+          {
+            "id": "20f307c7-5ddd-2fea-1389-5ebbd0c38a8b",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fip 101"
+          },
+          {
+            "id": "1d952cfc-98bb-c875-ec7c-0bee083f9579",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fip 165"
+          },
+          {
+            "id": "a76fb1c8-eeaf-58f0-31ff-ec0eab15a94c",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisblizdark"
+          },
+          {
+            "id": "c54bbbb5-6d9f-e201-3f3b-bf661bdb8d9a",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Kleroder"
+          },
+          {
+            "id": "a4f25a3b-3617-7616-b805-be99ee234424",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Klerotyst"
+          },
+          {
+            "id": "c754f30c-f869-e425-1a58-32f0c48336a1",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisrocco"
+          },
+          {
+            "id": "4434401e-f8e5-16e9-1dfc-3e26f218d740",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisbilred"
+          },
+          {
+            "id": "de91a54d-6ee6-c90d-5c3a-6b991a397347",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisbilly"
+          },
+          {
+            "id": "6def5dd8-856b-83f3-028f-18fb933a8627",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fischerry"
+          },
+          {
+            "id": "9913dbe2-5775-21d4-b9c9-ae251967e253",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisrimba"
+          },
+          {
+            "id": "1222d617-6932-e462-c538-2d7d2b126ac8",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisblizrose"
+          },
+          {
+            "id": "9f397aeb-d5ca-939a-16c8-dc72dc6d2a09",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisbarock"
+          },
+          {
+            "id": "7713f46e-d451-6d8f-1db6-243589e26673",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisbeach"
+          },
+          {
+            "id": "349d51d1-a280-fa36-3371-7b891becf9ad",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisbella"
+          },
+          {
+            "id": "85b35fdd-9103-93bf-baec-5d374c42aca4",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisberi"
+          },
+          {
+            "id": "11fb91ca-5f4b-15a8-9213-bf019e863a23",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fislamda"
+          },
+          {
+            "id": "d18c43c7-0fa4-4fa4-c6c6-276bed224b35",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fiscoral"
+          },
+          {
+            "id": "2d9aa1b6-713b-a590-5ad0-60d5b9de87cc",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fislunova"
+          },
+          {
+            "id": "f63108e2-e60d-8f35-d7ba-39b793bd1139",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fislulu"
+          },
+          {
+            "id": "2d260714-797e-23dd-ae35-a7145ca76221",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Klesanci"
+          },
+          {
+            "id": "d1f20216-7c9e-efcb-41cf-d0932c3389da",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Klegatta"
+          },
+          {
+            "id": "aed3220c-edf7-1429-aa6a-7822d5a4f2b4",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fizzard"
+          },
+          {
+            "id": "bc074803-01e0-ccf5-976d-166a1d474c8c",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Kleblue"
+          },
+          {
+            "id": "9407e1fa-9a27-5aa3-67ab-239c605d4733",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Sanlilac"
+          },
+          {
+            "id": "0cc2840e-ec11-26bc-8c6e-8ac1d1ead4e5",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Sanblotch"
+          },
+          {
+            "id": "29fce66c-a30d-0c40-ac64-dfb5a1cbffc1",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Sanred"
+          },
+          {
+            "id": "ac0161b2-ad9e-4a58-e537-178124720095",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisdel"
+          },
+          {
+            "id": "9aea3ac6-5fc7-ef1c-0a2b-844100347575",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisrock"
+          },
+          {
+            "id": "9e47f869-2896-3400-dac9-ad6b638e1f78",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisberno"
+          },
+          {
+            "id": "cec22076-4c9f-2596-599a-c6b97dcaa434",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Flofetti"
+          },
+          {
+            "id": "7fe3abab-5c5a-62d8-36b6-f4a98e8e399a",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Sanwithe"
+          },
+          {
+            "id": "00e70c3f-7b75-a855-39f4-fe5d9b12a51f",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fispink"
+          },
+          {
+            "id": "07e6be8f-3ec8-9030-1091-0e5e65252072",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Evka"
+          },
+          {
+            "id": "1465c993-35cd-86da-335c-5bd4c0f7db52",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Klesten"
+          },
+          {
+            "id": "6630f0fa-041d-44bf-40e9-39af39d7aa3b",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Coralit"
+          },
+          {
+            "id": "2e5b2611-1c85-0224-c88b-51dee9ae5fe9",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisrain"
+          },
+          {
+            "id": "206a8769-2599-b55e-7cc5-7cf3f7c365e5",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fiscomedy"
+          },
+          {
+            "id": "63fddc1c-a21b-bb5e-cd0f-0d6c3720d569",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisgeti"
+          },
+          {
+            "id": "00c8bf5a-533d-3890-a2c0-75ddbf35bfd0",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fischic"
+          },
+          {
+            "id": "e27cddee-3d6c-1559-e938-bb68eacec932",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fismoli"
+          },
+          {
+            "id": "149d22fa-cec7-74f0-a3e2-855c3c7fc7f0",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisuna"
+          },
+          {
+            "id": "af2a2f6d-5b2e-5dde-0946-f517e221282d",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pendresd"
+          },
+          {
+            "id": "16bb1485-06a6-816f-878c-622c7e7e4af1",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Guiber"
+          },
+          {
+            "id": "d0a652d0-ebe6-32e7-dbde-362a060eea13",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Guishiva"
+          },
+          {
+            "id": "2b67f60f-9198-7437-c97d-1717f3faf23d",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Guisaint"
+          },
+          {
+            "id": "716569e7-4a92-7e5f-a089-67a35fe3a704",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Guivin"
+          },
+          {
+            "id": "4c187967-6c94-0e1d-cd45-55d90f14b349",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Guimongol"
+          },
+          {
+            "id": "0a269add-eb9e-dfa4-6c7f-c776bdd4a5ff",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisbliz"
+          },
+          {
+            "id": "a42fb8e3-4906-737a-405f-71c808c6b1c6",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Saentis"
+          },
+          {
+            "id": "cb33b9b2-0bb8-6577-61b2-951628be6acd",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Klefeli"
+          },
+          {
+            "id": "4c1546f8-1c81-d188-a220-6bcf1e3d8f97",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisopa"
+          },
+          {
+            "id": "01c9c776-2c54-a577-b675-fa42d72a2c81",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fisam"
+          },
+          {
+            "id": "eb10ecff-9017-46d6-3734-93df14c685c8",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Fislu"
+          },
+          {
+            "id": "be461cb2-aeef-617d-fc13-5349242ce0b8",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Klededil"
+          },
+          {
+            "id": "2f5934b4-d50d-b8ff-a193-a110fc347239",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Guimanon"
+          },
+          {
+            "id": "3fe367aa-9e4f-62d7-fd2c-6a57a786d096",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Lilamica"
+          },
+          {
+            "id": "37963490-859a-cab1-6573-d60e522a9675",
+            "status": "Finalized",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 24822"
+          },
+          {
+            "id": "5288673f-3491-eb43-9fe5-382865866ace",
+            "status": "Finalized",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 24824"
+          },
+          {
+            "id": "5ac2943f-696c-4cfa-f891-e00d2a8d4b17",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 18184"
+          },
+          {
+            "id": "c049e146-24f6-3d69-a9b3-27941347af3b",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 18183"
+          },
+          {
+            "id": "f80182eb-1625-6676-67ce-10f2a46dc603",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 15390"
+          },
+          {
+            "id": "1e389951-c84a-0587-579b-26c8b6923691",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 11314"
+          },
+          {
+            "id": "41d14e1e-2f53-3518-c7e1-3d6a8dbb3e1c",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "Pactommy"
+          },
+          {
+            "id": "933493e5-4582-2fa0-2c22-7d6f38e0573b",
+            "status": "InProgress",
+            "upov_code": "PELAR_PEL",
+            "denomination": "KLEPP 07166"
+          }
+        ]
+      },
+      "translations": {
+        "fr": {
+          "name": "P\u00e9largonium pelt\u00e9",
+          "source": "gbif"
+        },
+        "en": {
+          "name": "Ivyleaf Geranium",
+          "source": "gbif"
+        },
+        "de": {
+          "name": "Efeublatt-Geranie",
+          "source": "google"
+        },
+        "it": {
+          "name": "Geranio foglia d'edera",
+          "source": "google"
+        }
+      }
+    },
+    {
+      "crop_category": "Ornamental and medicinal plants",
+      "taxon_rank": "species",
+      "family": "Geraniaceae",
+      "genus": "Pelargonium",
+      "species": "Pelargonium peltatum",
+      "crops": {
+        "crops": [
+          {
+            "id": "ed347a6f-b861-e0a0-c86c-8e0799d94b7a",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 23785"
+          },
+          {
+            "id": "58a43a11-bc76-8b79-1367-64de91428cdd",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactioscarkiss"
+          },
+          {
+            "id": "b5124885-8f07-453f-36c1-e7d14e70d424",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEPZ 22680"
+          },
+          {
+            "id": "f9c30481-5b22-a9a4-bb5d-cfa5873df263",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEPZ 22698"
+          },
+          {
+            "id": "9c13c0f0-16a3-d3ca-5c4f-3de56db8960e",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 22654"
+          },
+          {
+            "id": "4de41b30-c890-e85d-5132-5ace672db8af",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiohopispl"
+          },
+          {
+            "id": "4a4b1d70-d5bf-3779-bf27-208255459c9d",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiocomwhispl"
+          },
+          {
+            "id": "3d76424a-6d9e-a76c-4016-bca1b9bc26c0",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiovio"
+          },
+          {
+            "id": "8894111e-79cc-817d-5acb-780d400cc5e3",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiodare"
+          },
+          {
+            "id": "5a5fd1c5-4d9d-fad5-1909-46d3d52055de",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiocomcor"
+          },
+          {
+            "id": "8bc5f7c9-b1c3-cc91-0d54-86c6f5726df5",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiopispl"
+          },
+          {
+            "id": "8f266400-5e4e-e06c-47d6-3724e79e06ef",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiowhi"
+          },
+          {
+            "id": "874e2f33-485d-f13b-098b-6831cc62b0f4",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 19024"
+          },
+          {
+            "id": "8927ea3d-1c8c-d18d-cb2b-122cef250f9c",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 19284"
+          },
+          {
+            "id": "c5149937-ad76-ce44-6329-e648f3be1041",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 18162"
+          },
+          {
+            "id": "4716efda-63f5-3eea-6537-b8a58debd485",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiopea"
+          },
+          {
+            "id": "529ddf5a-feab-0333-dcba-d7e47feff747",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiored"
+          },
+          {
+            "id": "d8810b54-eb5a-3f77-7795-5916246ed143",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pacpeia"
+          },
+          {
+            "id": "a6b196bb-2c00-bba0-fbdb-1322d2626e9a",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIZ 15375"
+          },
+          {
+            "id": "193984d6-90a3-f8d1-1666-3db5c2e96216",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactioscar"
+          },
+          {
+            "id": "df882b0a-6377-6be2-30e5-d2f6467d7781",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 13342"
+          },
+          {
+            "id": "8d396c03-6460-4f9e-5464-b39282fcd779",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 13347"
+          },
+          {
+            "id": "9df5915c-eb2a-c3b3-862e-d1a51c1108b7",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 13348"
+          },
+          {
+            "id": "b5c29615-7301-4af4-84ac-b39389513ed6",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "PEQZ 0001"
+          },
+          {
+            "id": "f2fd135c-09f3-735e-9f1e-869595dfad7f",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "PEQZ 0002"
+          },
+          {
+            "id": "14e5bec8-7376-c8d2-463a-782cc4341ea5",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiopi"
+          },
+          {
+            "id": "4656d0e3-f0de-7b53-5f02-dac32de25bb8",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pacyell"
+          },
+          {
+            "id": "084e1102-b65b-a942-5064-c94163e96222",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Amri Trared"
+          },
+          {
+            "id": "6f218057-3e85-be8d-1df2-1e2a00c07ef4",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Cante Laver"
+          },
+          {
+            "id": "23e27239-2d74-9e05-1c37-85a7a34206e5",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Cante Firre"
+          },
+          {
+            "id": "a5794ad8-d441-8272-928a-38fbd28b1aca",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Fisgren"
+          },
+          {
+            "id": "895d0960-ae74-3bca-5e18-003e86864896",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEPZ 24789"
+          },
+          {
+            "id": "fa6433b7-4f5a-2561-7a1d-8adf5eea24bb",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiopimp"
+          },
+          {
+            "id": "da19e091-94e2-380f-25c0-f529cdce29b2",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiowhispl"
+          },
+          {
+            "id": "0dd7d06e-6413-7ca3-13b0-77d4d4286609",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 19162"
+          }
+        ]
+      },
+      "translations": {
+        "fr": {
+          "name": "P\u00e9largonium pelt\u00e9",
+          "source": "gbif"
+        },
+        "en": {
+          "name": "Ivyleaf Geranium",
+          "source": "gbif"
+        },
+        "de": {
+          "name": "Efeublatt-Geranie",
+          "source": "google"
+        },
+        "it": {
+          "name": "Geranio foglia d'edera",
+          "source": "google"
+        }
+      }
+    },
+    {
+      "crop_category": "Ornamental and medicinal plants",
+      "taxon_rank": "species",
+      "family": "Geraniaceae",
+      "genus": "Pelargonium",
+      "species": "Pelargonium zonale",
+      "crops": {
+        "crops": [
+          {
+            "id": "e69f394d-2830-0a16-d08d-05a1e0dcc9bb",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 23795"
+          },
+          {
+            "id": "01990988-45c7-6de4-2c6a-70a300976037",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacbellinda"
+          },
+          {
+            "id": "ce9fb41b-0c44-91fa-bcad-460a0463af8a",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacellen"
+          },
+          {
+            "id": "06ea04b8-228e-9c53-eeaa-e14865b81f0b",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 22620"
+          },
+          {
+            "id": "3d05ea3f-3df4-a35c-7b38-17112c737dbb",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 22669"
+          },
+          {
+            "id": "ff97c462-6ec1-1e99-c220-0312aa74b102",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacchopinim"
+          },
+          {
+            "id": "400e5885-e333-685d-0a2a-853d0c15f57c",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacneonimp"
+          },
+          {
+            "id": "48e0357f-f95a-7db9-833c-1dd998b4d041",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacpilace"
+          },
+          {
+            "id": "1acf973d-439e-d8dd-44cf-54c4fb3cbc86",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacsamara"
+          },
+          {
+            "id": "3decc9da-e975-a45d-1b1d-c7d7480d5b94",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Swevioimp"
+          },
+          {
+            "id": "50423b62-4e31-cfee-3eda-9a909cacf708",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 21576"
+          },
+          {
+            "id": "bb670aa6-0604-6d31-4857-0da83a0c8c52",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 21596"
+          },
+          {
+            "id": "d182fde9-15f3-5a44-6cd8-3f37ddb7de79",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 21614"
+          },
+          {
+            "id": "1a029817-239f-9966-9444-4ed02e12649b",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 21615"
+          },
+          {
+            "id": "326cb2a9-f5e3-751e-9430-3f70bfd86970",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Swepin"
+          },
+          {
+            "id": "6e04bd63-9aff-2cf5-7f93-9bcf28b7b896",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacanpin"
+          },
+          {
+            "id": "bbe43236-f158-917a-c01d-6122d6916938",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacchofire"
+          },
+          {
+            "id": "f97335bd-548a-a4f9-cd02-427833d085f4",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacdazz"
+          },
+          {
+            "id": "9989cc1c-e8c5-1191-2b06-a1a4b1f4ce91",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Swered"
+          },
+          {
+            "id": "fb47d7c2-40dd-ecf1-07d7-d7f5a42b45bd",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 20550"
+          },
+          {
+            "id": "d31f3b67-7f5a-e955-fc20-dce58fc7bdd7",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "IRTPZ20125"
+          },
+          {
+            "id": "09a20bb9-6073-38f2-5edf-753507d4d152",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Paclara"
+          },
+          {
+            "id": "16972502-5f22-b265-ec0f-f4ddb18d369d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 18546"
+          },
+          {
+            "id": "af9be891-922a-b793-7ff9-3cf283742a93",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 18551"
+          },
+          {
+            "id": "67f962da-24ac-ba29-1689-0815167b2b75",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 17509"
+          },
+          {
+            "id": "c06cc792-1752-c804-ad00-2dcc27d1b259",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacchoap"
+          },
+          {
+            "id": "e56e9878-c3ee-6fac-9d3c-6006684ef69a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacchopin"
+          },
+          {
+            "id": "3afbbb76-e984-a39d-f905-9442a95f756c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 18547"
+          },
+          {
+            "id": "16f3b671-f8df-f131-9cf0-1eac4f166d2a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 17154"
+          },
+          {
+            "id": "387f5752-fbca-9b38-4d53-54d736746036",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 17400"
+          },
+          {
+            "id": "61a7c468-eafe-4e13-69eb-3d82d2f0974d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 17434"
+          },
+          {
+            "id": "7d75fe33-6516-0b22-7d2f-a815213a7f94",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 17435"
+          },
+          {
+            "id": "b3e294e5-b853-c8b3-e79d-6696ef3b4b40",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 17484"
+          },
+          {
+            "id": "eab47528-b5e0-9cf7-9700-25576ffc8fdf",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 17487"
+          },
+          {
+            "id": "3c6eea50-b752-fb9a-7f78-8a81ac26404b",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 17492"
+          },
+          {
+            "id": "14486101-bc07-8acb-63af-aba5f7685410",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacalm"
+          },
+          {
+            "id": "e5cbe538-20ca-abbb-e35e-e07769f2c1b0",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacchogi"
+          },
+          {
+            "id": "b140f434-ce1f-57fc-df4d-36d04ec631b2",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacgreta"
+          },
+          {
+            "id": "61f593d8-c9d3-88f2-fb1b-a8c8455fb5a0",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacletta"
+          },
+          {
+            "id": "1ee9d774-a4bb-62e8-0044-047699f0977a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacswiros"
+          },
+          {
+            "id": "969e8a7a-2bab-70b6-f536-60df922c604d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Paciceberg"
+          },
+          {
+            "id": "68cf9ef3-3e13-d997-36ef-2897d0bb737f",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 16424"
+          },
+          {
+            "id": "eb653a42-c58e-3537-143e-96b53195c6e6",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacswibu"
+          },
+          {
+            "id": "320ad8fe-79a6-ffcd-9f00-ed4cb42863ba",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 15357"
+          },
+          {
+            "id": "b55bfc8c-6d59-95d2-6f3d-595da6de5c57",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 15395"
+          },
+          {
+            "id": "23c69ef8-f823-4be8-8013-6a68f5a00b02",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 15397"
+          },
+          {
+            "id": "a907aaf4-9c05-e4ee-7422-874f62df42fb",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 15403"
+          },
+          {
+            "id": "f99920f8-442a-f89b-92cb-408ce2f7b7aa",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacjul"
+          },
+          {
+            "id": "728d0a47-4aec-de6e-5a50-66efad94515d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacsteffi"
+          },
+          {
+            "id": "d26ec8c6-0dd5-f073-615a-b1ab039d5e73",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEIZ 13339"
+          },
+          {
+            "id": "aff1a5af-dd99-3a2b-cea4-a2958f237f42",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEIZ 13341"
+          },
+          {
+            "id": "6388a0fa-e696-0f3e-4e1d-c2513e759833",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEIZ 13363"
+          },
+          {
+            "id": "45a8b087-11dd-d5bc-47b7-c3fc354138fb",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 14360"
+          },
+          {
+            "id": "f38a8397-4b25-6f45-d666-ab9e660f9a54",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEIZ 13338"
+          },
+          {
+            "id": "da438c9f-fb5a-752a-3be4-5f566fae4c80",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KlePZ 13333"
+          },
+          {
+            "id": "de93f9be-a164-5682-0f96-e3e3673fdbfb",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KlePZ 13334"
+          },
+          {
+            "id": "dee41e59-2991-008b-a16c-882573c031f8",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KlePZ 13336"
+          },
+          {
+            "id": "7021378b-0db5-ddb3-339b-92c4deafbf7d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KlePZ 13337"
+          },
+          {
+            "id": "d5bca13a-a22a-c6ab-115f-7f8f4031d1bb",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Paclice"
+          },
+          {
+            "id": "99b1e07b-6954-d233-1618-e98f17450cb5",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacsita"
+          },
+          {
+            "id": "b284d5be-a57b-ad4f-492d-ad45980c09be",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacludo"
+          },
+          {
+            "id": "b82e19bc-c3a0-d93e-aac0-a12bbdc6790a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Swevel"
+          },
+          {
+            "id": "cfa99f40-2776-fc9d-84ed-93fc19e030f1",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 12320"
+          },
+          {
+            "id": "8abfa052-5ed2-838a-92ec-fcdbe53d6018",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 12321"
+          },
+          {
+            "id": "dc273f73-09de-f400-5c6e-330bc5cd57c8",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 12322"
+          },
+          {
+            "id": "4c9e2710-53db-a15d-6ea1-403bb77f2dfe",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 12316"
+          },
+          {
+            "id": "6817a5e3-1a25-7643-1ff5-44f414e2f899",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 12317"
+          },
+          {
+            "id": "9c38700f-8f2d-ef67-54df-2ac09ae0e9e7",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 12319"
+          },
+          {
+            "id": "e86a751b-3be6-05c3-207c-43b95cdd8d45",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 11229"
+          },
+          {
+            "id": "453da0f3-0eea-e211-7abc-a9183ca267e0",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 11237"
+          },
+          {
+            "id": "9b8af2a1-43f1-76d1-6897-f283298f4c4d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 11275"
+          },
+          {
+            "id": "44902046-44d7-916e-7026-a71f4e8c27f2",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 11276"
+          },
+          {
+            "id": "add9bd06-d4d2-35f6-89d9-6c4c549851c5",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "PECZ 0001"
+          },
+          {
+            "id": "e2f793fd-fc46-3624-67c3-cd6cd30fec9a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "PECZ 0003"
+          },
+          {
+            "id": "83635122-191e-48dc-d86b-d56c8b872a4f",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Clip Darved"
+          },
+          {
+            "id": "f2de90c8-a317-d7d7-61ea-2fa70d714dba",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 10238"
+          },
+          {
+            "id": "2149a467-02d9-11b9-a71b-3d9afb9300c6",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 10271"
+          },
+          {
+            "id": "a52d827b-d476-8739-67d4-eed4998947c2",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 10272"
+          },
+          {
+            "id": "732acaf1-3225-d759-d973-53794f4a449a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacyellim"
+          },
+          {
+            "id": "349e34cc-e4f0-5192-7e04-a40695dbe1f0",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacsalque"
+          },
+          {
+            "id": "ace4930e-5516-e97e-1be0-f5059e3a5df4",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacabel"
+          },
+          {
+            "id": "768958fe-f122-4e5f-34cf-6d18ec551534",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 09251"
+          },
+          {
+            "id": "19663143-071b-c034-a78e-4c434ea7e728",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 10234"
+          },
+          {
+            "id": "0c85e746-4a5a-5d4b-ee61-47e1ba22ac51",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Amri Wits09"
+          },
+          {
+            "id": "cede96ec-e911-8202-979d-6cf0d7f609b7",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Zonfilikar"
+          },
+          {
+            "id": "ed367036-aa75-4200-cd26-a0106fcc052d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Zoncanro"
+          },
+          {
+            "id": "03a60a9e-286d-9b73-a305-6fd99bd7adbc",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Zontadered"
+          },
+          {
+            "id": "c5c5c471-33e9-589f-1290-92738137249c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 07203"
+          },
+          {
+            "id": "19acec6c-8109-c6c6-faf1-840df7ed0472",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacmorsu"
+          },
+          {
+            "id": "16c913c2-a577-4fcc-a557-1f682115c94a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacshorg"
+          },
+          {
+            "id": "29efb951-7af8-7fd6-8b33-ae908e42b6df",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 08220"
+          },
+          {
+            "id": "6ff7fba4-f309-e0d0-5c72-96841e4d3514",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 08224"
+          },
+          {
+            "id": "7d19c800-f9d2-4a89-f910-bde9f7688718",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 08231"
+          },
+          {
+            "id": "a50b1315-5f96-ac41-e169-600d2fee1222",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 08245"
+          },
+          {
+            "id": "5e2a71bc-3a4e-7694-82bf-17a329d423fc",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Amri Pikegs"
+          },
+          {
+            "id": "c567a07c-66e1-d50b-3480-f8317d95f6b3",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisdelav"
+          },
+          {
+            "id": "18f7c99f-09d7-3b91-e8f9-3516bf32f338",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 07200"
+          },
+          {
+            "id": "256c649a-8491-3097-494d-ae5acd75b69f",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fiskopeye"
+          },
+          {
+            "id": "cbfc8015-0d99-f25c-bb74-e0cf4a16a5d9",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPS 06128"
+          },
+          {
+            "id": "220b5200-80f1-29b4-af0a-5edc9679b412",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 07198"
+          },
+          {
+            "id": "4d2a6f1c-9b17-729d-515e-b0cc7e4bdfa3",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPS 06126"
+          },
+          {
+            "id": "3781cfbd-94b8-405f-6d8f-5ed5253eb32f",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPS 06127"
+          },
+          {
+            "id": "8c8c8a1e-6fa8-ddff-9153-268a28b9b4b9",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 07197"
+          },
+          {
+            "id": "cb439a3e-cb5f-a2b8-caa8-6aa6cdc2d610",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 07201"
+          },
+          {
+            "id": "4b594d4f-7540-0aa5-6ac8-8dc9a4b11979",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 07202"
+          },
+          {
+            "id": "89b72ee3-a4f2-1629-a56d-b5d4d459e62a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 06194"
+          },
+          {
+            "id": "c267dafd-5de6-6d4c-9630-105fb29b9265",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 05141"
+          },
+          {
+            "id": "d66235ef-af4b-5dd5-211e-7b6311df8f9f",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 05148"
+          },
+          {
+            "id": "94999709-6c66-06bb-0460-b37e9e09c2a1",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 05137"
+          },
+          {
+            "id": "4610ec83-efad-b808-64f4-95550aad9d98",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEP 04131"
+          },
+          {
+            "id": "3acc7736-fc43-025d-a61e-54d868065a0d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacfox"
+          },
+          {
+            "id": "b408447b-ffe9-7829-d5ef-85b2db448d89",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Swevio"
+          },
+          {
+            "id": "6cb68b78-d8c8-6f90-7d63-084d8eaae41d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEP 04133"
+          },
+          {
+            "id": "032e83b7-a74e-bbad-39ca-cc0b2482e0a3",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEP 04134"
+          },
+          {
+            "id": "be8d8024-76f8-6712-7afb-5716aa562b19",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacdy"
+          },
+          {
+            "id": "0c6c733e-0332-d24e-b2ed-d03620db5e0a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacan"
+          },
+          {
+            "id": "0d01cf5d-ec24-5024-1a0e-49f927408d41",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Paclai"
+          },
+          {
+            "id": "c62620c7-8715-d47f-d847-0ad3798ad8d8",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pactina"
+          },
+          {
+            "id": "59a74b00-1230-fab4-5a16-41198882c38f",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Swero"
+          },
+          {
+            "id": "680262d2-5779-d028-bc3a-168b36769fa1",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEP 03106"
+          },
+          {
+            "id": "f19dafa8-e321-18a0-42b5-c1166a91b10d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fislore"
+          },
+          {
+            "id": "942cb857-1e89-3809-445a-4abb2eb04767",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fishelus"
+          },
+          {
+            "id": "1ad52c95-2b9b-c5a8-15a7-ff2fb52d67e7",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisroweiss"
+          },
+          {
+            "id": "bc5b8868-6c8e-3c6b-e768-47fe87da1c20",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisorangtan"
+          },
+          {
+            "id": "67614ecb-7d8a-c433-3827-c620da0e59e7",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacbla"
+          },
+          {
+            "id": "0ef47e92-2554-9182-ada7-2facff0cd99b",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Grasalm"
+          },
+          {
+            "id": "c795c726-06b5-27e8-2e9e-102a3a8747d4",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Grafire"
+          },
+          {
+            "id": "0891a945-4ff9-eaec-df44-a628a0dfdb2a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisweiss"
+          },
+          {
+            "id": "988d00aa-ca84-fbf0-c157-746f84d42236",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fiselena"
+          },
+          {
+            "id": "85ef5b22-a0b4-2bda-0848-b6cff0cccfd1",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fiskoko"
+          },
+          {
+            "id": "98a01f55-405a-78ce-8501-5c23b345a84c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisnifire"
+          },
+          {
+            "id": "0a1f80a2-871f-9266-555b-b432413b22d1",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEP 01008"
+          },
+          {
+            "id": "3521d786-8173-79c8-4bc6-9fc756462c03",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEP 03012"
+          },
+          {
+            "id": "3cf307fa-5646-b1d7-9f05-cddae3f3a543",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEP 03100"
+          },
+          {
+            "id": "44d2a0e5-5c46-73f1-0f21-55f4c91669c3",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEP 03105"
+          },
+          {
+            "id": "7ff9aefc-c063-be2e-c0b1-c2aa6c06a164",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEP 03109"
+          },
+          {
+            "id": "182d73f0-3989-e045-2ff5-256bf69c9d4c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Grapink"
+          },
+          {
+            "id": "d57bcdc7-28a9-9cfb-f3cd-2f31329deae4",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEP 02101"
+          },
+          {
+            "id": "aa049747-db00-c8ec-8f4f-a3c8cf7b600f",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEP 02073"
+          },
+          {
+            "id": "856777c5-8b65-2876-814c-743f580b90dd",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisaqua "
+          },
+          {
+            "id": "eae066fd-fb5b-2d17-b4ef-351950af8227",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacshovi"
+          },
+          {
+            "id": "82cc5b35-1aef-6baf-9e95-a664df00ec8e",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacvica"
+          },
+          {
+            "id": "fc35cea9-ab50-9256-7d07-59742247853e",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacvi"
+          },
+          {
+            "id": "d32f67c9-3956-6fb7-bd81-154cd84a037d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisvita "
+          },
+          {
+            "id": "633d15be-f38c-1a0f-cc31-13c42af8c84f",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisromon "
+          },
+          {
+            "id": "ad042853-672f-e054-f7ce-002dbd845bd8",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fip 469"
+          },
+          {
+            "id": "c2bc6247-93dc-7a69-0219-dd0e47d1eb60",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fiwoscarl"
+          },
+          {
+            "id": "9a524270-487e-0733-0df3-7c3a155669c6",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pacamla"
+          },
+          {
+            "id": "a0232541-372d-5035-5230-a4ecf23d2c31",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Bernova"
+          },
+          {
+            "id": "fb26c222-09e0-b217-7b21-111209671882",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Thurwunder"
+          },
+          {
+            "id": "8017b8ec-e442-a7d4-c5ae-a07eafbb58f2",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Thurglut"
+          },
+          {
+            "id": "f2d99112-c3e8-5627-6d53-1b3a4d623856",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fiscaseye"
+          },
+          {
+            "id": "c7d46588-1b17-58d7-2362-8a10c0de44f4",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fip 440"
+          },
+          {
+            "id": "d5d2b71c-7b39-c75b-e46f-807e7372e465",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fip 553"
+          },
+          {
+            "id": "1dc3ee02-7655-edeb-2358-e541a13604b3",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fip 765"
+          },
+          {
+            "id": "d0eae9f0-b3f4-0e8c-4b85-fb584f52f5da",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klerangie"
+          },
+          {
+            "id": "9d8e33bc-3192-85ad-a419-09495b825243",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fistaneon"
+          },
+          {
+            "id": "748a5f45-dd6b-9568-c5e0-9686d3404505",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisblufort"
+          },
+          {
+            "id": "ab554c3d-da61-f2a8-850e-37b4114dfa77",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisromag"
+          },
+          {
+            "id": "9770fe4f-a5ac-7fb7-ed29-0f61ab763db9",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisroyal"
+          },
+          {
+            "id": "12be55f9-2898-0c01-c65f-2e8e38144e1e",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fistwi"
+          },
+          {
+            "id": "b627174c-3d6b-a71d-306d-f82cbe8ac6fa",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisrovio"
+          },
+          {
+            "id": "9578959a-8f4f-f089-038e-ad6f5f5b1b85",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisdidin"
+          },
+          {
+            "id": "5e410cdf-05f0-ba69-0125-f446fed8c0bc",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisbluda"
+          },
+          {
+            "id": "227e74c6-8df8-b8c2-35c8-26aa2facb9ea",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisrobrav"
+          },
+          {
+            "id": "18bd9eb9-90c7-2866-7159-d29c16cbe5d6",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fiseyely"
+          },
+          {
+            "id": "5b26071a-1626-c793-2131-d5a3af26e817",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisvulk"
+          },
+          {
+            "id": "7830c7d1-c3d8-dff1-8d27-9419e8304e66",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisrocoral"
+          },
+          {
+            "id": "ed983b20-babf-e527-976c-f020c6436125",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisdapi"
+          },
+          {
+            "id": "4313531c-c9fb-a8bf-a1e6-d132664f8b7c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fistablanc"
+          },
+          {
+            "id": "92270635-152b-6fc8-a7ad-e2c9fb2071df",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisblifire"
+          },
+          {
+            "id": "d4b01995-236b-5376-5315-28abcda8221a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fiston"
+          },
+          {
+            "id": "31a85b6b-0c06-5531-d05a-fae307a1abed",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisrolisa"
+          },
+          {
+            "id": "0f924c1c-8e4a-993d-72f0-3ed9b72265d8",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klecona"
+          },
+          {
+            "id": "222a5560-8ec7-c8e3-1af5-ac7ede96b347",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pensho"
+          },
+          {
+            "id": "49ca314f-6c50-71a5-415d-ab4c4084d51b",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fismerk"
+          },
+          {
+            "id": "53e08c31-f661-927c-a458-28ea66461b16",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fislet"
+          },
+          {
+            "id": "a5608b0a-2860-7f0f-7745-5a4b707cfc14",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisgenta"
+          },
+          {
+            "id": "13543ba8-5e12-f56c-436d-418e1d79314c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisorchi"
+          },
+          {
+            "id": "e739d8ba-dd38-59db-6a38-d1d1f3a3324f",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisgopi"
+          },
+          {
+            "id": "a834e2ae-9a67-5915-352f-7c56ddf3e826",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fissalm"
+          },
+          {
+            "id": "e9800fc7-8446-0076-ffb2-9ef045695feb",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fissalmrose"
+          },
+          {
+            "id": "8a8e2435-4140-6499-5d05-f8320656a321",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisom"
+          },
+          {
+            "id": "9eebcf16-8434-07bd-18bd-b5fdb1da349f",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fischarles"
+          },
+          {
+            "id": "79cfd805-762a-1b0d-3cf7-1e3c23c00edd",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisfire"
+          },
+          {
+            "id": "68397230-9431-38ef-ea4c-cef710524e66",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fiseyewi"
+          },
+          {
+            "id": "cc99ca33-e593-a141-02cc-698cc3f2bab1",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Kleored"
+          },
+          {
+            "id": "dd6cdf4f-9da0-ccbd-eede-fac2d6c5790c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klesail"
+          },
+          {
+            "id": "637d027a-8d5f-0826-450d-b40f24fbd201",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisrocky Orange"
+          },
+          {
+            "id": "d53e91fe-30ad-e9c8-84f8-5ba6495df64e",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisrorose"
+          },
+          {
+            "id": "22a23f42-f9fb-1335-0634-1ca850f355ac",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fissil"
+          },
+          {
+            "id": "7dab6690-0926-89e8-f011-51bff1118f97",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klebelli"
+          },
+          {
+            "id": "293f2ef6-dc17-09a8-f545-e6c7088bca30",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klecardi"
+          },
+          {
+            "id": "ddb3f9e5-a0a3-637a-175e-806905197bbc",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klesatha"
+          },
+          {
+            "id": "66e6abd7-bd93-fdfc-ae24-af93fa4b759d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klejana"
+          },
+          {
+            "id": "14326786-74c2-29f1-32bd-66b4db48d0e2",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klesurfie"
+          },
+          {
+            "id": "87b346cf-8485-2152-0ab2-e60455208b53",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fispurple"
+          },
+          {
+            "id": "dacdd51a-cd8e-f406-575e-711c2b971022",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisrowi"
+          },
+          {
+            "id": "eea4bb45-fd47-2f18-2f43-6bdb286395bb",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisorange"
+          },
+          {
+            "id": "5532fb69-cf65-8b61-58eb-873c6a6389e3",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klesectra"
+          },
+          {
+            "id": "1f78ba51-1948-d472-63a8-738453bfc724",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisesuv"
+          },
+          {
+            "id": "e2fb26c6-0749-22d3-735d-2738750891bc",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fistador"
+          },
+          {
+            "id": "e954fd9f-1bcd-fc8b-58be-ed165329155c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisglori"
+          },
+          {
+            "id": "652564f5-7ed9-abb5-9f48-ced66ebead83",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fishelen"
+          },
+          {
+            "id": "ed23ef00-80ec-9136-a260-9587b3dc3f0a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fismagic"
+          },
+          {
+            "id": "40cb630b-dbc3-307b-14c3-a2d2a4895351",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fistangoli"
+          },
+          {
+            "id": "4af2e544-adc0-ecf5-0a4d-720d9fc2b465",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisrocky Dark Red"
+          },
+          {
+            "id": "90e8105e-f148-d6f8-7ef9-d11872935a6b",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fischarme"
+          },
+          {
+            "id": "75505eda-69f1-72f4-8f6e-ff07985efecc",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisrosimo"
+          },
+          {
+            "id": "21594d26-6819-4bfe-6373-15d1100ae37a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Kleleny"
+          },
+          {
+            "id": "15093ca6-f699-1418-15a4-3e7529a07ec4",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fiseye"
+          },
+          {
+            "id": "450c7875-e4bc-8c69-910b-5421e5c9cf46",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fismonte"
+          },
+          {
+            "id": "990f0153-abc0-70a6-5ffd-ca0493ca7bd3",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fislypso"
+          },
+          {
+            "id": "ed0d63a9-66f4-ef10-308f-13f77aa1ecbf",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisfany"
+          },
+          {
+            "id": "535e9b78-c48f-885e-38b1-4607ce998372",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klegrato"
+          },
+          {
+            "id": "865c6222-3881-e244-1e88-52bf9ea79e16",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fissamba"
+          },
+          {
+            "id": "0a690067-b8f5-2047-74b0-31e9338c3446",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fispur"
+          },
+          {
+            "id": "f1b92142-acb7-bc51-ce2a-598b097a9919",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klekirun"
+          },
+          {
+            "id": "3d222602-bc86-89c0-9bd3-e2097cf9d6e7",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klesetta"
+          },
+          {
+            "id": "54396e0b-2425-9094-f9e6-41060796949c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Penosa"
+          },
+          {
+            "id": "93b0f60b-11e3-6be4-efb8-0e77b65c56a1",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klelesmo"
+          },
+          {
+            "id": "65bfb7bb-7937-7952-8b21-e3b2e3f600fb",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisblu"
+          },
+          {
+            "id": "e4fa0b40-5e2c-7971-5391-2df0dd523eff",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fismega"
+          },
+          {
+            "id": "0d88ef1e-722a-46d1-b386-7dfe38889e4c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fispera"
+          },
+          {
+            "id": "c2e8ee68-800c-dffa-3312-6ace317cf29c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisvideo"
+          },
+          {
+            "id": "6e09be78-8635-2c2d-a999-b7f53e3e6fab",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisbraris"
+          },
+          {
+            "id": "75fd67f4-31fa-cdda-e727-fae649e3c1c4",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisboogy"
+          },
+          {
+            "id": "b8c51575-0909-aa40-b69a-9b3c58c33f4b",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisbravo"
+          },
+          {
+            "id": "ac11a385-3ebd-d308-8ed9-c6146fd4afde",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Floscala"
+          },
+          {
+            "id": "a0829f7b-e371-9273-c0f7-9c8dbaf51a43",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fislesse"
+          },
+          {
+            "id": "3a9ae367-f6a8-7182-c49d-079488ce1d9e",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fislais"
+          },
+          {
+            "id": "fcd2b2ed-f390-e776-c293-8d34ff3dbe5b",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisalb"
+          },
+          {
+            "id": "a227c7ed-696a-fb21-be8a-8ae0aa1e6041",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klekit"
+          },
+          {
+            "id": "097f960c-860f-ba08-6816-cccd78f81dc5",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Kleirro"
+          },
+          {
+            "id": "b765035e-0c60-f24d-4b00-ec88026b123e",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klerina"
+          },
+          {
+            "id": "c6052bf1-66ee-149c-df67-629d917e2610",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Peloda"
+          },
+          {
+            "id": "5304d149-0337-252a-3478-d60d6d306a9e",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisplosive"
+          },
+          {
+            "id": "7dba7a9a-2eac-8497-2c57-ba84327980ea",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Duevio"
+          },
+          {
+            "id": "ac2b14b7-9a1a-7780-0e56-eaa00290f8cc",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Duerav"
+          },
+          {
+            "id": "661396b0-0bad-986a-eccc-8f84cd89412b",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Duecelesta"
+          },
+          {
+            "id": "3cbded42-fbf4-5853-814d-476922c7c880",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Duehaydn"
+          },
+          {
+            "id": "af02f19e-f2af-18c2-9fb3-f0c7cccfd223",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Duemozart"
+          },
+          {
+            "id": "be6168ce-d351-f63c-0d2d-106e6df58750",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Dueaida"
+          },
+          {
+            "id": "bafefb57-907e-15fc-bb50-d58c39f4e4eb",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Duetoska"
+          },
+          {
+            "id": "00ef721d-03ec-ab90-f1cf-ff060c3be7d1",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Penbab"
+          },
+          {
+            "id": "595f4ef6-0537-fa9f-ea0e-0e874de9435f",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fischampion"
+          },
+          {
+            "id": "bfcea16b-a6c1-3d87-fb88-dfb7780ac5da",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Sassa"
+          },
+          {
+            "id": "dc97a146-4953-d5d3-bdd9-d390321810c4",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisrot"
+          },
+          {
+            "id": "0c1f0526-45b7-1247-8a74-ba5ec75eaf40",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fistantut"
+          },
+          {
+            "id": "5f305135-61dd-47ea-198f-c3c1908634a3",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisdino"
+          },
+          {
+            "id": "7f4bc753-ed2e-f86e-d221-5d25e9d524ce",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisaca"
+          },
+          {
+            "id": "8a5d3410-3384-d771-8431-6914102f612c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Kleugudo"
+          },
+          {
+            "id": "854a8560-7ed9-66dd-8551-6109f908c148",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klegany"
+          },
+          {
+            "id": "b91d6039-6ccb-6880-307e-2c1c14961930",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Melody"
+          },
+          {
+            "id": "4b3efa03-8a97-6633-9387-38edd373562a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Lovesong"
+          },
+          {
+            "id": "266bf418-8e18-c2a9-5b2d-c3040ba698ae",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Sassy Dark Red"
+          },
+          {
+            "id": "1cb61c6b-6e49-92e3-f920-e7ebde69a6f1",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Glacics"
+          },
+          {
+            "id": "1bd605e0-b794-5919-04f8-15fe1555315c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Bergpalais"
+          },
+          {
+            "id": "c2a3aee1-5ba4-fbf7-df85-826289119a0e",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klegreo"
+          },
+          {
+            "id": "503b4707-c744-2587-9208-3383d4c5426b",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Meridonna"
+          },
+          {
+            "id": "ec3ab619-fc7c-faa3-1105-5d495ae699f8",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Meritwin"
+          },
+          {
+            "id": "334eb327-9e97-893e-063a-0df0bdc24c42",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisnida"
+          },
+          {
+            "id": "80ba4d3f-fbe9-39ae-fbe0-9d3b5e4833c9",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Icecrystal"
+          },
+          {
+            "id": "1fd49ea1-4d4c-ebca-be83-712533efc832",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "INA"
+          },
+          {
+            "id": "8c6271b8-cb46-1772-eddb-615ba74adba2",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Merihoney"
+          },
+          {
+            "id": "311e0be4-883c-1f38-f31d-7aaf9cbb63fd",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Merineon"
+          },
+          {
+            "id": "a44815bb-d98b-9c23-7493-462c8b6dd489",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Robe"
+          },
+          {
+            "id": "b7a29ec7-b458-00af-13d2-04d3abca3aaf",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Penve"
+          },
+          {
+            "id": "d6c66a42-ae3a-a61f-5f6b-91734485738e",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klemir"
+          },
+          {
+            "id": "ee52fd70-40f6-87d3-d49b-4540e584a45d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klefa"
+          },
+          {
+            "id": "16a50fef-3825-1bb6-9116-0b5c955a79ab",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klespri"
+          },
+          {
+            "id": "41f7a91f-58bf-6a29-4789-08a9cff97048",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Duegabri"
+          },
+          {
+            "id": "db7c7ded-de1e-50ef-7047-03bbf94174c2",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klesec"
+          },
+          {
+            "id": "876c1e9d-8174-ae80-853f-3e8046ed49d1",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Kleselb"
+          },
+          {
+            "id": "3a60f44a-3975-923f-0ef6-15a5ab6558fa",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Kleseroic"
+          },
+          {
+            "id": "b41894a1-858d-969a-1dd0-090a7ca2bcb9",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Klecerol"
+          },
+          {
+            "id": "e560b8b2-f1bd-c21a-c9b7-5bde6d5346c8",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fispol"
+          },
+          {
+            "id": "3a62b06f-72e2-b1d3-c829-88cb900625b9",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fiscap"
+          },
+          {
+            "id": "8e9a36fc-027f-17fc-3154-fd8d5996f934",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisfid"
+          },
+          {
+            "id": "6f6e2e6c-71a7-a901-c89a-976bcf7964de",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisrix"
+          },
+          {
+            "id": "289df3d8-506d-bbec-0186-7bb04ae6ca3a",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fiswig"
+          },
+          {
+            "id": "b73e277f-b85f-fad5-5cc5-5de86206ecd7",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fisbal"
+          },
+          {
+            "id": "cb711de2-16d0-174d-7ef0-4a5aa46ef043",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Kledap"
+          },
+          {
+            "id": "ccc608d2-dbe4-a1be-3daf-76eb9c4c9279",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Thurfeuer"
+          },
+          {
+            "id": "cb00da7c-bcaa-c98e-8d22-3f7b75763e76",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Orangepen"
+          },
+          {
+            "id": "4a7911a1-6c23-96bc-4a05-a4ef286827bc",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Praeludium"
+          },
+          {
+            "id": "f1eb0333-ea8a-3648-c451-2323fd9b5ed5",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Thurjuwel"
+          },
+          {
+            "id": "8304df47-99cc-82c9-6a35-04a99a46f5e4",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Thurperle"
+          },
+          {
+            "id": "cd8246c7-7083-42c1-9a10-72b3a0ab3c5c",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Thurstar"
+          },
+          {
+            "id": "134611cc-9f71-c6e4-d990-d5f4ec823e92",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Pencher"
+          },
+          {
+            "id": "111c13e2-e439-ed04-4a35-8e071bb000e3",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Tango"
+          },
+          {
+            "id": "a9c2a619-c400-33d2-4791-2f3e51cae2c6",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Penlau"
+          },
+          {
+            "id": "7f1739a3-3eaa-0b37-f082-b7280f1be6f1",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Isabell"
+          },
+          {
+            "id": "d57dbd0c-d214-ad0e-1100-3d9aabb025a6",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Schoene Helena"
+          },
+          {
+            "id": "b8846815-085f-02ee-ede8-69239944d781",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Blues"
+          },
+          {
+            "id": "c4536a34-4a32-8283-0592-8b72f99d33fc",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Achspen"
+          },
+          {
+            "id": "6bb103fd-72cf-cf23-a158-0e60ba7e4be2",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Palais"
+          },
+          {
+            "id": "9726d8fd-3efb-b840-cca1-5f136e27d345",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 24878"
+          },
+          {
+            "id": "00aaf001-05b2-150a-7a3e-b4c072445f93",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 23783"
+          },
+          {
+            "id": "058f18e1-43c5-89b4-41c4-82cad74dc205",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 24852"
+          },
+          {
+            "id": "85c2b82c-1dd5-b53a-2d1e-84238118f7ab",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 24857"
+          },
+          {
+            "id": "82336eeb-861e-1df5-377b-94abd932e386",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 24874"
+          },
+          {
+            "id": "160014e3-3b3e-f1ea-178e-415a1b1af286",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "PacPZ17194"
+          },
+          {
+            "id": "ce605ec7-9cc9-ab43-c79f-8863a2a5a4af",
+            "status": "Finalized",
+            "upov_code": "PELAR_ZON",
+            "denomination": "PacPZ19549"
+          },
+          {
+            "id": "943d1b7f-b145-2265-2301-21d21b0f7873",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 19551"
+          },
+          {
+            "id": "c08c6f5d-29f0-0471-8282-542a8617f60f",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "PECZ 0002"
+          },
+          {
+            "id": "8fd59a75-ba73-b81b-5f35-ab599b219d31",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Zonfiwit"
+          },
+          {
+            "id": "c1d7a30f-57a8-d15b-ce0c-811cf6ba47b9",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "Fiskowisp"
+          },
+          {
+            "id": "0adec342-fec7-8631-0358-d1acfa445ea8",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 07194"
+          },
+          {
+            "id": "1a3bb2ef-7d01-61c7-96e3-7af03da426d8",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEPZ 05149"
+          },
+          {
+            "id": "29fdb9e7-1f37-9959-238a-2cd0cddcb9eb",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZON",
+            "denomination": "KLEP 04107"
+          }
+        ]
+      },
+      "translations": {
+        "fr": {
+          "name": "G\u00e9ranium",
+          "source": "gbif"
+        },
+        "en": {
+          "name": "Horseshoe Geranium",
+          "source": "gbif"
+        },
+        "de": {
+          "name": "Hufeisengeranie",
+          "source": "google"
+        },
+        "it": {
+          "name": "Geranio a ferro di cavallo",
+          "source": "google"
+        }
+      }
+    },
+    {
+      "crop_category": "Fruit and berries",
+      "taxon_rank": "species",
+      "family": "Rosaceae",
+      "genus": "Fragaria",
+      "species": "Fragaria ananassa",
+      "crops": {
+        "crops": [
+          {
+            "id": "8aa36853-8a80-970d-8a2f-83d743983de0",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "AuroraKarima"
+          },
+          {
+            "id": "44ceecc7-5657-f287-929b-e4be1a7c4c43",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Malling Ace"
+          },
+          {
+            "id": "264c24d0-761e-1f36-b855-9799acf430d2",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "MAR 118"
+          },
+          {
+            "id": "afffff20-e999-c1d7-3807-adc96050b110",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Jenkka"
+          },
+          {
+            "id": "afbc2713-596d-b6f3-a8bc-b6d0e5a45496",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Parlando"
+          },
+          {
+            "id": "ed547619-dcdc-0339-0723-4f1f22ada802",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Lady Emma"
+          },
+          {
+            "id": "ace11bf5-0024-96bc-710e-8c2cdcba2650",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Malling Vitality"
+          },
+          {
+            "id": "f15b6f53-4b43-25ce-7c7b-f4537a47518d",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Falco"
+          },
+          {
+            "id": "9a460e9e-3139-bf58-4795-b095e440d0ab",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Twist"
+          },
+          {
+            "id": "b5fd23b3-d57d-aa0c-9a8c-e795f4b662fa",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Lady Isabella"
+          },
+          {
+            "id": "fe1ebc54-6c8e-d1fb-d774-3d9ee3bc004d",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "CIVN223"
+          },
+          {
+            "id": "a0ccd611-640f-33d1-b952-ffb242d2462a",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "UCD Royal Royce"
+          },
+          {
+            "id": "3820af6c-93db-dda8-9bfe-bd873a8680e5",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "UCD Valiant"
+          },
+          {
+            "id": "48593e44-8556-e67b-9534-317000cf6243",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "UCD Moxie"
+          },
+          {
+            "id": "aec27a96-67f5-b1e9-01bb-03536990f962",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "UCD Warrior"
+          },
+          {
+            "id": "3cdf13c8-5de1-4de7-0c06-ba2096bb1b25",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "UCD Victor"
+          },
+          {
+            "id": "50a73d53-e470-c51b-c688-ee75909817fc",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "FL 13 26 134"
+          },
+          {
+            "id": "c90254dc-277e-1044-10a4-fb541ed900f8",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Fandango"
+          },
+          {
+            "id": "62f761f5-36ba-c65a-6747-d1736f852142",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Verdi"
+          },
+          {
+            "id": "20ba4f78-44c3-d83e-dccd-fabb1c018c00",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "CIVNB557"
+          },
+          {
+            "id": "d9e71b12-b4e6-7dd4-b278-589957e0b139",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "A13 26"
+          },
+          {
+            "id": "5ff1b83c-2063-8515-050e-1a858b4a4553",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "A13 29"
+          },
+          {
+            "id": "97065632-a8eb-351e-449a-11636cf3b08b",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "FL 12 121 5"
+          },
+          {
+            "id": "1c40d0b8-3cb1-d8db-c3f4-18eb7d10064e",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Inspire"
+          },
+          {
+            "id": "4f029e15-30b6-e7ed-96c5-9bb769b6e8a0",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Bravura"
+          },
+          {
+            "id": "cfbbd21d-2942-e74a-d4a8-002b0abe2736",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Hademar"
+          },
+          {
+            "id": "bd2d1747-874b-59b4-3336-50e3e9acb1e3",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Dahli"
+          },
+          {
+            "id": "e5cbc4ca-1993-3a40-812f-eaee5393fc70",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "CIVRH612"
+          },
+          {
+            "id": "38ac73bd-1887-e265-a07e-4cc630f86378",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "CIVRH621"
+          },
+          {
+            "id": "64db1ce7-f58c-3137-bdf3-94997463ec68",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Altess"
+          },
+          {
+            "id": "66541280-7023-fd4a-184e-e81a8786b90a",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Magnus"
+          },
+          {
+            "id": "e8ece04f-d817-70e0-ed9c-c28a87847acf",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Sonsation"
+          },
+          {
+            "id": "281fc79b-8681-db78-08f9-d0b2c1c81967",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Arabella"
+          },
+          {
+            "id": "3bab7728-332e-0981-0b50-23da4bd1a359",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "CIVN260"
+          },
+          {
+            "id": "9c5a9de5-9878-9cf0-80a0-e3741f9f94c2",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "ASF218"
+          },
+          {
+            "id": "99b1132e-1ba2-c5d1-cb7a-192e7f8d7abc",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "ASF219"
+          },
+          {
+            "id": "07d3d5a0-c649-525a-4e8a-d843cb223db2",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Avarosa"
+          },
+          {
+            "id": "32b31c62-22f1-5fcb-d485-fcfe133d6c6f",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "CIVN251"
+          },
+          {
+            "id": "d78e46ef-7c02-7a15-97fd-af1d91f1da6f",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Aprica"
+          },
+          {
+            "id": "46c7f249-21a3-a92a-1bb9-5581d0f8f215",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Furore"
+          },
+          {
+            "id": "8ea4c521-1caa-3c86-e517-5ac4857fa0da",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Opera"
+          },
+          {
+            "id": "b0e06554-6182-a7d0-3733-0a5736485793",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Rubis des Jardins"
+          },
+          {
+            "id": "be52ceb1-1a99-d0c8-aabb-a4bd0ab036a8",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Florin Florentina"
+          },
+          {
+            "id": "528b02d8-e570-7767-bc84-f52732ff1f38",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Fleurette"
+          },
+          {
+            "id": "1254e131-b898-5654-c423-bb132937b55f",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Faith"
+          },
+          {
+            "id": "13094d7f-c190-10d2-733d-f8dc598a50ca",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Sussette"
+          },
+          {
+            "id": "e2ed8083-c916-608e-ba7b-845a2fa1a2f0",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Amandine"
+          },
+          {
+            "id": "c5c5b5e4-c16f-c6b7-e16b-6d7e52c4b917",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Laetitia"
+          },
+          {
+            "id": "71623cde-ffd5-def0-cb7a-ede018483d6d",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "S.G.13.4"
+          },
+          {
+            "id": "b4e9d37b-4b45-8f22-093e-014fe4b2f3d6",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Calinda"
+          },
+          {
+            "id": "1b581c12-f984-a005-281a-d89774a7abbd",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Malling Centenary"
+          },
+          {
+            "id": "6433ceeb-d10d-010e-60ca-c7d3e758709f",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Murano"
+          },
+          {
+            "id": "c9f4db7d-bead-6925-2ffa-7814657999ba",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Marionnet 97"
+          },
+          {
+            "id": "6984fec2-0045-d621-ffd9-c2af37194ce5",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Marionnet 99"
+          },
+          {
+            "id": "ad9acafe-248f-af9f-0dad-ca6f1f1a79f6",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Vivaldi"
+          },
+          {
+            "id": "30682c58-deb5-b48e-8bfd-11d16b2987cd",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Jive"
+          },
+          {
+            "id": "9736a678-3d92-f573-a1b6-7cf9778abc6c",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Garda"
+          },
+          {
+            "id": "6da4f857-6c4f-b99f-ea09-0a206d3f39cd",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Felicita"
+          },
+          {
+            "id": "f5e8a913-9f90-7130-d5fb-ad5b4688aedc",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Favori"
+          },
+          {
+            "id": "920d4db1-b1ca-e3be-a7f0-c4b3020b28cf",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Florin Florina"
+          },
+          {
+            "id": "e700fe63-8cbd-acd6-01c7-3b0efcc006ee",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Deluxe"
+          },
+          {
+            "id": "223fa7c0-1517-2776-c74e-47688b9105b8",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Dream"
+          },
+          {
+            "id": "747fe83a-7652-0a0e-c542-7d4fc00e3343",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Benicia"
+          },
+          {
+            "id": "a1736eb2-bc38-a8fd-f012-bf1543e11ce1",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Mojave"
+          },
+          {
+            "id": "dc56287f-fac2-230a-499c-c687161c1b12",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Flair"
+          },
+          {
+            "id": "c3cf18f7-aaaf-934f-7c68-bdf191e00255",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Ines"
+          },
+          {
+            "id": "9837c36b-ed91-a853-450f-5be5ef938581",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Jana"
+          },
+          {
+            "id": "b4ccfd5b-5316-59ec-851a-86b425b71c7f",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Nerina"
+          },
+          {
+            "id": "db4f9f69-c975-ab84-8afe-1ea219e4198d",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Portola"
+          },
+          {
+            "id": "29ec467d-1532-5281-8786-84af4b89cdf5",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Monterey"
+          },
+          {
+            "id": "ab3d4f2e-c878-f7a7-ea59-af3148fe839e",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "San Andreas"
+          },
+          {
+            "id": "40155412-4b85-69b7-2d73-3526ccea30f4",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Palomar"
+          },
+          {
+            "id": "9aa02c89-d1cf-7613-9b0e-b7f40b545e71",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Frugodi"
+          },
+          {
+            "id": "b5553688-fede-628e-ef1d-0549c873bd10",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "NF421"
+          },
+          {
+            "id": "63cadcc6-8696-7d61-e549-4fb794173d24",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Charlotte"
+          },
+          {
+            "id": "c407dedb-9c1c-fb01-af02-3543a71d737c",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Fraroma"
+          },
+          {
+            "id": "a2ecf017-6f93-d617-efff-988c86447db9",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Julia"
+          },
+          {
+            "id": "23f5a40d-26ae-b779-ed4c-4b0cec16a69d",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Marsella"
+          },
+          {
+            "id": "e76e1677-dfc5-175f-c9cb-870ce1df4507",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Anna"
+          },
+          {
+            "id": "4dd2ef6b-66cb-193a-426c-db0286139f78",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Fraraspa"
+          },
+          {
+            "id": "14892501-f92a-d8d7-acbd-4ce22532cb28",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Sonata"
+          },
+          {
+            "id": "6e241d48-890b-4bdb-86e9-1c42d6341a30",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "NF 311"
+          },
+          {
+            "id": "e284f7e5-5787-c384-0574-c88e73b354c2",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "NF 205"
+          },
+          {
+            "id": "4d660abf-7bdc-d901-c34c-1006b33fe157",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Hobthurmardu "
+          },
+          {
+            "id": "dbf8f132-939a-46d3-ec69-ee4d51faf6a8",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Hobthurmarsei "
+          },
+          {
+            "id": "551b1c56-fe80-c4aa-ec0b-52249f56b1f7",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Hobottrece"
+          },
+          {
+            "id": "38584524-b9c6-f616-32b6-4094a184dd4d",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Hobdoel"
+          },
+          {
+            "id": "b2a5ef5c-d7be-e96b-741a-2274cfe40df8",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Thulana"
+          },
+          {
+            "id": "53e565ed-47c6-4c2c-715f-e4bee14d9b22",
+            "status": "InProgress",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Kimberly"
+          },
+          {
+            "id": "931a2da7-2936-591f-9e21-125e40168d4f",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Limore One"
+          },
+          {
+            "id": "ed21debc-01be-1fd1-48a3-38df0adeda6b",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Florice"
+          },
+          {
+            "id": "1534ace1-00d4-f79d-d263-5f7d779d48ee",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Lady Grace"
+          },
+          {
+            "id": "ba08aa79-0600-900d-d799-c04ab72a5f55",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Ravellia"
+          },
+          {
+            "id": "1d136610-0793-0a87-e0ed-35b93a1c17ec",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "Cadenza"
+          },
+          {
+            "id": "c5a8da86-0ccb-9afe-a0f1-0b8d0ee0a05c",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "MAR 109"
+          },
+          {
+            "id": "5ac6f9c8-601e-63b1-4266-e84c8135f273",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "CIVRH295"
+          },
+          {
+            "id": "a9c600fb-4c6f-cd02-ba67-3989750f100f",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "CIVH725"
+          },
+          {
+            "id": "654a1628-15a6-0f36-a0f4-dc334a9bf84e",
+            "status": "Finalized",
+            "upov_code": "FRAGA_ANA",
+            "denomination": "CIVH413"
+          }
+        ]
+      },
+      "translations": {
+        "fr": {
+          "name": "fraisier cultiv\u00e9",
+          "source": "wikidata"
+        },
+        "en": {
+          "name": "strawberry",
+          "source": "wikidata"
+        },
+        "de": {
+          "name": "Gartenerdbeere",
+          "source": "wikidata"
+        },
+        "it": {
+          "name": "fragola",
+          "source": "wikidata"
+        }
+      }
+    }
+  ]
+}
