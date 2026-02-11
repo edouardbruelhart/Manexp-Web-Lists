@@ -6,9 +6,9 @@ from pydantic import BaseModel
 T = TypeVar("T", bound=BaseModel)
 
 
-def save_taxons(taxons: BaseModel, path: Path) -> None:
+def save_taxa(taxa: BaseModel, path: Path) -> None:
     path.write_text(
-        taxons.model_dump_json(
+        taxa.model_dump_json(
             indent=2,
             ensure_ascii=False,
         ),

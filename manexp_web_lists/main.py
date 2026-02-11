@@ -1,4 +1,4 @@
-from manexp_web_lists.taxons.fetch_taxons import fetch_taxons
+from manexp_web_lists.taxa.fetch_taxa import fetch_taxa
 
 
 def main() -> None:
@@ -6,7 +6,7 @@ def main() -> None:
 
     try:
         # Crops and species lists
-        fetch_taxons()
+        fetch_taxa()
 
     except Exception as e:
         print(f"An error occurred in the main process: {e}")
