@@ -1,11 +1,22 @@
 {
-  "taxons": [
+  "taxa": [
     {
       "crop_category": "Vegetable Crops",
-      "taxon_rank": "species",
-      "family": "Solanaceae",
-      "genus": "Solanum",
-      "species": "Solanum lycopersicum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Solanaceae",
+          "genus": "Solanum L.",
+          "species": "Solanum lycopersicum L.",
+          "focal_name": "Solanum lycopersicum L."
+        },
+        "resolved_classification": {
+          "family": "Solanaceae",
+          "genus": "Solanum",
+          "species": "Solanum lycopersicum",
+          "focal_name": "Solanum lycopersicum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -85,10 +96,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Geraniaceae",
-      "genus": "Pelargonium",
-      "species": "Pelargonium peltatum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium L'H\u00e9r. ex Ait.",
+          "species": "Pelargonium peltatum (L.) L'H\u00e9r.",
+          "focal_name": "Pelargonium peltatum (L.) L'H\u00e9r."
+        },
+        "resolved_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium",
+          "species": "Pelargonium peltatum",
+          "focal_name": "Pelargonium peltatum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -954,10 +976,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Geraniaceae",
-      "genus": "Pelargonium",
-      "species": "Pelargonium peltatum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium L'H\u00e9r. ex Ait.",
+          "species": "hybrids between Pelargonium peltatum and Pelargonium zonale",
+          "focal_name": "hybrids between Pelargonium peltatum and Pelargonium zonale"
+        },
+        "resolved_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium",
+          "species": "Pelargonium peltatum",
+          "focal_name": "Pelargonium peltatum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -1175,10 +1208,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Geraniaceae",
-      "genus": "Pelargonium",
-      "species": "Pelargonium zonale",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium L'H\u00e9r. ex Ait.",
+          "species": "Pelargonium zonale (L.) L'H\u00e9r.",
+          "focal_name": "Pelargonium zonale (L.) L'H\u00e9r."
+        },
+        "resolved_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium",
+          "species": "Pelargonium zonale",
+          "focal_name": "Pelargonium zonale"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -3052,10 +3096,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Rosaceae",
-      "genus": "Fragaria",
-      "species": "Fragaria ananassa",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Fragaria L.",
+          "species": "Fragaria xananassa Duch.",
+          "focal_name": "Fragaria xananassa Duch."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Fragaria",
+          "species": "Fragaria ananassa",
+          "focal_name": "Fragaria ananassa"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -3651,10 +3706,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Rosaceae",
-      "genus": "Prunus",
-      "species": "Prunus avium",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Prunus L.",
+          "species": "Prunus avium (L.) L.",
+          "focal_name": "Prunus avium (L.) L."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Prunus",
+          "species": "Prunus avium",
+          "focal_name": "Prunus avium"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -3848,10 +3914,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Geraniaceae",
-      "genus": "Pelargonium",
-      "species": "Pelargonium grandiflorum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium L'H\u00e9r. ex Ait.",
+          "species": "Pelargonium grandiflorum (Andrews) Willd.",
+          "focal_name": "Pelargonium grandiflorum (Andrews) Willd."
+        },
+        "resolved_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium",
+          "species": "Pelargonium grandiflorum",
+          "focal_name": "Pelargonium grandiflorum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -4051,10 +4128,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Rosaceae",
-      "genus": "Malus",
-      "species": "Malus domestica",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Malus Mill.",
+          "species": "Malus domestica (Suckow) Borkh.",
+          "focal_name": "Malus domestica (Suckow) Borkh."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Malus",
+          "species": "Malus domestica",
+          "focal_name": "Malus domestica"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -4992,10 +5080,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Rosaceae",
-      "genus": "Rubus",
-      "species": "Rubus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Rubus L.",
+          "species": "Rubus L. subg. Rubus",
+          "focal_name": "Rubus L. subg. Rubus"
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Rubus",
+          "species": "Rubus",
+          "focal_name": "Rubus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -5081,10 +5180,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Solanaceae",
-      "genus": "Solanum",
-      "species": "Solanum tuberosum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Solanaceae",
+          "genus": "Solanum L.",
+          "species": "Solanum tuberosum L.",
+          "focal_name": "Solanum tuberosum L."
+        },
+        "resolved_classification": {
+          "family": "Solanaceae",
+          "genus": "Solanum",
+          "species": "Solanum tuberosum",
+          "focal_name": "Solanum tuberosum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -5776,10 +5886,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Triticum",
-      "species": "Triticum aestivum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Triticum L.",
+          "species": "Triticum aestivum L.",
+          "focal_name": "Triticum aestivum L."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Triticum",
+          "species": "Triticum aestivum",
+          "focal_name": "Triticum aestivum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -6501,10 +6622,21 @@
     },
     {
       "crop_category": "Vegetable Crops",
-      "taxon_rank": "species",
-      "family": "Cucurbitaceae",
-      "genus": "Cucumis",
-      "species": "Cucumis sativus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Cucurbitaceae",
+          "genus": "Cucumis L.",
+          "species": "Cucumis sativus L.",
+          "focal_name": "Cucumis sativus L."
+        },
+        "resolved_classification": {
+          "family": "Cucurbitaceae",
+          "genus": "Cucumis",
+          "species": "Cucumis sativus",
+          "focal_name": "Cucumis sativus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -6590,10 +6722,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Ericaceae",
-      "genus": "Vaccinium",
-      "species": "Vaccinium corymbosum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Ericaceae",
+          "genus": "Vaccinium L.",
+          "species": "Vaccinium corymbosum L.",
+          "focal_name": "Vaccinium corymbosum L."
+        },
+        "resolved_classification": {
+          "family": "Ericaceae",
+          "genus": "Vaccinium",
+          "species": "Vaccinium corymbosum",
+          "focal_name": "Vaccinium corymbosum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -6829,10 +6972,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Vitaceae",
-      "genus": "Vitis",
-      "species": "Vitis vinifera",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Vitaceae",
+          "genus": "Vitis L.",
+          "species": "Vitis vinifera L.",
+          "focal_name": "Vitis vinifera L."
+        },
+        "resolved_classification": {
+          "family": "Vitaceae",
+          "genus": "Vitis",
+          "species": "Vitis vinifera",
+          "focal_name": "Vitis vinifera"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -7002,10 +7156,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Rosaceae",
-      "genus": "Pyrus",
-      "species": "Pyrus communis",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Pyrus L.",
+          "species": "Pyrus communis L.",
+          "focal_name": "Pyrus communis L."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Pyrus",
+          "species": "Pyrus communis",
+          "focal_name": "Pyrus communis"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -7169,10 +7334,21 @@
     },
     {
       "crop_category": "Vegetable Crops",
-      "taxon_rank": "species",
-      "family": "Convolvulaceae",
-      "genus": "Ipomoea",
-      "species": "Ipomoea batatas",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Convolvulaceae",
+          "genus": "Ipomoea L.",
+          "species": "Ipomoea batatas (L.) Lam.",
+          "focal_name": "Ipomoea batatas (L.) Lam."
+        },
+        "resolved_classification": {
+          "family": "Convolvulaceae",
+          "genus": "Ipomoea",
+          "species": "Ipomoea batatas",
+          "focal_name": "Ipomoea batatas"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -7228,10 +7404,21 @@
     },
     {
       "crop_category": "Vegetable Crops",
-      "taxon_rank": "species",
-      "family": "Amaranthaceae",
-      "genus": "Spinacia",
-      "species": "Spinacia oleracea",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Chenopodiaceae",
+          "genus": "Spinacia L.",
+          "species": "Spinacia oleracea L.",
+          "focal_name": "Spinacia oleracea L."
+        },
+        "resolved_classification": {
+          "family": "Amaranthaceae",
+          "genus": "Spinacia",
+          "species": "Spinacia oleracea",
+          "focal_name": "Spinacia oleracea"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -7293,10 +7480,21 @@
     },
     {
       "crop_category": "Vegetable Crops",
-      "taxon_rank": "species",
-      "family": "Asteraceae",
-      "genus": "Lactuca",
-      "species": "Lactuca sativa",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Lactuca",
+          "species": "Lactuca sativa L.",
+          "focal_name": "Lactuca sativa L."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Lactuca",
+          "species": "Lactuca sativa",
+          "focal_name": "Lactuca sativa"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -7628,10 +7826,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Cucurbitaceae",
-      "genus": "Cucumis",
-      "species": "Cucumis melo",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Cucurbitaceae",
+          "genus": "Cucumis L.",
+          "species": "Cucumis melo L",
+          "focal_name": "Cucumis melo L"
+        },
+        "resolved_classification": {
+          "family": "Cucurbitaceae",
+          "genus": "Cucumis",
+          "species": "Cucumis melo",
+          "focal_name": "Cucumis melo"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -7651,10 +7860,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Triticum",
-      "species": "Triticum aestivum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Triticum L.",
+          "species": "Triticum aestivum L. subsp. spelta (L.) Thell.",
+          "focal_name": "Triticum aestivum L. subsp. spelta (L.) Thell."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Triticum",
+          "species": "Triticum aestivum",
+          "focal_name": "Triticum aestivum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -7776,10 +7996,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Rosaceae",
-      "genus": "Rubus",
-      "species": "Rubus idaeus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Rubus L.",
+          "species": "Rubus idaeus L.",
+          "focal_name": "Rubus idaeus L."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Rubus",
+          "species": "Rubus idaeus",
+          "focal_name": "Rubus idaeus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -8243,10 +8474,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Rosaceae",
-      "genus": "Prunus",
-      "species": "Prunus laurocerasus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Prunus L.",
+          "species": "Prunus laurocerasus L.",
+          "focal_name": "Prunus laurocerasus L."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Prunus",
+          "species": "Prunus laurocerasus",
+          "focal_name": "Prunus laurocerasus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -8266,10 +8508,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Cannabaceae",
-      "genus": "Cannabis",
-      "species": "Cannabis sativa",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Cannabaceae",
+          "genus": "Cannabis L.",
+          "species": "Cannabis sativa L.",
+          "focal_name": "Cannabis sativa L."
+        },
+        "resolved_classification": {
+          "family": "Cannabaceae",
+          "genus": "Cannabis",
+          "species": "Cannabis sativa",
+          "focal_name": "Cannabis sativa"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -8415,10 +8668,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Verbenaceae",
-      "genus": "Verbena",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Verbenaceae",
+          "genus": "Verbena L.",
+          "species": null,
+          "focal_name": "Verbena L."
+        },
+        "resolved_classification": {
+          "family": "Verbenaceae",
+          "genus": "Verbena",
+          "species": null,
+          "focal_name": "Verbena"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -8780,10 +9044,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Lamiaceae",
-      "genus": "Stachys",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Lamiaceae",
+          "genus": "Stachys L.",
+          "species": null,
+          "focal_name": "Stachys L."
+        },
+        "resolved_classification": {
+          "family": "Lamiaceae",
+          "genus": "Stachys",
+          "species": null,
+          "focal_name": "Stachys"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -8797,10 +9072,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Rosaceae",
-      "genus": "Prunus",
-      "species": "Prunus armeniaca",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Prunus L.",
+          "species": "Prunus armeniaca L.",
+          "focal_name": "Prunus armeniaca L."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Prunus",
+          "species": "Prunus armeniaca",
+          "focal_name": "Prunus armeniaca"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -9168,10 +9454,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Geraniaceae",
-      "genus": "Pelargonium",
-      "species": "Pelargonium crispum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium L'H\u00e9r. ex Ait.",
+          "species": "Pelargonium crispum (P. J. Bergius) L'H\u00e9r.",
+          "focal_name": "Pelargonium crispum (P. J. Bergius) L'H\u00e9r."
+        },
+        "resolved_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium",
+          "species": "Pelargonium crispum",
+          "focal_name": "Pelargonium crispum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -9245,10 +9542,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Lamiaceae",
-      "genus": "Vitex",
-      "species": "Vitex agnus-castus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Lamiaceae",
+          "genus": "Vitex",
+          "species": "Vitex agnus-castus L.",
+          "focal_name": "Vitex agnus-castus L."
+        },
+        "resolved_classification": {
+          "family": "Lamiaceae",
+          "genus": "Vitex",
+          "species": "Vitex agnus-castus",
+          "focal_name": "Vitex agnus-castus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -9268,10 +9576,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Ranunculaceae",
-      "genus": "Actaea",
-      "species": "Actaea racemosa",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Ranunculaceae",
+          "genus": "Actaea",
+          "species": "Actaea racemosa L.",
+          "focal_name": "Actaea racemosa L."
+        },
+        "resolved_classification": {
+          "family": "Ranunculaceae",
+          "genus": "Actaea",
+          "species": "Actaea racemosa",
+          "focal_name": "Actaea racemosa"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -9285,10 +9604,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Rosaceae",
-      "genus": "Rosa",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Rosa L.",
+          "species": null,
+          "focal_name": "Rosa L."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Rosa",
+          "species": null,
+          "focal_name": "Rosa"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -11492,10 +11822,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Hordeum",
-      "species": "Hordeum vulgare",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Hordeum L.",
+          "species": "Hordeum vulgare L.",
+          "focal_name": "Hordeum vulgare L."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Hordeum",
+          "species": "Hordeum vulgare",
+          "focal_name": "Hordeum vulgare"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -11701,10 +12042,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "genus",
-      "family": "Poaceae",
-      "genus": "Triticosecale",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "xTriticosecale Wittm. ex A. Camus",
+          "species": null,
+          "focal_name": "xTriticosecale Wittm. ex A. Camus"
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Triticosecale",
+          "species": null,
+          "focal_name": "Triticosecale"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -11838,10 +12190,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Caryophyllaceae",
-      "genus": "Dianthus",
-      "species": "Dianthus caryophyllus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Caryophyllaceae",
+          "genus": "Dianthus L.",
+          "species": "Dianthus caryophyllus L.",
+          "focal_name": "Dianthus caryophyllus L."
+        },
+        "resolved_classification": {
+          "family": "Caryophyllaceae",
+          "genus": "Dianthus",
+          "species": "Dianthus caryophyllus",
+          "focal_name": "Dianthus caryophyllus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -11933,10 +12296,21 @@
     },
     {
       "crop_category": "Vegetable Crops",
-      "taxon_rank": "species",
-      "family": "Fabaceae",
-      "genus": "Lathyrus",
-      "species": "Lathyrus oleraceus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Fabaceae",
+          "genus": "Pisum L.",
+          "species": "Pisum sativum L.",
+          "focal_name": "Pisum sativum L."
+        },
+        "resolved_classification": {
+          "family": "Fabaceae",
+          "genus": "Lathyrus",
+          "species": "Lathyrus oleraceus",
+          "focal_name": "Lathyrus oleraceus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -11950,10 +12324,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Polypodiaceae",
-      "genus": "Phlebodium",
-      "species": "Phlebodium aureum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Polypodiaceae",
+          "genus": "Phlebodium (R. Br.) J. Sm.",
+          "species": "Phlebodium aureum (L.) J. Sm.",
+          "focal_name": "Phlebodium aureum (L.) J. Sm."
+        },
+        "resolved_classification": {
+          "family": "Polypodiaceae",
+          "genus": "Phlebodium",
+          "species": "Phlebodium aureum",
+          "focal_name": "Phlebodium aureum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -11967,10 +12352,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Rosaceae",
-      "genus": "Prunus",
-      "species": "Prunus persica",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Prunus L.",
+          "species": "Prunus persica (L.) Batsch",
+          "focal_name": "Prunus persica (L.) Batsch"
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Prunus",
+          "species": "Prunus persica",
+          "focal_name": "Prunus persica"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -12026,10 +12422,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Grossulariaceae",
-      "genus": "Ribes",
-      "species": "Ribes rubrum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Grossulariaceae",
+          "genus": "Ribes L.",
+          "species": "Ribes rubrum L.",
+          "focal_name": "Ribes rubrum L."
+        },
+        "resolved_classification": {
+          "family": "Grossulariaceae",
+          "genus": "Ribes",
+          "species": "Ribes rubrum",
+          "focal_name": "Ribes rubrum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -12079,10 +12486,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Crassulaceae",
-      "genus": "Sempervivum",
-      "species": "Sempervivum rupicola",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Crassulaceae",
+          "genus": "Sempervivum L.",
+          "species": "Sempervivum xrupicola A. Kern.",
+          "focal_name": "Sempervivum xrupicola A. Kern."
+        },
+        "resolved_classification": {
+          "family": "Crassulaceae",
+          "genus": "Sempervivum",
+          "species": "Sempervivum rupicola",
+          "focal_name": "Sempervivum rupicola"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -12096,10 +12514,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Amaranthaceae",
-      "genus": "Chenopodium",
-      "species": "Chenopodium quinoa",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Chenopodiaceae",
+          "genus": "Chenopodium L.",
+          "species": "Chenopodium quinoa Willd.",
+          "focal_name": "Chenopodium quinoa Willd."
+        },
+        "resolved_classification": {
+          "family": "Amaranthaceae",
+          "genus": "Chenopodium",
+          "species": "Chenopodium quinoa",
+          "focal_name": "Chenopodium quinoa"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -12119,10 +12548,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Euphorbiaceae",
-      "genus": "Euphorbia",
-      "species": "Euphorbia pulcherrima",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Euphorbiaceae",
+          "genus": "Euphorbia L.",
+          "species": "Euphorbia pulcherrima Willd. ex Klotzsch",
+          "focal_name": "Euphorbia pulcherrima Willd. ex Klotzsch"
+        },
+        "resolved_classification": {
+          "family": "Euphorbiaceae",
+          "genus": "Euphorbia",
+          "species": "Euphorbia pulcherrima",
+          "focal_name": "Euphorbia pulcherrima"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -12520,10 +12960,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Cornaceae",
-      "genus": "Cornus",
-      "species": "Cornus kousa",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Cornaceae",
+          "genus": "Cornus kousa x Cornus nuttallii",
+          "species": "Cornus kousa Burger ex Hance",
+          "focal_name": "Cornus kousa Burger ex Hance"
+        },
+        "resolved_classification": {
+          "family": "Cornaceae",
+          "genus": "Cornus",
+          "species": "Cornus kousa",
+          "focal_name": "Cornus kousa"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -12537,10 +12988,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Lamiaceae",
-      "genus": "Salvia",
-      "species": "Salvia hispanica",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Lamiaceae",
+          "genus": "Salvia L.",
+          "species": "Salvia hispanica L.",
+          "focal_name": "Salvia hispanica L."
+        },
+        "resolved_classification": {
+          "family": "Lamiaceae",
+          "genus": "Salvia",
+          "species": "Salvia hispanica",
+          "focal_name": "Salvia hispanica"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -12554,10 +13016,21 @@
     },
     {
       "crop_category": "Vegetable Crops",
-      "taxon_rank": "species",
-      "family": "Amaryllidaceae",
-      "genus": "Allium",
-      "species": "Allium porrum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Alliaceae",
+          "genus": "Allium L.",
+          "species": "Allium porrum L.",
+          "focal_name": "Allium porrum L."
+        },
+        "resolved_classification": {
+          "family": "Amaryllidaceae",
+          "genus": "Allium",
+          "species": "Allium porrum",
+          "focal_name": "Allium porrum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -12589,10 +13062,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Fabaceae",
-      "genus": "Trifolium",
-      "species": "Trifolium pratense",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Fabaceae",
+          "genus": "Trifolium L.",
+          "species": "Trifolium pratense L.",
+          "focal_name": "Trifolium pratense L."
+        },
+        "resolved_classification": {
+          "family": "Fabaceae",
+          "genus": "Trifolium",
+          "species": "Trifolium pratense",
+          "focal_name": "Trifolium pratense"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -12648,10 +13132,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Solanaceae",
-      "genus": "Petunia",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Solanaceae",
+          "genus": "Petunia Juss.",
+          "species": null,
+          "focal_name": "Petunia Juss."
+        },
+        "resolved_classification": {
+          "family": "Solanaceae",
+          "genus": "Petunia",
+          "species": null,
+          "focal_name": "Petunia"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -13067,10 +13562,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Triticum",
-      "species": "Triticum turgidum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Triticum L.",
+          "species": "Triticum turgidum L. subsp. dicoccum (Schrank ex Sch\u00fcbl.) Thell.",
+          "focal_name": "Triticum turgidum L. subsp. dicoccum (Schrank ex Sch\u00fcbl.) Thell."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Triticum",
+          "species": "Triticum turgidum",
+          "focal_name": "Triticum turgidum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -13090,10 +13596,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Cupressaceae",
-      "genus": "Thuja",
-      "species": "Thuja occidentalis",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Cupressaceae",
+          "genus": "Thuja L.",
+          "species": "Thuja occidentalis L.",
+          "focal_name": "Thuja occidentalis L."
+        },
+        "resolved_classification": {
+          "family": "Cupressaceae",
+          "genus": "Thuja",
+          "species": "Thuja occidentalis",
+          "focal_name": "Thuja occidentalis"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -13107,10 +13624,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Actinidiaceae",
-      "genus": "Actinidia",
-      "species": "Actinidia chinensis",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Actinidiaceae",
+          "genus": "Actinidia Lindl.",
+          "species": "Actinidia chinensis Planch.",
+          "focal_name": "Actinidia chinensis Planch."
+        },
+        "resolved_classification": {
+          "family": "Actinidiaceae",
+          "genus": "Actinidia",
+          "species": "Actinidia chinensis",
+          "focal_name": "Actinidia chinensis"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -13148,10 +13676,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Solanaceae",
-      "genus": "Solanum",
-      "species": "Solanum glaucophyllum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Solanaceae",
+          "genus": "Solanum L.",
+          "species": "Solanum glaucophyllum Desf.",
+          "focal_name": "Solanum glaucophyllum Desf."
+        },
+        "resolved_classification": {
+          "family": "Solanaceae",
+          "genus": "Solanum",
+          "species": "Solanum glaucophyllum",
+          "focal_name": "Solanum glaucophyllum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -13165,10 +13704,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Balsaminaceae",
-      "genus": "Impatiens",
-      "species": "Impatiens",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Balsaminaceae",
+          "genus": "Impatiens L.",
+          "species": "Impatiens New Guinea Group",
+          "focal_name": "Impatiens New Guinea Group"
+        },
+        "resolved_classification": {
+          "family": "Balsaminaceae",
+          "genus": "Impatiens",
+          "species": "Impatiens",
+          "focal_name": "Impatiens"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -13794,10 +14344,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "genus",
-      "family": "Rosaceae",
-      "genus": "Malus",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Malus Mill.",
+          "species": null,
+          "focal_name": "Malus Mill."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Malus",
+          "species": null,
+          "focal_name": "Malus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -14327,10 +14888,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Ericaceae",
-      "genus": "Rhododendron",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Ericaceae",
+          "genus": "Rhododendron L.",
+          "species": null,
+          "focal_name": "Rhododendron L."
+        },
+        "resolved_classification": {
+          "family": "Ericaceae",
+          "genus": "Rhododendron",
+          "species": null,
+          "focal_name": "Rhododendron"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -14344,10 +14916,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "genus",
-      "family": "Rosaceae",
-      "genus": "Fragaria",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Fragaria L.",
+          "species": null,
+          "focal_name": "Fragaria L."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Fragaria",
+          "species": null,
+          "focal_name": "Fragaria"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -14739,10 +15322,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Asteraceae",
-      "genus": "Dimorphotheca",
-      "species": "Dimorphotheca ecklonis",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Dimorphotheca Vaill. ex Moench",
+          "species": "Dimorphotheca ecklonis DC.",
+          "focal_name": "Dimorphotheca ecklonis DC."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Dimorphotheca",
+          "species": "Dimorphotheca ecklonis",
+          "focal_name": "Dimorphotheca ecklonis"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -14864,10 +15458,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "genus",
-      "family": "Rosaceae",
-      "genus": "Prunus",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Prunus L.",
+          "species": null,
+          "focal_name": "Prunus L."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Prunus",
+          "species": null,
+          "focal_name": "Prunus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -14917,10 +15522,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Solanaceae",
-      "genus": "Calibrachoa",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Solanaceae",
+          "genus": "Calibrachoa Llave & Lex.",
+          "species": null,
+          "focal_name": "Calibrachoa Llave & Lex."
+        },
+        "resolved_classification": {
+          "family": "Solanaceae",
+          "genus": "Calibrachoa",
+          "species": null,
+          "focal_name": "Calibrachoa"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15306,10 +15922,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Fabaceae",
-      "genus": "Glycine",
-      "species": "Glycine max",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Fabaceae",
+          "genus": "Glycine",
+          "species": "Glycine max (L.) Merr.",
+          "focal_name": "Glycine max (L.) Merr."
+        },
+        "resolved_classification": {
+          "family": "Fabaceae",
+          "genus": "Glycine",
+          "species": "Glycine max",
+          "focal_name": "Glycine max"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15377,10 +16004,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Ranunculaceae",
-      "genus": "Helleborus",
-      "species": "Helleborus niger",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Ranunculaceae",
+          "genus": "Helleborus L.",
+          "species": "Helleborus niger L.",
+          "focal_name": "Helleborus niger L."
+        },
+        "resolved_classification": {
+          "family": "Ranunculaceae",
+          "genus": "Helleborus",
+          "species": "Helleborus niger",
+          "focal_name": "Helleborus niger"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15406,10 +16044,21 @@
     },
     {
       "crop_category": "Vegetable Crops",
-      "taxon_rank": "species",
-      "family": "Asteraceae",
-      "genus": "Cichorium",
-      "species": "Cichorium intybus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Cichorium",
+          "species": "Cichorium intybus L.",
+          "focal_name": "Cichorium intybus L."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Cichorium",
+          "species": "Cichorium intybus",
+          "focal_name": "Cichorium intybus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15423,10 +16072,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Asteraceae",
-      "genus": "Sanvitalia",
-      "species": "Sanvitalia procumbens",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Sanvitalia Lam.",
+          "species": "Sanvitalia procumbens Lam.",
+          "focal_name": "Sanvitalia procumbens Lam."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Sanvitalia",
+          "species": "Sanvitalia procumbens",
+          "focal_name": "Sanvitalia procumbens"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15458,10 +16118,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Caryophyllaceae",
-      "genus": "Dianthus",
-      "species": "Dianthus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Caryophyllaceae",
+          "genus": "Dianthus L.",
+          "species": "Dianthus \u00d7allwoodii hort.",
+          "focal_name": "Dianthus \u00d7allwoodii hort."
+        },
+        "resolved_classification": {
+          "family": "Caryophyllaceae",
+          "genus": "Dianthus",
+          "species": "Dianthus",
+          "focal_name": "Dianthus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15499,10 +16170,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Asteraceae",
-      "genus": "Argyranthemum",
-      "species": "Argyranthemum frutescens",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Argyranthemum Webb ex Schultz Bip.",
+          "species": "Argyranthemum frutescens (L.) Sch. Bip.",
+          "focal_name": "Argyranthemum frutescens (L.) Sch. Bip."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Argyranthemum",
+          "species": "Argyranthemum frutescens",
+          "focal_name": "Argyranthemum frutescens"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15558,10 +16240,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Balsaminaceae",
-      "genus": "Impatiens",
-      "species": "Impatiens hawkeri",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Balsaminaceae",
+          "genus": "Impatiens L.",
+          "species": "Impatiens hawkeri W. Bull",
+          "focal_name": "Impatiens hawkeri W. Bull"
+        },
+        "resolved_classification": {
+          "family": "Balsaminaceae",
+          "genus": "Impatiens",
+          "species": "Impatiens hawkeri",
+          "focal_name": "Impatiens hawkeri"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15623,27 +16316,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Caryophyllaceae",
-      "genus": "Dianthus",
-      "species": "Dianthus",
-      "crops": {
-        "crops": [
-          {
-            "id": "1f70cbb6-09d6-bb00-c692-bf3c11983bff",
-            "status": "InProgress",
-            "upov_code": "DIAN",
-            "denomination": "KLEDG 13146"
-          }
-        ]
-      }
-    },
-    {
-      "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Gentianaceae",
-      "genus": "Gentiana",
-      "species": "Gentiana scabra",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Gentianaceae",
+          "genus": "Gentiana L.",
+          "species": "Gentiana scabra Bunge",
+          "focal_name": "Gentiana scabra Bunge"
+        },
+        "resolved_classification": {
+          "family": "Gentianaceae",
+          "genus": "Gentiana",
+          "species": "Gentiana scabra",
+          "focal_name": "Gentiana scabra"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15663,10 +16350,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Grossulariaceae",
-      "genus": "Ribes",
-      "species": "Ribes nigrum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Grossulariaceae",
+          "genus": "Ribes L.",
+          "species": "Ribes nigrum L.",
+          "focal_name": "Ribes nigrum L."
+        },
+        "resolved_classification": {
+          "family": "Grossulariaceae",
+          "genus": "Ribes",
+          "species": "Ribes nigrum",
+          "focal_name": "Ribes nigrum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15716,10 +16414,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Triticum",
-      "species": "Triticum turgidum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Triticum L.",
+          "species": "Triticum durum Desf.",
+          "focal_name": "Triticum durum Desf."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Triticum",
+          "species": "Triticum turgidum",
+          "focal_name": "Triticum turgidum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15733,10 +16442,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Asteraceae",
-      "genus": "Bidens",
-      "species": "Bidens aurea",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Bidens L.",
+          "species": "Bidens ferulifolia (Jacq.) DC.",
+          "focal_name": "Bidens ferulifolia (Jacq.) DC."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Bidens",
+          "species": "Bidens aurea",
+          "focal_name": "Bidens aurea"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15804,10 +16524,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Calceolariaceae",
-      "genus": "Calceolaria",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Calceolariaceae",
+          "genus": "Calceolaria L.",
+          "species": null,
+          "focal_name": "Calceolaria L."
+        },
+        "resolved_classification": {
+          "family": "Calceolariaceae",
+          "genus": "Calceolaria",
+          "species": null,
+          "focal_name": "Calceolaria"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15827,10 +16558,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Elaeagnaceae",
-      "genus": "Hippophae",
-      "species": "Hippophae rhamnoides",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Elaeagnaceae",
+          "genus": "Hippophae L.",
+          "species": "Hippophae rhamnoides L.",
+          "focal_name": "Hippophae rhamnoides L."
+        },
+        "resolved_classification": {
+          "family": "Elaeagnaceae",
+          "genus": "Hippophae",
+          "species": "Hippophae rhamnoides",
+          "focal_name": "Hippophae rhamnoides"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15844,51 +16586,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Lamiaceae",
-      "genus": "Coleus",
-      "species": "Coleus scutellarioides",
-      "crops": {
-        "crops": [
-          {
-            "id": "62e54a3d-dc58-940b-d86b-fc14f4d5a337",
-            "status": "InProgress",
-            "upov_code": "SOLEN_SCU",
-            "denomination": "Mos Rosbast"
-          },
-          {
-            "id": "8faacb82-53f7-e8cd-b99f-d36703d4866a",
-            "status": "InProgress",
-            "upov_code": "SOLEN_SCU",
-            "denomination": "Mos Amagren"
-          },
-          {
-            "id": "be81b2d2-c247-42af-97c9-6ddc88ae6041",
-            "status": "InProgress",
-            "upov_code": "SOLEN_SCU",
-            "denomination": "Mos Burvet"
-          },
-          {
-            "id": "38bb168d-21ec-5019-eed8-1577b099d374",
-            "status": "InProgress",
-            "upov_code": "SOLEN_SCU",
-            "denomination": "Mos Lavred"
-          },
-          {
-            "id": "8bfe2176-8503-f63a-6d60-225d79e70ad2",
-            "status": "InProgress",
-            "upov_code": "SOLEN_SCU",
-            "denomination": "Mos Thimint"
-          }
-        ]
-      }
-    },
-    {
-      "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Asteraceae",
-      "genus": "Brachyscome",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Brachyscome Cass.",
+          "species": null,
+          "focal_name": "Brachyscome Cass."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Brachyscome",
+          "species": null,
+          "focal_name": "Brachyscome"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15902,10 +16614,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Malvaceae",
-      "genus": "Malva",
-      "species": "Malva sylvestris",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Malvaceae (Sterculiaceae)",
+          "genus": "Malva L.",
+          "species": "Malva sylvestris L.",
+          "focal_name": "Malva sylvestris L."
+        },
+        "resolved_classification": {
+          "family": "Malvaceae",
+          "genus": "Malva",
+          "species": "Malva sylvestris",
+          "focal_name": "Malva sylvestris"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15919,10 +16642,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Asteraceae",
-      "genus": "Artemisia",
-      "species": "Artemisia annua",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Artemisia L.",
+          "species": "Artemisia annua L.",
+          "focal_name": "Artemisia annua L."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Artemisia",
+          "species": "Artemisia annua",
+          "focal_name": "Artemisia annua"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -15942,10 +16676,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Campanulaceae",
-      "genus": "Lobelia",
-      "species": "Lobelia erinus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Campanulaceae",
+          "genus": "Lobelia L.",
+          "species": "Lobelia erinus L.",
+          "focal_name": "Lobelia erinus L."
+        },
+        "resolved_classification": {
+          "family": "Campanulaceae",
+          "genus": "Lobelia",
+          "species": "Lobelia erinus",
+          "focal_name": "Lobelia erinus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16001,10 +16746,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Asteraceae",
-      "genus": "Dahlia",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Dahlia Cav.",
+          "species": null,
+          "focal_name": "Dahlia Cav."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Dahlia",
+          "species": null,
+          "focal_name": "Dahlia"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16048,10 +16804,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Lamiaceae",
-      "genus": "Lavandula",
-      "species": "Lavandula stoechas",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Lamiaceae",
+          "genus": "Lavandula L.",
+          "species": "Lavandula stoechas L.",
+          "focal_name": "Lavandula stoechas L."
+        },
+        "resolved_classification": {
+          "family": "Lamiaceae",
+          "genus": "Lavandula",
+          "species": "Lavandula stoechas",
+          "focal_name": "Lavandula stoechas"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16071,10 +16838,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Scrophulariaceae",
-      "genus": "Diascia",
-      "species": "Diascia barberae",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Diascia Link & Otto",
+          "species": "Diascia barberae Hook. f.",
+          "focal_name": "Diascia barberae Hook. f."
+        },
+        "resolved_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Diascia",
+          "species": "Diascia barberae",
+          "focal_name": "Diascia barberae"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16136,10 +16914,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Rosaceae",
-      "genus": "Prunus",
-      "species": "Prunus domestica",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Prunus L.",
+          "species": "Prunus domestica L.",
+          "focal_name": "Prunus domestica L."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Prunus",
+          "species": "Prunus domestica",
+          "focal_name": "Prunus domestica"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16243,10 +17032,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Balsaminaceae",
-      "genus": "Impatiens",
-      "species": "Impatiens walleriana",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Balsaminaceae",
+          "genus": "Impatiens L.",
+          "species": "Impatiens walleriana Hook. f.",
+          "focal_name": "Impatiens walleriana Hook. f."
+        },
+        "resolved_classification": {
+          "family": "Balsaminaceae",
+          "genus": "Impatiens",
+          "species": "Impatiens walleriana",
+          "focal_name": "Impatiens walleriana"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16260,10 +17060,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Violaceae",
-      "genus": "Viola",
-      "species": "Viola cornuta",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Violaceae",
+          "genus": "Viola L.",
+          "species": "Viola cornuta L.",
+          "focal_name": "Viola cornuta L."
+        },
+        "resolved_classification": {
+          "family": "Violaceae",
+          "genus": "Viola",
+          "species": "Viola cornuta",
+          "focal_name": "Viola cornuta"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16307,10 +17118,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Geraniaceae",
-      "genus": "Pelargonium",
-      "species": "Pelargonium zonale",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium L'H\u00e9r. ex Ait.",
+          "species": "Pelargonium zonale (L.) L'Her. Ex Aiton x P. tongaense Vorster",
+          "focal_name": "Pelargonium zonale (L.) L'Her. Ex Aiton x P. tongaense Vorster"
+        },
+        "resolved_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium",
+          "species": "Pelargonium zonale",
+          "focal_name": "Pelargonium zonale"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16342,10 +17164,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Scrophulariaceae",
-      "genus": "Chaenostoma",
-      "species": "Chaenostoma cordatum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Sutera Roth",
+          "species": "Sutera cordata Thunb. Kuntze",
+          "focal_name": "Sutera cordata Thunb. Kuntze"
+        },
+        "resolved_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Chaenostoma",
+          "species": "Chaenostoma cordatum",
+          "focal_name": "Chaenostoma cordatum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16365,10 +17198,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Asteraceae",
-      "genus": "Pericallis",
-      "species": "Pericallis cruenta",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Pericallis D. Don",
+          "species": "Pericallis cruenta (Masson ex L'H\u00e9r.) Bolle",
+          "focal_name": "Pericallis cruenta (Masson ex L'H\u00e9r.) Bolle"
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Pericallis",
+          "species": "Pericallis cruenta",
+          "focal_name": "Pericallis cruenta"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16382,10 +17226,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Asteraceae",
-      "genus": "Sanvitalia",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Sanvitalia Lam.",
+          "species": null,
+          "focal_name": "Sanvitalia Lam."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Sanvitalia",
+          "species": null,
+          "focal_name": "Sanvitalia"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16429,10 +17284,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Lamiaceae",
-      "genus": "Caryopteris",
-      "species": "Caryopteris",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Lamiaceae",
+          "genus": "Caryopteris Bunge",
+          "species": "Caryopteris \u00d7clandonensis A. Simmonds ex anon.",
+          "focal_name": "Caryopteris \u00d7clandonensis A. Simmonds ex anon."
+        },
+        "resolved_classification": {
+          "family": "Lamiaceae",
+          "genus": "Caryopteris",
+          "species": "Caryopteris",
+          "focal_name": "Caryopteris"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16446,10 +17312,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Cornaceae",
-      "genus": "Cornus",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Cornaceae",
+          "genus": "Cornus kousa x Cornus nuttallii",
+          "species": null,
+          "focal_name": "Cornus kousa x Cornus nuttallii"
+        },
+        "resolved_classification": {
+          "family": "Cornaceae",
+          "genus": "Cornus",
+          "species": null,
+          "focal_name": "Cornus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16469,10 +17346,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Lamiaceae",
-      "genus": "Salvia",
-      "species": "Salvia officinalis",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Lamiaceae",
+          "genus": "Salvia L.",
+          "species": "Salvia officinalis L.",
+          "focal_name": "Salvia officinalis L."
+        },
+        "resolved_classification": {
+          "family": "Lamiaceae",
+          "genus": "Salvia",
+          "species": "Salvia officinalis",
+          "focal_name": "Salvia officinalis"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16486,10 +17374,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Zea",
-      "species": "Zea mays",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Zea L.",
+          "species": "Zea mays L.",
+          "focal_name": "Zea mays L."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Zea",
+          "species": "Zea mays",
+          "focal_name": "Zea mays"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16593,10 +17492,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Apocynaceae",
-      "genus": "Mandevilla",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Apocynaceae",
+          "genus": "Mandevilla Lindl.",
+          "species": null,
+          "focal_name": "Mandevilla Lindl."
+        },
+        "resolved_classification": {
+          "family": "Apocynaceae",
+          "genus": "Mandevilla",
+          "species": null,
+          "focal_name": "Mandevilla"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16622,10 +17532,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Asteraceae",
-      "genus": "Petasites",
-      "species": "Petasites hybridus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Petasites",
+          "species": "Petasites hybridus (L.) Ph. G\u00e4rtn. B. Mey. Et Scherb.",
+          "focal_name": "Petasites hybridus (L.) Ph. G\u00e4rtn. B. Mey. Et Scherb."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Petasites",
+          "species": "Petasites hybridus",
+          "focal_name": "Petasites hybridus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16639,10 +17560,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Polemoniaceae",
-      "genus": "Phlox",
-      "species": "Phlox drummondii",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Polemoniaceae",
+          "genus": "Phlox L.",
+          "species": "Phlox drummondii Hook.",
+          "focal_name": "Phlox drummondii Hook."
+        },
+        "resolved_classification": {
+          "family": "Polemoniaceae",
+          "genus": "Phlox",
+          "species": "Phlox drummondii",
+          "focal_name": "Phlox drummondii"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16686,10 +17618,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Platanaceae",
-      "genus": "Platanus",
-      "species": "Platanus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Platanaceae",
+          "genus": "Platanus L.",
+          "species": "Platanus x acerifolia (Aiton) Willd.",
+          "focal_name": "Platanus x acerifolia (Aiton) Willd."
+        },
+        "resolved_classification": {
+          "family": "Platanaceae",
+          "genus": "Platanus",
+          "species": "Platanus",
+          "focal_name": "Platanus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16703,10 +17646,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Onagraceae",
-      "genus": "Oenothera",
-      "species": "Oenothera lindheimeri",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Onagraceae",
+          "genus": "Oenothera L.",
+          "species": "Oenothera lindheimeri (Engelm. & A. Gray) W. L. Wagner & Hoch",
+          "focal_name": "Oenothera lindheimeri (Engelm. & A. Gray) W. L. Wagner & Hoch"
+        },
+        "resolved_classification": {
+          "family": "Onagraceae",
+          "genus": "Oenothera",
+          "species": "Oenothera lindheimeri",
+          "focal_name": "Oenothera lindheimeri"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16732,10 +17686,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Cannabaceae",
-      "genus": "Humulus",
-      "species": "Humulus lupulus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Cannabaceae",
+          "genus": "Humulus",
+          "species": "Humulus lupulus L.",
+          "focal_name": "Humulus lupulus L."
+        },
+        "resolved_classification": {
+          "family": "Cannabaceae",
+          "genus": "Humulus",
+          "species": "Humulus lupulus",
+          "focal_name": "Humulus lupulus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16749,10 +17714,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Asteraceae",
-      "genus": "Osteospermum",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Osteospermum L.",
+          "species": null,
+          "focal_name": "Osteospermum L."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Osteospermum",
+          "species": null,
+          "focal_name": "Osteospermum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16826,10 +17802,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "genus",
-      "family": "Rosaceae",
-      "genus": "Rubus",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Rubus L.",
+          "species": null,
+          "focal_name": "Rubus L."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Rubus",
+          "species": null,
+          "focal_name": "Rubus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16873,10 +17860,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Scrophulariaceae",
-      "genus": "Sutera",
-      "species": "Sutera",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Sutera Roth",
+          "species": "Sutera diffusa",
+          "focal_name": "Sutera diffusa"
+        },
+        "resolved_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Sutera",
+          "species": "Sutera",
+          "focal_name": "Sutera"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16908,10 +17906,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Primulaceae",
-      "genus": "Cyclamen",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Myrsinaceae",
+          "genus": "Cyclamen L.",
+          "species": null,
+          "focal_name": "Cyclamen L."
+        },
+        "resolved_classification": {
+          "family": "Primulaceae",
+          "genus": "Cyclamen",
+          "species": null,
+          "focal_name": "Cyclamen"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16943,10 +17952,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Scrophulariaceae",
-      "genus": "Diascia",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Diascia Link & Otto",
+          "species": null,
+          "focal_name": "Diascia Link & Otto"
+        },
+        "resolved_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Diascia",
+          "species": null,
+          "focal_name": "Diascia"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16966,10 +17986,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Scrophulariaceae",
-      "genus": "Nemesia",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Nemesia Vent.",
+          "species": null,
+          "focal_name": "Nemesia Vent."
+        },
+        "resolved_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Nemesia",
+          "species": null,
+          "focal_name": "Nemesia"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -16983,10 +18014,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Rosaceae",
-      "genus": "Cydonia",
-      "species": "Cydonia oblonga",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Cydonia Mill.",
+          "species": "Cydonia oblonga Mill.",
+          "focal_name": "Cydonia oblonga Mill."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Cydonia",
+          "species": "Cydonia oblonga",
+          "focal_name": "Cydonia oblonga"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17000,10 +18042,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Begoniaceae",
-      "genus": "Begonia",
-      "species": "Begonia",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Begoniaceae",
+          "genus": "Begonia L.",
+          "species": "Begonia Semperflorens-Cultorum Group",
+          "focal_name": "Begonia Semperflorens-Cultorum Group"
+        },
+        "resolved_classification": {
+          "family": "Begoniaceae",
+          "genus": "Begonia",
+          "species": "Begonia",
+          "focal_name": "Begonia"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17023,10 +18076,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Grossulariaceae",
-      "genus": "Ribes",
-      "species": "Ribes uva-crispa",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Grossulariaceae",
+          "genus": "Ribes L.",
+          "species": "Ribes uva-crispa L.",
+          "focal_name": "Ribes uva-crispa L."
+        },
+        "resolved_classification": {
+          "family": "Grossulariaceae",
+          "genus": "Ribes",
+          "species": "Ribes uva-crispa",
+          "focal_name": "Ribes uva-crispa"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17070,10 +18134,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Avena",
-      "species": "Avena sativa",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Avena L.",
+          "species": "Avena sativa L.",
+          "focal_name": "Avena sativa L."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Avena",
+          "species": "Avena sativa",
+          "focal_name": "Avena sativa"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17129,10 +18204,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Cynosurus",
-      "species": "Cynosurus cristatus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Cynosurus",
+          "species": "Cynosurus cristatus L.",
+          "focal_name": "Cynosurus cristatus L."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Cynosurus",
+          "species": "Cynosurus cristatus",
+          "focal_name": "Cynosurus cristatus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17146,10 +18232,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Grossulariaceae",
-      "genus": "Ribes",
-      "species": "Ribes niveum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Grossulariaceae",
+          "genus": "Ribes L.",
+          "species": "Ribes niveum Lindl.",
+          "focal_name": "Ribes niveum Lindl."
+        },
+        "resolved_classification": {
+          "family": "Grossulariaceae",
+          "genus": "Ribes",
+          "species": "Ribes niveum",
+          "focal_name": "Ribes niveum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17169,10 +18266,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Caprifoliaceae",
-      "genus": "Lonicera",
-      "species": "Lonicera caerulea",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Caprifoliaceae",
+          "genus": "Lonicera L.",
+          "species": "Lonicera caerulea L. var. kamtschatica Sevast.",
+          "focal_name": "Lonicera caerulea L. var. kamtschatica Sevast."
+        },
+        "resolved_classification": {
+          "family": "Caprifoliaceae",
+          "genus": "Lonicera",
+          "species": "Lonicera caerulea",
+          "focal_name": "Lonicera caerulea"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17204,10 +18312,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Bromeliaceae",
-      "genus": "Ananas",
-      "species": "Ananas comosus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Bromeliaceae",
+          "genus": "Ananas Mill.",
+          "species": "Ananas comosus (L.) Merr.",
+          "focal_name": "Ananas comosus (L.) Merr."
+        },
+        "resolved_classification": {
+          "family": "Bromeliaceae",
+          "genus": "Ananas",
+          "species": "Ananas comosus",
+          "focal_name": "Ananas comosus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17221,10 +18340,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Asteraceae",
-      "genus": "Ageratum",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Ageratum L.",
+          "species": null,
+          "focal_name": "Ageratum L."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Ageratum",
+          "species": null,
+          "focal_name": "Ageratum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17250,10 +18380,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Convolvulaceae",
-      "genus": "Convolvulus",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Convolvulaceae",
+          "genus": "Convolvulus L.",
+          "species": null,
+          "focal_name": "Convolvulus L."
+        },
+        "resolved_classification": {
+          "family": "Convolvulaceae",
+          "genus": "Convolvulus",
+          "species": null,
+          "focal_name": "Convolvulus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17267,10 +18408,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Moraceae",
-      "genus": "Ficus",
-      "species": "Ficus carica",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Moraceae",
+          "genus": "Ficus L.",
+          "species": "Ficus carica L.",
+          "focal_name": "Ficus carica L."
+        },
+        "resolved_classification": {
+          "family": "Moraceae",
+          "genus": "Ficus",
+          "species": "Ficus carica",
+          "focal_name": "Ficus carica"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17284,10 +18436,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Plantaginaceae",
-      "genus": "Russelia",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Plantaginaceae",
+          "genus": "Russelia Jacq.",
+          "species": null,
+          "focal_name": "Russelia Jacq."
+        },
+        "resolved_classification": {
+          "family": "Plantaginaceae",
+          "genus": "Russelia",
+          "species": null,
+          "focal_name": "Russelia"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17301,10 +18464,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Lolium",
-      "species": "Lolium perenne",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Lolium L.",
+          "species": "Lolium perenne L.",
+          "focal_name": "Lolium perenne L."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Lolium",
+          "species": "Lolium perenne",
+          "focal_name": "Lolium perenne"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17342,10 +18516,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Fabaceae",
-      "genus": "Trifolium",
-      "species": "Trifolium repens",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Fabaceae",
+          "genus": "Trifolium L.",
+          "species": "Trifolium repens L.",
+          "focal_name": "Trifolium repens L."
+        },
+        "resolved_classification": {
+          "family": "Fabaceae",
+          "genus": "Trifolium",
+          "species": "Trifolium repens",
+          "focal_name": "Trifolium repens"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17365,10 +18550,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "genus",
-      "family": "Vitaceae",
-      "genus": "Vitis",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Vitaceae",
+          "genus": "Vitis L.",
+          "species": null,
+          "focal_name": "Vitis L."
+        },
+        "resolved_classification": {
+          "family": "Vitaceae",
+          "genus": "Vitis",
+          "species": null,
+          "focal_name": "Vitis"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17412,10 +18608,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Lamiaceae",
-      "genus": "Salvia",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Lamiaceae",
+          "genus": "Rosmarinus",
+          "species": null,
+          "focal_name": "Rosmarinus"
+        },
+        "resolved_classification": {
+          "family": "Lamiaceae",
+          "genus": "Salvia",
+          "species": null,
+          "focal_name": "Salvia"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17429,10 +18636,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Pinaceae",
-      "genus": "Pinus",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Pinaceae",
+          "genus": "Pinus L.",
+          "species": null,
+          "focal_name": "Pinus L."
+        },
+        "resolved_classification": {
+          "family": "Pinaceae",
+          "genus": "Pinus",
+          "species": null,
+          "focal_name": "Pinus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17446,10 +18664,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Heliotropiaceae",
-      "genus": "Heliotropium",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Boraginaceae",
+          "genus": "Heliotropium L.",
+          "species": null,
+          "focal_name": "Heliotropium L."
+        },
+        "resolved_classification": {
+          "family": "Heliotropiaceae",
+          "genus": "Heliotropium",
+          "species": null,
+          "focal_name": "Heliotropium"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17463,10 +18692,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Goodeniaceae",
-      "genus": "Scaevola",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Goodeniaceae",
+          "genus": "Scaevola L.",
+          "species": null,
+          "focal_name": "Scaevola L."
+        },
+        "resolved_classification": {
+          "family": "Goodeniaceae",
+          "genus": "Scaevola",
+          "species": null,
+          "focal_name": "Scaevola"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17480,10 +18720,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Lolium",
-      "species": "Lolium multiflorum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Lolium L.",
+          "species": "Lolium multiflorum Lam. ssp. italicum (A. Br.) Volkart",
+          "focal_name": "Lolium multiflorum Lam. ssp. italicum (A. Br.) Volkart"
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Lolium",
+          "species": "Lolium multiflorum",
+          "focal_name": "Lolium multiflorum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17527,10 +18778,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Amaryllidaceae",
-      "genus": "Agapanthus",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Agapanthaceae",
+          "genus": "Agapanthus L'H\u00e9r.",
+          "species": null,
+          "focal_name": "Agapanthus L'H\u00e9r."
+        },
+        "resolved_classification": {
+          "family": "Amaryllidaceae",
+          "genus": "Agapanthus",
+          "species": null,
+          "focal_name": "Agapanthus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17544,10 +18806,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Hypericaceae",
-      "genus": "Hypericum",
-      "species": "Hypericum perforatum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Hypericaceae",
+          "genus": "Hypericum L.",
+          "species": "Hypericum perforatum L.",
+          "focal_name": "Hypericum perforatum L."
+        },
+        "resolved_classification": {
+          "family": "Hypericaceae",
+          "genus": "Hypericum",
+          "species": "Hypericum perforatum",
+          "focal_name": "Hypericum perforatum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17567,10 +18840,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Asteraceae",
-      "genus": "Senecio",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Senecio L.",
+          "species": null,
+          "focal_name": "Senecio L."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Senecio",
+          "species": null,
+          "focal_name": "Senecio"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17584,10 +18868,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Cupressaceae",
-      "genus": "Thuja",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Cupressaceae",
+          "genus": "Thuja L.",
+          "species": null,
+          "focal_name": "Thuja L."
+        },
+        "resolved_classification": {
+          "family": "Cupressaceae",
+          "genus": "Thuja",
+          "species": null,
+          "focal_name": "Thuja"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17601,10 +18896,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Pinaceae",
-      "genus": "Pinus",
-      "species": "Pinus nigra",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Pinaceae",
+          "genus": "Pinus L.",
+          "species": "Pinus nigra J. F. Arnold",
+          "focal_name": "Pinus nigra J. F. Arnold"
+        },
+        "resolved_classification": {
+          "family": "Pinaceae",
+          "genus": "Pinus",
+          "species": "Pinus nigra",
+          "focal_name": "Pinus nigra"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17624,10 +18930,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Sapindaceae",
-      "genus": "Acer",
-      "species": "Acer platanoides",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Sapindaceae",
+          "genus": "Acer L.",
+          "species": "Acer platanoides L.",
+          "focal_name": "Acer platanoides L."
+        },
+        "resolved_classification": {
+          "family": "Sapindaceae",
+          "genus": "Acer",
+          "species": "Acer platanoides",
+          "focal_name": "Acer platanoides"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17641,10 +18958,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Lolium",
-      "species": "Lolium",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Lolium L.",
+          "species": "Lolium \u00d7hybridum Hausskn.",
+          "focal_name": "Lolium \u00d7hybridum Hausskn."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Lolium",
+          "species": "Lolium",
+          "focal_name": "Lolium"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17670,10 +18998,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Cannaceae",
-      "genus": "Canna",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Cannaceae",
+          "genus": "Canna L.",
+          "species": null,
+          "focal_name": "Canna L."
+        },
+        "resolved_classification": {
+          "family": "Cannaceae",
+          "genus": "Canna",
+          "species": null,
+          "focal_name": "Canna"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17687,10 +19026,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Hydrangeaceae",
-      "genus": "Hydrangea",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Hydrangea",
+          "genus": "Hydrangea L.",
+          "species": null,
+          "focal_name": "Hydrangea L."
+        },
+        "resolved_classification": {
+          "family": "Hydrangeaceae",
+          "genus": "Hydrangea",
+          "species": null,
+          "focal_name": "Hydrangea"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17716,10 +19066,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Lolium",
-      "species": "Lolium pratense",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Festuca L.",
+          "species": "Festuca pratensis Huds.",
+          "focal_name": "Festuca pratensis Huds."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Lolium",
+          "species": "Lolium pratense",
+          "focal_name": "Lolium pratense"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17739,10 +19100,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Actinidiaceae",
-      "genus": "Actinidia",
-      "species": "Actinidia arguta",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Actinidiaceae",
+          "genus": "Actinidia Lindl.",
+          "species": "Actinidia arguta (Sieb. & Zucc.) Planch.",
+          "focal_name": "Actinidia arguta (Sieb. & Zucc.) Planch."
+        },
+        "resolved_classification": {
+          "family": "Actinidiaceae",
+          "genus": "Actinidia",
+          "species": "Actinidia arguta",
+          "focal_name": "Actinidia arguta"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17756,10 +19128,21 @@
     },
     {
       "crop_category": "Vegetable Crops",
-      "taxon_rank": "species",
-      "family": "Brassicaceae",
-      "genus": "Brassica",
-      "species": "Brassica oleracea",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Brassicaceae",
+          "genus": "Brassica L.",
+          "species": "Brassica oleracea L. var. gongylodes L.",
+          "focal_name": "Brassica oleracea L. var. gongylodes L."
+        },
+        "resolved_classification": {
+          "family": "Brassicaceae",
+          "genus": "Brassica",
+          "species": "Brassica oleracea",
+          "focal_name": "Brassica oleracea"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17785,10 +19168,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Amaranthaceae",
-      "genus": "Celosia",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Amaranthaceae",
+          "genus": "Celosia L.",
+          "species": null,
+          "focal_name": "Celosia L."
+        },
+        "resolved_classification": {
+          "family": "Amaranthaceae",
+          "genus": "Celosia",
+          "species": null,
+          "focal_name": "Celosia"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17802,10 +19196,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Ulmaceae",
-      "genus": "Ulmus",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Ulmaceae",
+          "genus": "Ulmus L.",
+          "species": null,
+          "focal_name": "Ulmus L."
+        },
+        "resolved_classification": {
+          "family": "Ulmaceae",
+          "genus": "Ulmus",
+          "species": null,
+          "focal_name": "Ulmus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17825,10 +19230,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Rosaceae",
-      "genus": "Pyracantha",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Pyracantha M.J. Roem.",
+          "species": null,
+          "focal_name": "Pyracantha M.J. Roem."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Pyracantha",
+          "species": null,
+          "focal_name": "Pyracantha"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17854,10 +19270,21 @@
     },
     {
       "crop_category": "Vegetable Crops",
-      "taxon_rank": "species",
-      "family": "Apiaceae",
-      "genus": "Anethum",
-      "species": "Anethum foeniculum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Apiaceae",
+          "genus": "Foeniculum Mill.",
+          "species": "Foeniculum vulgare Mill.",
+          "focal_name": "Foeniculum vulgare Mill."
+        },
+        "resolved_classification": {
+          "family": "Apiaceae",
+          "genus": "Anethum",
+          "species": "Anethum foeniculum",
+          "focal_name": "Anethum foeniculum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17877,10 +19304,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Gesneriaceae",
-      "genus": "Streptocarpus",
-      "species": "Streptocarpus ionanthus",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Gesneriaceae",
+          "genus": "Saintpaulia H. Wendl.",
+          "species": "Saintpaulia ionantha H. Wendl.",
+          "focal_name": "Saintpaulia ionantha H. Wendl."
+        },
+        "resolved_classification": {
+          "family": "Gesneriaceae",
+          "genus": "Streptocarpus",
+          "species": "Streptocarpus ionanthus",
+          "focal_name": "Streptocarpus ionanthus"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17894,10 +19332,21 @@
     },
     {
       "crop_category": "Vegetable Crops",
-      "taxon_rank": "species",
-      "family": "Brassicaceae",
-      "genus": "Brassica",
-      "species": "Brassica oleracea",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Brassicaceae",
+          "genus": "Brassica L.",
+          "species": "Brassica oleracea L. convar. capitata (L.) Alef. var. rubra (L.) Thell.",
+          "focal_name": "Brassica oleracea L. convar. capitata (L.) Alef. var. rubra (L.) Thell."
+        },
+        "resolved_classification": {
+          "family": "Brassicaceae",
+          "genus": "Brassica",
+          "species": "Brassica oleracea",
+          "focal_name": "Brassica oleracea"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17911,10 +19360,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Asteraceae",
-      "genus": "Chrysanthemum",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Chrysanthemum L.",
+          "species": null,
+          "focal_name": "Chrysanthemum L."
+        },
+        "resolved_classification": {
+          "family": "Asteraceae",
+          "genus": "Chrysanthemum",
+          "species": null,
+          "focal_name": "Chrysanthemum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17958,10 +19418,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Dactylis",
-      "species": "Dactylis glomerata",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Dactylis L.",
+          "species": "Dactylis glomerata L.",
+          "focal_name": "Dactylis glomerata L."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Dactylis",
+          "species": "Dactylis glomerata",
+          "focal_name": "Dactylis glomerata"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17975,10 +19446,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Lolium",
-      "species": "Lolium arundinaceum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Festuca L.",
+          "species": "Festuca arundinacea Schreb.",
+          "focal_name": "Festuca arundinacea Schreb."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Lolium",
+          "species": "Lolium arundinaceum",
+          "focal_name": "Lolium arundinaceum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -17992,10 +19474,21 @@
     },
     {
       "crop_category": "Agricultural Crops",
-      "taxon_rank": "species",
-      "family": "Poaceae",
-      "genus": "Alopecurus",
-      "species": "Alopecurus pratensis",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Alopecurus L.",
+          "species": "Alopecurus pratensis L.",
+          "focal_name": "Alopecurus pratensis L."
+        },
+        "resolved_classification": {
+          "family": "Poaceae",
+          "genus": "Alopecurus",
+          "species": "Alopecurus pratensis",
+          "focal_name": "Alopecurus pratensis"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -18009,10 +19502,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Grossulariaceae",
-      "genus": "Ribes",
-      "species": "Ribes",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Grossulariaceae",
+          "genus": "Ribes L.",
+          "species": "Ribes x nidigrolaria Rud. Bauer et A. Bauer",
+          "focal_name": "Ribes x nidigrolaria Rud. Bauer et A. Bauer"
+        },
+        "resolved_classification": {
+          "family": "Grossulariaceae",
+          "genus": "Ribes",
+          "species": "Ribes",
+          "focal_name": "Ribes"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -18032,10 +19536,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Rosaceae",
-      "genus": "Malus",
-      "species": "Malus sylvestris",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Malus Mill.",
+          "species": "Malus sylvestris (L.) Mill.",
+          "focal_name": "Malus sylvestris (L.) Mill."
+        },
+        "resolved_classification": {
+          "family": "Rosaceae",
+          "genus": "Malus",
+          "species": "Malus sylvestris",
+          "focal_name": "Malus sylvestris"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -18049,10 +19564,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Ericaceae",
-      "genus": "Vaccinium",
-      "species": "Vaccinium corymbosum",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Ericaceae",
+          "genus": "Vaccinium L.",
+          "species": "hybrids between Vaccinium corymbosum L. and Vaccinium darrowii Camp",
+          "focal_name": "hybrids between Vaccinium corymbosum L. and Vaccinium darrowii Camp"
+        },
+        "resolved_classification": {
+          "family": "Ericaceae",
+          "genus": "Vaccinium",
+          "species": "Vaccinium corymbosum",
+          "focal_name": "Vaccinium corymbosum"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -18066,10 +19592,21 @@
     },
     {
       "crop_category": "Vegetable Crops",
-      "taxon_rank": "species",
-      "family": "Apiaceae",
-      "genus": "Apium",
-      "species": "Apium graveolens",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Apiaceae",
+          "genus": "Apium L.",
+          "species": " Apium graveolens L. var. rapaceum (Mill.) Gaud.",
+          "focal_name": " Apium graveolens L. var. rapaceum (Mill.) Gaud."
+        },
+        "resolved_classification": {
+          "family": "Apiaceae",
+          "genus": "Apium",
+          "species": "Apium graveolens",
+          "focal_name": "Apium graveolens"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -18083,10 +19620,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "genus",
-      "family": "Geraniaceae",
-      "genus": "Pelargonium",
-      "species": null,
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium L'H\u00e9r. ex Ait.",
+          "species": null,
+          "focal_name": "Pelargonium L'H\u00e9r. ex Ait."
+        },
+        "resolved_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium",
+          "species": null,
+          "focal_name": "Pelargonium"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -18106,10 +19654,21 @@
     },
     {
       "crop_category": "Fruit and berries",
-      "taxon_rank": "species",
-      "family": "Juglandaceae",
-      "genus": "Juglans",
-      "species": "Juglans regia",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Juglandaceae",
+          "genus": "Juglans L.",
+          "species": "Juglans regia L.",
+          "focal_name": "Juglans regia L."
+        },
+        "resolved_classification": {
+          "family": "Juglandaceae",
+          "genus": "Juglans",
+          "species": "Juglans regia",
+          "focal_name": "Juglans regia"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -18123,10 +19682,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Lamiaceae",
-      "genus": "Thymus",
-      "species": "Thymus vulgaris",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Lamiaceae",
+          "genus": "Thymus L.",
+          "species": "Thymus vulgaris L.",
+          "focal_name": "Thymus vulgaris L."
+        },
+        "resolved_classification": {
+          "family": "Lamiaceae",
+          "genus": "Thymus",
+          "species": "Thymus vulgaris",
+          "focal_name": "Thymus vulgaris"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -18140,10 +19710,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Scrophulariaceae",
-      "genus": "Jamesbrittenia",
-      "species": "Jamesbrittenia grandiflora",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Jamesbrittenia O. Kuntze",
+          "species": "Jamesbrittenia grandiflora (Galpin) Hilliard",
+          "focal_name": "Jamesbrittenia grandiflora (Galpin) Hilliard"
+        },
+        "resolved_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Jamesbrittenia",
+          "species": "Jamesbrittenia grandiflora",
+          "focal_name": "Jamesbrittenia grandiflora"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -18157,10 +19738,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Scrophulariaceae",
-      "genus": "Nemesia",
-      "species": "Nemesia fruticans",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Nemesia Vent.",
+          "species": "Nemesia fruticans",
+          "focal_name": "Nemesia fruticans"
+        },
+        "resolved_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Nemesia",
+          "species": "Nemesia fruticans",
+          "focal_name": "Nemesia fruticans"
+        }
+      },
       "crops": {
         "crops": [
           {
@@ -18186,10 +19778,21 @@
     },
     {
       "crop_category": "Ornamental and medicinal plants",
-      "taxon_rank": "species",
-      "family": "Lamiaceae",
-      "genus": "Salvia",
-      "species": "Salvia patens",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Lamiaceae",
+          "genus": "Salvia L.",
+          "species": "Salvia patens Cav.",
+          "focal_name": "Salvia patens Cav."
+        },
+        "resolved_classification": {
+          "family": "Lamiaceae",
+          "genus": "Salvia",
+          "species": "Salvia patens",
+          "focal_name": "Salvia patens"
+        }
+      },
       "crops": {
         "crops": [
           {
