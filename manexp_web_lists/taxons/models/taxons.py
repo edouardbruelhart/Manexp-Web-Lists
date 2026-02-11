@@ -3,8 +3,8 @@ from typing import Optional
 
 from pydantic import field_validator
 
+from manexp_web_lists.taxons.models.crops import Crops
 from manexp_web_lists.utils.strict_model import StrictModel
-from manexp_web_lists.varieties.models.crops import Crops
 
 
 class TranslationSource(str, Enum):

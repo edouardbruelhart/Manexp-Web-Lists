@@ -5,8 +5,7 @@ import requests
 from deep_translator import GoogleTranslator
 
 from manexp_web_lists.exceptions.fetch_exception import FetchException
-from manexp_web_lists.utils.strict_model import StrictModel
-from manexp_web_lists.varieties.models.taxons import (
+from manexp_web_lists.taxons.models.taxons import (
     ResolvedTaxons,
     TaxonRank,
     TranslatedTaxon,
@@ -15,7 +14,8 @@ from manexp_web_lists.varieties.models.taxons import (
     Translations,
     TranslationSource,
 )
-from manexp_web_lists.varieties.utils.save_taxons import save_taxons
+from manexp_web_lists.taxons.utils.save_taxons import save_taxons
+from manexp_web_lists.utils.strict_model import StrictModel
 
 
 class TranslationReport(StrictModel):
@@ -188,6 +188,11 @@ def translate_with_gbif(taxon: str, rank: TaxonRank, translation_report: Transla
     response = session.get(url, params=params)
     response.raise_for_status()
     data = response.json()
+
+    if not data["results"]:
+        print(f"No GBIF results found for taxon '{taxon}' with rank {rank.name}: {data}")
+        return translation_report
+
     gbif_key = data["usageKey"]
 
     # Get GBIF vernaculars

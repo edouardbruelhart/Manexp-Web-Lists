@@ -1,10 +1,10 @@
 from pathlib import Path
 
 from manexp_web_lists.json_client.client import JsonClient
-from manexp_web_lists.varieties.models.varieties import Varieties
-from manexp_web_lists.varieties.taxo_enricher.taxo_resolver import taxo_resolver
-from manexp_web_lists.varieties.taxo_enricher.taxo_translator import taxo_translator
-from manexp_web_lists.varieties.varieties_to_taxons import varieties_to_taxons
+from manexp_web_lists.taxons.conversions.varieties_to_taxons import varieties_to_taxons
+from manexp_web_lists.taxons.models.varieties import Varieties
+from manexp_web_lists.taxons.taxo_enricher.taxo_resolver import taxo_resolver
+from manexp_web_lists.taxons.taxo_enricher.taxo_translator import taxo_translator
 
 
 def fetch_taxons() -> None:

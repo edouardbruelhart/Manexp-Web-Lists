@@ -4,9 +4,9 @@ from typing import Optional
 import requests
 
 from manexp_web_lists.exceptions.fetch_exception import FetchException
+from manexp_web_lists.taxons.models.taxons import RawTaxons, ResolvedTaxon, ResolvedTaxons, TaxonRank
+from manexp_web_lists.taxons.utils.save_taxons import save_taxons
 from manexp_web_lists.utils.strict_model import StrictModel
-from manexp_web_lists.varieties.models.taxons import RawTaxons, ResolvedTaxon, ResolvedTaxons, TaxonRank
-from manexp_web_lists.varieties.utils.save_taxons import save_taxons
 
 
 class ResolutionReport(StrictModel):

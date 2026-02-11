@@ -1,4 +1,4 @@
-from manexp_web_lists.varieties.fetch_taxons import fetch_taxons
+from manexp_web_lists.taxons.fetch_taxons import fetch_taxons
 
 
 def main() -> None:

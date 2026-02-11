@@ -1,9 +1,9 @@
 from pathlib import Path
 
-from manexp_web_lists.varieties.models.crops import Crop, Crops
-from manexp_web_lists.varieties.models.taxons import RawTaxon, RawTaxons, TaxonRank
-from manexp_web_lists.varieties.models.varieties import Varieties
-from manexp_web_lists.varieties.utils.save_taxons import save_taxons
+from manexp_web_lists.taxons.models.crops import Crop, Crops
+from manexp_web_lists.taxons.models.taxons import RawTaxon, RawTaxons, TaxonRank
+from manexp_web_lists.taxons.models.varieties import Varieties
+from manexp_web_lists.taxons.utils.save_taxons import save_taxons
 
 
 def varieties_to_taxons(varieties: Varieties) -> RawTaxons:
