@@ -1,5 +1,5 @@
 from manexp_web_lists.json_client.client import JsonClient
-from manexp_web_lists.varieties.models.varieties import Varieties
+from manexp_web_lists.taxons.models.varieties import Varieties
 
 
 def test_download(tmp_path):
