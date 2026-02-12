@@ -1,14 +1,15 @@
 import json
+import logging
 from pathlib import Path
 from typing import TypeVar
 
 import requests
-from pydantic import BaseModel, ValidationError
-
-from manexp_web_lists.exceptions.invalid_json_exception import InvalidJsonException
-from manexp_web_lists.exceptions.json_not_found_exception import JsonNotFoundException
+from pydantic import BaseModel
 
 T = TypeVar("T", bound=BaseModel)
+
+# Initialize logger
+logger = logging.getLogger(__name__)
 
 
 class JsonClient:
@@ -16,11 +17,10 @@ class JsonClient:
 
     def download_file(self, url: str, file_path: Path) -> None:
         """Download a json file from the internet."""
-        # Create session
-        session = requests.Session()
 
         # Request
-        response = session.get(url)
+        with requests.Session() as session:
+            response = session.get(url)
         response.raise_for_status()
 
         # Decode bytes and strip BOM if present
@@ -38,10 +38,6 @@ class JsonClient:
     def load_file(self, file_path: Path, structure: type[T]) -> T:
         """Safely load json file from memory using given structure"""
 
-        # Throws an exception if file doesn't exist
-        if not file_path.exists():
-            raise JsonNotFoundException(file_path)
-
         # Read file
         json_str = file_path.read_text(encoding="utf-8")
 
@@ -49,7 +45,4 @@ class JsonClient:
         data = json.loads(json_str)
 
         # Validate the dict with given structure
-        try:
-            return structure.model_validate(data)
-        except ValidationError as e:
-            raise InvalidJsonException(file_path, structure) from e
+        return structure.model_validate(data)

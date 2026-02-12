@@ -1,3 +1,4 @@
+import logging
 from pathlib import Path
 from typing import Optional, TypeGuard
 
@@ -14,9 +15,20 @@ from manexp_web_lists.taxa.taxo_enricher.taxo_translator.models import CompleteT
 from manexp_web_lists.taxa.taxo_enricher.taxo_translator.wikidata_translation import translate_with_wikidata
 from manexp_web_lists.taxa.utils.save_taxa import save_taxa
 
+# Initialize logger
+logger = logging.getLogger(__name__)
+
 
 def taxo_translator(input_taxons: ResolvedTaxa) -> TranslatedTaxa:
-    """Translate taxonomy in french, english, german and italian"""
+    """
+    Translate taxonomy in french, english, german and italian
+
+    :param input_taxons: Resolved taxa without translation
+    :type input_taxons: ResolvedTaxa
+    :return: Translated taxa
+    :rtype: TranslatedTaxa
+
+    """
 
     # List to hold translated taxa
     taxon_list: list[TranslatedTaxon] = []
@@ -51,7 +63,15 @@ def taxo_translator(input_taxons: ResolvedTaxa) -> TranslatedTaxa:
 
 
 def translate_taxo(taxonomy: ResolvedTaxonomy) -> Optional[Translations]:
-    """Get translations for a given taxonomy with source tracking."""
+    """
+    Get translations for a given taxonomy with source tracking.
+
+    :param taxonomy: Resolved taxonomy from a resolved taxon
+    :type taxonomy: ResolvedTaxonomy
+    :return: Translations for the given taxonomy in french, english, german and italian
+    :rtype: Translations | None
+
+    """
 
     # Isolate frequently used variables
     focal_name = taxonomy.resolved_classification.focal_name
@@ -73,7 +93,7 @@ def translate_taxo(taxonomy: ResolvedTaxonomy) -> Optional[Translations]:
 
     # If no translation found, it is useless to go to google fallback
     if gbif_report is None or (not gbif_report.fr and not gbif_report.en and not gbif_report.de and not gbif_report.it):
-        print(f"Skipped {focal_name} with rank {rank.name} due to absence of translations")
+        logger.warning(f"Skipping {focal_name} with rank {rank.name} due to absence of translations")
         return None
 
     # Last fallback to Google
@@ -84,12 +104,23 @@ def translate_taxo(taxonomy: ResolvedTaxonomy) -> Optional[Translations]:
         return get_valid_translation(google_report)
     else:
         # Failed to translate, return none
+        logger.warning(
+            f"Skipping {focal_name} with rank {rank.name} due to missing tranlsations. Translation report: {google_report}"
+        )
         return None
 
 
 def is_translation_complete(
     translation_report: Optional[TranslationReport],
 ) -> TypeGuard[CompleteTranslationReport]:
+    """
+    Check if a translation report is complete.
+
+    :param translation_report: Generated translation report to check
+    :type translation_report: Optional[TranslationReport]
+    :return: True if the translation report is complete, False otherwise and certifies that translation report is not None and empty
+    :rtype: TypeGuard[CompleteTranslationReport]
+    """
     return (
         translation_report is not None
         and translation_report.fr is not None
@@ -100,6 +131,14 @@ def is_translation_complete(
 
 
 def get_valid_translation(translation_report: CompleteTranslationReport) -> Translations:
+    """
+    Convert a translation report to a valid translations object.
+
+    :param translation_report: Report obtained from translate_taxo function
+    :type translation_report: CompleteTranslationReport
+    :return: Valid translations object containing all the translations
+    :rtype: Translations
+    """
     return Translations(
         fr=translation_report.fr,
         en=translation_report.en,

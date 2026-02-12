@@ -1,6 +1,7 @@
 from pathlib import Path
 
 from manexp_web_lists.json_client.client import JsonClient
+from manexp_web_lists.logging_config import log_sub_section
 from manexp_web_lists.taxa.color_generator.color_generator import color_generator
 from manexp_web_lists.taxa.conversions.varieties_to_taxa import varieties_to_taxa
 from manexp_web_lists.taxa.icon_generator.icon_generator import icon_generator
@@ -16,7 +17,7 @@ def fetch_taxa() -> None:
     # Variables
     url = "https://raw.githubusercontent.com/blw-ofag-ufag/blw-ogd-data/refs/heads/main/data/plant_varieties_in_switzerland.json"
     raw_file_path = Path("../lists/in/raw/varieties_list.json")
-    taxa_output_path = Path("../lists/out/generated_taxon_list.json")
+    output_file_path = Path("../lists/out/generated_taxon_list.json")
 
     # Client
     client = JsonClient()
@@ -28,19 +29,23 @@ def fetch_taxa() -> None:
     varieties = client.load_file(raw_file_path, Varieties)
 
     # 3. Group varieties into taxons
+    log_sub_section("Converting varieties to taxa")
     raw_taxa = varieties_to_taxa(varieties)
 
     # 4. Resolve taxons
+    log_sub_section("Resolving taxa")
     resolved_taxa = taxo_resolver(raw_taxa)
 
     # 5. Add translations
+    log_sub_section("Translating taxa")
     translated_taxa = taxo_translator(resolved_taxa)
 
     # 6. Add icon for each taxon
+    # TODO: Start here for cleaning
     iconed_taxa = icon_generator(translated_taxa)
 
     # 7. Add color for each taxon
     colored_taxa = color_generator(iconed_taxa)
 
     # 8. Save the list
-    save_taxa(colored_taxa, taxa_output_path)
+    save_taxa(colored_taxa, output_file_path)

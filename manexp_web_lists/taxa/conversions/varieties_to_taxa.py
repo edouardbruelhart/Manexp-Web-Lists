@@ -1,9 +1,13 @@
+import logging
 from pathlib import Path
 
 from manexp_web_lists.taxa.models.crops import Crop, Crops
 from manexp_web_lists.taxa.models.taxa import RawClassification, RawTaxa, RawTaxon, RawTaxonomy, TaxonRank
 from manexp_web_lists.taxa.models.varieties import Varieties
 from manexp_web_lists.taxa.utils.save_taxa import save_taxa
+
+# Initialize logger
+logger = logging.getLogger(__name__)
 
 
 def varieties_to_taxa(varieties: Varieties) -> RawTaxa:
@@ -12,20 +16,24 @@ def varieties_to_taxa(varieties: Varieties) -> RawTaxa:
     taxon_map: dict[tuple, RawTaxon] = {}
 
     for var in varieties.varieties:
-        group_key = (var.botanical_info.family, var.botanical_info.genus, var.botanical_info.species)
-
-        # Skip varieties without denomination
-        if var.current_denomination is None:
-            continue
-
         # Remove genus values in species fields
         species = var.botanical_info.species if var.botanical_info.species != var.botanical_info.genus else None
 
-        # Skip varieties without species AND genus
+        # Infer focal name
         focal_name = species if species else var.botanical_info.genus
 
+        # Skip varieties without species AND genus
         if focal_name is None:
+            logger.warning(f"Skipping {var.id}: No species or genus found.")
             continue
+
+        # Skip varieties without denomination
+        if var.current_denomination is None:
+            logger.warning(f"Skipping {focal_name}: No denomination found.")
+            continue
+
+        # Create key to identify similar taxa
+        group_key = (var.botanical_info.family, var.botanical_info.genus, var.botanical_info.species)
 
         # Create crop
         crop = Crop(
@@ -54,10 +62,14 @@ def varieties_to_taxa(varieties: Varieties) -> RawTaxa:
                 crops=Crops(crops=[crop]),
             )
         else:
+            # Add crop to existing taxon
             taxon_map[group_key].crops.crops.append(crop)
 
+    # Create raw taxa
     taxa = RawTaxa(taxa=list(taxon_map.values()))
 
+    # Save raw taxa to JSON file
     save_taxa(taxa, Path("../lists/in/raw/raw_taxon_list.json"))
 
+    # Return raw taxa
     return taxa
