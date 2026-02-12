@@ -988,47 +988,7 @@
             "status": "InProgress",
             "upov_code": "PELAR_PEL",
             "denomination": "KLEPP 07166"
-          }
-        ]
-      },
-      "translations": {
-        "fr": {
-          "name": "P\u00e9largonium pelt\u00e9",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Ivyleaf Geranium",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Efeublatt-Geranie",
-          "source": "google"
-        },
-        "it": {
-          "name": "Geranio foglia d'edera",
-          "source": "google"
-        }
-      }
-    },
-    {
-      "crop_category": "Ornamental and medicinal plants",
-      "taxonomy": {
-        "rank": "species",
-        "raw_classification": {
-          "family": "Geraniaceae",
-          "genus": "Pelargonium L'H\u00e9r. ex Ait.",
-          "species": "hybrids between Pelargonium peltatum and Pelargonium zonale",
-          "focal_name": "hybrids between Pelargonium peltatum and Pelargonium zonale"
-        },
-        "resolved_classification": {
-          "family": "Geraniaceae",
-          "genus": "Pelargonium",
-          "species": "Pelargonium peltatum",
-          "focal_name": "Pelargonium peltatum"
-        }
-      },
-      "crops": {
-        "crops": [
+          },
           {
             "id": "ed347a6f-b861-e0a0-c86c-8e0799d94b7a",
             "status": "Finalized",
@@ -3144,6 +3104,30 @@
             "status": "InProgress",
             "upov_code": "PELAR_ZON",
             "denomination": "KLEP 04107"
+          },
+          {
+            "id": "0b44f982-0707-0115-a457-7bf300be115d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZTO",
+            "denomination": "Cante Oran"
+          },
+          {
+            "id": "13dee855-2f32-e212-58ed-4de4caf6c537",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZTO",
+            "denomination": "Cante Pinka"
+          },
+          {
+            "id": "3a3b3263-7c07-a455-4617-0f5b0f7f386d",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZTO",
+            "denomination": "Cante Hocora"
+          },
+          {
+            "id": "b81c9ef1-d33f-65fa-87a5-d3f8f9191375",
+            "status": "InProgress",
+            "upov_code": "PELAR_ZTO",
+            "denomination": "Cope Scarfir"
           }
         ]
       },
@@ -6796,6 +6780,120 @@
             "status": "InProgress",
             "upov_code": "TRITI_AES",
             "denomination": "Eiger"
+          },
+          {
+            "id": "da87ff52-f72c-8a40-3c15-fb2ff4e42c81",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Polkura"
+          },
+          {
+            "id": "97247492-4937-ae1c-4b33-e537329d6003",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Flauder"
+          },
+          {
+            "id": "9a037260-cec7-497b-5f2f-d38195e18527",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Gletscher"
+          },
+          {
+            "id": "8facf689-ba14-d1cd-e180-96191f5ef276",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Serpentin"
+          },
+          {
+            "id": "47ebfd01-9eff-d0e8-a59c-48ca085ad39d",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Copper"
+          },
+          {
+            "id": "2dc7c3df-e765-176d-d53f-d7c21adca9c8",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Raisa"
+          },
+          {
+            "id": "6f7270f6-0d78-5943-2628-b86514e8673b",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Edelweisser"
+          },
+          {
+            "id": "171f89bc-78da-c5b6-c210-dce40d3e0eba",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Z\u00fcrcher Oberl\u00e4nder Rotkorn"
+          },
+          {
+            "id": "6c579ca5-965b-5ce2-a19e-413922c4dde6",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Samir"
+          },
+          {
+            "id": "0e96f937-08c7-03d3-1034-161e1fafbd89",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Titan"
+          },
+          {
+            "id": "6ba3fb6c-6c05-8dcf-68b9-5892014056dd",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Zenit"
+          },
+          {
+            "id": "e06f51c3-a1f3-c772-33a9-4ff7acc6c53a",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Tauro"
+          },
+          {
+            "id": "f1d8bfcd-ffc9-e4f8-9b7b-a5a7fd7ee243",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Alkor"
+          },
+          {
+            "id": "eb2699f5-7d5c-410e-7042-1bbd1af27e79",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Sirino"
+          },
+          {
+            "id": "000640d5-1dd2-5baa-2f75-1e0ce5ffb763",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Ostar"
+          },
+          {
+            "id": "5485ebc6-0df2-fe4f-b4cb-d5d40d008d30",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Sertel"
+          },
+          {
+            "id": "d5b36fea-43a6-d689-87eb-cc3b8df7ae05",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Balmegg"
+          },
+          {
+            "id": "d3f46136-6696-5631-777f-af668374af89",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Lueg"
+          },
+          {
+            "id": "e8586c30-2694-767a-fde5-d24024a23b75",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Hubel"
           }
         ]
       },
@@ -7182,6 +7280,12 @@
             "status": "InProgress",
             "upov_code": "VACCI_COR",
             "denomination": "PFRblue38"
+          },
+          {
+            "id": "943b59b2-1e1b-8281-974d-caaf474be973",
+            "status": "Finalized",
+            "upov_code": "VACCI_CDA",
+            "denomination": "Creativa"
           }
         ]
       },
@@ -8197,160 +8301,6 @@
         "it": {
           "name": "Cantalupo",
           "source": "google"
-        }
-      }
-    },
-    {
-      "crop_category": "Agricultural Crops",
-      "taxonomy": {
-        "rank": "species",
-        "raw_classification": {
-          "family": "Poaceae",
-          "genus": "Triticum L.",
-          "species": "Triticum aestivum L. subsp. spelta (L.) Thell.",
-          "focal_name": "Triticum aestivum L. subsp. spelta (L.) Thell."
-        },
-        "resolved_classification": {
-          "family": "Poaceae",
-          "genus": "Triticum",
-          "species": "Triticum aestivum",
-          "focal_name": "Triticum aestivum"
-        }
-      },
-      "crops": {
-        "crops": [
-          {
-            "id": "da87ff52-f72c-8a40-3c15-fb2ff4e42c81",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Polkura"
-          },
-          {
-            "id": "97247492-4937-ae1c-4b33-e537329d6003",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Flauder"
-          },
-          {
-            "id": "9a037260-cec7-497b-5f2f-d38195e18527",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Gletscher"
-          },
-          {
-            "id": "8facf689-ba14-d1cd-e180-96191f5ef276",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Serpentin"
-          },
-          {
-            "id": "47ebfd01-9eff-d0e8-a59c-48ca085ad39d",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Copper"
-          },
-          {
-            "id": "2dc7c3df-e765-176d-d53f-d7c21adca9c8",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Raisa"
-          },
-          {
-            "id": "6f7270f6-0d78-5943-2628-b86514e8673b",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Edelweisser"
-          },
-          {
-            "id": "171f89bc-78da-c5b6-c210-dce40d3e0eba",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Z\u00fcrcher Oberl\u00e4nder Rotkorn"
-          },
-          {
-            "id": "6c579ca5-965b-5ce2-a19e-413922c4dde6",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Samir"
-          },
-          {
-            "id": "0e96f937-08c7-03d3-1034-161e1fafbd89",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Titan"
-          },
-          {
-            "id": "6ba3fb6c-6c05-8dcf-68b9-5892014056dd",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Zenit"
-          },
-          {
-            "id": "e06f51c3-a1f3-c772-33a9-4ff7acc6c53a",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Tauro"
-          },
-          {
-            "id": "f1d8bfcd-ffc9-e4f8-9b7b-a5a7fd7ee243",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Alkor"
-          },
-          {
-            "id": "eb2699f5-7d5c-410e-7042-1bbd1af27e79",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Sirino"
-          },
-          {
-            "id": "000640d5-1dd2-5baa-2f75-1e0ce5ffb763",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Ostar"
-          },
-          {
-            "id": "5485ebc6-0df2-fe4f-b4cb-d5d40d008d30",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Sertel"
-          },
-          {
-            "id": "d5b36fea-43a6-d689-87eb-cc3b8df7ae05",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Balmegg"
-          },
-          {
-            "id": "d3f46136-6696-5631-777f-af668374af89",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Lueg"
-          },
-          {
-            "id": "e8586c30-2694-767a-fde5-d24024a23b75",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Hubel"
-          }
-        ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Ble ordinaire",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Bread Wheat",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Weichweizen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Frumento",
-          "source": "gbif"
         }
       }
     },
@@ -14400,6 +14350,12 @@
             "status": "InProgress",
             "upov_code": "TRITI_TUR_DIC",
             "denomination": "Lux"
+          },
+          {
+            "id": "85e2ae3c-8300-68d8-b2f3-0e91bf34cede",
+            "status": "InProgress",
+            "upov_code": "TRITI_TUR_DUR",
+            "denomination": "Elsadur"
           }
         ]
       },
@@ -17489,52 +17445,6 @@
       }
     },
     {
-      "crop_category": "Agricultural Crops",
-      "taxonomy": {
-        "rank": "species",
-        "raw_classification": {
-          "family": "Poaceae",
-          "genus": "Triticum L.",
-          "species": "Triticum durum Desf.",
-          "focal_name": "Triticum durum Desf."
-        },
-        "resolved_classification": {
-          "family": "Poaceae",
-          "genus": "Triticum",
-          "species": "Triticum turgidum",
-          "focal_name": "Triticum turgidum"
-        }
-      },
-      "crops": {
-        "crops": [
-          {
-            "id": "85e2ae3c-8300-68d8-b2f3-0e91bf34cede",
-            "status": "InProgress",
-            "upov_code": "TRITI_TUR_DUR",
-            "denomination": "Elsadur"
-          }
-        ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Ble poulard",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Poulard wheat",
-          "source": "google"
-        },
-        "de": {
-          "name": "Englischer Weizen",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Grano grosso",
-          "source": "gbif"
-        }
-      }
-    },
-    {
       "crop_category": "Ornamental and medicinal plants",
       "taxonomy": {
         "rank": "species",
@@ -18440,70 +18350,6 @@
         },
         "it": {
           "name": "Viola del pensiero cornuta",
-          "source": "google"
-        }
-      }
-    },
-    {
-      "crop_category": "Ornamental and medicinal plants",
-      "taxonomy": {
-        "rank": "species",
-        "raw_classification": {
-          "family": "Geraniaceae",
-          "genus": "Pelargonium L'H\u00e9r. ex Ait.",
-          "species": "Pelargonium zonale (L.) L'Her. Ex Aiton x P. tongaense Vorster",
-          "focal_name": "Pelargonium zonale (L.) L'Her. Ex Aiton x P. tongaense Vorster"
-        },
-        "resolved_classification": {
-          "family": "Geraniaceae",
-          "genus": "Pelargonium",
-          "species": "Pelargonium zonale",
-          "focal_name": "Pelargonium zonale"
-        }
-      },
-      "crops": {
-        "crops": [
-          {
-            "id": "0b44f982-0707-0115-a457-7bf300be115d",
-            "status": "InProgress",
-            "upov_code": "PELAR_ZTO",
-            "denomination": "Cante Oran"
-          },
-          {
-            "id": "13dee855-2f32-e212-58ed-4de4caf6c537",
-            "status": "InProgress",
-            "upov_code": "PELAR_ZTO",
-            "denomination": "Cante Pinka"
-          },
-          {
-            "id": "3a3b3263-7c07-a455-4617-0f5b0f7f386d",
-            "status": "InProgress",
-            "upov_code": "PELAR_ZTO",
-            "denomination": "Cante Hocora"
-          },
-          {
-            "id": "b81c9ef1-d33f-65fa-87a5-d3f8f9191375",
-            "status": "InProgress",
-            "upov_code": "PELAR_ZTO",
-            "denomination": "Cope Scarfir"
-          }
-        ]
-      },
-      "translations": {
-        "fr": {
-          "name": "G\u00e9ranium",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Horseshoe Geranium",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Hufeisengeranie",
-          "source": "google"
-        },
-        "it": {
-          "name": "Geranio a ferro di cavallo",
           "source": "google"
         }
       }
@@ -21252,6 +21098,12 @@
             "status": "InProgress",
             "upov_code": "BRASS_OLE_GGO",
             "denomination": "Kohyro"
+          },
+          {
+            "id": "ea0150c5-80f6-b9f5-01e0-463f6d242ab1",
+            "status": "InProgress",
+            "upov_code": "BRASS_OLE_GCR",
+            "denomination": "Zefa Kleinfein"
           }
         ]
       },
@@ -21467,52 +21319,6 @@
         "it": {
           "name": "Capo Viola",
           "source": "google"
-        }
-      }
-    },
-    {
-      "crop_category": "Vegetable Crops",
-      "taxonomy": {
-        "rank": "species",
-        "raw_classification": {
-          "family": "Brassicaceae",
-          "genus": "Brassica L.",
-          "species": "Brassica oleracea L. convar. capitata (L.) Alef. var. rubra (L.) Thell.",
-          "focal_name": "Brassica oleracea L. convar. capitata (L.) Alef. var. rubra (L.) Thell."
-        },
-        "resolved_classification": {
-          "family": "Brassicaceae",
-          "genus": "Brassica",
-          "species": "Brassica oleracea",
-          "focal_name": "Brassica oleracea"
-        }
-      },
-      "crops": {
-        "crops": [
-          {
-            "id": "ea0150c5-80f6-b9f5-01e0-463f6d242ab1",
-            "status": "InProgress",
-            "upov_code": "BRASS_OLE_GCR",
-            "denomination": "Zefa Kleinfein"
-          }
-        ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Brassica olearacea",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Cabbage",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Gem\u00fcsekohl",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Cavolo comune",
-          "source": "gbif"
         }
       }
     },
@@ -21824,52 +21630,6 @@
         },
         "it": {
           "name": "Mela granchio",
-          "source": "google"
-        }
-      }
-    },
-    {
-      "crop_category": "Fruit and berries",
-      "taxonomy": {
-        "rank": "species",
-        "raw_classification": {
-          "family": "Ericaceae",
-          "genus": "Vaccinium L.",
-          "species": "hybrids between Vaccinium corymbosum L. and Vaccinium darrowii Camp",
-          "focal_name": "hybrids between Vaccinium corymbosum L. and Vaccinium darrowii Camp"
-        },
-        "resolved_classification": {
-          "family": "Ericaceae",
-          "genus": "Vaccinium",
-          "species": "Vaccinium corymbosum",
-          "focal_name": "Vaccinium corymbosum"
-        }
-      },
-      "crops": {
-        "crops": [
-          {
-            "id": "943b59b2-1e1b-8281-974d-caaf474be973",
-            "status": "Finalized",
-            "upov_code": "VACCI_CDA",
-            "denomination": "Creativa"
-          }
-        ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Airelle en corymbe, Myrtille en corymbe, Myrtille arbustive, Grande myrtille, Myrtille am\u00e9ricaine, Bleuet en corymbe, Bleuet g\u00e9ant, Bleuet",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "American Blueberry",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Amerikanische Heidelbeere",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Mirtillo americano",
           "source": "google"
         }
       }

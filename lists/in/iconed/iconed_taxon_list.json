@@ -111,8 +111,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#5bcc32"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -1221,8 +1220,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#32cc7c"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -3153,8 +3151,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#32a3cc"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -3783,8 +3780,7 @@
           "source": "wikidata"
         }
       },
-      "icon": "nutrition",
-      "color": "#cca532"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Fruit and berries",
@@ -4011,8 +4007,7 @@
           "source": "gbif"
         }
       },
-      "icon": "nutrition",
-      "color": "#32ccaa"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -4245,8 +4240,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cc32cb"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -5217,8 +5211,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#cc9132"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Fruit and berries",
@@ -5337,8 +5330,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#6632cc"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -6063,8 +6055,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#cc3f32"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -6933,8 +6924,7 @@
           "source": "gbif"
         }
       },
-      "icon": "wheat",
-      "color": "#9bcc32"
+      "icon": "wheat"
     },
     {
       "crop_category": "Vegetable Crops",
@@ -7053,8 +7043,7 @@
           "source": "gbif"
         }
       },
-      "icon": "restaurant",
-      "color": "#6d32cc"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Fruit and berries",
@@ -7329,8 +7318,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#72cc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -7533,8 +7521,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#cc3244"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Fruit and berries",
@@ -7731,8 +7718,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#cc3291"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Vegetable Crops",
@@ -7821,8 +7807,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cc32a5"
+      "icon": "deceased"
     },
     {
       "crop_category": "Vegetable Crops",
@@ -7917,8 +7902,7 @@
           "source": "gbif"
         }
       },
-      "icon": "restaurant",
-      "color": "#bccc32"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Vegetable Crops",
@@ -8283,8 +8267,7 @@
           "source": "wikidata"
         }
       },
-      "icon": "deceased",
-      "color": "#bfcc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -8337,8 +8320,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#5932cc"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Fruit and berries",
@@ -8835,8 +8817,7 @@
           "source": "gbif"
         }
       },
-      "icon": "nutrition",
-      "color": "#cc4232"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -8889,8 +8870,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#32ccba"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -9069,8 +9049,7 @@
           "source": "gbif"
         }
       },
-      "icon": "deceased",
-      "color": "#cc32a0"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -9465,8 +9444,7 @@
           "source": "google"
         }
       },
-      "icon": "grass",
-      "color": "#32cc42"
+      "icon": "grass"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -9513,8 +9491,7 @@
           "source": "google"
         }
       },
-      "icon": "grass",
-      "color": "#cc32c9"
+      "icon": "grass"
     },
     {
       "crop_category": "Fruit and berries",
@@ -9915,8 +9892,7 @@
           "source": "gbif"
         }
       },
-      "icon": "nutrition",
-      "color": "#cc32a3"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -10023,8 +9999,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cc326b"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -10077,8 +10052,7 @@
           "source": "google"
         }
       },
-      "icon": "grass",
-      "color": "#49cc32"
+      "icon": "grass"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -10125,8 +10099,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#32cc3a"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -12363,8 +12336,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#32ccb2"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -12603,8 +12575,7 @@
           "source": "google"
         }
       },
-      "icon": "wheat",
-      "color": "#32ccad"
+      "icon": "wheat"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -12771,8 +12742,7 @@
           "source": "wikidata"
         }
       },
-      "icon": "wheat",
-      "color": "#32b5cc"
+      "icon": "wheat"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -12897,8 +12867,7 @@
           "source": "gbif"
         }
       },
-      "icon": "deceased",
-      "color": "#bacc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Vegetable Crops",
@@ -12945,8 +12914,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#cc328c"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -12993,8 +12961,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#bc32cc"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -13083,8 +13050,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#afcc32"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Fruit and berries",
@@ -13167,8 +13133,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#32cc32"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -13215,8 +13180,7 @@
           "source": "wikidata"
         }
       },
-      "icon": "spa",
-      "color": "#32ccaa"
+      "icon": "spa"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -13269,8 +13233,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#a332cc"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -13701,8 +13664,7 @@
           "source": "google"
         }
       },
-      "icon": "spa",
-      "color": "#cc323a"
+      "icon": "spa"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -13749,8 +13711,7 @@
           "source": "google"
         }
       },
-      "icon": "nature",
-      "color": "#42cc32"
+      "icon": "nature"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -13797,8 +13758,7 @@
           "source": "google"
         }
       },
-      "icon": "grass",
-      "color": "#3242cc"
+      "icon": "grass"
     },
     {
       "crop_category": "Vegetable Crops",
@@ -13863,8 +13823,7 @@
           "source": "google"
         }
       },
-      "icon": "spa",
-      "color": "#cc32c4"
+      "icon": "spa"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -13953,8 +13912,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#7c32cc"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -14403,8 +14361,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#ccc632"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -14463,8 +14420,7 @@
           "source": "gbif"
         }
       },
-      "icon": "wheat",
-      "color": "#cc328c"
+      "icon": "wheat"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -14511,8 +14467,7 @@
           "source": "google"
         }
       },
-      "icon": "nature",
-      "color": "#3265cc"
+      "icon": "nature"
     },
     {
       "crop_category": "Fruit and berries",
@@ -14583,8 +14538,7 @@
           "source": "gbif"
         }
       },
-      "icon": "nutrition",
-      "color": "#32ccaa"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -14631,8 +14585,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#cc6032"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -15291,8 +15244,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#328ecc"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -15855,8 +15807,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#3832cc"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -15903,8 +15854,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cc3a32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -16329,8 +16279,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#4932cc"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -16485,8 +16434,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cca032"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -16569,8 +16517,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#7f32cc"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -16989,8 +16936,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#7732cc"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -17091,8 +17037,7 @@
           "source": "wikidata"
         }
       },
-      "icon": "restaurant",
-      "color": "#324fcc"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -17151,8 +17096,7 @@
           "source": "gbif"
         }
       },
-      "icon": "deceased",
-      "color": "#adcc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Vegetable Crops",
@@ -17199,8 +17143,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#32cc9b"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -17265,8 +17208,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cc329b"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -17337,8 +17279,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#3259cc"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -17427,8 +17368,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#65cc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -17481,8 +17421,7 @@
           "source": "google"
         }
       },
-      "icon": "pill",
-      "color": "#cc3832"
+      "icon": "pill"
     },
     {
       "crop_category": "Fruit and berries",
@@ -17565,8 +17504,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#cc6632"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -17667,8 +17605,7 @@
           "source": "gbif"
         }
       },
-      "icon": "deceased",
-      "color": "#c4cc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -17721,8 +17658,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cc5432"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -17769,8 +17705,7 @@
           "source": "wikidata"
         }
       },
-      "icon": "pill",
-      "color": "#7032cc"
+      "icon": "pill"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -17817,8 +17752,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#3832cc"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -17865,8 +17799,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cc3254"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -17919,8 +17852,7 @@
           "source": "gbif"
         }
       },
-      "icon": "deceased",
-      "color": "#afcc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18009,8 +17941,7 @@
           "source": "gbif"
         }
       },
-      "icon": "deceased",
-      "color": "#cc329b"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18087,8 +18018,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#87cc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18141,8 +18071,7 @@
           "source": "google"
         }
       },
-      "icon": "grass",
-      "color": "#3247cc"
+      "icon": "grass"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18237,8 +18166,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#7032cc"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -18375,8 +18303,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#32cc3f"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18423,8 +18350,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cc32bc"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18501,8 +18427,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#ccc932"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18555,8 +18480,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#32cc8e"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18633,8 +18557,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#5932cc"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18681,8 +18604,7 @@
           "source": "google"
         }
       },
-      "icon": "grass",
-      "color": "#cc9632"
+      "icon": "grass"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18735,8 +18657,7 @@
           "source": "google"
         }
       },
-      "icon": "nature",
-      "color": "#cc7032"
+      "icon": "nature"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18783,8 +18704,7 @@
           "source": "google"
         }
       },
-      "icon": "grass",
-      "color": "#cca332"
+      "icon": "grass"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -18921,8 +18841,7 @@
           "source": "gbif"
         }
       },
-      "icon": "wheat",
-      "color": "#cc32c9"
+      "icon": "wheat"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18969,8 +18888,7 @@
           "source": "gbif"
         }
       },
-      "icon": "deceased",
-      "color": "#a8cc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -19047,8 +18965,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cc32c1"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -19095,8 +19012,7 @@
           "source": "google"
         }
       },
-      "icon": "nature",
-      "color": "#4432cc"
+      "icon": "nature"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -19155,8 +19071,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#35cc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -19203,8 +19118,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#35cc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -19311,8 +19225,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cc4f32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -19389,8 +19302,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#6632cc"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -19455,8 +19367,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cc3263"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -19521,8 +19432,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#3284cc"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -19569,8 +19479,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cc32a5"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -19617,8 +19526,7 @@
           "source": "gbif"
         }
       },
-      "icon": "nutrition",
-      "color": "#3284cc"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -19671,8 +19579,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#4732cc"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -19749,8 +19656,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#cc3270"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -19839,8 +19745,7 @@
           "source": "gbif"
         }
       },
-      "icon": "wheat",
-      "color": "#cc3238"
+      "icon": "wheat"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -19887,8 +19792,7 @@
           "source": "gbif"
         }
       },
-      "icon": "wheat",
-      "color": "#84cc32"
+      "icon": "wheat"
     },
     {
       "crop_category": "Fruit and berries",
@@ -19941,8 +19845,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#3298cc"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20007,8 +19910,7 @@
           "source": "gbif"
         }
       },
-      "icon": "deceased",
-      "color": "#5132cc"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -20055,8 +19957,7 @@
           "source": "google"
         }
       },
-      "icon": "spa",
-      "color": "#bacc32"
+      "icon": "spa"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20115,8 +20016,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#7232cc"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20163,8 +20063,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#35cc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -20211,8 +20110,7 @@
           "source": "gbif"
         }
       },
-      "icon": "nutrition",
-      "color": "#32cc38"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20259,8 +20157,7 @@
           "source": "google"
         }
       },
-      "icon": "grass",
-      "color": "#bc32cc"
+      "icon": "grass"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -20331,8 +20228,7 @@
           "source": "google"
         }
       },
-      "icon": "wheat",
-      "color": "#3532cc"
+      "icon": "wheat"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -20385,8 +20281,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#bc32cc"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Fruit and berries",
@@ -20463,8 +20358,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#cc6332"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20511,8 +20405,7 @@
           "source": "google"
         }
       },
-      "icon": "grass",
-      "color": "#32cca8"
+      "icon": "grass"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20559,8 +20452,7 @@
           "source": "google"
         }
       },
-      "icon": "nature",
-      "color": "#5b32cc"
+      "icon": "nature"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20607,8 +20499,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#32c9cc"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20655,8 +20546,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#32cc9e"
+      "icon": "deceased"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -20733,8 +20623,7 @@
           "source": "google"
         }
       },
-      "icon": "wheat",
-      "color": "#cc3272"
+      "icon": "wheat"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20781,8 +20670,7 @@
           "source": "google"
         }
       },
-      "icon": "spa",
-      "color": "#32cc3d"
+      "icon": "spa"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20835,8 +20723,7 @@
           "source": "google"
         }
       },
-      "icon": "pill",
-      "color": "#cc327c"
+      "icon": "pill"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20883,8 +20770,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#8ccc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20931,8 +20817,7 @@
           "source": "google"
         }
       },
-      "icon": "nature",
-      "color": "#3242cc"
+      "icon": "nature"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20985,8 +20870,7 @@
           "source": "google"
         }
       },
-      "icon": "nature",
-      "color": "#c1cc32"
+      "icon": "nature"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -21033,8 +20917,7 @@
           "source": "gbif"
         }
       },
-      "icon": "nature",
-      "color": "#b732cc"
+      "icon": "nature"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -21093,8 +20976,7 @@
           "source": "google"
         }
       },
-      "icon": "wheat",
-      "color": "#32cc42"
+      "icon": "wheat"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -21141,8 +21023,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#3242cc"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -21201,8 +21082,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#cc6032"
+      "icon": "deceased"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -21255,8 +21135,7 @@
           "source": "google"
         }
       },
-      "icon": "wheat",
-      "color": "#cc7f32"
+      "icon": "wheat"
     },
     {
       "crop_category": "Fruit and berries",
@@ -21303,8 +21182,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#cc3284"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Vegetable Crops",
@@ -21369,8 +21247,7 @@
           "source": "gbif"
         }
       },
-      "icon": "restaurant",
-      "color": "#cc329b"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -21417,8 +21294,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#32cc7c"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -21471,8 +21347,7 @@
           "source": "google"
         }
       },
-      "icon": "nature",
-      "color": "#cc32b7"
+      "icon": "nature"
     },
     {
       "crop_category": "Vegetable Crops",
@@ -21525,8 +21400,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#c9cc32"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -21573,8 +21447,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#32cc84"
+      "icon": "deceased"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -21651,8 +21524,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#75cc32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -21699,8 +21571,7 @@
           "source": "google"
         }
       },
-      "icon": "wheat",
-      "color": "#cc326d"
+      "icon": "wheat"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -21747,8 +21618,7 @@
           "source": "google"
         }
       },
-      "icon": "wheat",
-      "color": "#cc4f32"
+      "icon": "wheat"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -21795,8 +21665,7 @@
           "source": "gbif"
         }
       },
-      "icon": "wheat",
-      "color": "#32cca5"
+      "icon": "wheat"
     },
     {
       "crop_category": "Fruit and berries",
@@ -21849,8 +21718,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#c432cc"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Fruit and berries",
@@ -21897,8 +21765,7 @@
           "source": "google"
         }
       },
-      "icon": "nutrition",
-      "color": "#9132cc"
+      "icon": "nutrition"
     },
     {
       "crop_category": "Vegetable Crops",
@@ -21945,8 +21812,7 @@
           "source": "google"
         }
       },
-      "icon": "restaurant",
-      "color": "#60cc32"
+      "icon": "restaurant"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -21999,8 +21865,7 @@
           "source": "google"
         }
       },
-      "icon": "deceased",
-      "color": "#ccba32"
+      "icon": "deceased"
     },
     {
       "crop_category": "Fruit and berries",
@@ -22047,8 +21912,7 @@
           "source": "google"
         }
       },
-      "icon": "nature",
-      "color": "#98cc32"
+      "icon": "nature"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -22095,8 +21959,7 @@
           "source": "google"
         }
       },
-      "icon": "grass",
-      "color": "#cc32ba"
+      "icon": "grass"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -22143,8 +22006,7 @@
           "source": "google"
         }
       },
-      "icon": "grass",
-      "color": "#9bcc32"
+      "icon": "grass"
     }
   ]
 }
