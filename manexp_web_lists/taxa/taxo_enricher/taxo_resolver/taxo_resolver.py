@@ -4,6 +4,7 @@ from typing import Optional
 import requests
 
 from manexp_web_lists.exceptions.fetch_exception import FetchException
+from manexp_web_lists.taxa.models.crops import Crops
 from manexp_web_lists.taxa.models.taxa import (
     RawTaxa,
     RawTaxonomy,
@@ -31,14 +32,14 @@ class ResolutionReport(StrictModel):
 session = requests.Session()
 
 
-def taxo_resolver(input_taxons: RawTaxa) -> ResolvedTaxa:
-    """Resolve and clean taxonomy"""
+def taxo_resolver(input_taxa: RawTaxa) -> ResolvedTaxa:
+    """Resolve, clean and group taxonomy"""
 
-    # List to hold resolved taxa
-    taxon_list: list[ResolvedTaxon] = []
+    # Dictionary to hold resolved taxa
+    grouped_taxa: dict[tuple, ResolvedTaxon] = {}
 
     # Resolve each taxon
-    for taxon in input_taxons.taxa:
+    for taxon in input_taxa.taxa:
         # Get resolution
         resolution_report = resolve_taxo(taxon.taxonomy)
 
@@ -64,29 +65,47 @@ def taxo_resolver(input_taxons: RawTaxa) -> ResolvedTaxa:
             print(f"Skipped {taxon.taxonomy.raw_classification.species} due to missing upper taxonomy: {taxon}")
             continue
 
-        # Create classification
-        resolved_classification = ResolvedClassification(
-            family=family, genus=genus, species=species, focal_name=species if species else genus
-        )
+        # Create key
+        key = (family, genus, species)
 
-        # Create resolved taxonomy
-        resolved_taxonomy = ResolvedTaxonomy(
-            rank=taxon.taxonomy.rank,
-            raw_classification=taxon.taxonomy.raw_classification,
-            resolved_classification=resolved_classification,
-        )
+        # If already exists, merge crops and categories
+        if key in grouped_taxa:
+            # Get existing entry
+            existing = grouped_taxa[key]
 
-        # Add resolved taxon to the list
-        taxon_list.append(
-            ResolvedTaxon(
+            # Check that crop category is the same
+            if existing.crop_category != taxon.crop_category:
+                raise FetchException(taxon.taxonomy.raw_classification.focal_name, "Crop category mismatch")
+
+            # Merge crops
+            crops = Crops(crops=existing.crops.crops + taxon.crops.crops)
+
+            new = ResolvedTaxon(
+                crop_category=existing.crop_category,
+                taxonomy=existing.taxonomy,
+                crops=crops,
+            )
+
+            # Replace in the dict
+            grouped_taxa[key] = new
+        else:
+            # Create classification and add new entry
+            resolved_classification = ResolvedClassification(
+                family=family, genus=genus, species=species, focal_name=species if species else genus
+            )
+            resolved_taxonomy = ResolvedTaxonomy(
+                rank=taxon.taxonomy.rank,
+                raw_classification=taxon.taxonomy.raw_classification,
+                resolved_classification=resolved_classification,
+            )
+            grouped_taxa[key] = ResolvedTaxon(
                 crop_category=taxon.crop_category,
                 taxonomy=resolved_taxonomy,
                 crops=taxon.crops,
             )
-        )
 
     # Create resolved taxa
-    resolved_taxa = ResolvedTaxa(taxa=taxon_list)
+    resolved_taxa = ResolvedTaxa(taxa=list(grouped_taxa.values()))
 
     # Save taxa to json file
     save_taxa(resolved_taxa, Path("../lists/in/resolved/resolved_taxon_list.json"))
