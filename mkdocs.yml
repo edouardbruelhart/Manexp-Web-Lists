@@ -1,52 +1,79 @@
 site_name: Manexp-Web-Lists
 repo_url: https://github.com/edouardbruelhart/Manexp-Web-Lists
 site_url: https://edouardbruelhart.github.io/Manexp-Web-Lists
-site_description: A repository to fetch and host lists for Manexp-Web project, notably the species and pesticides lists.
+site_description: A repository to fetch and host lists for Manexp-Web project,
+  notably the species and pesticides lists.
 site_author: Edouard Brülhart
 edit_uri: edit/main/docs/
 repo_name: edouardbruelhart/Manexp-Web-Lists
-copyright: Maintained by <a href="https://github.com/edouardbruelhart">edouardbruelhart</a>.
+copyright: Maintained by <a
+  href="https://github.com/edouardbruelhart">edouardbruelhart</a>.
 
 nav:
-  - Home: index.md
-  - Modules: modules.md
+- Home: index.md
+- Modules:
+  - manexp_web_lists: modules/manexp_web_lists.md
+  - manexp_web_lists.pesticides: modules/manexp_web_lists_pesticides.md
+  - manexp_web_lists.utils: modules/manexp_web_lists_utils.md
+  - manexp_web_lists.taxa: modules/manexp_web_lists_taxa.md
+  - manexp_web_lists.taxa.color_generator:
+      modules/manexp_web_lists_taxa_color_generator.md
+  - manexp_web_lists.taxa.models: modules/manexp_web_lists_taxa_models.md
+  - manexp_web_lists.taxa.icon_generator:
+      modules/manexp_web_lists_taxa_icon_generator.md
+  - manexp_web_lists.taxa.icon_generator.models:
+      modules/manexp_web_lists_taxa_icon_generator_models.md
+  - manexp_web_lists.taxa.conversions:
+      modules/manexp_web_lists_taxa_conversions.md
+  - manexp_web_lists.taxa.utils: modules/manexp_web_lists_taxa_utils.md
+  - manexp_web_lists.taxa.taxo_enricher:
+      modules/manexp_web_lists_taxa_taxo_enricher.md
+  - manexp_web_lists.taxa.taxo_enricher.taxo_translator:
+      modules/manexp_web_lists_taxa_taxo_enricher_taxo_translator.md
+  - manexp_web_lists.taxa.taxo_enricher.taxo_resolver:
+      modules/manexp_web_lists_taxa_taxo_enricher_taxo_resolver.md
+  - manexp_web_lists.json_client: modules/manexp_web_lists_json_client.md
+  - manexp_web_lists.exceptions: modules/manexp_web_lists_exceptions.md
 plugins:
-  - search
-  - mkdocstrings:
-      handlers:
-        python:
-          paths: ["manexp_web_lists"]
+- search
+- mkdocstrings:
+    handlers:
+      python:
+        paths: ["manexp_web_lists"]
+        options:
+          merge_init_into_parent: true
+          show_source: true
 theme:
   name: material
   feature:
     tabs: true
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: white
-      accent: deep orange
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: deep orange
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: white
+    accent: deep orange
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: black
+    accent: deep orange
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
   icon:
     repo: fontawesome/brands/github
 
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/edouardbruelhart/Manexp-Web-Lists
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/Manexp-Web-Lists
+  - icon: fontawesome/brands/github
+    link: https://github.com/edouardbruelhart/Manexp-Web-Lists
+  - icon: fontawesome/brands/python
+    link: https://pypi.org/project/Manexp-Web-Lists
 
 markdown_extensions:
-  - toc:
-      permalink: true
-  - pymdownx.arithmatex:
-      generic: true
+- toc:
+    permalink: true
+- pymdownx.arithmatex:
+    generic: true
