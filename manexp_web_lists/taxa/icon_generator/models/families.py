@@ -1,0 +1,65 @@
+from manexp_web_lists.taxa.icon_generator.models.icons import Icons
+
+FAMILY_TO_ICON: dict[str, Icons] = {
+    # Cereals
+    "Poaceae": Icons.CEREALS,
+    # Fruits
+    "Rosaceae": Icons.FRUITS,
+    "Grossulariaceae": Icons.FRUITS,
+    "Actinidiaceae": Icons.FRUITS,
+    "Vitaceae": Icons.FRUITS,
+    "Moraceae": Icons.FRUITS,
+    # Vegetables
+    "Solanaceae": Icons.VEGETABLES,
+    "Cucurbitaceae": Icons.VEGETABLES,
+    "Brassicaceae": Icons.VEGETABLES,
+    "Apiaceae": Icons.VEGETABLES,
+    "Fabaceae": Icons.VEGETABLES,
+    "Amaranthaceae": Icons.VEGETABLES,
+    "Cannaceae": Icons.VEGETABLES,
+    # Herbs (culinary / aromatic)
+    "Lamiaceae": Icons.HERBS,
+    "Verbenaceae": Icons.HERBS,
+    "Plantaginaceae": Icons.HERBS,
+    # Medicinal
+    "Hypericaceae": Icons.MEDICINAL,
+    "Gentianaceae": Icons.MEDICINAL,
+    "Elaeagnaceae": Icons.MEDICINAL,
+    # Trees / woody plants
+    "Pinaceae": Icons.TREES,
+    "Cupressaceae": Icons.TREES,
+    "Platanaceae": Icons.TREES,
+    "Ulmaceae": Icons.TREES,
+    "Juglandaceae": Icons.TREES,
+    "Cornaceae": Icons.TREES,
+    "Sapindaceae": Icons.TREES,
+    # Succulents / fleshy plants
+    "Crassulaceae": Icons.SUCCULENTS,
+    "Euphorbiaceae": Icons.SUCCULENTS,
+    "Bromeliaceae": Icons.SUCCULENTS,
+    "Amaryllidaceae": Icons.SUCCULENTS,
+    # Ornamental
+    "Geraniaceae": Icons.ORNAMENTAL,
+    "Ericaceae": Icons.ORNAMENTAL,
+    "Asteraceae": Icons.ORNAMENTAL,
+    "Ranunculaceae": Icons.ORNAMENTAL,
+    "Caryophyllaceae": Icons.ORNAMENTAL,
+    "Campanulaceae": Icons.ORNAMENTAL,
+    "Scrophulariaceae": Icons.ORNAMENTAL,
+    "Violaceae": Icons.ORNAMENTAL,
+    "Polemoniaceae": Icons.ORNAMENTAL,
+    "Onagraceae": Icons.ORNAMENTAL,
+    "Primulaceae": Icons.ORNAMENTAL,
+    "Begoniaceae": Icons.ORNAMENTAL,
+    "Caprifoliaceae": Icons.ORNAMENTAL,
+    "Balsaminaceae": Icons.ORNAMENTAL,
+    "Calceolariaceae": Icons.ORNAMENTAL,
+    "Heliotropiaceae": Icons.ORNAMENTAL,
+    "Goodeniaceae": Icons.ORNAMENTAL,
+    "Gesneriaceae": Icons.ORNAMENTAL,
+    "Hydrangeaceae": Icons.ORNAMENTAL,
+    "Malvaceae": Icons.ORNAMENTAL,
+    "Convolvulaceae": Icons.ORNAMENTAL,
+    "Cannabaceae": Icons.ORNAMENTAL,
+    "Polypodiaceae": Icons.ORNAMENTAL,
+}
