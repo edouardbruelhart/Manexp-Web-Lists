@@ -33,10 +33,12 @@ clean-build: ## Clean build artifacts
 
 .PHONY: docs-test
 docs-test: ## Test if documentation can be built without warnings or errors
+	@uv run python scripts/generate_doc.py
 	@uv run mkdocs build -s
 
 .PHONY: docs
 docs: ## Build and serve the documentation
+	@uv run python scripts/generate_doc.py
 	@uv run mkdocs serve
 
 .PHONY: help
