@@ -21,6 +21,13 @@ class Translation(StrictModel):
     name: str
     source: TranslationSource
 
+    @field_validator("source", mode="before")
+    @classmethod
+    def parse_taxon_rank(cls: type["Translation"], v: str | TranslationSource) -> TranslationSource:
+        if isinstance(v, str):
+            return TranslationSource(v)
+        return v
+
 
 class Translations(StrictModel):
     """Represents the translations"""
@@ -112,19 +119,7 @@ class TranslatedTaxa(StrictModel):
     taxa: list[TranslatedTaxon]
 
 
-class ColoredTaxon(TranslatedTaxon):
-    """Represents the colored taxon model"""
-
-    color: str
-
-
-class ColoredTaxa(StrictModel):
-    """Represents the colored taxa model"""
-
-    taxa: list[ColoredTaxon]
-
-
-class IconedTaxon(ColoredTaxon):
+class IconedTaxon(TranslatedTaxon):
     """Represents the iconed taxon model"""
 
     icon: str
@@ -134,3 +129,15 @@ class IconedTaxa(StrictModel):
     """Represents the iconed taxa model"""
 
     taxa: list[IconedTaxon]
+
+
+class ColoredTaxon(IconedTaxon):
+    """Represents the colored taxon model"""
+
+    color: str
+
+
+class ColoredTaxa(StrictModel):
+    """Represents the colored taxa model"""
+
+    taxa: list[ColoredTaxon]

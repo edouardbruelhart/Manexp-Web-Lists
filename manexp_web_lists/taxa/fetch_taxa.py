@@ -1,7 +1,9 @@
 from pathlib import Path
 
 from manexp_web_lists.json_client.client import JsonClient
+from manexp_web_lists.taxa.color_generator.color_generator import color_generator
 from manexp_web_lists.taxa.conversions.varieties_to_taxa import varieties_to_taxa
+from manexp_web_lists.taxa.icon_generator.icon_generator import icon_generator
 from manexp_web_lists.taxa.models.varieties import Varieties
 from manexp_web_lists.taxa.taxo_enricher.taxo_resolver.taxo_resolver import taxo_resolver
 from manexp_web_lists.taxa.taxo_enricher.taxo_translator.taxo_translator import taxo_translator
@@ -34,13 +36,11 @@ def fetch_taxa() -> None:
     # 5. Add translations
     translated_taxa = taxo_translator(resolved_taxa)
 
-    # 6. Add color for each taxon
-    # TODO: Implement coloration
-    colored_taxa = translated_taxa
+    # 6. Add icon for each taxon
+    iconed_taxa = icon_generator(translated_taxa)
 
-    # 7. Add icon for each taxon
-    # TODO: Implement icon
-    iconed_taxa = colored_taxa
+    # 7. Add color for each taxon
+    colored_taxa = color_generator(iconed_taxa)
 
     # 8. Save the list
-    save_taxa(iconed_taxa, taxa_output_path)
+    save_taxa(colored_taxa, taxa_output_path)
