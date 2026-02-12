@@ -1,3 +1,5 @@
+"""Tests for json_client/client.py"""
+
 from manexp_web_lists.json_client.client import JsonClient
 from manexp_web_lists.taxa.models.varieties import Varieties
 
