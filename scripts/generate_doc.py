@@ -7,6 +7,7 @@ ROOT_PACKAGE = "manexp_web_lists"
 PROJECT_ROOT = "."
 DOCS_DIR = "docs/modules"
 MKDOCS_FILE = "mkdocs.yml"
+EXCLUSION_LIST = ["test.py"]
 # ---------------------------------------
 
 
@@ -34,7 +35,7 @@ def generate_markdown_files() -> list[tuple]:
         module_prefix = ".".join(package_parts)
 
         # Collect all .py files
-        py_files = [f for f in filenames if f.endswith(".py")]
+        py_files = [f for f in filenames if f.endswith(".py") and f not in EXCLUSION_LIST]
         if not py_files:
             continue  # skip folders with no .py files
 
