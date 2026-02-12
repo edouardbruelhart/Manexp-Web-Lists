@@ -36,6 +36,11 @@ docs-test: ## Test if documentation can be built without warnings or errors
 	@uv run python scripts/generate_doc.py
 	@uv run mkdocs build -s
 
+.PHONY: docs-deploy
+docs-deploy: ## Build and deploy documentation on github
+	@uv run python scripts/generate_doc.py
+	@uv run mkdocs gh-deploy
+
 .PHONY: docs
 docs: ## Build and serve the documentation
 	@uv run python scripts/generate_doc.py
