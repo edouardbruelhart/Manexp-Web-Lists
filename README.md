@@ -9,3 +9,7 @@ A repository to fetch and host lists for Manexp-Web project, notably the species
 
 - **Github repository**: <https://github.com/edouardbruelhart/Manexp-Web-Lists/>
 - **Documentation** <https://edouardbruelhart.github.io/Manexp-Web-Lists/>
+
+## Taxon list structure
+
+[Go to taxon list documentation](https://edouardbruelhart.github.io/Manexp-Web-Lists/modules/manexp_web_lists_taxa_models/#manexp_web_lists.taxa.models.taxa.ColoredTaxa)

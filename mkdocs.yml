@@ -42,9 +42,14 @@ plugins:
         paths: ["manexp_web_lists"]
         options:
           docstring_style: google
-          merge_init_into_parent: true
           show_source: true
           show_signature_annotations: true
+          show_docstring_attributes: true
+          show_model_fields: true
+          docstring_section_style: table
+          extensions:
+          - griffe_pydantic:
+            schema: true
 theme:
   name: material
   feature:
@@ -79,3 +84,4 @@ markdown_extensions:
     permalink: true
 - pymdownx.arithmatex:
     generic: true
+- pymdownx.snippets

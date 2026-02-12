@@ -30,7 +30,7 @@ class Translation(StrictModel):
 
 
 class Translations(StrictModel):
-    """Represents the translations for a taxon"""
+    """Represents the translations model for a taxon"""
 
     fr: Translation = Field(..., description="French translation")
     en: Translation = Field(..., description="English translation")
