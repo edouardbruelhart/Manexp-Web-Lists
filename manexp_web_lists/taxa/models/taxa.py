@@ -1,7 +1,7 @@
 from enum import Enum
 from typing import Optional
 
-from pydantic import field_validator
+from pydantic import Field, field_validator
 
 from manexp_web_lists.taxa.models.crops import Crops
 from manexp_web_lists.utils.strict_model import StrictModel
@@ -30,12 +30,12 @@ class Translation(StrictModel):
 
 
 class Translations(StrictModel):
-    """Represents the translations"""
+    """Represents the translations for a taxon"""
 
-    fr: Translation
-    en: Translation
-    de: Translation
-    it: Translation
+    fr: Translation = Field(..., description="French translation")
+    en: Translation = Field(..., description="English translation")
+    de: Translation = Field(..., description="German translation")
+    it: Translation = Field(..., description="Italian translation")
 
 
 class TaxonRank(str, Enum):

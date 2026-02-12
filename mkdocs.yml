@@ -41,8 +41,10 @@ plugins:
       python:
         paths: ["manexp_web_lists"]
         options:
+          docstring_style: google
           merge_init_into_parent: true
           show_source: true
+          show_signature_annotations: true
 theme:
   name: material
   feature:
