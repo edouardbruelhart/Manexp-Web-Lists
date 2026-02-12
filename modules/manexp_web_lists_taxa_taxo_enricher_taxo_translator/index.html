@@ -1501,7 +1501,7 @@
 
 
 <h2 id="manexp_web_lists.taxa.taxo_enricher.taxo_translator.wikidata_translation.translate_with_wikidata" class="doc doc-heading">
-            <code class="highlight language-python"><span class="n">translate_with_wikidata</span><span class="p">(</span><span class="n">taxonomy</span><span class="p">)</span></code>
+            <code class="highlight language-python"><span class="n">translate_with_wikidata</span><span class="p">(</span><span class="n">taxonomy</span><span class="p">:</span> <span class="n">ResolvedTaxonomy</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">TranslationReport</span><span class="p">]</span></code>
 
 <a href="#manexp_web_lists.taxa.taxo_enricher.taxo_translator.wikidata_translation.translate_with_wikidata" class="headerlink" title="Permanent link">&para;</a></h2>
 
@@ -1776,7 +1776,7 @@
 
 
 <h2 id="manexp_web_lists.taxa.taxo_enricher.taxo_translator.taxo_translator.get_valid_translation" class="doc doc-heading">
-            <code class="highlight language-python"><span class="n">get_valid_translation</span><span class="p">(</span><span class="n">translation_report</span><span class="p">)</span></code>
+            <code class="highlight language-python"><span class="n">get_valid_translation</span><span class="p">(</span><span class="n">translation_report</span><span class="p">:</span> <span class="n">CompleteTranslationReport</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Translations</span></code>
 
 <a href="#manexp_web_lists.taxa.taxo_enricher.taxo_translator.taxo_translator.get_valid_translation" class="headerlink" title="Permanent link">&para;</a></h2>
 
@@ -1831,7 +1831,7 @@
 
 
 <h2 id="manexp_web_lists.taxa.taxo_enricher.taxo_translator.taxo_translator.is_translation_complete" class="doc doc-heading">
-            <code class="highlight language-python"><span class="n">is_translation_complete</span><span class="p">(</span><span class="n">translation_report</span><span class="p">)</span></code>
+            <code class="highlight language-python"><span class="n">is_translation_complete</span><span class="p">(</span><span class="n">translation_report</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">TranslationReport</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">TypeGuard</span><span class="p">[</span><span class="n">CompleteTranslationReport</span><span class="p">]</span></code>
 
 <a href="#manexp_web_lists.taxa.taxo_enricher.taxo_translator.taxo_translator.is_translation_complete" class="headerlink" title="Permanent link">&para;</a></h2>
 
@@ -1892,7 +1892,7 @@
 
 
 <h2 id="manexp_web_lists.taxa.taxo_enricher.taxo_translator.taxo_translator.taxo_translator" class="doc doc-heading">
-            <code class="highlight language-python"><span class="n">taxo_translator</span><span class="p">(</span><span class="n">input_taxons</span><span class="p">)</span></code>
+            <code class="highlight language-python"><span class="n">taxo_translator</span><span class="p">(</span><span class="n">input_taxons</span><span class="p">:</span> <span class="n">ResolvedTaxa</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">TranslatedTaxa</span></code>
 
 <a href="#manexp_web_lists.taxa.taxo_enricher.taxo_translator.taxo_translator.taxo_translator" class="headerlink" title="Permanent link">&para;</a></h2>
 
@@ -1999,7 +1999,7 @@
 
 
 <h2 id="manexp_web_lists.taxa.taxo_enricher.taxo_translator.taxo_translator.translate_taxo" class="doc doc-heading">
-            <code class="highlight language-python"><span class="n">translate_taxo</span><span class="p">(</span><span class="n">taxonomy</span><span class="p">)</span></code>
+            <code class="highlight language-python"><span class="n">translate_taxo</span><span class="p">(</span><span class="n">taxonomy</span><span class="p">:</span> <span class="n">ResolvedTaxonomy</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Translations</span><span class="p">]</span></code>
 
 <a href="#manexp_web_lists.taxa.taxo_enricher.taxo_translator.taxo_translator.translate_taxo" class="headerlink" title="Permanent link">&para;</a></h2>
 
