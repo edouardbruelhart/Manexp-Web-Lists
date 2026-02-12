@@ -5,7 +5,8 @@ from typing import TypeVar
 import requests
 from pydantic import BaseModel, ValidationError
 
-from manexp_web_lists.json_client.errors import InvalidJson, JsonNotFound
+from manexp_web_lists.exceptions.invalid_json_exception import InvalidJsonException
+from manexp_web_lists.exceptions.json_not_found_exception import JsonNotFoundException
 
 T = TypeVar("T", bound=BaseModel)
 
@@ -30,7 +31,7 @@ class JsonClient:
 
     def load_file(self, file_path: Path, structure: type[T]) -> T:
         if not file_path.exists():
-            raise JsonNotFound(file_path)
+            raise JsonNotFoundException(file_path)
 
         json_str = file_path.read_text(encoding="utf-8")
 
@@ -41,4 +42,4 @@ class JsonClient:
         try:
             return structure.model_validate(data)
         except ValidationError as e:
-            raise InvalidJson(file_path, structure) from e
+            raise InvalidJsonException(file_path, structure) from e

@@ -6,16 +6,7 @@ from pydantic import BaseModel
 T = TypeVar("T", bound=BaseModel)
 
 
-class JsonNotFound(FileNotFoundError):
-    def __init__(self, path: Path):
-        self.path = path
-        super().__init__(path)
-
-    def __str__(self) -> str:
-        return f"Json not found at {self.path}"
-
-
-class InvalidJson(Exception):
+class InvalidJsonException(Exception):
     def __init__(self, path: Path, structure: type[T]):
         self.path = path
         self.structure = structure
