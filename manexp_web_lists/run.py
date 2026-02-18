@@ -2,6 +2,7 @@ import logging
 
 from manexp_web_lists.core.logging_config import configure_logging, log_section
 from manexp_web_lists.core.mailer import Mailer
+from manexp_web_lists.taxa.fetch_taxa import fetch_taxa
 
 # Initialize mailer
 mailer = Mailer()
@@ -21,7 +22,7 @@ def run() -> None:
     try:
         # Generate taxon list
         log_section("FETCHING TAXA")
-        # fetch_taxa()
+        fetch_taxa()
 
         # Generate pesticides list
         log_section("FETCHING PESTICIDES")

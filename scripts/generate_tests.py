@@ -1,15 +1,16 @@
 from pathlib import Path
 
 PACKAGE_NAME = "manexp_web_lists"
-TESTS_DIR = Path("tests")
+TESTS_DIR = "tests"
 
 
 def generate_tests():
     """Generate test structure."""
+
     package_path = Path(PACKAGE_NAME)
 
     for py_file in package_path.rglob("*.py"):
-        if py_file.name == "__init__.py":
+        if py_file.name == "__init__.py" or py_file.name.__contains__("test"):
             continue
 
         relative_path = py_file.relative_to(package_path)
@@ -22,10 +23,9 @@ def generate_tests():
                 f"""\"\"\"Tests for {relative_path}\"\"\"
 
 def test_placeholder():
-    assert True
+    assert False
 """
             )
-            print(f"Created {test_file}")
 
 
 if __name__ == "__main__":
