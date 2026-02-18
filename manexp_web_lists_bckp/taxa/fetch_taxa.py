@@ -5,9 +5,9 @@ from manexp_web_lists.logging_config import log_sub_section
 from manexp_web_lists.taxa.color_generator.color_generator import color_generator
 from manexp_web_lists.taxa.conversions.varieties_to_taxa import varieties_to_taxa
 from manexp_web_lists.taxa.icon_generator.icon_generator import icon_generator
-from manexp_web_lists.taxa.models.varieties import Varieties
 from manexp_web_lists.taxa.taxo_enricher.taxo_resolver.taxo_resolver import taxo_resolver
 from manexp_web_lists.taxa.taxo_enricher.taxo_translator.taxo_translator import taxo_translator
+from manexp_web_lists.taxa.taxon_models.varieties import Varieties
 from manexp_web_lists.taxa.utils.save_taxa import save_taxa
 
 

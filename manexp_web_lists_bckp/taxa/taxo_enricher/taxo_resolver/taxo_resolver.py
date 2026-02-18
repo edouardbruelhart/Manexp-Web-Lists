@@ -3,10 +3,10 @@ from pathlib import Path
 from typing import Optional
 
 import requests
-
 from manexp_web_lists.exceptions.crop_category_mismatch import CropCategoryMismatchError
-from manexp_web_lists.taxa.models.crops import Crops
-from manexp_web_lists.taxa.models.taxa import (
+from manexp_web_lists.taxa.taxo_enricher.taxo_resolver.correction_dictionnary import apply_manual_correction
+from manexp_web_lists.taxa.taxon_models.crops import Crops
+from manexp_web_lists.taxa.taxon_models.taxa import (
     RawTaxa,
     RawTaxonomy,
     ResolvedClassification,
@@ -15,7 +15,6 @@ from manexp_web_lists.taxa.models.taxa import (
     ResolvedTaxonomy,
     TaxonRank,
 )
-from manexp_web_lists.taxa.taxo_enricher.taxo_resolver.correction_dictionnary import apply_manual_correction
 from manexp_web_lists.taxa.utils.save_taxa import save_taxa
 from manexp_web_lists.utils.strict_model import StrictModel
 

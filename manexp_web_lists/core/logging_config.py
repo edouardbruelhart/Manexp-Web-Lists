@@ -12,6 +12,16 @@ class SectionAwareFormatter(logging.Formatter):
     """
 
     def format(self, record: logging.LogRecord) -> str:
+        """
+        Format the log record
+
+        Args:
+            record: The log record to format
+
+        Returns:
+            str: The formatted log record
+        """
+
         # Section headers: no time, no level
         if getattr(record, "section", False):
             return record.getMessage()
@@ -24,8 +34,8 @@ def configure_logging() -> StringIO:
     """
     Configure logging
 
-    :return: The log stream for further use
-    :rtype: StringIO
+    Returns:
+        StringIO: The log stream for further use
     """
     root_logger = logging.getLogger()
     root_logger.setLevel(logging.INFO)
@@ -49,9 +59,10 @@ def log_section(title: str) -> None:
     """
     Create a section in the log
 
-    :param title: Title of the section
-    :type title: str
+    Args:
+        title: Title of the section
     """
+
     line = "=" * 60
     logger.info(
         "\n%s\n%s\n%s",
@@ -66,8 +77,8 @@ def log_sub_section(title: str) -> None:
     """
     Create a sub section in the log
 
-    :param title: Title of the sub section
-    :type title: str
+    Args:
+        title: Title of the section
     """
     line = "-" * 60
     logger.info(

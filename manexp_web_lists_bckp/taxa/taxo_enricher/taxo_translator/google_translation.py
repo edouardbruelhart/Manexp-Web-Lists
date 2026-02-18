@@ -1,7 +1,6 @@
 from deep_translator import GoogleTranslator
-
-from manexp_web_lists.taxa.models.taxa import Translation, TranslationSource
 from manexp_web_lists.taxa.taxo_enricher.taxo_translator.models import TranslationReport
+from manexp_web_lists.taxa.taxon_models.taxa import Translation, TranslationSource
 
 
 def translate_with_google(translation_report: TranslationReport) -> TranslationReport:

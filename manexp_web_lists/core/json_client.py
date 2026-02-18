@@ -6,17 +6,23 @@ from typing import TypeVar
 import requests
 from pydantic import BaseModel
 
-T = TypeVar("T", bound=BaseModel)
+Structure = TypeVar("Structure", bound=BaseModel)
 
 # Initialize logger
 logger = logging.getLogger(__name__)
 
 
 class JsonClient:
-    """Client to manage JSON files."""
+    """Client to manage JSON files"""
 
     def download_file(self, url: str, file_path: Path) -> None:
-        """Download a json file from the internet."""
+        """
+        Download a json file from the internet.
+
+        Args:
+            url: The url of the JSON to download
+            file_path: the path where to save the file
+        """
 
         # Request
         with requests.Session() as session:
@@ -35,8 +41,17 @@ class JsonClient:
             encoding="utf-8",
         )
 
-    def load_file(self, file_path: Path, structure: type[T]) -> T:
-        """Safely load json file from memory using given structure"""
+    def load_file(self, file_path: Path, structure: type[Structure]) -> Structure:
+        """
+        Safely load json file from memory using given structure
+
+        Args:
+            file_path: The path where the file is stored
+            structure: The pydantic structure that matches the file content
+
+        Returns:
+            Structure: An instance of the pydantic structure representing the file structure
+        """
 
         # Read file
         json_str = file_path.read_text(encoding="utf-8")

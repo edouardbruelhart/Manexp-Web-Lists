@@ -1,9 +1,9 @@
 import logging
 from pathlib import Path
 
-from manexp_web_lists.taxa.models.crops import Crop, Crops
-from manexp_web_lists.taxa.models.taxa import RawClassification, RawTaxa, RawTaxon, RawTaxonomy, TaxonRank
-from manexp_web_lists.taxa.models.varieties import Varieties
+from manexp_web_lists.taxa.taxon_models.crops import Crop, Crops
+from manexp_web_lists.taxa.taxon_models.taxa import RawClassification, RawTaxa, RawTaxon, RawTaxonomy, TaxonRank
+from manexp_web_lists.taxa.taxon_models.varieties import Varieties
 from manexp_web_lists.taxa.utils.save_taxa import save_taxa
 
 # Initialize logger

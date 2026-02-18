@@ -1,14 +1,13 @@
 from typing import Optional
 
 import requests
-
-from manexp_web_lists.taxa.models.taxa import (
+from manexp_web_lists.taxa.taxo_enricher.taxo_translator.models import TranslationReport
+from manexp_web_lists.taxa.taxon_models.taxa import (
     ResolvedTaxonomy,
     TaxonRank,
     Translation,
     TranslationSource,
 )
-from manexp_web_lists.taxa.taxo_enricher.taxo_translator.models import TranslationReport
 
 # Default resquest session that can be customized globally
 session = requests.Session()

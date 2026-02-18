@@ -1,10 +1,7 @@
 import logging
-from typing import Callable
 
-from manexp_web_lists.logging_config import configure_logging, log_section
-from manexp_web_lists.pesticides.fetch_pesticides import fetch_pesticides
-from manexp_web_lists.taxa.fetch_taxa import fetch_taxa
-from manexp_web_lists.utils.mailer import Mailer
+from manexp_web_lists.core.logging_config import configure_logging, log_section
+from manexp_web_lists.core.mailer import Mailer
 
 # Initialize mailer
 mailer = Mailer()
@@ -13,26 +10,22 @@ mailer = Mailer()
 logger = logging.getLogger(__name__)
 
 
-def main(taxa: Callable = fetch_taxa, pesticides: Callable = fetch_pesticides) -> None:
+def run() -> None:
     """
-    Main function to fetch and clean the different lists
+    The main function to fetch all the lists
+    """
 
-    :param taxa: The function to fetch the taxa
-    :type taxa: Callable
-    :param pesticides: The function to fetch the pesticides
-    :type pesticides: Callable
-    """
     # Configure logging
     log_stream = configure_logging()
 
     try:
         # Generate taxon list
         log_section("FETCHING TAXA")
-        taxa()
+        # fetch_taxa()
 
         # Generate pesticides list
         log_section("FETCHING PESTICIDES")
-        pesticides()
+        # fetch_pesticides()
 
         # Send success recap
         mailer.send_email(
@@ -49,4 +42,4 @@ def main(taxa: Callable = fetch_taxa, pesticides: Callable = fetch_pesticides) -
 
 
 if __name__ == "__main__":
-    main()
+    run()

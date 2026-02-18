@@ -2,17 +2,17 @@ import logging
 from pathlib import Path
 from typing import Optional, TypeGuard
 
-from manexp_web_lists.taxa.models.taxa import (
+from manexp_web_lists.taxa.taxo_enricher.taxo_translator.gbif_translation import translate_with_gbif
+from manexp_web_lists.taxa.taxo_enricher.taxo_translator.google_translation import translate_with_google
+from manexp_web_lists.taxa.taxo_enricher.taxo_translator.models import CompleteTranslationReport, TranslationReport
+from manexp_web_lists.taxa.taxo_enricher.taxo_translator.wikidata_translation import translate_with_wikidata
+from manexp_web_lists.taxa.taxon_models.taxa import (
     ResolvedTaxa,
     ResolvedTaxonomy,
     TranslatedTaxa,
     TranslatedTaxon,
     Translations,
 )
-from manexp_web_lists.taxa.taxo_enricher.taxo_translator.gbif_translation import translate_with_gbif
-from manexp_web_lists.taxa.taxo_enricher.taxo_translator.google_translation import translate_with_google
-from manexp_web_lists.taxa.taxo_enricher.taxo_translator.models import CompleteTranslationReport, TranslationReport
-from manexp_web_lists.taxa.taxo_enricher.taxo_translator.wikidata_translation import translate_with_wikidata
 from manexp_web_lists.taxa.utils.save_taxa import save_taxa
 
 # Initialize logger

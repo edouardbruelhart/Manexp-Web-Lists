@@ -2,7 +2,7 @@ import colorsys
 import hashlib
 from pathlib import Path
 
-from manexp_web_lists.taxa.models.taxa import ColoredTaxa, ColoredTaxon, IconedTaxa
+from manexp_web_lists.taxa.taxon_models.taxa import ColoredTaxa, ColoredTaxon, IconedTaxa
 from manexp_web_lists.taxa.utils.save_taxa import save_taxa
 
 

@@ -6,11 +6,19 @@ from dotenv import load_dotenv
 
 
 class Mailer:
-    """Simple mailer class to send emails using SMTP."""
+    """Client to send emails using SMTP."""
 
     load_dotenv()
 
     def send_email(self, subject: str, body: str) -> None:
+        """
+        Docstring pour send_email
+
+        Args:
+            subject: The subject of the email
+            body: The body of the email
+        """
+
         # Get environment variables
         email_sender = str(os.getenv("EMAIL_SENDER"))
         smtp = str(os.getenv("SMTP"))

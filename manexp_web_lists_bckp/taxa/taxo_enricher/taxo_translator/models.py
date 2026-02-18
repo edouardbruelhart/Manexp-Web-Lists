@@ -1,6 +1,6 @@
 from typing import Optional
 
-from manexp_web_lists.taxa.models.taxa import Translation
+from manexp_web_lists.taxa.taxon_models.taxa import Translation
 from manexp_web_lists.utils.strict_model import StrictModel
 
 
