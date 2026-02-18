@@ -10,10 +10,12 @@ check: ## Run code quality tools.
 	@uv lock --locked
 	@echo "🚀 Linting code: Running pre-commit"
 	@uv run pre-commit run -a
-	@echo "🚀 Documentation check: Running pydoclint"
-	@uv run pydoclint ./manexp_web_lists
 	@echo "🚀 Static type checking: Running mypy"
 	@uv run mypy
+	@echo "🚀 Documentation check: Running pydoclint"
+	@uv run pydoclint manexp_web_lists
+	@echo "🚀 Documentation coverage check: Running interrogate"
+	@uv run interrogate manexp_web_lists
 	@echo "🚀 Checking for obsolete dependencies: Running deptry"
 	@uv run deptry .
 

@@ -1,59 +1,43 @@
-site_name: Manexp-Web-Lists
-repo_url: https://github.com/edouardbruelhart/Manexp-Web-Lists
-site_url: https://edouardbruelhart.github.io/Manexp-Web-Lists
-site_description: A repository to fetch and host lists for Manexp-Web project,
-  notably the species and pesticides lists.
+site_name: Manexp Web Lists Documentation
 site_author: Edouard Brülhart
-edit_uri: edit/main/docs/
+
 repo_name: edouardbruelhart/Manexp-Web-Lists
 copyright: Maintained by <a
   href="https://github.com/edouardbruelhart">edouardbruelhart</a>.
 
-nav:
-- Home: index.md
-- Modules:
-  - manexp_web_lists: modules/manexp_web_lists.md
-  - manexp_web_lists.pesticides: modules/manexp_web_lists_pesticides.md
-  - manexp_web_lists.utils: modules/manexp_web_lists_utils.md
-  - manexp_web_lists.taxa: modules/manexp_web_lists_taxa.md
-  - manexp_web_lists.taxa.color_generator:
-      modules/manexp_web_lists_taxa_color_generator.md
-  - manexp_web_lists.taxa.models: modules/manexp_web_lists_taxa_models.md
-  - manexp_web_lists.taxa.icon_generator:
-      modules/manexp_web_lists_taxa_icon_generator.md
-  - manexp_web_lists.taxa.icon_generator.models:
-      modules/manexp_web_lists_taxa_icon_generator_models.md
-  - manexp_web_lists.taxa.conversions:
-      modules/manexp_web_lists_taxa_conversions.md
-  - manexp_web_lists.taxa.utils: modules/manexp_web_lists_taxa_utils.md
-  - manexp_web_lists.taxa.taxo_enricher:
-      modules/manexp_web_lists_taxa_taxo_enricher.md
-  - manexp_web_lists.taxa.taxo_enricher.taxo_translator:
-      modules/manexp_web_lists_taxa_taxo_enricher_taxo_translator.md
-  - manexp_web_lists.taxa.taxo_enricher.taxo_resolver:
-      modules/manexp_web_lists_taxa_taxo_enricher_taxo_resolver.md
-  - manexp_web_lists.json_client: modules/manexp_web_lists_json_client.md
-  - manexp_web_lists.exceptions: modules/manexp_web_lists_exceptions.md
 plugins:
 - search
 - mkdocstrings:
     handlers:
       python:
         paths: ["manexp_web_lists"]
+        import:
+        - https://raw.githubusercontent.com/pyapp-kit/griffe-fieldz/main/README.md
         options:
+          show_signature: true
+          show_source: false
           docstring_style: google
-          show_source: true
-          show_signature_annotations: true
-          show_docstring_attributes: true
-          show_model_fields: true
           docstring_section_style: table
+          members_order: source
+          separate_signature: true
+          show_signature_annotations: true
+          show_docstring_parameters: true
+          show_docstring_returns: true
+          show_docstring_description: true
+          show_model_fields: false
+          merge_init_into_class: true
+          show_if_no_docstring: false
+          show_members: true
+          filters: ["!^_"]
+          show_root_heading: false
+          line_length: 60
+          show_docstring_attributes: true
+          show_docstring_examples: true
           extensions:
-          - griffe_pydantic:
-            schema: true
+          - griffe_fieldz
+
 theme:
   name: material
-  feature:
-    tabs: true
   palette:
   - media: "(prefers-color-scheme: light)"
     scheme: default
@@ -69,19 +53,45 @@ theme:
     toggle:
       icon: material/brightness-4
       name: Switch to light mode
+  features:
+  - content.tabs.link
+  - content.code.annotate
+  - content.code.copy
+  - announce.dismiss
+  - navigation.tabs
+  - navigation.instant
+  - navigation.instant.prefetch
+  - navigation.instant.preview
+  - navigation.instant.progress
+  - navigation.path
+  - navigation.sections
+  - navigation.top
+  - navigation.tracking
+  - search.suggest
+  - toc.follow
   icon:
     repo: fontawesome/brands/github
 
+nav:
+- Run: manexp_web_lists/run.md
+- Core:
+  - Json client: manexp_web_lists/core/json_client.md
+  - Logging config: manexp_web_lists/core/logging_config.md
+  - Mailer: manexp_web_lists/core/mailer.md
 extra:
   social:
   - icon: fontawesome/brands/github
     link: https://github.com/edouardbruelhart/Manexp-Web-Lists
-  - icon: fontawesome/brands/python
-    link: https://pypi.org/project/Manexp-Web-Lists
+  - icon: fontawesome/solid/globe
+    link: https://manexp.ch
 
 markdown_extensions:
-- toc:
-    permalink: true
-- pymdownx.arithmatex:
-    generic: true
+- tables
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.highlight:
+    pygments_lang_class: true
+- pymdownx.tabbed:
+    alternate_style: true
 - pymdownx.snippets
