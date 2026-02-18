@@ -5,6 +5,7 @@ TESTS_DIR = Path("tests")
 
 
 def generate_tests():
+    """Generate test structure."""
     package_path = Path(PACKAGE_NAME)
 
     for py_file in package_path.rglob("*.py"):

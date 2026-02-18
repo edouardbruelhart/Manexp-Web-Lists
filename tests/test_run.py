@@ -1,4 +1,4 @@
-"""Tests for logging_config.py"""
+"""Tests for run.py"""
 
 
 def test_placeholder():

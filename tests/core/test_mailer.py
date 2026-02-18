@@ -1,4 +1,4 @@
-"""Tests for taxa/models/taxa.py"""
+"""Tests for core/mailer.py"""
 
 
 def test_placeholder():
