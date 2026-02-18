@@ -3,6 +3,15 @@ revision = 3
 requires-python = ">=3.10, <4.0"
 
 [[package]]
+name = "aenum"
+version = "3.1.16"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/09/7a/61ed58e8be9e30c3fe518899cc78c284896d246d51381bab59b5db11e1f3/aenum-3.1.16.tar.gz", hash = "sha256:bfaf9589bdb418ee3a986d85750c7318d9d2839c1b1a1d6fe8fc53ec201cf140", size = 137693, upload-time = "2026-01-12T22:34:38.819Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e3/52/6ad8f63ec8da1bf40f96996d25d5b650fdd38f5975f8c813732c47388f18/aenum-3.1.16-py3-none-any.whl", hash = "sha256:9035092855a98e41b66e3d0998bd7b96280e85ceb3a04cc035636138a1943eaf", size = 165627, upload-time = "2025-04-25T03:17:58.89Z" },
+]
+
+[[package]]
 name = "annotated-types"
 version = "0.7.0"
 source = { registry = "https://pypi.org/simple" }
@@ -350,6 +359,15 @@ wheels = [
 ]
 
 [[package]]
+name = "docstring-parser-fork"
+version = "0.0.14"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/66/bf/27f9cab2f0cd1d17a4420572088bbc19f36d726fbcf165edf226a8926dbc/docstring_parser_fork-0.0.14.tar.gz", hash = "sha256:a2743a63d8d36c09650594f7b4ab5b2758fee8629dcf794d1b221b23179baa5c", size = 34551, upload-time = "2025-09-07T17:27:38.272Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/bf/50/98b146aea0f1cd7531d25f12bea69fa9ce8d1662124f93fb30dc4511b65e/docstring_parser_fork-0.0.14-py3-none-any.whl", hash = "sha256:4c544f234ef2cc2749a3df32b70c437d77888b1099143a1ad5454452c574b9af", size = 43063, upload-time = "2025-09-07T17:27:37.012Z" },
+]
+
+[[package]]
 name = "dotenv"
 version = "0.9.9"
 source = { registry = "https://pypi.org/simple" }
@@ -370,6 +388,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/50/79/66800aadf48771f6b62f7eb014e352e5d06856655206165d775e675a02c9/exceptiongroup-1.3.1.tar.gz", hash = "sha256:8b412432c6055b0b7d14c310000ae93352ed6754f70fa8f7c34141f91c4e3219", size = 30371, upload-time = "2025-11-21T23:01:54.787Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/8a/0e/97c33bf5009bdbac74fd2beace167cab3f978feb69cc36f1ef79360d6c4e/exceptiongroup-1.3.1-py3-none-any.whl", hash = "sha256:a7a39a3bd276781e98394987d3a5701d0c4edffb633bb7a5144577f82c773598", size = 16740, upload-time = "2025-11-21T23:01:53.443Z" },
+]
+
+[[package]]
+name = "fieldz"
+version = "0.1.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/78/c2/9d35a747f439051bff41511178b0b527f1466c7fd4b5a5f7357c136e82bc/fieldz-0.1.3.tar.gz", hash = "sha256:bc21013b2bd5f8a4a782ecef440343ff059fc0a4a2033ae4d616311675260585", size = 18018, upload-time = "2025-09-26T20:42:24.67Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/12/a0/5db990f52226aa4e01e268f285fa56ddf233b3b27b993b4ecc751cf2216f/fieldz-0.1.3-py3-none-any.whl", hash = "sha256:f975fc6f250958966e39504f89bf09bad41479b4c5e0b06b36d13fd92fbac792", size = 18227, upload-time = "2025-09-26T20:42:22.894Z" },
 ]
 
 [[package]]
@@ -403,6 +433,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/0d/0c/3a471b6e31951dce2360477420d0a8d1e00dea6cf33b70f3e8c3ab6e28e1/griffe-1.15.0.tar.gz", hash = "sha256:7726e3afd6f298fbc3696e67958803e7ac843c1cfe59734b6251a40cdbfb5eea", size = 424112, upload-time = "2025-11-10T15:03:15.52Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/9c/83/3b1d03d36f224edded98e9affd0467630fc09d766c0e56fb1498cbb04a9b/griffe-1.15.0-py3-none-any.whl", hash = "sha256:6f6762661949411031f5fcda9593f586e6ce8340f0ba88921a0f2ef7a81eb9a3", size = 150705, upload-time = "2025-11-10T15:03:13.549Z" },
+]
+
+[[package]]
+name = "griffe-fieldz"
+version = "0.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "fieldz" },
+    { name = "griffe" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3b/aa/eb58d641261f5222651db86976439dccde5dadeda42fb8c3445b1c85b7cc/griffe_fieldz-0.4.0.tar.gz", hash = "sha256:91d25a8199df4be8a5175556d9d8e6f43ef45cf5e93e52b8babfe4cf1037d5ff", size = 13283, upload-time = "2025-12-07T01:55:01.323Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/af/68/b7aa4caf9567863908b3b928e3ec141787044e3392d429e5b453f70bbfa4/griffe_fieldz-0.4.0-py3-none-any.whl", hash = "sha256:92b7ed3fd86c1da35b2851a272913ef27439c9cc3c232c15cab7eda34d2a51ad", size = 9087, upload-time = "2025-12-07T01:54:59.924Z" },
 ]
 
 [[package]]
@@ -534,8 +577,11 @@ name = "manexp-web-lists"
 version = "0.0.1"
 source = { editable = "." }
 dependencies = [
+    { name = "aenum" },
     { name = "deep-translator" },
     { name = "dotenv" },
+    { name = "griffe-fieldz" },
+    { name = "mkdocstrings" },
     { name = "pydantic" },
     { name = "requests" },
     { name = "ruamel-yaml" },
@@ -550,6 +596,7 @@ dev = [
     { name = "mkdocstrings", extra = ["python"] },
     { name = "mypy" },
     { name = "pre-commit" },
+    { name = "pydoclint" },
     { name = "pytest" },
     { name = "pytest-cov" },
     { name = "ruff" },
@@ -559,8 +606,11 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "aenum", specifier = ">=3.1.16" },
     { name = "deep-translator", specifier = ">=1.11.4" },
     { name = "dotenv", specifier = ">=0.9.9" },
+    { name = "griffe-fieldz", specifier = ">=0.4.0" },
+    { name = "mkdocstrings", specifier = ">=1.0.2" },
     { name = "pydantic", specifier = ">=2.12.5" },
     { name = "requests", specifier = ">=2.32.5" },
     { name = "ruamel-yaml", specifier = ">=0.19.1" },
@@ -576,6 +626,7 @@ dev = [
     { name = "mkdocstrings", extras = ["python"], specifier = ">=1.0.2" },
     { name = "mypy", specifier = ">=1.19.1" },
     { name = "pre-commit", specifier = ">=4.5.1" },
+    { name = "pydoclint", specifier = ">=0.8.3" },
     { name = "pytest", specifier = ">=9.0.2" },
     { name = "pytest-cov", specifier = ">=7.0.0" },
     { name = "ruff", specifier = ">=0.14.10" },
@@ -1062,6 +1113,20 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/1f/f2/f11dd73284122713f5f89fc940f370d035fa8e1e078d446b3313955157fe/pydantic_core-2.41.5-pp311-pypy311_pp73-musllinux_1_1_armv7l.whl", hash = "sha256:a668ce24de96165bb239160b3d854943128f4334822900534f2fe947930e5770", size = 2330317, upload-time = "2025-11-04T13:43:40.406Z" },
     { url = "https://files.pythonhosted.org/packages/88/9d/b06ca6acfe4abb296110fb1273a4d848a0bfb2ff65f3ee92127b3244e16b/pydantic_core-2.41.5-pp311-pypy311_pp73-musllinux_1_1_x86_64.whl", hash = "sha256:f14f8f046c14563f8eb3f45f499cc658ab8d10072961e07225e507adb700e93f", size = 2316992, upload-time = "2025-11-04T13:43:43.602Z" },
     { url = "https://files.pythonhosted.org/packages/36/c7/cfc8e811f061c841d7990b0201912c3556bfeb99cdcb7ed24adc8d6f8704/pydantic_core-2.41.5-pp311-pypy311_pp73-win_amd64.whl", hash = "sha256:56121965f7a4dc965bff783d70b907ddf3d57f6eba29b6d2e5dabfaf07799c51", size = 2145302, upload-time = "2025-11-04T13:43:46.64Z" },
+]
+
+[[package]]
+name = "pydoclint"
+version = "0.8.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "click" },
+    { name = "docstring-parser-fork" },
+    { name = "tomli", marker = "python_full_version < '3.11'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/70/58/bb3c7edd2bd06b07d9bbb494e52e2d2d6d53405b166aac531b1a27cef972/pydoclint-0.8.3.tar.gz", hash = "sha256:0c69c0ed92c6f6b5aec2a14371bbd9e0a77980da8e2fa0f708092aa06b3b20b3", size = 186619, upload-time = "2025-11-26T06:53:43.361Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/87/6f/cc2b231dc78d8c3aaa674a676db190b8f8071c50134af8f8cf39b9b8e8df/pydoclint-0.8.3-py3-none-any.whl", hash = "sha256:5fc9b82d0d515afce0908cb70e8ff695a68b19042785c248c4f227ad66b4a164", size = 79075, upload-time = "2025-11-26T06:53:42.129Z" },
 ]
 
 [[package]]
