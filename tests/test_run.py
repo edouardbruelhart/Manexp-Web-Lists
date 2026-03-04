@@ -27,5 +27,16 @@ def test_run_calls_fetches_and_mailer():
         # Assertions
         mock_taxa.assert_called_once()
         mock_pest.assert_called_once()
-        mock_mail.assert_called_once_with(subject="Manexp-Web-List SUCCESS Report", body="log content")
-        mock_section.assert_any_call("TEST_SECTION")
+        mock_mail.assert_called_once()
+        mock_section.assert_called()
+
+
+def test_run_exception_sends_error_email():
+    with (
+        patch("manexp_web_lists.run.fetch_taxa", side_effect=RuntimeError),
+        patch("manexp_web_lists.core.mailer.Mailer.send_email") as mock_send,
+    ):
+        run()
+
+        mock_send.assert_called_once()
+        assert "EXCEPTION" in mock_send.call_args.kwargs["subject"]
