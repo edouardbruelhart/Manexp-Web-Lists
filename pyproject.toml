@@ -21,6 +21,7 @@ dependencies = [
     "deep-translator>=1.11.4",
     "dotenv>=0.9.9",
     "pydantic>=2.12.5",
+    "pydantic-core>=2.41.5",
     "requests>=2.32.5",
     "ruamel-yaml>=0.19.1",
 ]
@@ -46,6 +47,7 @@ dev = [
     "pydoclint>=0.8.3",
     "griffe-fieldz>=0.4.0",
     "interrogate>=1.7.0",
+    "pytest-mock>=3.15.1",
 ]
 
 [build-system]
@@ -78,6 +80,7 @@ skip-checking-short-docstrings = false
 check-return-types = true
 check-yield-types = false
 check-style-mismatch = true
+check-class-attributes = false
 
 [tool.interrogate]
 fail-under = 100
