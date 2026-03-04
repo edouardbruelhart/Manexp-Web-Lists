@@ -1,5 +1,5 @@
 # Manual correction
 
-::: manexp_web_lists.taxa.taxo_resolver.manual_correction
+::: manexp_web_lists.taxa.varieties_to_taxa.manual_correction
     rendering:
       show_root_heading: false

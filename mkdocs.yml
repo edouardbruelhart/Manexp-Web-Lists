@@ -80,27 +80,44 @@ nav:
   - Fetch taxa: manexp_web_lists/taxa/fetch_taxa.md
   - Save taxa: manexp_web_lists/taxa/save_taxa.md
 - Varieties_to_taxa:
+  - Manual correction:
+      manexp_web_lists/taxa/varieties_to_taxa/manual_correction.md
   - Varieties to taxa:
       manexp_web_lists/taxa/varieties_to_taxa/varieties_to_taxa.md
+- Color_generator:
+  - Color generator: manexp_web_lists/taxa/color_generator/color_generator.md
+  - Text to color: manexp_web_lists/taxa/color_generator/text_to_color.md
 - Models:
   - Crops: manexp_web_lists/taxa/models/crops.md
   - Taxa: manexp_web_lists/taxa/models/taxa.md
   - Taxonomy: manexp_web_lists/taxa/models/taxonomy.md
   - Translations: manexp_web_lists/taxa/models/translations.md
   - Varieties: manexp_web_lists/taxa/models/varieties.md
+- Icon_generator:
+  - Get unique families:
+      manexp_web_lists/taxa/icon_generator/get_unique_families.md
+  - Icon generator: manexp_web_lists/taxa/icon_generator/icon_generator.md
+- Taxo_cleaner:
+  - Clean taxonomy: manexp_web_lists/taxa/taxo_cleaner/clean_taxonomy.md
+  - Resolve taxonomy: manexp_web_lists/taxa/taxo_cleaner/resolve_taxonomy.md
+  - Taxo cleaner: manexp_web_lists/taxa/taxo_cleaner/taxo_cleaner.md
 - Taxo_translator:
   - Gbif translation: manexp_web_lists/taxa/taxo_translator/gbif_translation.md
   - Google translation:
       manexp_web_lists/taxa/taxo_translator/google_translation.md
+  - Models: manexp_web_lists/taxa/taxo_translator/models.md
   - Taxo translator: manexp_web_lists/taxa/taxo_translator/taxo_translator.md
+  - Translate taxon: manexp_web_lists/taxa/taxo_translator/translate_taxon.md
   - Wikidata translation:
       manexp_web_lists/taxa/taxo_translator/wikidata_translation.md
-- Taxo_resolver:
-  - Manual correction: manexp_web_lists/taxa/taxo_resolver/manual_correction.md
-  - Taxo resolver: manexp_web_lists/taxa/taxo_resolver/taxo_resolver.md
+- Requests:
+  - Gbif requests: manexp_web_lists/requests/gbif_requests.md
+  - Google requests: manexp_web_lists/requests/google_requests.md
+  - Wikidata requests: manexp_web_lists/requests/wikidata_requests.md
 - Exceptions:
   - Crop category mismatch:
       manexp_web_lists/exceptions/crop_category_mismatch.md
+  - Families error: manexp_web_lists/exceptions/families_error.md
 - Core:
   - Date parser: manexp_web_lists/core/date_parser.md
   - Json client: manexp_web_lists/core/json_client.md
