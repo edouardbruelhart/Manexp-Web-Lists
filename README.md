@@ -3,7 +3,6 @@
 [![Build status](https://img.shields.io/github/actions/workflow/status/edouardbruelhart/Manexp-Web-Lists/main.yml?branch=main)](https://github.com/edouardbruelhart/Manexp-Web-Lists/actions/workflows/main.yml?query=branch%3Amain)
 [![codecov](https://codecov.io/gh/edouardbruelhart/Manexp-Web-Lists/branch/main/graph/badge.svg)](https://codecov.io/gh/edouardbruelhart/Manexp-Web-Lists)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/edouardbruelhart/Manexp-Web-Lists)](https://img.shields.io/github/commit-activity/m/edouardbruelhart/Manexp-Web-Lists)
-[![License](https://img.shields.io/github/license/edouardbruelhart/Manexp-Web-Lists)](https://img.shields.io/github/license/edouardbruelhart/Manexp-Web-Lists)
 
 This repository aggregates and transforms data originating from multiple third-party sources, including public institutions and open data platforms for Manexp-Web project.
 
