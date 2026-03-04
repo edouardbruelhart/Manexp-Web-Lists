@@ -2,12 +2,7 @@ from pydantic import BaseModel, ConfigDict
 
 
 class StrictModel(BaseModel):
-    """
-    Define a strict model for pydantic classes
-
-    Attributes:
-        model_config: The model configuration
-    """
+    """Define a strict model for pydantic classes"""
 
     model_config = ConfigDict(
         extra="forbid",

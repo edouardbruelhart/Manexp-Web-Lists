@@ -2,6 +2,7 @@ import logging
 
 from manexp_web_lists.core.logging_config import configure_logging, log_section
 from manexp_web_lists.core.mailer import Mailer
+from manexp_web_lists.pesticides.fetch_pesticides import fetch_pesticides
 from manexp_web_lists.taxa.fetch_taxa import fetch_taxa
 
 # Initialize mailer
@@ -26,7 +27,7 @@ def run() -> None:
 
         # Generate pesticides list
         log_section("FETCHING PESTICIDES")
-        # fetch_pesticides()
+        fetch_pesticides()
 
         # Send success recap
         mailer.send_email(
@@ -42,5 +43,5 @@ def run() -> None:
         )
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     run()
