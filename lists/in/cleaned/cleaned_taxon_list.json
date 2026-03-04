@@ -92,24 +92,6 @@
             "denomination": "Marvellion"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "tomate",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "tomato",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Tomate",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "pomodoro",
-          "source": "google"
-        }
       }
     },
     {
@@ -990,24 +972,238 @@
             "denomination": "KLEPP 07166"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "P\u00e9largonium pelt\u00e9",
-          "source": "gbif"
+      }
+    },
+    {
+      "crop_category": "Ornamental and medicinal plants",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium L'H\u00e9r. ex Ait.",
+          "species": "hybrids between Pelargonium peltatum and Pelargonium zonale",
+          "focal_name": "hybrids between Pelargonium peltatum and Pelargonium zonale"
         },
-        "en": {
-          "name": "Ivyleaf Geranium",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Efeublatt-Geranie",
-          "source": "google"
-        },
-        "it": {
-          "name": "Geranio foglia d'edera",
-          "source": "google"
+        "cleaned_classification": {
+          "family": "Geraniaceae",
+          "genus": "Pelargonium",
+          "species": "Hybrids between peltatum",
+          "focal_name": "Hybrids between peltatum"
         }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "ed347a6f-b861-e0a0-c86c-8e0799d94b7a",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 23785"
+          },
+          {
+            "id": "58a43a11-bc76-8b79-1367-64de91428cdd",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactioscarkiss"
+          },
+          {
+            "id": "b5124885-8f07-453f-36c1-e7d14e70d424",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEPZ 22680"
+          },
+          {
+            "id": "f9c30481-5b22-a9a4-bb5d-cfa5873df263",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEPZ 22698"
+          },
+          {
+            "id": "9c13c0f0-16a3-d3ca-5c4f-3de56db8960e",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 22654"
+          },
+          {
+            "id": "4de41b30-c890-e85d-5132-5ace672db8af",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiohopispl"
+          },
+          {
+            "id": "4a4b1d70-d5bf-3779-bf27-208255459c9d",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiocomwhispl"
+          },
+          {
+            "id": "3d76424a-6d9e-a76c-4016-bca1b9bc26c0",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiovio"
+          },
+          {
+            "id": "8894111e-79cc-817d-5acb-780d400cc5e3",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiodare"
+          },
+          {
+            "id": "5a5fd1c5-4d9d-fad5-1909-46d3d52055de",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiocomcor"
+          },
+          {
+            "id": "8bc5f7c9-b1c3-cc91-0d54-86c6f5726df5",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiopispl"
+          },
+          {
+            "id": "8f266400-5e4e-e06c-47d6-3724e79e06ef",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiowhi"
+          },
+          {
+            "id": "874e2f33-485d-f13b-098b-6831cc62b0f4",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 19024"
+          },
+          {
+            "id": "8927ea3d-1c8c-d18d-cb2b-122cef250f9c",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 19284"
+          },
+          {
+            "id": "c5149937-ad76-ce44-6329-e648f3be1041",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 18162"
+          },
+          {
+            "id": "4716efda-63f5-3eea-6537-b8a58debd485",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiopea"
+          },
+          {
+            "id": "529ddf5a-feab-0333-dcba-d7e47feff747",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiored"
+          },
+          {
+            "id": "d8810b54-eb5a-3f77-7795-5916246ed143",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pacpeia"
+          },
+          {
+            "id": "a6b196bb-2c00-bba0-fbdb-1322d2626e9a",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIZ 15375"
+          },
+          {
+            "id": "193984d6-90a3-f8d1-1666-3db5c2e96216",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactioscar"
+          },
+          {
+            "id": "df882b0a-6377-6be2-30e5-d2f6467d7781",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 13342"
+          },
+          {
+            "id": "8d396c03-6460-4f9e-5464-b39282fcd779",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 13347"
+          },
+          {
+            "id": "9df5915c-eb2a-c3b3-862e-d1a51c1108b7",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 13348"
+          },
+          {
+            "id": "b5c29615-7301-4af4-84ac-b39389513ed6",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "PEQZ 0001"
+          },
+          {
+            "id": "f2fd135c-09f3-735e-9f1e-869595dfad7f",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "PEQZ 0002"
+          },
+          {
+            "id": "14e5bec8-7376-c8d2-463a-782cc4341ea5",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiopi"
+          },
+          {
+            "id": "4656d0e3-f0de-7b53-5f02-dac32de25bb8",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pacyell"
+          },
+          {
+            "id": "084e1102-b65b-a942-5064-c94163e96222",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Amri Trared"
+          },
+          {
+            "id": "6f218057-3e85-be8d-1df2-1e2a00c07ef4",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Cante Laver"
+          },
+          {
+            "id": "23e27239-2d74-9e05-1c37-85a7a34206e5",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Cante Firre"
+          },
+          {
+            "id": "a5794ad8-d441-8272-928a-38fbd28b1aca",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Fisgren"
+          },
+          {
+            "id": "895d0960-ae74-3bca-5e18-003e86864896",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEPZ 24789"
+          },
+          {
+            "id": "fa6433b7-4f5a-2561-7a1d-8adf5eea24bb",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiopimp"
+          },
+          {
+            "id": "da19e091-94e2-380f-25c0-f529cdce29b2",
+            "status": "Finalized",
+            "upov_code": "PELAR_PZO",
+            "denomination": "Pactiowhispl"
+          },
+          {
+            "id": "0dd7d06e-6413-7ca3-13b0-77d4d4286609",
+            "status": "InProgress",
+            "upov_code": "PELAR_PZO",
+            "denomination": "KLEIP 19162"
+          }
+        ]
       }
     },
     {
@@ -2920,24 +3116,6 @@
             "denomination": "Cope Scarfir"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "G\u00e9ranium",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Horseshoe Geranium",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Hufeisengeranie",
-          "source": "google"
-        },
-        "it": {
-          "name": "Geranio a ferro di cavallo",
-          "source": "google"
-        }
       }
     },
     {
@@ -3548,24 +3726,6 @@
             "denomination": "CIVH413"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "fraisier cultiv\u00e9",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "strawberry",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Gartenerdbeere",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "fragola",
-          "source": "wikidata"
-        }
       }
     },
     {
@@ -3774,24 +3934,6 @@
             "denomination": "Sumtare"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "merisier",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Bird Cherry",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "S\u00fc\u00dfkirsche",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Ciliegio",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -4006,24 +4148,6 @@
             "denomination": "Camwhi"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "p\u00e9largonium \u00e0 grandes fleurs",
-          "source": "google"
-        },
-        "en": {
-          "name": "large-flower pelargonium",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "gro\u00dfblumige Pelargonie",
-          "source": "google"
-        },
-        "it": {
-          "name": "Pelargonium a fiore grande",
-          "source": "google"
-        }
       }
     },
     {
@@ -4976,24 +5100,6 @@
             "denomination": "Daiane"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Pomme",
-          "source": "google"
-        },
-        "en": {
-          "name": "Apple",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Apfel",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Mela",
-          "source": "google"
-        }
       }
     },
     {
@@ -5094,24 +5200,6 @@
             "denomination": "Fruloche"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Ronce",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Blackberry",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Brombeere",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Mora",
-          "source": "google"
-        }
       }
     },
     {
@@ -5818,24 +5906,6 @@
             "denomination": "Laurette"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "pomme de terre",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "potato",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Kartoffel",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Patata",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -6572,24 +6642,6 @@
             "denomination": "Eiger"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Ble ordinaire",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Bread Wheat",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Weichweizen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Frumento",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -6690,24 +6742,6 @@
             "denomination": "Uptrace"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "concombre",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Cucumber",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Gurke",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Cetriolo",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -6958,24 +6992,6 @@
             "denomination": "PFRblue38"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Airelle en corymbe, Myrtille en corymbe, Myrtille arbustive, Grande myrtille, Myrtille am\u00e9ricaine, Bleuet en corymbe, Bleuet g\u00e9ant, Bleuet",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "American Blueberry",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Amerikanische Heidelbeere",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Mirtillo americano",
-          "source": "google"
-        }
       }
     },
     {
@@ -7160,24 +7176,6 @@
             "denomination": "Trasemis"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Vigne commune",
-          "source": "google"
-        },
-        "en": {
-          "name": "Common Grapevine",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Weinrebe",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Vite comune",
-          "source": "google"
-        }
       }
     },
     {
@@ -7356,24 +7354,6 @@
             "denomination": "Thimo"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "poirier commun",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Common Pear",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Kultur-Birne",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Pera comune",
-          "source": "google"
-        }
       }
     },
     {
@@ -7444,24 +7424,6 @@
             "denomination": "Seki Blahrt"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "patate douce",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "sweet potato",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "S\u00fc\u00dfkartoffel",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "patata dolce",
-          "source": "google"
-        }
       }
     },
     {
@@ -7538,24 +7500,6 @@
             "denomination": "220865697"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "\u00e9pinard",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Spinach",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Spinat",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Spinacio comune",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -7902,24 +7846,6 @@
             "denomination": "Larkin"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "laitue",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Garden Lettuce",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Gartensalat",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Lattuga",
-          "source": "wikidata"
-        }
       }
     },
     {
@@ -7954,24 +7880,6 @@
             "denomination": "Torum"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "melon",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Cantaloupe",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Zuckermelone",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Cantalupo",
-          "source": "google"
-        }
       }
     },
     {
@@ -8108,24 +8016,6 @@
             "denomination": "Hubel"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Bl\u00e9 \u00e9peautre, \u00c9peautre, Grand \u00e9peautre",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Spelt",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Dinkel",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "farro",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -8604,24 +8494,6 @@
             "denomination": "Kokanee"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "framboisier",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "American Red Raspberry",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Himbeere",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Frambos",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -8656,24 +8528,6 @@
             "denomination": "Genolier"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Laurier-cerise",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Cherry Laurel",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Lorbeerkirsche",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Alloro Ciliegio",
-          "source": "google"
-        }
       }
     },
     {
@@ -8834,24 +8688,6 @@
             "denomination": "Cannador B"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "chanvre cultiv\u00e9",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Grass",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Hanf",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Canapa",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -9228,24 +9064,6 @@
             "denomination": "Darkeyena"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Verveine",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Verbena, Vervain",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Verbenen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Verbena, verbena",
-          "source": "google"
-        }
       }
     },
     {
@@ -9274,24 +9092,6 @@
             "denomination": "JUST Adiutrix"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "\u00e9piaire",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Hedgenettle",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Zieste",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Hedgettle",
-          "source": "google"
-        }
       }
     },
     {
@@ -9674,24 +9474,6 @@
             "denomination": "Bergecot"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "abricotier",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Apricot",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Aprikose",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Albicocco",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -9780,24 +9562,6 @@
             "denomination": "Randy"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "p\u00e9largonium \u00e0 feuilles croustillantes",
-          "source": "google"
-        },
-        "en": {
-          "name": "crisped-leaf pelargonium",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "knusprige Blattpelargonie",
-          "source": "google"
-        },
-        "it": {
-          "name": "Pelargonium a foglie croccanti",
-          "source": "google"
-        }
       }
     },
     {
@@ -9832,24 +9596,6 @@
             "denomination": "Agnuzell 440"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Vitex gattilier, Gattilier, Poivre sauvage, Agneau chaste, Poivre des moines, Arbre au poivre",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Lilac Chastetree",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "M\u00f6nchspfeffer",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Castagno lilla",
-          "source": "google"
-        }
       }
     },
     {
@@ -9878,24 +9624,6 @@
             "denomination": "Cimizell"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "cimicaire \u00e0 grappes",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Black Baneberry",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Traubensilberkerze",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Bacca Nera",
-          "source": "google"
-        }
       }
     },
     {
@@ -12114,24 +11842,6 @@
             "denomination": "Miss Alice"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Rosier",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Rose",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Rosen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Rosa",
-          "source": "google"
-        }
       }
     },
     {
@@ -12352,24 +12062,6 @@
             "denomination": "Meltan"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "orge commune",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Barley",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Gerste",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Orzo",
-          "source": "google"
-        }
       }
     },
     {
@@ -12518,24 +12210,6 @@
             "denomination": "Brio"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Triticosecale schlanstedtensis",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Triticosecale schlanstedtense",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Triticosecale schlanstedtensis",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Triticosecale schlanstedtensis",
-          "source": "wikidata"
-        }
       }
     },
     {
@@ -12642,24 +12316,6 @@
             "denomination": "KLEDP 12153"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "\u0153illet commun",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Border Carnation",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Landnelke",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Garofano coltivato",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -12688,24 +12344,6 @@
             "denomination": "Lincana"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "pois",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Common Pea",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Erbse",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Pisello",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -12734,24 +12372,6 @@
             "denomination": "RAADPHLE01"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Foug\u00e8re pied d\u2019or",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Gold-foot Fern",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Goldt\u00fcpfelfarn",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Felce dai piedi d'oro",
-          "source": "google"
-        }
       }
     },
     {
@@ -12822,24 +12442,6 @@
             "denomination": "Flatboom"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "p\u00eacher",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Peach",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Pfirsich",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Pesca",
-          "source": "google"
-        }
       }
     },
     {
@@ -12904,24 +12506,6 @@
             "denomination": "Augustus"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "groseiller",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Common Currant",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Rote Johannisbeere",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Ribes comune",
-          "source": "google"
-        }
       }
     },
     {
@@ -12950,24 +12534,6 @@
             "denomination": "Gold Nugget"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Sempervivum \u00d7rupicola",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Sempervivum \u00d7rupicola",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Sempervivum \u00d7rupicola",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Sempervivum \u00d7rupicola",
-          "source": "wikidata"
-        }
       }
     },
     {
@@ -13002,24 +12568,6 @@
             "denomination": "Dutchess"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "quinoa",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Quinoa",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Quinoa",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Quinoa",
-          "source": "google"
-        }
       }
     },
     {
@@ -13432,24 +12980,6 @@
             "denomination": "Fiscinne"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "poinsettia",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Christmas-flower",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Weihnachtsstern",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Fiore di Natale",
-          "source": "google"
-        }
       }
     },
     {
@@ -13478,24 +13008,6 @@
             "denomination": "H3 DR 11 P21"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Cornouiller du Japon",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Japanese Dogwood",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Asiatischer Bl\u00fcten-Hartriegel",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Corniolo giapponese",
-          "source": "google"
-        }
       }
     },
     {
@@ -13524,24 +13036,6 @@
             "denomination": "Pablo"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "chia",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Chia",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Mexikanische Chia",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Chia",
-          "source": "google"
-        }
       }
     },
     {
@@ -13588,24 +13082,6 @@
             "denomination": "Pluston"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Ail",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Garlic, Leek, Onion",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Lauch",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Aglio, Porro, Cipolla",
-          "source": "google"
-        }
       }
     },
     {
@@ -13676,24 +13152,6 @@
             "denomination": "Mont-Calme"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Tr\u00e8fle des pr\u00e9s",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Chilean Clover",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Wiesen-Klee",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Trifoglio cileno",
-          "source": "google"
-        }
       }
     },
     {
@@ -14124,24 +13582,6 @@
             "denomination": "KLEPH 08152"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "P\u00e9tunia",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Petunia",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Petunien",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Petunia",
-          "source": "google"
-        }
       }
     },
     {
@@ -14176,24 +13616,6 @@
             "denomination": "Lux"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Bl\u00e9 \u00e0 deux graines, Moyen \u00e9peautre, Amidonnier",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "emmer",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Emmer",
-          "source": "google"
-        },
-        "it": {
-          "name": "farro",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -14222,24 +13644,6 @@
             "denomination": "Lesdasma"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Thuya occidental",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "American Arbor-Vitae",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Abendl\u00e4ndischer Lebensbaum",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "American Arbor-Vitae",
-          "source": "google"
-        }
       }
     },
     {
@@ -14292,24 +13696,6 @@
             "denomination": "Hort16A"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Actinidia",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Chinese soft-hair kiwi",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Chinesische Stachelbeere",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Kiwi",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -14338,24 +13724,6 @@
             "denomination": "Hervit 153"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Morelle \u00e0 feuilles de cire",
-          "source": "google"
-        },
-        "en": {
-          "name": "Waxyleaf nightshade",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Wachsbl\u00e4ttriger Nachtschatten",
-          "source": "google"
-        },
-        "it": {
-          "name": "Belladonna a foglie cerose",
-          "source": "google"
-        }
       }
     },
     {
@@ -15050,24 +14418,6 @@
             "denomination": "Fisco Reora"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Impatiente, Balsamine",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Balsams",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Springkraut",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Balsami",
-          "source": "google"
-        }
       }
     },
     {
@@ -15612,24 +14962,6 @@
             "denomination": "Burkitt Gala"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Pommier",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Apple",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "\u00c4pfel",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Mela",
-          "source": "google"
-        }
       }
     },
     {
@@ -15658,24 +14990,6 @@
             "denomination": "Microhirs3"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Rhododendron",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Azalea, Rhododendron",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Alpenrose",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Azalea, rododendro",
-          "source": "google"
-        }
       }
     },
     {
@@ -16082,24 +15396,6 @@
             "denomination": "Splendida"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Fraisier",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Strawberries",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Erdbeeren",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Fragole",
-          "source": "google"
-        }
       }
     },
     {
@@ -16236,24 +15532,6 @@
             "denomination": "Tra Yellbue"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Marguerite de Vanstaden",
-          "source": "google"
-        },
-        "en": {
-          "name": "Vanstaden's river daisy",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Vanstadens Flussg\u00e4nsebl\u00fcmchen",
-          "source": "google"
-        },
-        "it": {
-          "name": "La margherita di fiume di Vanstaden",
-          "source": "google"
-        }
       }
     },
     {
@@ -16318,24 +15596,6 @@
             "denomination": "Gisela 5"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Prunier",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Almond, Cherry, Plum",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Kirsche",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Mandorla, Ciliegia, Prugna",
-          "source": "google"
-        }
       }
     },
     {
@@ -16736,24 +15996,6 @@
             "denomination": "Cal Litbule"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "p\u00e9tunia",
-          "source": "google"
-        },
-        "en": {
-          "name": "petunia",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Petunie",
-          "source": "google"
-        },
-        "it": {
-          "name": "petunia",
-          "source": "google"
-        }
       }
     },
     {
@@ -16836,24 +16078,6 @@
             "denomination": "Alvia"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "soja",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "soybean",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Sojabohne",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "soia",
-          "source": "wikidata"
-        }
       }
     },
     {
@@ -16894,24 +16118,6 @@
             "denomination": "KLEHH 09005"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Ell\u00e9bore noir",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Black hellebore",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Schneerose",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Elleboro bianco",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -16940,24 +16146,6 @@
             "denomination": "Bobine"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Barbe de capucin",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Belgium Endive",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Gemeine Wegwarte",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Indivia belga",
-          "source": "google"
-        }
       }
     },
     {
@@ -17004,24 +16192,6 @@
             "denomination": "Superbini"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Zinnia rampant",
-          "source": "google"
-        },
-        "en": {
-          "name": "Creeping-zinnia",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Husarenknopf",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Zinnia strisciante",
-          "source": "google"
-        }
       }
     },
     {
@@ -17074,24 +16244,6 @@
             "denomination": "KLEDG 10119"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "roses allwoodii",
-          "source": "google"
-        },
-        "en": {
-          "name": "allwoodii pinks",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "allwoodii rosa",
-          "source": "google"
-        },
-        "it": {
-          "name": "allwoodii rosa",
-          "source": "google"
-        }
       }
     },
     {
@@ -17162,24 +16314,6 @@
             "denomination": "Argymonwi"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Argyranth\u00e8me buissonnant, Anth\u00e9mide des Canaries, Anth\u00e9mide marguerite",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Boston daisy",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Strauchmargerite",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Margherita di Boston",
-          "source": "google"
-        }
       }
     },
     {
@@ -17208,24 +16342,6 @@
             "denomination": "KLEDG 13146"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "\u0152illet",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Pink",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Nelken",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Rosa",
-          "source": "google"
-        }
       }
     },
     {
@@ -17260,24 +16376,6 @@
             "denomination": "KLEGH 11002"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Gentiane cor\u00e9enne",
-          "source": "google"
-        },
-        "en": {
-          "name": "Korean gentian",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Japanischer Herbstenzian",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Genziana coreana",
-          "source": "google"
-        }
       }
     },
     {
@@ -17342,24 +16440,6 @@
             "denomination": "Titania"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Cassis, Cassissier, Groseillier noir",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Black Currant",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Schwarze Johannisbeere",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Ribes Nero",
-          "source": "google"
-        }
       }
     },
     {
@@ -17388,24 +16468,6 @@
             "denomination": "Elsadur"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "bl\u00e9 dur",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "durum wheat",
-          "source": "google"
-        },
-        "de": {
-          "name": "Hartweizen",
-          "source": "google"
-        },
-        "it": {
-          "name": "Triticum turgidum subsp. durum",
-          "source": "wikidata"
-        }
       }
     },
     {
@@ -17488,24 +16550,6 @@
             "denomination": "Super Nova"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Bident dor\u00e9",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Apache beggarticks",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "goldener Zweizahn",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Forbicina lineare",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -17540,24 +16584,6 @@
             "denomination": "Brigra"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Calc\u00e9olaire",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Tracheophytes",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Pantoffelblumen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Tracheofite",
-          "source": "google"
-        }
       }
     },
     {
@@ -17586,24 +16612,6 @@
             "denomination": "Hipparth"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Argousier",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Sallowthorn",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Sanddorn",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "olivello spinoso",
-          "source": "wikidata"
-        }
       }
     },
     {
@@ -17656,24 +16664,6 @@
             "denomination": "Mos Thimint"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "col\u00e9us commun",
-          "source": "google"
-        },
-        "en": {
-          "name": "common coleus",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Coleus",
-          "source": "google"
-        },
-        "it": {
-          "name": "coleo comune",
-          "source": "google"
-        }
       }
     },
     {
@@ -17702,24 +16692,6 @@
             "denomination": "Bonbrapi"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Brachyscome",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Brachyscoma",
-          "source": "google"
-        },
-        "de": {
-          "name": "Brachyskom",
-          "source": "google"
-        },
-        "it": {
-          "name": "Brachiscoma",
-          "source": "google"
-        }
       }
     },
     {
@@ -17748,24 +16720,6 @@
             "denomination": "Maria's Blue Eyes"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Grande mauve",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Malva pucheina",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Wilde Malve",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Malva pucheina",
-          "source": "google"
-        }
       }
     },
     {
@@ -17800,24 +16754,6 @@
             "denomination": "Artemis"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Armoise annuelle",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Annual Mugwort",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Einj\u00e4hriger Beifu\u00df",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Assenzio annuale",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -17888,24 +16824,6 @@
             "denomination": "Lobetis"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Lob\u00e9lie \u00e9rine",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Edging Lobelia",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "M\u00e4nnertreu",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Lobelia fiore cardinale",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -17964,24 +16882,6 @@
             "denomination": "Golia Rosbi"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Dahlia",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Dahlia",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Dahlien",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Dalia",
-          "source": "google"
-        }
       }
     },
     {
@@ -18016,24 +16916,6 @@
             "denomination": "Jin Bulle"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Lavande stoechade, Lavande papillon, Lavande st\u00e9chade",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "French Lavender",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Schopf-Lavendel",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Lavanda francese",
-          "source": "google"
-        }
       }
     },
     {
@@ -18110,24 +16992,6 @@
             "denomination": "Diasroroc"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "\u00e9peron jumeau",
-          "source": "google"
-        },
-        "en": {
-          "name": "twinspur",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Zwillingssporn",
-          "source": "google"
-        },
-        "it": {
-          "name": "sperone gemello",
-          "source": "google"
-        }
       }
     },
     {
@@ -18246,24 +17110,6 @@
             "denomination": "Valpruno"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "prunier",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Bullace plum",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Pflaume",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Prugna tostata",
-          "source": "google"
-        }
       }
     },
     {
@@ -18292,24 +17138,6 @@
             "denomination": "Silt Oragsar"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Balsamine",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Impatiens Walleriana",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Flei\u00dfiges Lieschen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Impatiens Walleriana",
-          "source": "google"
-        }
       }
     },
     {
@@ -18368,24 +17196,6 @@
             "denomination": "Sanvioho"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Pens\u00e9e \u00e0 corne",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Horned Pansy",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Hornveilchen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Viola del pensiero cornuta",
-          "source": "google"
-        }
       }
     },
     {
@@ -18420,24 +17230,34 @@
             "denomination": "Cay Juwit09"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Fleur de flocon de neige \u00e0 feuilles de coeur",
-          "source": "google"
+      }
+    },
+    {
+      "crop_category": "Ornamental and medicinal plants",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Asteraceae",
+          "genus": "Pericallis D. Don",
+          "species": "Cineraria cruenta",
+          "focal_name": "Cineraria cruenta"
         },
-        "en": {
-          "name": "Heart-leaved snowflake flower",
-          "source": "google"
-        },
-        "de": {
-          "name": "Herzbl\u00e4ttrige Schneeflockenblume",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Fiore del fiocco di neve con foglie di cuore",
-          "source": "google"
+        "cleaned_classification": {
+          "family": "Asteraceae",
+          "genus": "Pericallis",
+          "species": "Cineraria cruenta",
+          "focal_name": "Cineraria cruenta"
         }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "2e58036a-07ce-08ae-e713-c0b26fcf2044",
+            "status": "InProgress",
+            "upov_code": "PERIC_CRU",
+            "denomination": "Sunseneribuba"
+          }
+        ]
       }
     },
     {
@@ -18496,24 +17316,6 @@
             "denomination": "KLESP 07164"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Zinnia rampant",
-          "source": "google"
-        },
-        "en": {
-          "name": "Creeping Zinnia",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Husarenkn\u00f6pfe",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Zinnia strisciante",
-          "source": "google"
-        }
       }
     },
     {
@@ -18542,24 +17344,6 @@
             "denomination": "Bayblue"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Fleur de barbe",
-          "source": "google"
-        },
-        "en": {
-          "name": "Beardflower",
-          "source": "google"
-        },
-        "de": {
-          "name": "Bartblume",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Fiore di barba",
-          "source": "google"
-        }
       }
     },
     {
@@ -18594,24 +17378,6 @@
             "denomination": "KN 4-43"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Cornouiller",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Dogwood",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Hartriegel",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Corniolo",
-          "source": "google"
-        }
       }
     },
     {
@@ -18640,24 +17406,6 @@
             "denomination": "Nazareth"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "sauge officinale",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Kitchen Sage",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Echter Salbei",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Salvia da cucina",
-          "source": "google"
-        }
       }
     },
     {
@@ -18776,24 +17524,46 @@
             "denomination": "Pio 165"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "ma\u00efs",
-          "source": "wikidata"
+      }
+    },
+    {
+      "crop_category": "Ornamental and medicinal plants",
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Apocynaceae",
+          "genus": "Mandevilla Lindl.",
+          "species": null,
+          "focal_name": "Mandevilla Lindl."
         },
-        "en": {
-          "name": "maize",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Mais",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Frumentone",
-          "source": "gbif"
+        "cleaned_classification": {
+          "family": "Apocynaceae",
+          "genus": "Mandevilla",
+          "species": null,
+          "focal_name": "Mandevilla"
         }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "b0226655-56ee-56e7-2e3b-5bfb9a7af41d",
+            "status": "InProgress",
+            "upov_code": "MANDE",
+            "denomination": "Sunparapibra"
+          },
+          {
+            "id": "2dbcbc4f-5e8b-cce0-f7ac-4c209e2eba89",
+            "status": "InProgress",
+            "upov_code": "MANDE",
+            "denomination": "Sunparabeni"
+          },
+          {
+            "id": "b26305c8-e24a-833c-3f04-c036e8b97467",
+            "status": "InProgress",
+            "upov_code": "MANDE",
+            "denomination": "Sunmandecrim"
+          }
+        ]
       }
     },
     {
@@ -18822,24 +17592,6 @@
             "denomination": "Petzell"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Grand p\u00e9tasite",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Bog-rhubarb",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Gew\u00f6hnliche Pestwurz",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Farfaraccio maggiore",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -18898,24 +17650,6 @@
             "denomination": "Sunphlorome"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Phlox de Drummond",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Annual Phlox",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Einj\u00e4hriger Phlox",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Flox annuale",
-          "source": "google"
-        }
       }
     },
     {
@@ -18944,24 +17678,6 @@
             "denomination": "Vallis Clausa"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "platane commun",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "London planetree",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Ahornbl\u00e4ttrige Platane",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Platanus \u00d7 hispanica",
-          "source": "wikidata"
-        }
       }
     },
     {
@@ -19002,24 +17718,6 @@
             "denomination": "Gautalwhi"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Onagre de Lindheimer, Gaura de Lindheimer",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Lindheimer's Beeblossom",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Lindheimer-Prachtkerze",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Beeblossom di Lindheimer",
-          "source": "google"
-        }
       }
     },
     {
@@ -19048,24 +17746,6 @@
             "denomination": "HU ZH APA1"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "houblon",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Bine",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Echter Hopfen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Bine",
-          "source": "google"
-        }
       }
     },
     {
@@ -19154,24 +17834,6 @@
             "denomination": "KLEOE 05118"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Ost\u00e9osperme",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Daisybush",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Kapk\u00f6rbchen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Daisybush",
-          "source": "google"
-        }
       }
     },
     {
@@ -19230,24 +17892,6 @@
             "denomination": "Jumbo"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Ronce",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Blackberry",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Brombeere",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Mora",
-          "source": "google"
-        }
       }
     },
     {
@@ -19294,24 +17938,6 @@
             "denomination": "Sutcatrwhi"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Fleur de flocon de neige",
-          "source": "google"
-        },
-        "en": {
-          "name": "Snowflake flower",
-          "source": "google"
-        },
-        "de": {
-          "name": "Schneeflockenblume",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Fiore del fiocco di neve",
-          "source": "google"
-        }
       }
     },
     {
@@ -19358,24 +17984,40 @@
             "denomination": "Erwistavio"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "cyclamen",
-          "source": "wikidata"
+      }
+    },
+    {
+      "crop_category": "Ornamental and medicinal plants",
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Diascia Link & Otto",
+          "species": null,
+          "focal_name": "Diascia Link & Otto"
         },
-        "en": {
-          "name": "Sowbreads",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Alpenveilchen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Pani di semina",
-          "source": "google"
+        "cleaned_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Diascia",
+          "species": null,
+          "focal_name": "Diascia"
         }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "d727cf41-bae2-16e3-ab7b-f615adc5dfe7",
+            "status": "InProgress",
+            "upov_code": "DIASC",
+            "denomination": "KLEDI 04015"
+          },
+          {
+            "id": "f47d5821-4dfd-c8a2-b4c9-b0c54b6bbc47",
+            "status": "InProgress",
+            "upov_code": "DIASC",
+            "denomination": "KLEDI 04017"
+          }
+        ]
       }
     },
     {
@@ -19404,24 +18046,6 @@
             "denomination": "KLENE 04146"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "N\u00e9m\u00e9sia, N\u00e9m\u00e9sie",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "nemesia",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Elfenspiegel",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "nemesia",
-          "source": "google"
-        }
       }
     },
     {
@@ -19450,24 +18074,6 @@
             "denomination": "Cydora Robusta"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Cognassier",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Cognassier",
-          "source": "google"
-        },
-        "de": {
-          "name": "Quitte",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Cotogno",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -19502,24 +18108,6 @@
             "denomination": "Begotis"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Begonia semperflorens",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Begonia \u00d7semperflorens-cultorum",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Semperflorens-Begonien",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Begonia \u00d7semperflorens-cultorum",
-          "source": "wikidata"
-        }
       }
     },
     {
@@ -19578,24 +18166,6 @@
             "denomination": "Invicta"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "groseillier \u00e0 maquereau",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Common-gooseberry",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Stachelbeere",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Uva spina comune",
-          "source": "google"
-        }
       }
     },
     {
@@ -19666,24 +18236,6 @@
             "denomination": "Expander"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "avoine cultiv\u00e9e",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Algerian Oat",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Hafer",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Avena comune",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -19712,24 +18264,6 @@
             "denomination": "Cresta"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Cretelle a crete",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Crested Dog's-tail",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Wiesen-Kammgras",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Covetta dei prati",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -19764,24 +18298,52 @@
             "denomination": "Orion"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Groseille \u00e0 maquereau de la rivi\u00e8re Snake",
-          "source": "google"
+      }
+    },
+    {
+      "crop_category": "Ornamental and medicinal plants",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Caprifoliaceae",
+          "genus": "Lonicera L.",
+          "species": "Lonicera caerulea L. var. kamtschatica Sevast.",
+          "focal_name": "Lonicera caerulea L. var. kamtschatica Sevast."
         },
-        "en": {
-          "name": "Snake River gooseberry",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Schnee-Stachelbeere",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Uva spina del fiume Snake",
-          "source": "google"
+        "cleaned_classification": {
+          "family": "Caprifoliaceae",
+          "genus": "Lonicera",
+          "species": "Lonicera caerulea kamtschatica",
+          "focal_name": "Lonicera caerulea kamtschatica"
         }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "23f0a31a-6b14-e800-0322-cab9b115cea5",
+            "status": "InProgress",
+            "upov_code": "LONIC_CAE_KAM",
+            "denomination": "Amur"
+          },
+          {
+            "id": "c105639e-8b78-897c-3a21-e99da831cf81",
+            "status": "InProgress",
+            "upov_code": "LONIC_CAE_KAM",
+            "denomination": "Altai"
+          },
+          {
+            "id": "2a5b0308-2281-e379-4210-3400c104b252",
+            "status": "InProgress",
+            "upov_code": "LONIC_CAE_KAM",
+            "denomination": "Mailon"
+          },
+          {
+            "id": "0c6a2110-1edf-0d6d-a7f9-841ef2b0bfd7",
+            "status": "InProgress",
+            "upov_code": "LONIC_CAE_KAM",
+            "denomination": "Maistar"
+          }
+        ]
       }
     },
     {
@@ -19810,24 +18372,6 @@
             "denomination": "Flhoran 41"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "ananas",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Pineapple",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Ananas",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Ananas",
-          "source": "google"
-        }
       }
     },
     {
@@ -19868,24 +18412,6 @@
             "denomination": "Agetis"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Ag\u00e9rate",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Whiteweed",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Leberbalsam",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Erba bianca",
-          "source": "google"
-        }
       }
     },
     {
@@ -19914,24 +18440,6 @@
             "denomination": "KLECS 02209"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Liseron",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Bindweed",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Winde",
-          "source": "gbif"
-        },
-        "it": {
-          "name": "Convolvolo",
-          "source": "google"
-        }
       }
     },
     {
@@ -19960,24 +18468,6 @@
             "denomination": "Violetta"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Figuier",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Common Fig",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Echte Feige",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Fico",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -20006,24 +18496,6 @@
             "denomination": "Peters Red Comet"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Russ\u00e9lie",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Russelie",
-          "source": "google"
-        },
-        "de": {
-          "name": "Russelie",
-          "source": "google"
-        },
-        "it": {
-          "name": "Russelie",
-          "source": "google"
-        }
       }
     },
     {
@@ -20076,24 +18548,6 @@
             "denomination": "Arion"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Ray-grass anglais",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Common Rye-Grass",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Deutsches Weidelgras",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Segale comune",
-          "source": "google"
-        }
       }
     },
     {
@@ -20128,24 +18582,6 @@
             "denomination": "Apis"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Tr\u00e8fle blanc",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Dutch Clover",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Wei\u00df-Klee",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Trifoglio olandese",
-          "source": "google"
-        }
       }
     },
     {
@@ -20204,24 +18640,6 @@
             "denomination": "Nero"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Vigne",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Grape",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Weinreben",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Uva",
-          "source": "google"
-        }
       }
     },
     {
@@ -20250,24 +18668,6 @@
             "denomination": "Barbecue"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Romarin",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Rosemary",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Rosmarin",
-          "source": "google"
-        },
-        "it": {
-          "name": "Rosmarino",
-          "source": "google"
-        }
       }
     },
     {
@@ -20296,24 +18696,6 @@
             "denomination": "H\u00e9l\u00e9ne Br\u00e9geon"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "pin",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Deal",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Kiefern",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Affare",
-          "source": "google"
-        }
       }
     },
     {
@@ -20342,24 +18724,6 @@
             "denomination": "Klehelio"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "h\u00e9liotrope",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Heliotrope",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Sonnenwenden",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Eliotropio",
-          "source": "google"
-        }
       }
     },
     {
@@ -20388,24 +18752,64 @@
             "denomination": "Scawihatis"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Scaevola",
-          "source": "gbif"
+      }
+    },
+    {
+      "crop_category": "Agricultural Crops",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Lolium L.",
+          "species": "Lolium multiflorum Lam. ssp. italicum (A. Br.) Volkart",
+          "focal_name": "Lolium multiflorum Lam. ssp. italicum (A. Br.) Volkart"
         },
-        "en": {
-          "name": "Naupaka",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "F\u00e4cherblumen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Naupaka",
-          "source": "google"
+        "cleaned_classification": {
+          "family": "Poaceae",
+          "genus": "Lolium",
+          "species": "Lolium multiflorum italicum",
+          "focal_name": "Lolium multiflorum italicum"
         }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "7e479f33-5075-1cde-ded7-989c73b51caf",
+            "status": "InProgress",
+            "upov_code": "LOLIU_MUL_ITA",
+            "denomination": "Zebu"
+          },
+          {
+            "id": "448bfb0e-2ccb-9579-3288-57fd14f35480",
+            "status": "InProgress",
+            "upov_code": "LOLIU_MUL_ITA",
+            "denomination": "Rangifer"
+          },
+          {
+            "id": "3d6680ec-549e-dc90-75cf-bc92e6893f1e",
+            "status": "InProgress",
+            "upov_code": "LOLIU_MUL_ITA",
+            "denomination": "Lipurus"
+          },
+          {
+            "id": "0b0cc3b7-d89e-b7af-7de6-c04401d417a2",
+            "status": "InProgress",
+            "upov_code": "LOLIU_MUL_ITA",
+            "denomination": "Vicugna"
+          },
+          {
+            "id": "e64877eb-ffa2-e943-34ea-3111acba0f52",
+            "status": "InProgress",
+            "upov_code": "LOLIU_MUL_ITA",
+            "denomination": "Axis"
+          },
+          {
+            "id": "e10b9686-47de-fb35-7e3b-d0d29e2cedc4",
+            "status": "InProgress",
+            "upov_code": "LOLIU_MUL_ITA",
+            "denomination": "Crevus"
+          }
+        ]
       }
     },
     {
@@ -20434,24 +18838,6 @@
             "denomination": "Snowstorm"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Agapanthe",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Agapanthus",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Schmucklilien",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Agapanto",
-          "source": "google"
-        }
       }
     },
     {
@@ -20486,24 +18872,6 @@
             "denomination": "Anthos"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Millepertuis commun",
-          "source": "google"
-        },
-        "en": {
-          "name": "Common St. John's Wort",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Echtes Johanniskraut",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Erba di San Giovanni comune",
-          "source": "google"
-        }
       }
     },
     {
@@ -20532,24 +18900,6 @@
             "denomination": "Sunsenebu"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "S\u00e9ne\u00e7on",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Groundsel",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Greiskr\u00e4uter",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Groundsel",
-          "source": "google"
-        }
       }
     },
     {
@@ -20578,24 +18928,6 @@
             "denomination": "Renpli"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "thuya",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Arborvitae",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Lebensb\u00e4ume",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Arborvitae",
-          "source": "google"
-        }
       }
     },
     {
@@ -20630,24 +18962,6 @@
             "denomination": "Ga\u00eblle Br\u00e9geon"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Pin noir",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Australian pine",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Schwarzkiefer",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Pino australiano",
-          "source": "google"
-        }
       }
     },
     {
@@ -20676,24 +18990,6 @@
             "denomination": "Eurostar"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "\u00e9rable plane",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Norway Maple",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Spitzahorn",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Acero riccio",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -20734,24 +19030,6 @@
             "denomination": "Dorcas"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Ray-grass hybride",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "hybrid ryegrass",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Lolium \u00d7hybridum",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "loietto ibrido",
-          "source": "google"
-        }
       }
     },
     {
@@ -20780,24 +19058,6 @@
             "denomination": "Phasion"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Balisier, Canna",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Canna",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Blumenrohr",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Canna",
-          "source": "google"
-        }
       }
     },
     {
@@ -20838,24 +19098,6 @@
             "denomination": "Hobella"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Hortensia",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Hydrangea",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Hortensien",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Ortensia",
-          "source": "google"
-        }
       }
     },
     {
@@ -20890,24 +19132,6 @@
             "denomination": "Present"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "F\u00e9tuque des pr\u00e9s",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Cereal",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Wiesen-Schwingel",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Cereali",
-          "source": "google"
-        }
       }
     },
     {
@@ -20936,24 +19160,6 @@
             "denomination": "Amdue"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Kiwa\u00ef",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Baby Kiwi",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Scharfz\u00e4hniger Strahlengriffel",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Piccolo Kiwi",
-          "source": "google"
-        }
       }
     },
     {
@@ -20994,24 +19200,6 @@
             "denomination": "Kohyro"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "chou-rave",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "kohlrabi",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Kohlrabi",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "cavolo rapa",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -21040,24 +19228,6 @@
             "denomination": "Martine"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "C\u00e9losie",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Cock's Comb",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Brandschopf",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Pettine di gallo",
-          "source": "google"
-        }
       }
     },
     {
@@ -21092,24 +19262,46 @@
             "denomination": "Cathedral"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "orme",
-          "source": "wikidata"
+      }
+    },
+    {
+      "crop_category": "Ornamental and medicinal plants",
+      "taxonomy": {
+        "rank": "genus",
+        "raw_classification": {
+          "family": "Rosaceae",
+          "genus": "Pyracantha M.J. Roem.",
+          "species": null,
+          "focal_name": "Pyracantha M.J. Roem."
         },
-        "en": {
-          "name": "Elm",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Ulmen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Olmo",
-          "source": "google"
+        "cleaned_classification": {
+          "family": "Rosaceae",
+          "genus": "Pyracantha",
+          "species": null,
+          "focal_name": "Pyracantha"
         }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "7f7865f8-f43d-71c2-edfa-867587489bbd",
+            "status": "InProgress",
+            "upov_code": "PYRAC",
+            "denomination": "Cadaune"
+          },
+          {
+            "id": "cfcb202e-181b-9880-08b9-2b3b0d9a3621",
+            "status": "InProgress",
+            "upov_code": "PYRAC",
+            "denomination": "Cadange"
+          },
+          {
+            "id": "ff9bf5cb-598e-c0ef-6548-ad8bdd0a021d",
+            "status": "InProgress",
+            "upov_code": "PYRAC",
+            "denomination": "Cadrou"
+          }
+        ]
       }
     },
     {
@@ -21144,24 +19336,6 @@
             "denomination": "Zefa Zefino"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "fenouil commun",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Aniseed-weed",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Fenchel",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Erba di anice",
-          "source": "google"
-        }
       }
     },
     {
@@ -21190,24 +19364,6 @@
             "denomination": "Miho"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "saintpaulia",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "African-violet",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Usambaraveilchen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Viola africano",
-          "source": "google"
-        }
       }
     },
     {
@@ -21236,24 +19392,6 @@
             "denomination": "Zefa Kleinfein"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "chou cabus",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Brassica oleracea var. capitata",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Kopfkohl",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "cavolo cappuccio",
-          "source": "wikidata"
-        }
       }
     },
     {
@@ -21312,24 +19450,6 @@
             "denomination": "Cuesud"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Chrysanth\u00e8me",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "chrysanthemum",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Chrysanthemen",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "crisantemo",
-          "source": "google"
-        }
       }
     },
     {
@@ -21358,24 +19478,6 @@
             "denomination": "Prato"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Dactyle pelotonn\u00e9",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Barnyard Grass",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Gew\u00f6hnliches Kn\u00e4uelgras",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Erba da cortile",
-          "source": "google"
-        }
       }
     },
     {
@@ -21404,24 +19506,6 @@
             "denomination": "Elfina"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Gramin\u00e9es",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Cereal",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Rohr-Schwingel",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Cereali",
-          "source": "google"
-        }
       }
     },
     {
@@ -21450,24 +19534,6 @@
             "denomination": "Vulpera"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Vulpin des pr\u00e9s",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Golden Foxtail Grass",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Wiesen-Fuchsschwanz",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Coda di topo comune",
-          "source": "gbif"
-        }
       }
     },
     {
@@ -21502,24 +19568,6 @@
             "denomination": "Jogranda"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Casseille",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Ribes \u00d7 nigridolaria",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Jostabeere",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Ribes \u00d7 nidigrolaria",
-          "source": "wikidata"
-        }
       }
     },
     {
@@ -21548,24 +19596,34 @@
             "denomination": "Malling 27"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Pomme sauvage",
-          "source": "google"
+      }
+    },
+    {
+      "crop_category": "Fruit and berries",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Ericaceae",
+          "genus": "Vaccinium L.",
+          "species": "hybrids between Vaccinium corymbosum L. and Vaccinium darrowii Camp",
+          "focal_name": "hybrids between Vaccinium corymbosum L. and Vaccinium darrowii Camp"
         },
-        "en": {
-          "name": "Crab Apple",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Holzapfel",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Mela granchio",
-          "source": "google"
+        "cleaned_classification": {
+          "family": "Ericaceae",
+          "genus": "Vaccinium",
+          "species": "Hybrids between corymbosum",
+          "focal_name": "Hybrids between corymbosum"
         }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "943b59b2-1e1b-8281-974d-caaf474be973",
+            "status": "Finalized",
+            "upov_code": "VACCI_CDA",
+            "denomination": "Creativa"
+          }
+        ]
       }
     },
     {
@@ -21594,24 +19652,6 @@
             "denomination": "Dukiz"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "c\u00e9leri",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Apium graveolens",
-          "source": "wikidata"
-        },
-        "de": {
-          "name": "Echter Sellerie",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Apium graveolens",
-          "source": "wikidata"
-        }
       }
     },
     {
@@ -21646,24 +19686,6 @@
             "denomination": "PacPX18593"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "P\u00e9largonium",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Geranium",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Pelargonien",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Geranio",
-          "source": "google"
-        }
       }
     },
     {
@@ -21692,24 +19714,6 @@
             "denomination": "Finkenwerder Dieknutt"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "noyer commun",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Carpathian Walnut",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Echte Walnuss",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Noce dei Carpazi",
-          "source": "google"
-        }
       }
     },
     {
@@ -21738,24 +19742,74 @@
             "denomination": "Varico 3"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Thym anglais",
-          "source": "google"
+      }
+    },
+    {
+      "crop_category": "Ornamental and medicinal plants",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Jamesbrittenia O. Kuntze",
+          "species": "Jamesbrittenia grandiflora (Galpin) Hilliard",
+          "focal_name": "Jamesbrittenia grandiflora (Galpin) Hilliard"
         },
-        "en": {
-          "name": "English thyme",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Echter Thymian",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Timo inglese",
-          "source": "google"
+        "cleaned_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Jamesbrittenia",
+          "species": "Jamesbrittenia grandiflora",
+          "focal_name": "Jamesbrittenia grandiflora"
         }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "08a8ff85-7cd8-2900-8138-11507d262c6e",
+            "status": "InProgress",
+            "upov_code": "JAMES_GRA",
+            "denomination": "KLESU 04189"
+          }
+        ]
+      }
+    },
+    {
+      "crop_category": "Ornamental and medicinal plants",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Nemesia Vent.",
+          "species": "Nemesia fruticans",
+          "focal_name": "Nemesia fruticans"
+        },
+        "cleaned_classification": {
+          "family": "Scrophulariaceae",
+          "genus": "Nemesia",
+          "species": "Nemesia fruticans",
+          "focal_name": "Nemesia fruticans"
+        }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "87fa0948-af04-43f8-ec0b-5efaace95654",
+            "status": "InProgress",
+            "upov_code": "NEMES_FRU",
+            "denomination": "Nemhswhi"
+          },
+          {
+            "id": "d1766805-5beb-827a-b361-2efc5ce0e122",
+            "status": "InProgress",
+            "upov_code": "NEMES_FRU",
+            "denomination": "Nemhrpur"
+          },
+          {
+            "id": "5cabf33c-db55-09ed-a911-3faa4ea412f7",
+            "status": "InProgress",
+            "upov_code": "NEMES_FRU",
+            "denomination": "Nemhabar"
+          }
+        ]
       }
     },
     {
@@ -21784,24 +19838,6 @@
             "denomination": "Salsyll"
           }
         ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Sauge gentiane, Sauge \u00e0 larges feuilles, Sauge \u00e9tal\u00e9e",
-          "source": "gbif"
-        },
-        "en": {
-          "name": "Sage",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Mexikanischer Salbei",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Saggio",
-          "source": "google"
-        }
       }
     }
   ]

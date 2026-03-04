@@ -3077,8 +3077,8 @@
         "raw_classification": {
           "family": "Rosaceae",
           "genus": "Fragaria L.",
-          "species": "Fragaria xananassa Duch.",
-          "focal_name": "Fragaria xananassa Duch."
+          "species": "Fragaria ananassa",
+          "focal_name": "Fragaria ananassa"
         }
       },
       "crops": {
@@ -12269,8 +12269,8 @@
         "raw_classification": {
           "family": "Crassulaceae",
           "genus": "Sempervivum L.",
-          "species": "Sempervivum xrupicola A. Kern.",
-          "focal_name": "Sempervivum xrupicola A. Kern."
+          "species": "Sempervivum rupicola",
+          "focal_name": "Sempervivum rupicola"
         }
       },
       "crops": {
@@ -13415,8 +13415,8 @@
         "raw_classification": {
           "family": "Balsaminaceae",
           "genus": "Impatiens L.",
-          "species": "Impatiens New Guinea Group",
-          "focal_name": "Impatiens New Guinea Group"
+          "species": "Impatiens novae-guinea",
+          "focal_name": "Impatiens novae-guinea"
         }
       },
       "crops": {
@@ -15873,8 +15873,8 @@
         "raw_classification": {
           "family": "Balsaminaceae",
           "genus": "Impatiens L.",
-          "species": "Impatiens hawkeri W. Bull",
-          "focal_name": "Impatiens hawkeri W. Bull"
+          "species": "Impatiens novae-guinea",
+          "focal_name": "Impatiens novae-guinea"
         }
       },
       "crops": {
@@ -16073,8 +16073,8 @@
         "raw_classification": {
           "family": "Asteraceae",
           "genus": "Bidens L.",
-          "species": "Bidens ferulifolia (Jacq.) DC.",
-          "focal_name": "Bidens ferulifolia (Jacq.) DC."
+          "species": "Bidens aurea",
+          "focal_name": "Bidens aurea"
         }
       },
       "crops": {
@@ -16785,8 +16785,8 @@
         "raw_classification": {
           "family": "Asteraceae",
           "genus": "Pericallis D. Don",
-          "species": "Pericallis cruenta (Masson ex L'H\u00e9r.) Bolle",
-          "focal_name": "Pericallis cruenta (Masson ex L'H\u00e9r.) Bolle"
+          "species": "Cineraria cruenta",
+          "focal_name": "Cineraria cruenta"
         }
       },
       "crops": {
@@ -17515,8 +17515,8 @@
         "raw_classification": {
           "family": "Begoniaceae",
           "genus": "Begonia L.",
-          "species": "Begonia Semperflorens-Cultorum Group",
-          "focal_name": "Begonia Semperflorens-Cultorum Group"
+          "species": "Begonia semperflorens-cultorum",
+          "focal_name": "Begonia semperflorens-cultorum"
         }
       },
       "crops": {

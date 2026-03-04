@@ -10,7 +10,7 @@
           "species": "Solanum lycopersicum L.",
           "focal_name": "Solanum lycopersicum L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Solanaceae",
           "genus": "Solanum",
           "species": "Solanum lycopersicum",
@@ -124,7 +124,7 @@
           "species": "Pelargonium peltatum (L.) L'H\u00e9r.",
           "focal_name": "Pelargonium peltatum (L.) L'H\u00e9r."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Geraniaceae",
           "genus": "Pelargonium",
           "species": "Pelargonium peltatum",
@@ -990,216 +990,6 @@
             "status": "InProgress",
             "upov_code": "PELAR_PEL",
             "denomination": "KLEPP 07166"
-          },
-          {
-            "id": "ed347a6f-b861-e0a0-c86c-8e0799d94b7a",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "KLEIP 23785"
-          },
-          {
-            "id": "58a43a11-bc76-8b79-1367-64de91428cdd",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactioscarkiss"
-          },
-          {
-            "id": "b5124885-8f07-453f-36c1-e7d14e70d424",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "KLEPZ 22680"
-          },
-          {
-            "id": "f9c30481-5b22-a9a4-bb5d-cfa5873df263",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "KLEPZ 22698"
-          },
-          {
-            "id": "9c13c0f0-16a3-d3ca-5c4f-3de56db8960e",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "KLEIP 22654"
-          },
-          {
-            "id": "4de41b30-c890-e85d-5132-5ace672db8af",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactiohopispl"
-          },
-          {
-            "id": "4a4b1d70-d5bf-3779-bf27-208255459c9d",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactiocomwhispl"
-          },
-          {
-            "id": "3d76424a-6d9e-a76c-4016-bca1b9bc26c0",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactiovio"
-          },
-          {
-            "id": "8894111e-79cc-817d-5acb-780d400cc5e3",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactiodare"
-          },
-          {
-            "id": "5a5fd1c5-4d9d-fad5-1909-46d3d52055de",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactiocomcor"
-          },
-          {
-            "id": "8bc5f7c9-b1c3-cc91-0d54-86c6f5726df5",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactiopispl"
-          },
-          {
-            "id": "8f266400-5e4e-e06c-47d6-3724e79e06ef",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactiowhi"
-          },
-          {
-            "id": "874e2f33-485d-f13b-098b-6831cc62b0f4",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "KLEIP 19024"
-          },
-          {
-            "id": "8927ea3d-1c8c-d18d-cb2b-122cef250f9c",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "KLEIP 19284"
-          },
-          {
-            "id": "c5149937-ad76-ce44-6329-e648f3be1041",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "KLEIP 18162"
-          },
-          {
-            "id": "4716efda-63f5-3eea-6537-b8a58debd485",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactiopea"
-          },
-          {
-            "id": "529ddf5a-feab-0333-dcba-d7e47feff747",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactiored"
-          },
-          {
-            "id": "d8810b54-eb5a-3f77-7795-5916246ed143",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pacpeia"
-          },
-          {
-            "id": "a6b196bb-2c00-bba0-fbdb-1322d2626e9a",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "KLEIZ 15375"
-          },
-          {
-            "id": "193984d6-90a3-f8d1-1666-3db5c2e96216",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactioscar"
-          },
-          {
-            "id": "df882b0a-6377-6be2-30e5-d2f6467d7781",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "KLEIP 13342"
-          },
-          {
-            "id": "8d396c03-6460-4f9e-5464-b39282fcd779",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "KLEIP 13347"
-          },
-          {
-            "id": "9df5915c-eb2a-c3b3-862e-d1a51c1108b7",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "KLEIP 13348"
-          },
-          {
-            "id": "b5c29615-7301-4af4-84ac-b39389513ed6",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "PEQZ 0001"
-          },
-          {
-            "id": "f2fd135c-09f3-735e-9f1e-869595dfad7f",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "PEQZ 0002"
-          },
-          {
-            "id": "14e5bec8-7376-c8d2-463a-782cc4341ea5",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactiopi"
-          },
-          {
-            "id": "4656d0e3-f0de-7b53-5f02-dac32de25bb8",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pacyell"
-          },
-          {
-            "id": "084e1102-b65b-a942-5064-c94163e96222",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Amri Trared"
-          },
-          {
-            "id": "6f218057-3e85-be8d-1df2-1e2a00c07ef4",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Cante Laver"
-          },
-          {
-            "id": "23e27239-2d74-9e05-1c37-85a7a34206e5",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Cante Firre"
-          },
-          {
-            "id": "a5794ad8-d441-8272-928a-38fbd28b1aca",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Fisgren"
-          },
-          {
-            "id": "895d0960-ae74-3bca-5e18-003e86864896",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "KLEPZ 24789"
-          },
-          {
-            "id": "fa6433b7-4f5a-2561-7a1d-8adf5eea24bb",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactiopimp"
-          },
-          {
-            "id": "da19e091-94e2-380f-25c0-f529cdce29b2",
-            "status": "Finalized",
-            "upov_code": "PELAR_PZO",
-            "denomination": "Pactiowhispl"
-          },
-          {
-            "id": "0dd7d06e-6413-7ca3-13b0-77d4d4286609",
-            "status": "InProgress",
-            "upov_code": "PELAR_PZO",
-            "denomination": "KLEIP 19162"
           }
         ]
       },
@@ -1234,7 +1024,7 @@
           "species": "Pelargonium zonale (L.) L'H\u00e9r.",
           "focal_name": "Pelargonium zonale (L.) L'H\u00e9r."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Geraniaceae",
           "genus": "Pelargonium",
           "species": "Pelargonium zonale",
@@ -3163,10 +2953,10 @@
         "raw_classification": {
           "family": "Rosaceae",
           "genus": "Fragaria L.",
-          "species": "Fragaria xananassa Duch.",
-          "focal_name": "Fragaria xananassa Duch."
+          "species": "Fragaria ananassa",
+          "focal_name": "Fragaria ananassa"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Fragaria",
           "species": "Fragaria ananassa",
@@ -3796,7 +3586,7 @@
           "species": "Prunus avium (L.) L.",
           "focal_name": "Prunus avium (L.) L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Prunus",
           "species": "Prunus avium",
@@ -4024,7 +3814,7 @@
           "species": "Pelargonium grandiflorum (Andrews) Willd.",
           "focal_name": "Pelargonium grandiflorum (Andrews) Willd."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Geraniaceae",
           "genus": "Pelargonium",
           "species": "Pelargonium grandiflorum",
@@ -4258,7 +4048,7 @@
           "species": "Malus domestica (Suckow) Borkh.",
           "focal_name": "Malus domestica (Suckow) Borkh."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Malus",
           "species": "Malus domestica",
@@ -5230,7 +5020,7 @@
           "species": "Rubus L. subg. Rubus",
           "focal_name": "Rubus L. subg. Rubus"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Rubus",
           "species": "Rubus",
@@ -5350,7 +5140,7 @@
           "species": "Solanum tuberosum L.",
           "focal_name": "Solanum tuberosum L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Solanaceae",
           "genus": "Solanum",
           "species": "Solanum tuberosum",
@@ -6059,8 +5849,8 @@
           "source": "wikidata"
         },
         "it": {
-          "name": "patata",
-          "source": "google"
+          "name": "Patata",
+          "source": "gbif"
         }
       },
       "icon": "restaurant",
@@ -6076,7 +5866,7 @@
           "species": "Triticum aestivum L.",
           "focal_name": "Triticum aestivum L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Poaceae",
           "genus": "Triticum",
           "species": "Triticum aestivum",
@@ -6798,120 +6588,6 @@
             "status": "InProgress",
             "upov_code": "TRITI_AES",
             "denomination": "Eiger"
-          },
-          {
-            "id": "da87ff52-f72c-8a40-3c15-fb2ff4e42c81",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Polkura"
-          },
-          {
-            "id": "97247492-4937-ae1c-4b33-e537329d6003",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Flauder"
-          },
-          {
-            "id": "9a037260-cec7-497b-5f2f-d38195e18527",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Gletscher"
-          },
-          {
-            "id": "8facf689-ba14-d1cd-e180-96191f5ef276",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Serpentin"
-          },
-          {
-            "id": "47ebfd01-9eff-d0e8-a59c-48ca085ad39d",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Copper"
-          },
-          {
-            "id": "2dc7c3df-e765-176d-d53f-d7c21adca9c8",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Raisa"
-          },
-          {
-            "id": "6f7270f6-0d78-5943-2628-b86514e8673b",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Edelweisser"
-          },
-          {
-            "id": "171f89bc-78da-c5b6-c210-dce40d3e0eba",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Z\u00fcrcher Oberl\u00e4nder Rotkorn"
-          },
-          {
-            "id": "6c579ca5-965b-5ce2-a19e-413922c4dde6",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Samir"
-          },
-          {
-            "id": "0e96f937-08c7-03d3-1034-161e1fafbd89",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Titan"
-          },
-          {
-            "id": "6ba3fb6c-6c05-8dcf-68b9-5892014056dd",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Zenit"
-          },
-          {
-            "id": "e06f51c3-a1f3-c772-33a9-4ff7acc6c53a",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Tauro"
-          },
-          {
-            "id": "f1d8bfcd-ffc9-e4f8-9b7b-a5a7fd7ee243",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Alkor"
-          },
-          {
-            "id": "eb2699f5-7d5c-410e-7042-1bbd1af27e79",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Sirino"
-          },
-          {
-            "id": "000640d5-1dd2-5baa-2f75-1e0ce5ffb763",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Ostar"
-          },
-          {
-            "id": "5485ebc6-0df2-fe4f-b4cb-d5d40d008d30",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Sertel"
-          },
-          {
-            "id": "d5b36fea-43a6-d689-87eb-cc3b8df7ae05",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Balmegg"
-          },
-          {
-            "id": "d3f46136-6696-5631-777f-af668374af89",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Lueg"
-          },
-          {
-            "id": "e8586c30-2694-767a-fde5-d24024a23b75",
-            "status": "InProgress",
-            "upov_code": "TRITI_AES_SPE",
-            "denomination": "Hubel"
           }
         ]
       },
@@ -6946,7 +6622,7 @@
           "species": "Cucumis sativus L.",
           "focal_name": "Cucumis sativus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Cucurbitaceae",
           "genus": "Cucumis",
           "species": "Cucumis sativus",
@@ -7066,7 +6742,7 @@
           "species": "Vaccinium corymbosum L.",
           "focal_name": "Vaccinium corymbosum L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Ericaceae",
           "genus": "Vaccinium",
           "species": "Vaccinium corymbosum",
@@ -7302,12 +6978,6 @@
             "status": "InProgress",
             "upov_code": "VACCI_COR",
             "denomination": "PFRblue38"
-          },
-          {
-            "id": "943b59b2-1e1b-8281-974d-caaf474be973",
-            "status": "Finalized",
-            "upov_code": "VACCI_CDA",
-            "denomination": "Creativa"
           }
         ]
       },
@@ -7342,7 +7012,7 @@
           "species": "Vitis vinifera L.",
           "focal_name": "Vitis vinifera L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Vitaceae",
           "genus": "Vitis",
           "species": "Vitis vinifera",
@@ -7546,7 +7216,7 @@
           "species": "Pyrus communis L.",
           "focal_name": "Pyrus communis L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Pyrus",
           "species": "Pyrus communis",
@@ -7744,7 +7414,7 @@
           "species": "Ipomoea batatas (L.) Lam.",
           "focal_name": "Ipomoea batatas (L.) Lam."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Convolvulaceae",
           "genus": "Ipomoea",
           "species": "Ipomoea batatas",
@@ -7834,8 +7504,8 @@
           "species": "Spinacia oleracea L.",
           "focal_name": "Spinacia oleracea L."
         },
-        "resolved_classification": {
-          "family": "Amaranthaceae",
+        "cleaned_classification": {
+          "family": "Chenopodiaceae",
           "genus": "Spinacia",
           "species": "Spinacia oleracea",
           "focal_name": "Spinacia oleracea"
@@ -7930,7 +7600,7 @@
           "species": "Lactuca sativa L.",
           "focal_name": "Lactuca sativa L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Lactuca",
           "species": "Lactuca sativa",
@@ -8296,7 +7966,7 @@
           "species": "Cucumis melo L",
           "focal_name": "Cucumis melo L"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Cucurbitaceae",
           "genus": "Cucumis",
           "species": "Cucumis melo",
@@ -8341,6 +8011,162 @@
       "color": "#5932cc"
     },
     {
+      "crop_category": "Agricultural Crops",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Triticum L.",
+          "species": "Triticum aestivum L. subsp. spelta (L.) Thell.",
+          "focal_name": "Triticum aestivum L. subsp. spelta (L.) Thell."
+        },
+        "cleaned_classification": {
+          "family": "Poaceae",
+          "genus": "Triticum",
+          "species": "Triticum aestivum spelta",
+          "focal_name": "Triticum aestivum spelta"
+        }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "da87ff52-f72c-8a40-3c15-fb2ff4e42c81",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Polkura"
+          },
+          {
+            "id": "97247492-4937-ae1c-4b33-e537329d6003",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Flauder"
+          },
+          {
+            "id": "9a037260-cec7-497b-5f2f-d38195e18527",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Gletscher"
+          },
+          {
+            "id": "8facf689-ba14-d1cd-e180-96191f5ef276",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Serpentin"
+          },
+          {
+            "id": "47ebfd01-9eff-d0e8-a59c-48ca085ad39d",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Copper"
+          },
+          {
+            "id": "2dc7c3df-e765-176d-d53f-d7c21adca9c8",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Raisa"
+          },
+          {
+            "id": "6f7270f6-0d78-5943-2628-b86514e8673b",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Edelweisser"
+          },
+          {
+            "id": "171f89bc-78da-c5b6-c210-dce40d3e0eba",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Z\u00fcrcher Oberl\u00e4nder Rotkorn"
+          },
+          {
+            "id": "6c579ca5-965b-5ce2-a19e-413922c4dde6",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Samir"
+          },
+          {
+            "id": "0e96f937-08c7-03d3-1034-161e1fafbd89",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Titan"
+          },
+          {
+            "id": "6ba3fb6c-6c05-8dcf-68b9-5892014056dd",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Zenit"
+          },
+          {
+            "id": "e06f51c3-a1f3-c772-33a9-4ff7acc6c53a",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Tauro"
+          },
+          {
+            "id": "f1d8bfcd-ffc9-e4f8-9b7b-a5a7fd7ee243",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Alkor"
+          },
+          {
+            "id": "eb2699f5-7d5c-410e-7042-1bbd1af27e79",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Sirino"
+          },
+          {
+            "id": "000640d5-1dd2-5baa-2f75-1e0ce5ffb763",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Ostar"
+          },
+          {
+            "id": "5485ebc6-0df2-fe4f-b4cb-d5d40d008d30",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Sertel"
+          },
+          {
+            "id": "d5b36fea-43a6-d689-87eb-cc3b8df7ae05",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Balmegg"
+          },
+          {
+            "id": "d3f46136-6696-5631-777f-af668374af89",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Lueg"
+          },
+          {
+            "id": "e8586c30-2694-767a-fde5-d24024a23b75",
+            "status": "InProgress",
+            "upov_code": "TRITI_AES_SPE",
+            "denomination": "Hubel"
+          }
+        ]
+      },
+      "translations": {
+        "fr": {
+          "name": "Bl\u00e9 \u00e9peautre, \u00c9peautre, Grand \u00e9peautre",
+          "source": "gbif"
+        },
+        "en": {
+          "name": "Spelt",
+          "source": "gbif"
+        },
+        "de": {
+          "name": "Dinkel",
+          "source": "gbif"
+        },
+        "it": {
+          "name": "farro",
+          "source": "gbif"
+        }
+      },
+      "icon": "wheat",
+      "color": "#3268cc"
+    },
+    {
       "crop_category": "Fruit and berries",
       "taxonomy": {
         "rank": "species",
@@ -8350,7 +8176,7 @@
           "species": "Rubus idaeus L.",
           "focal_name": "Rubus idaeus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Rubus",
           "species": "Rubus idaeus",
@@ -8848,7 +8674,7 @@
           "species": "Prunus laurocerasus L.",
           "focal_name": "Prunus laurocerasus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Prunus",
           "species": "Prunus laurocerasus",
@@ -8902,7 +8728,7 @@
           "species": "Cannabis sativa L.",
           "focal_name": "Cannabis sativa L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Cannabaceae",
           "genus": "Cannabis",
           "species": "Cannabis sativa",
@@ -9082,7 +8908,7 @@
           "species": null,
           "focal_name": "Verbena L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Verbenaceae",
           "genus": "Verbena",
           "species": null,
@@ -9478,7 +9304,7 @@
           "species": null,
           "focal_name": "Stachys L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Lamiaceae",
           "genus": "Stachys",
           "species": null,
@@ -9526,7 +9352,7 @@
           "species": "Prunus armeniaca L.",
           "focal_name": "Prunus armeniaca L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Prunus",
           "species": "Prunus armeniaca",
@@ -9928,7 +9754,7 @@
           "species": "Pelargonium crispum (P. J. Bergius) L'H\u00e9r.",
           "focal_name": "Pelargonium crispum (P. J. Bergius) L'H\u00e9r."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Geraniaceae",
           "genus": "Pelargonium",
           "species": "Pelargonium crispum",
@@ -10036,7 +9862,7 @@
           "species": "Vitex agnus-castus L.",
           "focal_name": "Vitex agnus-castus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Lamiaceae",
           "genus": "Vitex",
           "species": "Vitex agnus-castus",
@@ -10090,7 +9916,7 @@
           "species": "Actaea racemosa L.",
           "focal_name": "Actaea racemosa L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Ranunculaceae",
           "genus": "Actaea",
           "species": "Actaea racemosa",
@@ -10138,7 +9964,7 @@
           "species": null,
           "focal_name": "Rosa L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Rosa",
           "species": null,
@@ -12376,7 +12202,7 @@
           "species": "Hordeum vulgare L.",
           "focal_name": "Hordeum vulgare L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Poaceae",
           "genus": "Hordeum",
           "species": "Hordeum vulgare",
@@ -12616,7 +12442,7 @@
           "species": null,
           "focal_name": "xTriticosecale Wittm. ex A. Camus"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Poaceae",
           "genus": "Triticosecale",
           "species": null,
@@ -12784,7 +12610,7 @@
           "species": "Dianthus caryophyllus L.",
           "focal_name": "Dianthus caryophyllus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Caryophyllaceae",
           "genus": "Dianthus",
           "species": "Dianthus caryophyllus",
@@ -12910,11 +12736,11 @@
           "species": "Pisum sativum L.",
           "focal_name": "Pisum sativum L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Fabaceae",
-          "genus": "Lathyrus",
-          "species": "Lathyrus oleraceus",
-          "focal_name": "Lathyrus oleraceus"
+          "genus": "Pisum",
+          "species": "Pisum sativum",
+          "focal_name": "Pisum sativum"
         }
       },
       "crops": {
@@ -12929,24 +12755,24 @@
       },
       "translations": {
         "fr": {
-          "name": "Pois cultiv\u00e9",
-          "source": "google"
+          "name": "pois",
+          "source": "wikidata"
         },
         "en": {
-          "name": "Cultivated pea",
-          "source": "google"
-        },
-        "de": {
-          "name": "Kultur-Erbse",
+          "name": "Common Pea",
           "source": "gbif"
         },
+        "de": {
+          "name": "Erbse",
+          "source": "wikidata"
+        },
         "it": {
-          "name": "Pisello coltivato",
-          "source": "google"
+          "name": "Pisello",
+          "source": "gbif"
         }
       },
       "icon": "restaurant",
-      "color": "#cc328c"
+      "color": "#32ccb5"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -12958,7 +12784,7 @@
           "species": "Phlebodium aureum (L.) J. Sm.",
           "focal_name": "Phlebodium aureum (L.) J. Sm."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Polypodiaceae",
           "genus": "Phlebodium",
           "species": "Phlebodium aureum",
@@ -13006,7 +12832,7 @@
           "species": "Prunus persica (L.) Batsch",
           "focal_name": "Prunus persica (L.) Batsch"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Prunus",
           "species": "Prunus persica",
@@ -13096,7 +12922,7 @@
           "species": "Ribes rubrum L.",
           "focal_name": "Ribes rubrum L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Grossulariaceae",
           "genus": "Ribes",
           "species": "Ribes rubrum",
@@ -13177,10 +13003,10 @@
         "raw_classification": {
           "family": "Crassulaceae",
           "genus": "Sempervivum L.",
-          "species": "Sempervivum xrupicola A. Kern.",
-          "focal_name": "Sempervivum xrupicola A. Kern."
+          "species": "Sempervivum rupicola",
+          "focal_name": "Sempervivum rupicola"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Crassulaceae",
           "genus": "Sempervivum",
           "species": "Sempervivum rupicola",
@@ -13228,8 +13054,8 @@
           "species": "Chenopodium quinoa Willd.",
           "focal_name": "Chenopodium quinoa Willd."
         },
-        "resolved_classification": {
-          "family": "Amaranthaceae",
+        "cleaned_classification": {
+          "family": "Chenopodiaceae",
           "genus": "Chenopodium",
           "species": "Chenopodium quinoa",
           "focal_name": "Chenopodium quinoa"
@@ -13282,7 +13108,7 @@
           "species": "Euphorbia pulcherrima Willd. ex Klotzsch",
           "focal_name": "Euphorbia pulcherrima Willd. ex Klotzsch"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Euphorbiaceae",
           "genus": "Euphorbia",
           "species": "Euphorbia pulcherrima",
@@ -13714,7 +13540,7 @@
           "species": "Cornus kousa Burger ex Hance",
           "focal_name": "Cornus kousa Burger ex Hance"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Cornaceae",
           "genus": "Cornus",
           "species": "Cornus kousa",
@@ -13762,7 +13588,7 @@
           "species": "Salvia hispanica L.",
           "focal_name": "Salvia hispanica L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Lamiaceae",
           "genus": "Salvia",
           "species": "Salvia hispanica",
@@ -13785,15 +13611,15 @@
           "source": "wikidata"
         },
         "en": {
-          "name": "chia",
-          "source": "wikidata"
+          "name": "Chia",
+          "source": "gbif"
         },
         "de": {
           "name": "Mexikanische Chia",
           "source": "wikidata"
         },
         "it": {
-          "name": "chia",
+          "name": "Chia",
           "source": "google"
         }
       },
@@ -13810,8 +13636,8 @@
           "species": "Allium porrum L.",
           "focal_name": "Allium porrum L."
         },
-        "resolved_classification": {
-          "family": "Amaryllidaceae",
+        "cleaned_classification": {
+          "family": "Alliaceae",
           "genus": "Allium",
           "species": "Allium porrum",
           "focal_name": "Allium porrum"
@@ -13863,7 +13689,7 @@
           "source": "google"
         }
       },
-      "icon": "spa",
+      "icon": "grass",
       "color": "#cc32c4"
     },
     {
@@ -13876,7 +13702,7 @@
           "species": "Trifolium pratense L.",
           "focal_name": "Trifolium pratense L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Fabaceae",
           "genus": "Trifolium",
           "species": "Trifolium pratense",
@@ -13966,7 +13792,7 @@
           "species": null,
           "focal_name": "Petunia Juss."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Solanaceae",
           "genus": "Petunia",
           "species": null,
@@ -14416,11 +14242,11 @@
           "species": "Triticum turgidum L. subsp. dicoccum (Schrank ex Sch\u00fcbl.) Thell.",
           "focal_name": "Triticum turgidum L. subsp. dicoccum (Schrank ex Sch\u00fcbl.) Thell."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Poaceae",
           "genus": "Triticum",
-          "species": "Triticum turgidum",
-          "focal_name": "Triticum turgidum"
+          "species": "Triticum turgidum dicoccum",
+          "focal_name": "Triticum turgidum dicoccum"
         }
       },
       "crops": {
@@ -14436,35 +14262,29 @@
             "status": "InProgress",
             "upov_code": "TRITI_TUR_DIC",
             "denomination": "Lux"
-          },
-          {
-            "id": "85e2ae3c-8300-68d8-b2f3-0e91bf34cede",
-            "status": "InProgress",
-            "upov_code": "TRITI_TUR_DUR",
-            "denomination": "Elsadur"
           }
         ]
       },
       "translations": {
         "fr": {
-          "name": "Ble poulard",
+          "name": "Bl\u00e9 \u00e0 deux graines, Moyen \u00e9peautre, Amidonnier",
           "source": "gbif"
         },
         "en": {
-          "name": "Poulard wheat",
-          "source": "google"
-        },
-        "de": {
-          "name": "Englischer Weizen",
+          "name": "emmer",
           "source": "gbif"
         },
+        "de": {
+          "name": "Emmer",
+          "source": "google"
+        },
         "it": {
-          "name": "Grano grosso",
+          "name": "farro",
           "source": "gbif"
         }
       },
       "icon": "wheat",
-      "color": "#cc328c"
+      "color": "#7ccc32"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -14476,7 +14296,7 @@
           "species": "Thuja occidentalis L.",
           "focal_name": "Thuja occidentalis L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Cupressaceae",
           "genus": "Thuja",
           "species": "Thuja occidentalis",
@@ -14524,7 +14344,7 @@
           "species": "Actinidia chinensis Planch.",
           "focal_name": "Actinidia chinensis Planch."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Actinidiaceae",
           "genus": "Actinidia",
           "species": "Actinidia chinensis",
@@ -14596,7 +14416,7 @@
           "species": "Solanum glaucophyllum Desf.",
           "focal_name": "Solanum glaucophyllum Desf."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Solanaceae",
           "genus": "Solanum",
           "species": "Solanum glaucophyllum",
@@ -14641,14 +14461,14 @@
         "raw_classification": {
           "family": "Balsaminaceae",
           "genus": "Impatiens L.",
-          "species": "Impatiens New Guinea Group",
-          "focal_name": "Impatiens New Guinea Group"
+          "species": "Impatiens novae-guinea",
+          "focal_name": "Impatiens novae-guinea"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Balsaminaceae",
           "genus": "Impatiens",
-          "species": "Impatiens",
-          "focal_name": "Impatiens"
+          "species": "Impatiens novae-guinea",
+          "focal_name": "Impatiens novae-guinea"
         }
       },
       "crops": {
@@ -15270,21 +15090,75 @@
             "status": "InProgress",
             "upov_code": "IMPAT_NGH",
             "denomination": "Fisupnic Purdeep"
+          },
+          {
+            "id": "3e8502f7-35a7-a3c6-1381-a1693f9c48b7",
+            "status": "InProgress",
+            "upov_code": "IMPAT_HAW",
+            "denomination": "Impacsopi"
+          },
+          {
+            "id": "c26efda3-e313-74a0-36e1-6af44d0afa6f",
+            "status": "InProgress",
+            "upov_code": "IMPAT_HAW",
+            "denomination": "Impacorast"
+          },
+          {
+            "id": "c6fee4a7-e1fc-f4d9-c64f-b1549098e26d",
+            "status": "InProgress",
+            "upov_code": "IMPAT_HAW",
+            "denomination": "Impacmest"
+          },
+          {
+            "id": "7034c17e-ca17-d4a0-9c79-8b03a70b473d",
+            "status": "InProgress",
+            "upov_code": "IMPAT_HAW",
+            "denomination": "Impacora"
+          },
+          {
+            "id": "e8204b7c-1cc3-5e3d-7c21-942b259b184f",
+            "status": "InProgress",
+            "upov_code": "IMPAT_HAW",
+            "denomination": "Fisupnic Orlav"
+          },
+          {
+            "id": "30dcd439-3113-e089-66f7-26e3eb216187",
+            "status": "InProgress",
+            "upov_code": "IMPAT_HAW",
+            "denomination": "Fisupnic Kirmag"
+          },
+          {
+            "id": "fcff9822-95f6-2f39-1ed4-21b30675e416",
+            "status": "InProgress",
+            "upov_code": "IMPAT_HAW",
+            "denomination": "Fisnics Reddie"
+          },
+          {
+            "id": "80e96db6-4c18-441e-b641-cb4b01a517c0",
+            "status": "InProgress",
+            "upov_code": "IMPAT_HAW",
+            "denomination": "Fisnics Orga"
+          },
+          {
+            "id": "566a4c17-bbed-5440-f37d-632351083baa",
+            "status": "InProgress",
+            "upov_code": "IMPAT_HAW",
+            "denomination": "Fisco Reora"
           }
         ]
       },
       "translations": {
         "fr": {
-          "name": "Impatiente",
-          "source": "wikidata"
+          "name": "Impatiente, Balsamine",
+          "source": "gbif"
         },
         "en": {
           "name": "Balsams",
           "source": "gbif"
         },
         "de": {
-          "name": "Springkr\u00e4uter",
-          "source": "wikidata"
+          "name": "Springkraut",
+          "source": "gbif"
         },
         "it": {
           "name": "Balsami",
@@ -15292,7 +15166,7 @@
         }
       },
       "icon": "deceased",
-      "color": "#328ecc"
+      "color": "#9932cc"
     },
     {
       "crop_category": "Fruit and berries",
@@ -15304,7 +15178,7 @@
           "species": null,
           "focal_name": "Malus Mill."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Malus",
           "species": null,
@@ -15868,7 +15742,7 @@
           "species": null,
           "focal_name": "Rhododendron L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Ericaceae",
           "genus": "Rhododendron",
           "species": null,
@@ -15916,7 +15790,7 @@
           "species": null,
           "focal_name": "Fragaria L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Fragaria",
           "species": null,
@@ -16342,7 +16216,7 @@
           "species": "Dimorphotheca ecklonis DC.",
           "focal_name": "Dimorphotheca ecklonis DC."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Dimorphotheca",
           "species": "Dimorphotheca ecklonis",
@@ -16498,7 +16372,7 @@
           "species": null,
           "focal_name": "Prunus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Prunus",
           "species": null,
@@ -16582,7 +16456,7 @@
           "species": null,
           "focal_name": "Calibrachoa Llave & Lex."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Solanaceae",
           "genus": "Calibrachoa",
           "species": null,
@@ -17002,7 +16876,7 @@
           "species": "Glycine max (L.) Merr.",
           "focal_name": "Glycine max (L.) Merr."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Fabaceae",
           "genus": "Glycine",
           "species": "Glycine max",
@@ -17104,7 +16978,7 @@
           "species": "Helleborus niger L.",
           "focal_name": "Helleborus niger L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Ranunculaceae",
           "genus": "Helleborus",
           "species": "Helleborus niger",
@@ -17164,7 +17038,7 @@
           "species": "Cichorium intybus L.",
           "focal_name": "Cichorium intybus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Cichorium",
           "species": "Cichorium intybus",
@@ -17212,7 +17086,7 @@
           "species": "Sanvitalia procumbens Lam.",
           "focal_name": "Sanvitalia procumbens Lam."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Sanvitalia",
           "species": "Sanvitalia procumbens",
@@ -17278,11 +17152,11 @@
           "species": "Dianthus \u00d7allwoodii hort.",
           "focal_name": "Dianthus \u00d7allwoodii hort."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Caryophyllaceae",
           "genus": "Dianthus",
-          "species": "Dianthus",
-          "focal_name": "Dianthus"
+          "species": "Dianthus allwoodii cv.",
+          "focal_name": "Dianthus allwoodii cv."
         }
       },
       "crops": {
@@ -17321,24 +17195,24 @@
       },
       "translations": {
         "fr": {
-          "name": "\u0152illet",
-          "source": "gbif"
+          "name": "roses allwoodii",
+          "source": "google"
         },
         "en": {
-          "name": "Pink",
+          "name": "allwoodii pinks",
           "source": "gbif"
         },
         "de": {
-          "name": "Nelken",
-          "source": "wikidata"
+          "name": "allwoodii rosa",
+          "source": "google"
         },
         "it": {
-          "name": "Rosa",
+          "name": "allwoodii rosa",
           "source": "google"
         }
       },
       "icon": "deceased",
-      "color": "#3259cc"
+      "color": "#cc3251"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -17350,7 +17224,7 @@
           "species": "Argyranthemum frutescens (L.) Sch. Bip.",
           "focal_name": "Argyranthemum frutescens (L.) Sch. Bip."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Argyranthemum",
           "species": "Argyranthemum frutescens",
@@ -17435,12 +17309,60 @@
       "taxonomy": {
         "rank": "species",
         "raw_classification": {
+          "family": null,
+          "genus": null,
+          "species": "Dianthus L.",
+          "focal_name": "Dianthus L."
+        },
+        "cleaned_classification": {
+          "family": "Caryophyllaceae",
+          "genus": "Dianthus",
+          "species": "Dianthus",
+          "focal_name": "Dianthus"
+        }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "1f70cbb6-09d6-bb00-c692-bf3c11983bff",
+            "status": "InProgress",
+            "upov_code": "DIAN",
+            "denomination": "KLEDG 13146"
+          }
+        ]
+      },
+      "translations": {
+        "fr": {
+          "name": "\u0152illet",
+          "source": "gbif"
+        },
+        "en": {
+          "name": "Pink",
+          "source": "gbif"
+        },
+        "de": {
+          "name": "Nelken",
+          "source": "wikidata"
+        },
+        "it": {
+          "name": "Rosa",
+          "source": "google"
+        }
+      },
+      "icon": "deceased",
+      "color": "#3259cc"
+    },
+    {
+      "crop_category": "Ornamental and medicinal plants",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
           "family": "Gentianaceae",
           "genus": "Gentiana L.",
           "species": "Gentiana scabra Bunge",
           "focal_name": "Gentiana scabra Bunge"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Gentianaceae",
           "genus": "Gentiana",
           "species": "Gentiana scabra",
@@ -17494,7 +17416,7 @@
           "species": "Ribes nigrum L.",
           "focal_name": "Ribes nigrum L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Grossulariaceae",
           "genus": "Ribes",
           "species": "Ribes nigrum",
@@ -17569,16 +17491,64 @@
       "color": "#cc6632"
     },
     {
+      "crop_category": "Agricultural Crops",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Poaceae",
+          "genus": "Triticum L.",
+          "species": "Triticum durum Desf.",
+          "focal_name": "Triticum durum Desf."
+        },
+        "cleaned_classification": {
+          "family": "Poaceae",
+          "genus": "Triticum",
+          "species": "Triticum durum",
+          "focal_name": "Triticum durum"
+        }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "85e2ae3c-8300-68d8-b2f3-0e91bf34cede",
+            "status": "InProgress",
+            "upov_code": "TRITI_TUR_DUR",
+            "denomination": "Elsadur"
+          }
+        ]
+      },
+      "translations": {
+        "fr": {
+          "name": "bl\u00e9 dur",
+          "source": "wikidata"
+        },
+        "en": {
+          "name": "durum wheat",
+          "source": "google"
+        },
+        "de": {
+          "name": "Hartweizen",
+          "source": "google"
+        },
+        "it": {
+          "name": "Triticum turgidum subsp. durum",
+          "source": "wikidata"
+        }
+      },
+      "icon": "wheat",
+      "color": "#ccc132"
+    },
+    {
       "crop_category": "Ornamental and medicinal plants",
       "taxonomy": {
         "rank": "species",
         "raw_classification": {
           "family": "Asteraceae",
           "genus": "Bidens L.",
-          "species": "Bidens ferulifolia (Jacq.) DC.",
-          "focal_name": "Bidens ferulifolia (Jacq.) DC."
+          "species": "Bidens aurea",
+          "focal_name": "Bidens aurea"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Bidens",
           "species": "Bidens aurea",
@@ -17680,7 +17650,7 @@
           "species": null,
           "focal_name": "Calceolaria L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Calceolariaceae",
           "genus": "Calceolaria",
           "species": null,
@@ -17734,7 +17704,7 @@
           "species": "Hippophae rhamnoides L.",
           "focal_name": "Hippophae rhamnoides L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Elaeagnaceae",
           "genus": "Hippophae",
           "species": "Hippophae rhamnoides",
@@ -17775,6 +17745,78 @@
     {
       "crop_category": "Ornamental and medicinal plants",
       "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": null,
+          "genus": null,
+          "species": "Solenostemon scutellarioides (L.) Codd",
+          "focal_name": "Solenostemon scutellarioides (L.) Codd"
+        },
+        "cleaned_classification": {
+          "family": "Lamiaceae",
+          "genus": "Coleus",
+          "species": "Solenostemon scutellarioides",
+          "focal_name": "Solenostemon scutellarioides"
+        }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "62e54a3d-dc58-940b-d86b-fc14f4d5a337",
+            "status": "InProgress",
+            "upov_code": "SOLEN_SCU",
+            "denomination": "Mos Rosbast"
+          },
+          {
+            "id": "8faacb82-53f7-e8cd-b99f-d36703d4866a",
+            "status": "InProgress",
+            "upov_code": "SOLEN_SCU",
+            "denomination": "Mos Amagren"
+          },
+          {
+            "id": "be81b2d2-c247-42af-97c9-6ddc88ae6041",
+            "status": "InProgress",
+            "upov_code": "SOLEN_SCU",
+            "denomination": "Mos Burvet"
+          },
+          {
+            "id": "38bb168d-21ec-5019-eed8-1577b099d374",
+            "status": "InProgress",
+            "upov_code": "SOLEN_SCU",
+            "denomination": "Mos Lavred"
+          },
+          {
+            "id": "8bfe2176-8503-f63a-6d60-225d79e70ad2",
+            "status": "InProgress",
+            "upov_code": "SOLEN_SCU",
+            "denomination": "Mos Thimint"
+          }
+        ]
+      },
+      "translations": {
+        "fr": {
+          "name": "col\u00e9us commun",
+          "source": "google"
+        },
+        "en": {
+          "name": "common coleus",
+          "source": "gbif"
+        },
+        "de": {
+          "name": "Coleus",
+          "source": "google"
+        },
+        "it": {
+          "name": "coleo comune",
+          "source": "google"
+        }
+      },
+      "icon": "grass",
+      "color": "#326dcc"
+    },
+    {
+      "crop_category": "Ornamental and medicinal plants",
+      "taxonomy": {
         "rank": "genus",
         "raw_classification": {
           "family": "Asteraceae",
@@ -17782,7 +17824,7 @@
           "species": null,
           "focal_name": "Brachyscome Cass."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Brachyscome",
           "species": null,
@@ -17830,7 +17872,7 @@
           "species": "Malva sylvestris L.",
           "focal_name": "Malva sylvestris L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Malvaceae",
           "genus": "Malva",
           "species": "Malva sylvestris",
@@ -17878,7 +17920,7 @@
           "species": "Artemisia annua L.",
           "focal_name": "Artemisia annua L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Artemisia",
           "species": "Artemisia annua",
@@ -17932,7 +17974,7 @@
           "species": "Lobelia erinus L.",
           "focal_name": "Lobelia erinus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Campanulaceae",
           "genus": "Lobelia",
           "species": "Lobelia erinus",
@@ -18022,7 +18064,7 @@
           "species": null,
           "focal_name": "Dahlia Cav."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Dahlia",
           "species": null,
@@ -18100,7 +18142,7 @@
           "species": "Lavandula stoechas L.",
           "focal_name": "Lavandula stoechas L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Lamiaceae",
           "genus": "Lavandula",
           "species": "Lavandula stoechas",
@@ -18154,7 +18196,7 @@
           "species": "Diascia barberae Hook. f.",
           "focal_name": "Diascia barberae Hook. f."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Scrophulariaceae",
           "genus": "Diascia",
           "species": "Diascia barberae",
@@ -18250,7 +18292,7 @@
           "species": "Prunus domestica L.",
           "focal_name": "Prunus domestica L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Prunus",
           "species": "Prunus domestica",
@@ -18388,7 +18430,7 @@
           "species": "Impatiens walleriana Hook. f.",
           "focal_name": "Impatiens walleriana Hook. f."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Balsaminaceae",
           "genus": "Impatiens",
           "species": "Impatiens walleriana",
@@ -18436,7 +18478,7 @@
           "species": "Viola cornuta L.",
           "focal_name": "Viola cornuta L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Violaceae",
           "genus": "Viola",
           "species": "Viola cornuta",
@@ -18514,11 +18556,11 @@
           "species": "Sutera cordata Thunb. Kuntze",
           "focal_name": "Sutera cordata Thunb. Kuntze"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Scrophulariaceae",
-          "genus": "Chaenostoma",
-          "species": "Chaenostoma cordatum",
-          "focal_name": "Chaenostoma cordatum"
+          "genus": "Sutera",
+          "species": "Sutera cordata",
+          "focal_name": "Sutera cordata"
         }
       },
       "crops": {
@@ -18539,24 +18581,24 @@
       },
       "translations": {
         "fr": {
-          "name": "Fleur de flocon de neige",
+          "name": "Fleur de flocon de neige \u00e0 feuilles de coeur",
           "source": "google"
         },
         "en": {
-          "name": "Snowflake flower",
+          "name": "Heart-leaved snowflake flower",
           "source": "google"
         },
         "de": {
-          "name": "Schneeflockenblume",
-          "source": "wikidata"
+          "name": "Herzbl\u00e4ttrige Schneeflockenblume",
+          "source": "gbif"
         },
         "it": {
-          "name": "Fiore del fiocco di neve",
+          "name": "Fiore del fiocco di neve con foglie di cuore",
           "source": "google"
         }
       },
       "icon": "deceased",
-      "color": "#32cc8e"
+      "color": "#b732cc"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18568,7 +18610,7 @@
           "species": null,
           "focal_name": "Sanvitalia Lam."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Sanvitalia",
           "species": null,
@@ -18646,11 +18688,11 @@
           "species": "Caryopteris \u00d7clandonensis A. Simmonds ex anon.",
           "focal_name": "Caryopteris \u00d7clandonensis A. Simmonds ex anon."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Lamiaceae",
           "genus": "Caryopteris",
-          "species": "Caryopteris",
-          "focal_name": "Caryopteris"
+          "species": "Caryopteris clandonensis",
+          "focal_name": "Caryopteris clandonensis"
         }
       },
       "crops": {
@@ -18665,24 +18707,24 @@
       },
       "translations": {
         "fr": {
-          "name": "Caryopt\u00e9ris",
-          "source": "gbif"
+          "name": "Fleur de barbe",
+          "source": "google"
         },
         "en": {
-          "name": "Caryopteris",
+          "name": "Beardflower",
           "source": "google"
         },
         "de": {
-          "name": "Bartblumen",
-          "source": "wikidata"
+          "name": "Bartblume",
+          "source": "gbif"
         },
         "it": {
-          "name": "Cariotteri",
+          "name": "Fiore di barba",
           "source": "google"
         }
       },
       "icon": "grass",
-      "color": "#cc9632"
+      "color": "#32cc35"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -18694,7 +18736,7 @@
           "species": null,
           "focal_name": "Cornus kousa x Cornus nuttallii"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Cornaceae",
           "genus": "Cornus",
           "species": null,
@@ -18748,7 +18790,7 @@
           "species": "Salvia officinalis L.",
           "focal_name": "Salvia officinalis L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Lamiaceae",
           "genus": "Salvia",
           "species": "Salvia officinalis",
@@ -18796,7 +18838,7 @@
           "species": "Zea mays L.",
           "focal_name": "Zea mays L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Poaceae",
           "genus": "Zea",
           "species": "Zea mays",
@@ -18934,7 +18976,7 @@
           "species": "Petasites hybridus (L.) Ph. G\u00e4rtn. B. Mey. Et Scherb.",
           "focal_name": "Petasites hybridus (L.) Ph. G\u00e4rtn. B. Mey. Et Scherb."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Petasites",
           "species": "Petasites hybridus",
@@ -18982,7 +19024,7 @@
           "species": "Phlox drummondii Hook.",
           "focal_name": "Phlox drummondii Hook."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Polemoniaceae",
           "genus": "Phlox",
           "species": "Phlox drummondii",
@@ -19060,11 +19102,11 @@
           "species": "Platanus x acerifolia (Aiton) Willd.",
           "focal_name": "Platanus x acerifolia (Aiton) Willd."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Platanaceae",
           "genus": "Platanus",
-          "species": "Platanus",
-          "focal_name": "Platanus"
+          "species": "Platanus acerifolia",
+          "focal_name": "Platanus acerifolia"
         }
       },
       "crops": {
@@ -19079,24 +19121,24 @@
       },
       "translations": {
         "fr": {
-          "name": "platane",
+          "name": "platane commun",
           "source": "wikidata"
         },
         "en": {
-          "name": "plane tree",
-          "source": "google"
+          "name": "London planetree",
+          "source": "gbif"
         },
         "de": {
-          "name": "Platanen",
+          "name": "Ahornbl\u00e4ttrige Platane",
           "source": "wikidata"
         },
         "it": {
-          "name": "platano",
-          "source": "google"
+          "name": "Platanus \u00d7 hispanica",
+          "source": "wikidata"
         }
       },
       "icon": "nature",
-      "color": "#4432cc"
+      "color": "#32a0cc"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -19108,7 +19150,7 @@
           "species": "Oenothera lindheimeri (Engelm. & A. Gray) W. L. Wagner & Hoch",
           "focal_name": "Oenothera lindheimeri (Engelm. & A. Gray) W. L. Wagner & Hoch"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Onagraceae",
           "genus": "Oenothera",
           "species": "Oenothera lindheimeri",
@@ -19168,7 +19210,7 @@
           "species": "Humulus lupulus L.",
           "focal_name": "Humulus lupulus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Cannabaceae",
           "genus": "Humulus",
           "species": "Humulus lupulus",
@@ -19216,7 +19258,7 @@
           "species": null,
           "focal_name": "Osteospermum L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Osteospermum",
           "species": null,
@@ -19324,7 +19366,7 @@
           "species": null,
           "focal_name": "Rubus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Rubus",
           "species": null,
@@ -19402,11 +19444,11 @@
           "species": "Sutera diffusa",
           "focal_name": "Sutera diffusa"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Scrophulariaceae",
           "genus": "Sutera",
-          "species": "Sutera",
-          "focal_name": "Sutera"
+          "species": "Sutera diffusa",
+          "focal_name": "Sutera diffusa"
         }
       },
       "crops": {
@@ -19456,7 +19498,7 @@
         }
       },
       "icon": "deceased",
-      "color": "#cc3263"
+      "color": "#65cc32"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -19468,8 +19510,8 @@
           "species": null,
           "focal_name": "Cyclamen L."
         },
-        "resolved_classification": {
-          "family": "Primulaceae",
+        "cleaned_classification": {
+          "family": "Myrsinaceae",
           "genus": "Cyclamen",
           "species": null,
           "focal_name": "Cyclamen"
@@ -19534,7 +19576,7 @@
           "species": null,
           "focal_name": "Nemesia Vent."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Scrophulariaceae",
           "genus": "Nemesia",
           "species": null,
@@ -19553,19 +19595,19 @@
       },
       "translations": {
         "fr": {
-          "name": "Miroir elfe",
-          "source": "google"
+          "name": "N\u00e9m\u00e9sia, N\u00e9m\u00e9sie",
+          "source": "gbif"
         },
         "en": {
-          "name": "Elf mirror",
-          "source": "google"
+          "name": "nemesia",
+          "source": "gbif"
         },
         "de": {
           "name": "Elfenspiegel",
           "source": "wikidata"
         },
         "it": {
-          "name": "Specchio degli elfi",
+          "name": "nemesia",
           "source": "google"
         }
       },
@@ -19582,7 +19624,7 @@
           "species": "Cydonia oblonga Mill.",
           "focal_name": "Cydonia oblonga Mill."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Cydonia",
           "species": "Cydonia oblonga",
@@ -19627,14 +19669,14 @@
         "raw_classification": {
           "family": "Begoniaceae",
           "genus": "Begonia L.",
-          "species": "Begonia Semperflorens-Cultorum Group",
-          "focal_name": "Begonia Semperflorens-Cultorum Group"
+          "species": "Begonia semperflorens-cultorum",
+          "focal_name": "Begonia semperflorens-cultorum"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Begoniaceae",
           "genus": "Begonia",
-          "species": "Begonia",
-          "focal_name": "Begonia"
+          "species": "Begonia semperflorens-cultorum",
+          "focal_name": "Begonia semperflorens-cultorum"
         }
       },
       "crops": {
@@ -19655,24 +19697,24 @@
       },
       "translations": {
         "fr": {
-          "name": "B\u00e9gonia",
-          "source": "gbif"
+          "name": "Begonia semperflorens",
+          "source": "wikidata"
         },
         "en": {
-          "name": "Begonia",
-          "source": "gbif"
+          "name": "Begonia \u00d7semperflorens-cultorum",
+          "source": "wikidata"
         },
         "de": {
-          "name": "Begonien",
+          "name": "Semperflorens-Begonien",
           "source": "wikidata"
         },
         "it": {
-          "name": "Begonia",
-          "source": "google"
+          "name": "Begonia \u00d7semperflorens-cultorum",
+          "source": "wikidata"
         }
       },
       "icon": "deceased",
-      "color": "#4732cc"
+      "color": "#3dcc32"
     },
     {
       "crop_category": "Fruit and berries",
@@ -19684,7 +19726,7 @@
           "species": "Ribes uva-crispa L.",
           "focal_name": "Ribes uva-crispa L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Grossulariaceae",
           "genus": "Ribes",
           "species": "Ribes uva-crispa",
@@ -19762,7 +19804,7 @@
           "species": "Avena sativa L.",
           "focal_name": "Avena sativa L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Poaceae",
           "genus": "Avena",
           "species": "Avena sativa",
@@ -19852,7 +19894,7 @@
           "species": "Cynosurus cristatus L.",
           "focal_name": "Cynosurus cristatus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Poaceae",
           "genus": "Cynosurus",
           "species": "Cynosurus cristatus",
@@ -19900,7 +19942,7 @@
           "species": "Ribes niveum Lindl.",
           "focal_name": "Ribes niveum Lindl."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Grossulariaceae",
           "genus": "Ribes",
           "species": "Ribes niveum",
@@ -19945,72 +19987,6 @@
       "color": "#3298cc"
     },
     {
-      "crop_category": "Ornamental and medicinal plants",
-      "taxonomy": {
-        "rank": "species",
-        "raw_classification": {
-          "family": "Caprifoliaceae",
-          "genus": "Lonicera L.",
-          "species": "Lonicera caerulea L. var. kamtschatica Sevast.",
-          "focal_name": "Lonicera caerulea L. var. kamtschatica Sevast."
-        },
-        "resolved_classification": {
-          "family": "Caprifoliaceae",
-          "genus": "Lonicera",
-          "species": "Lonicera caerulea",
-          "focal_name": "Lonicera caerulea"
-        }
-      },
-      "crops": {
-        "crops": [
-          {
-            "id": "23f0a31a-6b14-e800-0322-cab9b115cea5",
-            "status": "InProgress",
-            "upov_code": "LONIC_CAE_KAM",
-            "denomination": "Amur"
-          },
-          {
-            "id": "c105639e-8b78-897c-3a21-e99da831cf81",
-            "status": "InProgress",
-            "upov_code": "LONIC_CAE_KAM",
-            "denomination": "Altai"
-          },
-          {
-            "id": "2a5b0308-2281-e379-4210-3400c104b252",
-            "status": "InProgress",
-            "upov_code": "LONIC_CAE_KAM",
-            "denomination": "Mailon"
-          },
-          {
-            "id": "0c6a2110-1edf-0d6d-a7f9-841ef2b0bfd7",
-            "status": "InProgress",
-            "upov_code": "LONIC_CAE_KAM",
-            "denomination": "Maistar"
-          }
-        ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Ch\u00e8vrefeuille bleu",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Blue Honeysuckle",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Blaue Heckenkirsche",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Caprifoglio turchino",
-          "source": "gbif"
-        }
-      },
-      "icon": "deceased",
-      "color": "#5132cc"
-    },
-    {
       "crop_category": "Fruit and berries",
       "taxonomy": {
         "rank": "species",
@@ -20020,7 +19996,7 @@
           "species": "Ananas comosus (L.) Merr.",
           "focal_name": "Ananas comosus (L.) Merr."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Bromeliaceae",
           "genus": "Ananas",
           "species": "Ananas comosus",
@@ -20068,7 +20044,7 @@
           "species": null,
           "focal_name": "Ageratum L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Ageratum",
           "species": null,
@@ -20128,7 +20104,7 @@
           "species": null,
           "focal_name": "Convolvulus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Convolvulaceae",
           "genus": "Convolvulus",
           "species": null,
@@ -20176,7 +20152,7 @@
           "species": "Ficus carica L.",
           "focal_name": "Ficus carica L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Moraceae",
           "genus": "Ficus",
           "species": "Ficus carica",
@@ -20195,8 +20171,8 @@
       },
       "translations": {
         "fr": {
-          "name": "Figue commune",
-          "source": "google"
+          "name": "Figuier",
+          "source": "gbif"
         },
         "en": {
           "name": "Common Fig",
@@ -20224,7 +20200,7 @@
           "species": null,
           "focal_name": "Russelia Jacq."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Plantaginaceae",
           "genus": "Russelia",
           "species": null,
@@ -20272,7 +20248,7 @@
           "species": "Lolium perenne L.",
           "focal_name": "Lolium perenne L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Poaceae",
           "genus": "Lolium",
           "species": "Lolium perenne",
@@ -20344,7 +20320,7 @@
           "species": "Trifolium repens L.",
           "focal_name": "Trifolium repens L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Fabaceae",
           "genus": "Trifolium",
           "species": "Trifolium repens",
@@ -20398,7 +20374,7 @@
           "species": null,
           "focal_name": "Vitis L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Vitaceae",
           "genus": "Vitis",
           "species": null,
@@ -20476,11 +20452,11 @@
           "species": null,
           "focal_name": "Rosmarinus"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Lamiaceae",
-          "genus": "Salvia",
+          "genus": "Rosmarinus",
           "species": null,
-          "focal_name": "Salvia"
+          "focal_name": "Rosmarinus"
         }
       },
       "crops": {
@@ -20495,24 +20471,24 @@
       },
       "translations": {
         "fr": {
-          "name": "sauge",
-          "source": "wikidata"
+          "name": "Romarin",
+          "source": "gbif"
         },
         "en": {
-          "name": "Claries",
+          "name": "Rosemary",
           "source": "gbif"
         },
         "de": {
-          "name": "Salbei",
-          "source": "wikidata"
+          "name": "Rosmarin",
+          "source": "google"
         },
         "it": {
-          "name": "Clarie",
+          "name": "Rosmarino",
           "source": "google"
         }
       },
       "icon": "grass",
-      "color": "#32cca8"
+      "color": "#3287cc"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -20524,7 +20500,7 @@
           "species": null,
           "focal_name": "Pinus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Pinaceae",
           "genus": "Pinus",
           "species": null,
@@ -20572,8 +20548,8 @@
           "species": null,
           "focal_name": "Heliotropium L."
         },
-        "resolved_classification": {
-          "family": "Heliotropiaceae",
+        "cleaned_classification": {
+          "family": "Boraginaceae",
           "genus": "Heliotropium",
           "species": null,
           "focal_name": "Heliotropium"
@@ -20620,7 +20596,7 @@
           "species": null,
           "focal_name": "Scaevola L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Goodeniaceae",
           "genus": "Scaevola",
           "species": null,
@@ -20659,84 +20635,6 @@
       "color": "#32cc9e"
     },
     {
-      "crop_category": "Agricultural Crops",
-      "taxonomy": {
-        "rank": "species",
-        "raw_classification": {
-          "family": "Poaceae",
-          "genus": "Lolium L.",
-          "species": "Lolium multiflorum Lam. ssp. italicum (A. Br.) Volkart",
-          "focal_name": "Lolium multiflorum Lam. ssp. italicum (A. Br.) Volkart"
-        },
-        "resolved_classification": {
-          "family": "Poaceae",
-          "genus": "Lolium",
-          "species": "Lolium multiflorum",
-          "focal_name": "Lolium multiflorum"
-        }
-      },
-      "crops": {
-        "crops": [
-          {
-            "id": "7e479f33-5075-1cde-ded7-989c73b51caf",
-            "status": "InProgress",
-            "upov_code": "LOLIU_MUL_ITA",
-            "denomination": "Zebu"
-          },
-          {
-            "id": "448bfb0e-2ccb-9579-3288-57fd14f35480",
-            "status": "InProgress",
-            "upov_code": "LOLIU_MUL_ITA",
-            "denomination": "Rangifer"
-          },
-          {
-            "id": "3d6680ec-549e-dc90-75cf-bc92e6893f1e",
-            "status": "InProgress",
-            "upov_code": "LOLIU_MUL_ITA",
-            "denomination": "Lipurus"
-          },
-          {
-            "id": "0b0cc3b7-d89e-b7af-7de6-c04401d417a2",
-            "status": "InProgress",
-            "upov_code": "LOLIU_MUL_ITA",
-            "denomination": "Vicugna"
-          },
-          {
-            "id": "e64877eb-ffa2-e943-34ea-3111acba0f52",
-            "status": "InProgress",
-            "upov_code": "LOLIU_MUL_ITA",
-            "denomination": "Axis"
-          },
-          {
-            "id": "e10b9686-47de-fb35-7e3b-d0d29e2cedc4",
-            "status": "InProgress",
-            "upov_code": "LOLIU_MUL_ITA",
-            "denomination": "Crevus"
-          }
-        ]
-      },
-      "translations": {
-        "fr": {
-          "name": "Ray-grass d'Italie",
-          "source": "wikidata"
-        },
-        "en": {
-          "name": "Annual Ryegrass",
-          "source": "gbif"
-        },
-        "de": {
-          "name": "Welsches Weidelgras",
-          "source": "wikidata"
-        },
-        "it": {
-          "name": "Loietto annuale",
-          "source": "google"
-        }
-      },
-      "icon": "wheat",
-      "color": "#cc3272"
-    },
-    {
       "crop_category": "Ornamental and medicinal plants",
       "taxonomy": {
         "rank": "genus",
@@ -20746,8 +20644,8 @@
           "species": null,
           "focal_name": "Agapanthus L'H\u00e9r."
         },
-        "resolved_classification": {
-          "family": "Amaryllidaceae",
+        "cleaned_classification": {
+          "family": "Agapanthaceae",
           "genus": "Agapanthus",
           "species": null,
           "focal_name": "Agapanthus"
@@ -20777,11 +20675,11 @@
           "source": "wikidata"
         },
         "it": {
-          "name": "Agapanthus",
+          "name": "Agapanto",
           "source": "google"
         }
       },
-      "icon": "spa",
+      "icon": "deceased",
       "color": "#32cc3d"
     },
     {
@@ -20794,7 +20692,7 @@
           "species": "Hypericum perforatum L.",
           "focal_name": "Hypericum perforatum L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Hypericaceae",
           "genus": "Hypericum",
           "species": "Hypericum perforatum",
@@ -20848,7 +20746,7 @@
           "species": null,
           "focal_name": "Senecio L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Senecio",
           "species": null,
@@ -20896,7 +20794,7 @@
           "species": null,
           "focal_name": "Thuja L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Cupressaceae",
           "genus": "Thuja",
           "species": null,
@@ -20944,7 +20842,7 @@
           "species": "Pinus nigra J. F. Arnold",
           "focal_name": "Pinus nigra J. F. Arnold"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Pinaceae",
           "genus": "Pinus",
           "species": "Pinus nigra",
@@ -20998,7 +20896,7 @@
           "species": "Acer platanoides L.",
           "focal_name": "Acer platanoides L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Sapindaceae",
           "genus": "Acer",
           "species": "Acer platanoides",
@@ -21046,11 +20944,11 @@
           "species": "Lolium \u00d7hybridum Hausskn.",
           "focal_name": "Lolium \u00d7hybridum Hausskn."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Poaceae",
           "genus": "Lolium",
-          "species": "Lolium",
-          "focal_name": "Lolium"
+          "species": "Lolium hybridum",
+          "focal_name": "Lolium hybridum"
         }
       },
       "crops": {
@@ -21077,24 +20975,24 @@
       },
       "translations": {
         "fr": {
-          "name": "Ivraie",
+          "name": "Ray-grass hybride",
           "source": "wikidata"
         },
         "en": {
-          "name": "Darnel, Ryegrass",
+          "name": "hybrid ryegrass",
           "source": "gbif"
         },
         "de": {
-          "name": "Lolch",
+          "name": "Lolium \u00d7hybridum",
           "source": "wikidata"
         },
         "it": {
-          "name": "Loglio, loietto",
+          "name": "loietto ibrido",
           "source": "google"
         }
       },
       "icon": "wheat",
-      "color": "#32cc42"
+      "color": "#7032cc"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -21106,7 +21004,7 @@
           "species": null,
           "focal_name": "Canna L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Cannaceae",
           "genus": "Canna",
           "species": null,
@@ -21154,8 +21052,8 @@
           "species": null,
           "focal_name": "Hydrangea L."
         },
-        "resolved_classification": {
-          "family": "Hydrangeaceae",
+        "cleaned_classification": {
+          "family": "Hydrangea",
           "genus": "Hydrangea",
           "species": null,
           "focal_name": "Hydrangea"
@@ -21214,11 +21112,11 @@
           "species": "Festuca pratensis Huds.",
           "focal_name": "Festuca pratensis Huds."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Poaceae",
-          "genus": "Lolium",
-          "species": "Lolium pratense",
-          "focal_name": "Lolium pratense"
+          "genus": "Festuca",
+          "species": "Festuca pratensis",
+          "focal_name": "Festuca pratensis"
         }
       },
       "crops": {
@@ -21239,24 +21137,24 @@
       },
       "translations": {
         "fr": {
-          "name": "f\u00e9tuque des pr\u00e9s",
-          "source": "gbif"
+          "name": "F\u00e9tuque des pr\u00e9s",
+          "source": "wikidata"
         },
         "en": {
-          "name": "Dover grass",
+          "name": "Cereal",
           "source": "gbif"
         },
         "de": {
-          "name": "Dover-Gras",
-          "source": "google"
+          "name": "Wiesen-Schwingel",
+          "source": "wikidata"
         },
         "it": {
-          "name": "Erba di Dover",
+          "name": "Cereali",
           "source": "google"
         }
       },
       "icon": "wheat",
-      "color": "#cc7f32"
+      "color": "#ccb532"
     },
     {
       "crop_category": "Fruit and berries",
@@ -21268,7 +21166,7 @@
           "species": "Actinidia arguta (Sieb. & Zucc.) Planch.",
           "focal_name": "Actinidia arguta (Sieb. & Zucc.) Planch."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Actinidiaceae",
           "genus": "Actinidia",
           "species": "Actinidia arguta",
@@ -21316,11 +21214,11 @@
           "species": "Brassica oleracea L. var. gongylodes L.",
           "focal_name": "Brassica oleracea L. var. gongylodes L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Brassicaceae",
           "genus": "Brassica",
-          "species": "Brassica oleracea",
-          "focal_name": "Brassica oleracea"
+          "species": "Brassica oleracea gongylodes",
+          "focal_name": "Brassica oleracea gongylodes"
         }
       },
       "crops": {
@@ -21342,35 +21240,29 @@
             "status": "InProgress",
             "upov_code": "BRASS_OLE_GGO",
             "denomination": "Kohyro"
-          },
-          {
-            "id": "ea0150c5-80f6-b9f5-01e0-463f6d242ab1",
-            "status": "InProgress",
-            "upov_code": "BRASS_OLE_GCR",
-            "denomination": "Zefa Kleinfein"
           }
         ]
       },
       "translations": {
         "fr": {
-          "name": "Brassica olearacea",
+          "name": "chou-rave",
           "source": "wikidata"
         },
         "en": {
-          "name": "Cabbage",
-          "source": "gbif"
+          "name": "kohlrabi",
+          "source": "wikidata"
         },
         "de": {
-          "name": "Gem\u00fcsekohl",
+          "name": "Kohlrabi",
           "source": "wikidata"
         },
         "it": {
-          "name": "Cavolo comune",
+          "name": "cavolo rapa",
           "source": "gbif"
         }
       },
       "icon": "restaurant",
-      "color": "#cc329b"
+      "color": "#3298cc"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -21382,7 +21274,7 @@
           "species": null,
           "focal_name": "Celosia L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Amaranthaceae",
           "genus": "Celosia",
           "species": null,
@@ -21430,7 +21322,7 @@
           "species": null,
           "focal_name": "Ulmus L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Ulmaceae",
           "genus": "Ulmus",
           "species": null,
@@ -21484,11 +21376,11 @@
           "species": "Foeniculum vulgare Mill.",
           "focal_name": "Foeniculum vulgare Mill."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Apiaceae",
-          "genus": "Anethum",
-          "species": "Anethum foeniculum",
-          "focal_name": "Anethum foeniculum"
+          "genus": "Foeniculum",
+          "species": "Foeniculum vulgare",
+          "focal_name": "Foeniculum vulgare"
         }
       },
       "crops": {
@@ -21509,24 +21401,24 @@
       },
       "translations": {
         "fr": {
-          "name": "Apiac\u00e9es",
-          "source": "gbif"
+          "name": "fenouil commun",
+          "source": "wikidata"
         },
         "en": {
-          "name": "Carrot Family",
+          "name": "Aniseed-weed",
           "source": "gbif"
         },
         "de": {
-          "name": "Doldenbl\u00fctler",
-          "source": "gbif"
+          "name": "Fenchel",
+          "source": "wikidata"
         },
         "it": {
-          "name": "Famiglia delle carote",
+          "name": "Erba di anice",
           "source": "google"
         }
       },
       "icon": "restaurant",
-      "color": "#c9cc32"
+      "color": "#adcc32"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -21538,11 +21430,11 @@
           "species": "Saintpaulia ionantha H. Wendl.",
           "focal_name": "Saintpaulia ionantha H. Wendl."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Gesneriaceae",
-          "genus": "Streptocarpus",
-          "species": "Streptocarpus ionanthus",
-          "focal_name": "Streptocarpus ionanthus"
+          "genus": "Saintpaulia",
+          "species": "Saintpaulia ionantha",
+          "focal_name": "Saintpaulia ionantha"
         }
       },
       "crops": {
@@ -21557,24 +21449,72 @@
       },
       "translations": {
         "fr": {
-          "name": "Violette du Cap",
+          "name": "saintpaulia",
           "source": "gbif"
         },
         "en": {
-          "name": "Cape Violet",
-          "source": "google"
+          "name": "African-violet",
+          "source": "gbif"
         },
         "de": {
-          "name": "Kap Violett",
-          "source": "google"
+          "name": "Usambaraveilchen",
+          "source": "wikidata"
         },
         "it": {
-          "name": "Capo Viola",
+          "name": "Viola africano",
           "source": "google"
         }
       },
       "icon": "deceased",
-      "color": "#32cc84"
+      "color": "#cc5632"
+    },
+    {
+      "crop_category": "Vegetable Crops",
+      "taxonomy": {
+        "rank": "species",
+        "raw_classification": {
+          "family": "Brassicaceae",
+          "genus": "Brassica L.",
+          "species": "Brassica oleracea L. convar. capitata (L.) Alef. var. rubra (L.) Thell.",
+          "focal_name": "Brassica oleracea L. convar. capitata (L.) Alef. var. rubra (L.) Thell."
+        },
+        "cleaned_classification": {
+          "family": "Brassicaceae",
+          "genus": "Brassica",
+          "species": "Brassica oleracea capitata",
+          "focal_name": "Brassica oleracea capitata"
+        }
+      },
+      "crops": {
+        "crops": [
+          {
+            "id": "ea0150c5-80f6-b9f5-01e0-463f6d242ab1",
+            "status": "InProgress",
+            "upov_code": "BRASS_OLE_GCR",
+            "denomination": "Zefa Kleinfein"
+          }
+        ]
+      },
+      "translations": {
+        "fr": {
+          "name": "chou cabus",
+          "source": "wikidata"
+        },
+        "en": {
+          "name": "Brassica oleracea var. capitata",
+          "source": "wikidata"
+        },
+        "de": {
+          "name": "Kopfkohl",
+          "source": "wikidata"
+        },
+        "it": {
+          "name": "cavolo cappuccio",
+          "source": "wikidata"
+        }
+      },
+      "icon": "restaurant",
+      "color": "#c432cc"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -21586,7 +21526,7 @@
           "species": null,
           "focal_name": "Chrysanthemum L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Asteraceae",
           "genus": "Chrysanthemum",
           "species": null,
@@ -21664,7 +21604,7 @@
           "species": "Dactylis glomerata L.",
           "focal_name": "Dactylis glomerata L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Poaceae",
           "genus": "Dactylis",
           "species": "Dactylis glomerata",
@@ -21712,11 +21652,11 @@
           "species": "Festuca arundinacea Schreb.",
           "focal_name": "Festuca arundinacea Schreb."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Poaceae",
-          "genus": "Lolium",
-          "species": "Lolium arundinaceum",
-          "focal_name": "Lolium arundinaceum"
+          "genus": "Festuca",
+          "species": "Festuca arundinacea",
+          "focal_name": "Festuca arundinacea"
         }
       },
       "crops": {
@@ -21731,24 +21671,24 @@
       },
       "translations": {
         "fr": {
-          "name": "f\u00e9tuque faux-roseau",
+          "name": "Gramin\u00e9es",
           "source": "gbif"
         },
         "en": {
-          "name": "reed fescue",
+          "name": "Cereal",
           "source": "gbif"
         },
         "de": {
-          "name": "Rohrschwingel",
-          "source": "google"
+          "name": "Rohr-Schwingel",
+          "source": "wikidata"
         },
         "it": {
-          "name": "festuca dei canneti",
+          "name": "Cereali",
           "source": "google"
         }
       },
       "icon": "wheat",
-      "color": "#cc4f32"
+      "color": "#32ccbc"
     },
     {
       "crop_category": "Agricultural Crops",
@@ -21760,7 +21700,7 @@
           "species": "Alopecurus pratensis L.",
           "focal_name": "Alopecurus pratensis L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Poaceae",
           "genus": "Alopecurus",
           "species": "Alopecurus pratensis",
@@ -21808,11 +21748,11 @@
           "species": "Ribes x nidigrolaria Rud. Bauer et A. Bauer",
           "focal_name": "Ribes x nidigrolaria Rud. Bauer et A. Bauer"
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Grossulariaceae",
           "genus": "Ribes",
-          "species": "Ribes",
-          "focal_name": "Ribes"
+          "species": "Ribes nidigrolaria",
+          "focal_name": "Ribes nidigrolaria"
         }
       },
       "crops": {
@@ -21833,24 +21773,24 @@
       },
       "translations": {
         "fr": {
-          "name": "groseiller",
+          "name": "Casseille",
           "source": "wikidata"
         },
         "en": {
-          "name": "Currant",
-          "source": "gbif"
+          "name": "Ribes \u00d7 nigridolaria",
+          "source": "wikidata"
         },
         "de": {
-          "name": "Johannisbeeren",
+          "name": "Jostabeere",
           "source": "wikidata"
         },
         "it": {
-          "name": "Ribes",
-          "source": "google"
+          "name": "Ribes \u00d7 nidigrolaria",
+          "source": "wikidata"
         }
       },
       "icon": "nutrition",
-      "color": "#c432cc"
+      "color": "#32b7cc"
     },
     {
       "crop_category": "Fruit and berries",
@@ -21862,7 +21802,7 @@
           "species": "Malus sylvestris (L.) Mill.",
           "focal_name": "Malus sylvestris (L.) Mill."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Rosaceae",
           "genus": "Malus",
           "species": "Malus sylvestris",
@@ -21910,11 +21850,11 @@
           "species": " Apium graveolens L. var. rapaceum (Mill.) Gaud.",
           "focal_name": " Apium graveolens L. var. rapaceum (Mill.) Gaud."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Apiaceae",
           "genus": "Apium",
-          "species": "Apium graveolens",
-          "focal_name": "Apium graveolens"
+          "species": "Apium graveolens rapaceum",
+          "focal_name": "Apium graveolens rapaceum"
         }
       },
       "crops": {
@@ -21933,20 +21873,20 @@
           "source": "wikidata"
         },
         "en": {
-          "name": "Celery",
-          "source": "gbif"
+          "name": "Apium graveolens",
+          "source": "wikidata"
         },
         "de": {
           "name": "Echter Sellerie",
           "source": "wikidata"
         },
         "it": {
-          "name": "Sedano",
-          "source": "google"
+          "name": "Apium graveolens",
+          "source": "wikidata"
         }
       },
       "icon": "restaurant",
-      "color": "#60cc32"
+      "color": "#4432cc"
     },
     {
       "crop_category": "Ornamental and medicinal plants",
@@ -21958,7 +21898,7 @@
           "species": null,
           "focal_name": "Pelargonium L'H\u00e9r. ex Ait."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Geraniaceae",
           "genus": "Pelargonium",
           "species": null,
@@ -22012,7 +21952,7 @@
           "species": "Juglans regia L.",
           "focal_name": "Juglans regia L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Juglandaceae",
           "genus": "Juglans",
           "species": "Juglans regia",
@@ -22060,7 +22000,7 @@
           "species": "Thymus vulgaris L.",
           "focal_name": "Thymus vulgaris L."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Lamiaceae",
           "genus": "Thymus",
           "species": "Thymus vulgaris",
@@ -22108,7 +22048,7 @@
           "species": "Salvia patens Cav.",
           "focal_name": "Salvia patens Cav."
         },
-        "resolved_classification": {
+        "cleaned_classification": {
           "family": "Lamiaceae",
           "genus": "Salvia",
           "species": "Salvia patens",
