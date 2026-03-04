@@ -24,9 +24,9 @@ As a result, the datasets produced by this project are **derived works** and are
 
 - Each source dataset remains subject to **its own legal and usage conditions** as defined by the original publisher.
 
-- The **code** of this project is licensed under **GNU GPL-3.0**.
+- The **code** of this project is licensed under **MIT License**.
 
-- Generated datasets are distributed under GNU GPL-3.0 **only to the extent permitted by the original data sources**.
+- Generated datasets are distributed under MIT License **only to the extent permitted by the original data sources**.
 
 - No claim of ownership is made over any third-party source data.
 

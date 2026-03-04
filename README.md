@@ -30,10 +30,10 @@ Source documentation: https://www.i14y.admin.ch/en/catalog/datasets/BLW_DS_PESTI
 Source dataset: https://raw.githubusercontent.com/blw-ofag-ufag/blw-ogd-data/refs/heads/main/data/pesticides_in_switzerland.json
 
 
-## [Contribute](CONTRIBUTING.md)
+## [Contributing](https://github.com/edouardbruelhart/Manexp-Web-Lists/blob/main/CONTRIBUTING.md)
 
 Contributions are welcome, and they are greatly appreciated!
 
-## [Data sources](DATA_SOURCES.md)
+## [Data sources](https://github.com/edouardbruelhart/Manexp-Web-Lists/blob/main/DATA_SOURCES.md)
 
-This project depends on external datasets from third-party sources, including public institutions and open data platforms.
+This project depends on external datasets from third-party sources, including public institutions and open data platforms.   All sources, attribution details, and transformation notes are documented in **DATA_SOURCES.md**.
