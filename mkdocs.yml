@@ -74,6 +74,11 @@ theme:
 
 nav:
 - Run: manexp_web_lists/run.md
+- Parsers:
+  - Boolean parser: manexp_web_lists/parsers/boolean_parser.md
+  - Country parser: manexp_web_lists/parsers/country_parser.md
+  - List parser: manexp_web_lists/parsers/list_parser.md
+  - Timestamp parser: manexp_web_lists/parsers/timestamp_parser.md
 - Pesticides:
   - Fetch pesticides: manexp_web_lists/pesticides/fetch_pesticides.md
 - Taxa:
@@ -110,20 +115,22 @@ nav:
   - Translate taxon: manexp_web_lists/taxa/taxo_translator/translate_taxon.md
   - Wikidata translation:
       manexp_web_lists/taxa/taxo_translator/wikidata_translation.md
-- Requests:
-  - Gbif requests: manexp_web_lists/requests/gbif_requests.md
-  - Google requests: manexp_web_lists/requests/google_requests.md
-  - Wikidata requests: manexp_web_lists/requests/wikidata_requests.md
 - Exceptions:
   - Crop category mismatch:
       manexp_web_lists/exceptions/crop_category_mismatch.md
   - Families error: manexp_web_lists/exceptions/families_error.md
+  - Invalid pseudo boolean:
+      manexp_web_lists/exceptions/invalid_pseudo_boolean.md
+  - Invalid timestamp: manexp_web_lists/exceptions/invalid_timestamp.md
 - Core:
-  - Date parser: manexp_web_lists/core/date_parser.md
   - Json client: manexp_web_lists/core/json_client.md
   - Logging config: manexp_web_lists/core/logging_config.md
   - Mailer: manexp_web_lists/core/mailer.md
   - Strict model: manexp_web_lists/core/strict_model.md
+- Web_clients:
+  - Gbif requests: manexp_web_lists/web_clients/gbif_requests.md
+  - Google requests: manexp_web_lists/web_clients/google_requests.md
+  - Wikidata requests: manexp_web_lists/web_clients/wikidata_requests.md
 extra:
   social:
   - icon: fontawesome/brands/github

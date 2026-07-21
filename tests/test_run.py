@@ -8,9 +8,14 @@ from manexp_web_lists.run import run
 # Just to make codecov happy
 def test_run_calls_fetches_and_mailer():
     with (
-        patch("manexp_web_lists.run.fetch_taxa") as mock_taxa,
-        patch("manexp_web_lists.run.fetch_pesticides") as mock_pest,
-        patch("manexp_web_lists.run.mailer.send_email") as mock_mail,
+        patch("manexp_web_lists.run.get_countries") as mock_countries,
+        patch("manexp_web_lists.run.get_register_types") as mock_reg_types,
+        patch("manexp_web_lists.run.get_register_subtypes") as mock_reg_subtypes,
+        patch("manexp_web_lists.run.get_seeds") as mock_seeds,
+        patch("manexp_web_lists.run.get_seeds") as mock_seeds,
+        patch("manexp_web_lists.run.get_taxonomy") as mock_taxonomy,
+        # patch("manexp_web_lists.run.get_pesticides") as mock_pest,
+        # patch("manexp_web_lists.run.mailer.send_email") as mock_mail,
         patch("manexp_web_lists.run.configure_logging") as mock_log,
         patch("manexp_web_lists.run.log_section") as mock_section,
     ):
@@ -25,15 +30,19 @@ def test_run_calls_fetches_and_mailer():
         run()
 
         # Assertions
-        mock_taxa.assert_called_once()
-        mock_pest.assert_called_once()
-        mock_mail.assert_called_once()
+        mock_countries.assert_called_once()
+        mock_reg_types.assert_called_once()
+        mock_reg_subtypes.assert_called_once()
+        mock_seeds.assert_called_once()
+        mock_taxonomy.assert_called_once()
+        # mock_pest.assert_called_once()
+        # mock_mail.assert_called_once()
         mock_section.assert_called()
 
 
 def test_run_exception_sends_error_email():
     with (
-        patch("manexp_web_lists.run.fetch_taxa", side_effect=RuntimeError),
+        patch("manexp_web_lists.run.get_countries", side_effect=RuntimeError),
         patch("manexp_web_lists.core.mailer.Mailer.send_email") as mock_send,
     ):
         run()

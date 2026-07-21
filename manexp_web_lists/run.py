@@ -1,9 +1,11 @@
 import logging
 
-from manexp_web_lists.core.logging_config import configure_logging, log_section
-from manexp_web_lists.core.mailer import Mailer
-from manexp_web_lists.pesticides.fetch_pesticides import fetch_pesticides
-from manexp_web_lists.taxa.fetch_taxa import fetch_taxa
+from manexp_web_lists.core import Mailer, configure_logging, log_section
+from manexp_web_lists.countries import get_countries
+from manexp_web_lists.register_subtypes import get_register_subtypes
+from manexp_web_lists.register_types import get_register_types
+from manexp_web_lists.seeds import get_seeds
+from manexp_web_lists.taxonomy import get_taxonomy
 
 # Initialize mailer
 mailer = Mailer()
@@ -21,19 +23,41 @@ def run() -> None:
     log_stream = configure_logging()
 
     try:
-        # Generate taxon list
-        log_section("FETCHING TAXA")
-        fetch_taxa()
+        # Generate countries list
+        log_section("GETTING COUNTRIES")
+        get_countries()
+        logger.info("✅ Done ✅")
 
-        # Generate pesticides list
-        log_section("FETCHING PESTICIDES")
-        fetch_pesticides()
+        # Generate register types
+        log_section("GETTING REGISTER TYPES")
+        get_register_types()
+        logger.info("✅ Done ✅")
 
+        # Generate register subtypes
+        log_section("GETTING REGISTRER SUBTYPES")
+        get_register_subtypes()
+        logger.info("✅ Done ✅")
+
+        # Generate seeds list
+        log_section("GETTING SEEDS")
+        get_seeds()
+        logger.info("✅ Done ✅")
+
+        # Generate taxonomy list
+        log_section("GETTING TAXONOMY")
+        get_taxonomy()
+        logger.info("✅ Done ✅")
+
+        # # Generate pesticides list
+        # log_section("GETTING PESTICIDES")
+        # get_pesticides()
+
+        # TODO: Uncomment this for prod
         # Send success recap
-        mailer.send_email(
-            subject="Manexp-Web-List SUCCESS Report",
-            body=log_stream.getvalue(),
-        )
+        # mailer.send_email(
+        #     subject="Manexp-Web-List SUCCESS Report",
+        #     body=log_stream.getvalue(),
+        # )
 
     except Exception:
         logger.exception("Error while generating lists")
