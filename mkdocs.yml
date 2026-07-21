@@ -74,63 +74,60 @@ theme:
 
 nav:
 - Run: manexp_web_lists/run.md
-- Parsers:
-  - Boolean parser: manexp_web_lists/parsers/boolean_parser.md
-  - Country parser: manexp_web_lists/parsers/country_parser.md
-  - List parser: manexp_web_lists/parsers/list_parser.md
-  - Timestamp parser: manexp_web_lists/parsers/timestamp_parser.md
+- Register_types:
+  - Get register types: manexp_web_lists/register_types/get_register_types.md
+- Create:
+  - Create register types:
+      manexp_web_lists/register_types/create/create_register_types.md
+- Countries:
+  - Get countries: manexp_web_lists/countries/get_countries.md
+- Extract:
+  - Download countries: manexp_web_lists/countries/extract/download_countries.md
+- Transform:
+  - Translate countries:
+      manexp_web_lists/countries/transform/translate_countries.md
+- Seeds:
+  - Get seeds: manexp_web_lists/seeds/get_seeds.md
+- Extract:
+  - Download seeds: manexp_web_lists/seeds/extract/download_seeds.md
+- Transform:
+  - Clean booleans: manexp_web_lists/seeds/transform/clean_booleans.md
+  - Clean denominations: manexp_web_lists/seeds/transform/clean_denominations.md
+  - Filter columns: manexp_web_lists/seeds/transform/filter_columns.md
+  - Remove unnecessary seeds:
+      manexp_web_lists/seeds/transform/remove_unnecessary_seeds.md
+  - Rename columns: manexp_web_lists/seeds/transform/rename_columns.md
+- Register_subtypes:
+  - Get register subtypes:
+      manexp_web_lists/register_subtypes/get_register_subtypes.md
+- Create:
+  - Create register subtypes:
+      manexp_web_lists/register_subtypes/create/create_register_subtypes.md
 - Pesticides:
-  - Fetch pesticides: manexp_web_lists/pesticides/fetch_pesticides.md
-- Taxa:
-  - Fetch taxa: manexp_web_lists/taxa/fetch_taxa.md
-  - Save taxa: manexp_web_lists/taxa/save_taxa.md
-- Varieties_to_taxa:
-  - Manual correction:
-      manexp_web_lists/taxa/varieties_to_taxa/manual_correction.md
-  - Varieties to taxa:
-      manexp_web_lists/taxa/varieties_to_taxa/varieties_to_taxa.md
-- Color_generator:
-  - Color generator: manexp_web_lists/taxa/color_generator/color_generator.md
-  - Text to color: manexp_web_lists/taxa/color_generator/text_to_color.md
+  - Get pesticides: manexp_web_lists/pesticides/get_pesticides.md
+- Taxonomy:
+  - Get taxonomy: manexp_web_lists/taxonomy/get_taxonomy.md
+- Extract:
+  - Download taxonomy: manexp_web_lists/taxonomy/extract/download_taxonomy.md
+- Clients:
+  - Gbif client: manexp_web_lists/taxonomy/clients/gbif_client.md
 - Models:
-  - Crops: manexp_web_lists/taxa/models/crops.md
-  - Taxa: manexp_web_lists/taxa/models/taxa.md
-  - Taxonomy: manexp_web_lists/taxa/models/taxonomy.md
-  - Translations: manexp_web_lists/taxa/models/translations.md
-  - Varieties: manexp_web_lists/taxa/models/varieties.md
-- Icon_generator:
-  - Get unique families:
-      manexp_web_lists/taxa/icon_generator/get_unique_families.md
-  - Icon generator: manexp_web_lists/taxa/icon_generator/icon_generator.md
-- Taxo_cleaner:
-  - Clean taxonomy: manexp_web_lists/taxa/taxo_cleaner/clean_taxonomy.md
-  - Resolve taxonomy: manexp_web_lists/taxa/taxo_cleaner/resolve_taxonomy.md
-  - Taxo cleaner: manexp_web_lists/taxa/taxo_cleaner/taxo_cleaner.md
-- Taxo_translator:
-  - Gbif translation: manexp_web_lists/taxa/taxo_translator/gbif_translation.md
-  - Google translation:
-      manexp_web_lists/taxa/taxo_translator/google_translation.md
-  - Models: manexp_web_lists/taxa/taxo_translator/models.md
-  - Taxo translator: manexp_web_lists/taxa/taxo_translator/taxo_translator.md
-  - Translate taxon: manexp_web_lists/taxa/taxo_translator/translate_taxon.md
-  - Wikidata translation:
-      manexp_web_lists/taxa/taxo_translator/wikidata_translation.md
+  - Taxon rank: manexp_web_lists/taxonomy/models/taxon_rank.md
+- Transform:
+  - Clean taxonomy: manexp_web_lists/taxonomy/transform/clean_taxonomy.md
+  - Color taxonomy: manexp_web_lists/taxonomy/transform/color_taxonomy.md
+  - Filter columns: manexp_web_lists/taxonomy/transform/filter_columns.md
+  - Filter rows: manexp_web_lists/taxonomy/transform/filter_rows.md
+  - Iconize taxonomy: manexp_web_lists/taxonomy/transform/iconize_taxonomy.md
 - Exceptions:
-  - Crop category mismatch:
-      manexp_web_lists/exceptions/crop_category_mismatch.md
-  - Families error: manexp_web_lists/exceptions/families_error.md
+  - Invalid chemical: manexp_web_lists/exceptions/invalid_chemical.md
   - Invalid pseudo boolean:
       manexp_web_lists/exceptions/invalid_pseudo_boolean.md
-  - Invalid timestamp: manexp_web_lists/exceptions/invalid_timestamp.md
+  - Separator error: manexp_web_lists/exceptions/separator_error.md
 - Core:
-  - Json client: manexp_web_lists/core/json_client.md
   - Logging config: manexp_web_lists/core/logging_config.md
   - Mailer: manexp_web_lists/core/mailer.md
   - Strict model: manexp_web_lists/core/strict_model.md
-- Web_clients:
-  - Gbif requests: manexp_web_lists/web_clients/gbif_requests.md
-  - Google requests: manexp_web_lists/web_clients/google_requests.md
-  - Wikidata requests: manexp_web_lists/web_clients/wikidata_requests.md
 extra:
   social:
   - icon: fontawesome/brands/github
