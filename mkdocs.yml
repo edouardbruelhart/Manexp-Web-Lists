@@ -74,60 +74,62 @@ theme:
 
 nav:
 - Run: manexp_web_lists/run.md
-- Register_types:
-  - Get register types: manexp_web_lists/register_types/get_register_types.md
-- Create:
-  - Create register types:
-      manexp_web_lists/register_types/create/create_register_types.md
+- Core:
+  - Logging config: manexp_web_lists/core/logging_config.md
+  - Mailer: manexp_web_lists/core/mailer.md
+  - Strict model: manexp_web_lists/core/strict_model.md
 - Countries:
   - Get countries: manexp_web_lists/countries/get_countries.md
-- Extract:
-  - Download countries: manexp_web_lists/countries/extract/download_countries.md
-- Transform:
-  - Translate countries:
-      manexp_web_lists/countries/transform/translate_countries.md
-- Seeds:
-  - Get seeds: manexp_web_lists/seeds/get_seeds.md
-- Extract:
-  - Download seeds: manexp_web_lists/seeds/extract/download_seeds.md
-- Transform:
-  - Clean booleans: manexp_web_lists/seeds/transform/clean_booleans.md
-  - Clean denominations: manexp_web_lists/seeds/transform/clean_denominations.md
-  - Filter columns: manexp_web_lists/seeds/transform/filter_columns.md
-  - Remove unnecessary seeds:
-      manexp_web_lists/seeds/transform/remove_unnecessary_seeds.md
-  - Rename columns: manexp_web_lists/seeds/transform/rename_columns.md
-- Register_subtypes:
-  - Get register subtypes:
-      manexp_web_lists/register_subtypes/get_register_subtypes.md
-- Create:
-  - Create register subtypes:
-      manexp_web_lists/register_subtypes/create/create_register_subtypes.md
-- Pesticides:
-  - Get pesticides: manexp_web_lists/pesticides/get_pesticides.md
-- Taxonomy:
-  - Get taxonomy: manexp_web_lists/taxonomy/get_taxonomy.md
-- Extract:
-  - Download taxonomy: manexp_web_lists/taxonomy/extract/download_taxonomy.md
-- Clients:
-  - Gbif client: manexp_web_lists/taxonomy/clients/gbif_client.md
-- Models:
-  - Taxon rank: manexp_web_lists/taxonomy/models/taxon_rank.md
-- Transform:
-  - Clean taxonomy: manexp_web_lists/taxonomy/transform/clean_taxonomy.md
-  - Color taxonomy: manexp_web_lists/taxonomy/transform/color_taxonomy.md
-  - Filter columns: manexp_web_lists/taxonomy/transform/filter_columns.md
-  - Filter rows: manexp_web_lists/taxonomy/transform/filter_rows.md
-  - Iconize taxonomy: manexp_web_lists/taxonomy/transform/iconize_taxonomy.md
+  - Extract:
+    - Download countries:
+        manexp_web_lists/countries/extract/download_countries.md
+  - Transform:
+    - Translate countries:
+        manexp_web_lists/countries/transform/translate_countries.md
 - Exceptions:
   - Invalid chemical: manexp_web_lists/exceptions/invalid_chemical.md
   - Invalid pseudo boolean:
       manexp_web_lists/exceptions/invalid_pseudo_boolean.md
   - Separator error: manexp_web_lists/exceptions/separator_error.md
-- Core:
-  - Logging config: manexp_web_lists/core/logging_config.md
-  - Mailer: manexp_web_lists/core/mailer.md
-  - Strict model: manexp_web_lists/core/strict_model.md
+- Pesticides:
+  - Get pesticides: manexp_web_lists/pesticides/get_pesticides.md
+- Register subtypes:
+  - Get register subtypes:
+      manexp_web_lists/register_subtypes/get_register_subtypes.md
+  - Create:
+    - Create register subtypes:
+        manexp_web_lists/register_subtypes/create/create_register_subtypes.md
+- Register types:
+  - Get register types: manexp_web_lists/register_types/get_register_types.md
+  - Create:
+    - Create register types:
+        manexp_web_lists/register_types/create/create_register_types.md
+- Seeds:
+  - Get seeds: manexp_web_lists/seeds/get_seeds.md
+  - Extract:
+    - Download seeds: manexp_web_lists/seeds/extract/download_seeds.md
+  - Transform:
+    - Clean booleans: manexp_web_lists/seeds/transform/clean_booleans.md
+    - Clean denominations:
+        manexp_web_lists/seeds/transform/clean_denominations.md
+    - Filter columns: manexp_web_lists/seeds/transform/filter_columns.md
+    - Remove unnecessary seeds:
+        manexp_web_lists/seeds/transform/remove_unnecessary_seeds.md
+    - Rename columns: manexp_web_lists/seeds/transform/rename_columns.md
+- Taxonomy:
+  - Get taxonomy: manexp_web_lists/taxonomy/get_taxonomy.md
+  - Clients:
+    - Gbif client: manexp_web_lists/taxonomy/clients/gbif_client.md
+  - Extract:
+    - Download taxonomy: manexp_web_lists/taxonomy/extract/download_taxonomy.md
+  - Models:
+    - Taxon rank: manexp_web_lists/taxonomy/models/taxon_rank.md
+  - Transform:
+    - Clean taxonomy: manexp_web_lists/taxonomy/transform/clean_taxonomy.md
+    - Color taxonomy: manexp_web_lists/taxonomy/transform/color_taxonomy.md
+    - Filter columns: manexp_web_lists/taxonomy/transform/filter_columns.md
+    - Filter rows: manexp_web_lists/taxonomy/transform/filter_rows.md
+    - Iconize taxonomy: manexp_web_lists/taxonomy/transform/iconize_taxonomy.md
 extra:
   social:
   - icon: fontawesome/brands/github
