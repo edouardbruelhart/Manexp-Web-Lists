@@ -1,5 +1,3 @@
-manexp_web_lists/test.py
-
 docs/source
 
 # From https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore
@@ -50,7 +48,7 @@ htmlcov/
 .coverage.*
 .cache
 nosetests.xml
-coverage.xml
+#coverage.xml
 *.cover
 *.py.cover
 .hypothesis/
