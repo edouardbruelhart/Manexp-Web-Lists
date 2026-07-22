@@ -73,13 +73,13 @@ def generate_markdown_files() -> None:
 
 def update_mkdocs_yaml() -> None:
     """
-    Modify mkdocs.yml to match generated documentation
+    Modify mkdocs.yml to match the generated documentation structure.
 
     Args:
-            None
+        None
 
-        Returns:
-            None
+    Returns:
+        None
     """
 
     # Initialize YAML client
@@ -88,56 +88,57 @@ def update_mkdocs_yaml() -> None:
 
     # Load mkdocs.yml
     with open(MKDOCS_FILE) as f:
-        mkdocs_data: Optional[dict] = client.load(f) or None
+        mkdocs_data: Optional[dict] = client.load(f)
 
     if mkdocs_data is None:
         print("mkdocs.yml not found")
-        exit()
+        return
 
-    # Get path to documentation
     doc_path = Path(ROOT_DIR) / DOC_DIR
+    generated_path = doc_path / CODE_DIR
 
-    # Initialize nav
-    nav = []
+    # Keep existing navigation entries
+    existing_nav = mkdocs_data.get("nav", [])
 
-    # Get existing nav
-    existing_nav = [entry for entry in mkdocs_data.get("nav", []) if isinstance(entry, dict)]
-    for entry in existing_nav:
-        print(entry)
-    nav_to_keep = [entry for entry in existing_nav if str(entry) in NAV_TO_KEEP]
-    nav.extend(nav_to_keep)
+    nav = [entry for entry in existing_nav if isinstance(entry, dict) and any(key in NAV_TO_KEEP for key in entry)]
 
-    # Traverse generated Markdown files
-    generated_path = Path(ROOT_DIR) / DOC_DIR / CODE_DIR
-    for dirpath, _, filenames in os.walk(generated_path):
-        dir_path = Path(dirpath)
-        rel_dir = dir_path.relative_to(doc_path)
+    # Build documentation tree
+    tree: dict = {}
 
-        # Stop if no file in dir
-        if not filenames:
-            continue
+    for md_file in sorted(generated_path.rglob("*.md")):
+        rel_path = md_file.relative_to(doc_path)
 
-        # Build nested structure
-        entries = []
-        for file in sorted(filenames):
-            if file.endswith(".md"):
-                title = file.removesuffix(".md").replace("_", " ").capitalize()
-                path = Path(rel_dir) / file
-                str_path = str(path)
-                entries.append({title: str_path})
+        node = tree
 
-        # Create nested entry only if not empty
-        if entries:
-            # For top-level folders
-            if rel_dir.parts and rel_dir.parts[-1] != "manexp_web_lists":
-                nav.append({rel_dir.parts[-1].capitalize(): entries})
+        # Build folder hierarchy
+        for folder in rel_path.parts[:-1]:
+            if folder == CODE_DIR:
+                continue
+            node = node.setdefault(folder, {})
+
+        # Add file
+        title = rel_path.stem.replace("_", " ").capitalize()
+        node[title] = str(rel_path)
+
+    # Convert tree into MkDocs nav format
+    def build_nav(node: dict) -> list:
+        nav_entries = []
+
+        for key in sorted(node):
+            value = node[key]
+
+            if isinstance(value, dict):
+                nav_entries.append({key.replace("_", " ").capitalize(): build_nav(value)})
             else:
-                nav.extend(entries)
+                nav_entries.append({key: value})
 
-    # Update mkdocs_data
+        return nav_entries
+
+    nav.extend(build_nav(tree))
+
+    # Save mkdocs.yml
     mkdocs_data["nav"] = nav
 
-    # Write updated mkdocs.yml
     with open(MKDOCS_FILE, "w") as f:
         client.dump(mkdocs_data, f)
 
