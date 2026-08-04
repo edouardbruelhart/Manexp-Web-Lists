@@ -30,6 +30,24 @@ class SectionAwareFormatter(logging.Formatter):
         return super().format(record)
 
 
+class IgnoreFastExcelDtypeWarnings(logging.Filter):
+    """
+    Avoid to print dtypes not determined warnings from fast excel
+    """
+
+    def filter(self, record: logging.LogRecord) -> bool:
+        """
+        Filter dtypes warnings
+
+        Args:
+            record: The logging record to check
+
+        Returns:
+            bool: If the log contains the critical warning or not.
+        """
+        return "Could not determine dtype for column" not in record.getMessage()
+
+
 def configure_logging() -> StringIO:
     """
     Configure logging
@@ -44,9 +62,11 @@ def configure_logging() -> StringIO:
 
     console = logging.StreamHandler()
     console.setFormatter(formatter)
+    console.addFilter(IgnoreFastExcelDtypeWarnings())
 
     memory = logging.StreamHandler(log_stream)
     memory.setFormatter(formatter)
+    memory.addFilter(IgnoreFastExcelDtypeWarnings())
 
     root_logger.handlers.clear()
     root_logger.addHandler(console)
