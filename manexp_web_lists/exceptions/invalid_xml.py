@@ -7,4 +7,5 @@ class InvalidXMLError(Exception):
         self,
     ) -> None:
 
-        super().__init__()
+        message = "The xml you are trying to parse is empty or incomplete."
+        super().__init__(message)

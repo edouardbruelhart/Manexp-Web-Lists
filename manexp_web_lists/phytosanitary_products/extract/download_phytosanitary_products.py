@@ -98,16 +98,15 @@ def download_phytosanitary_products(url: str, path: Path) -> None:
     tree = parse(data)
     root = tree.getroot()
 
-    # Check that xml is not empty
-    if root is None:
-        raise InvalidXMLError
-
     for index, filename in FILES_TO_DOWNLOAD.items():
-        wrapper = ET.Element("Data")
-        wrapper.append(root[index])
+        try:
+            wrapper = ET.Element("Data")
+            wrapper.append(root[index])  # type: ignore[index]
 
-        ET.ElementTree(wrapper).write(
-            path / filename,
-            encoding="utf-8",
-            xml_declaration=True,
-        )
+            ET.ElementTree(wrapper).write(
+                path / filename,
+                encoding="utf-8",
+                xml_declaration=True,
+            )
+        except IndexError as exc:
+            raise InvalidXMLError() from exc

@@ -8,6 +8,7 @@ import pytest
 import requests
 from defusedxml.ElementTree import parse
 
+from manexp_web_lists.exceptions import InvalidXMLError
 from manexp_web_lists.phytosanitary_products.extract.download_phytosanitary_products import (
     FILES_TO_DOWNLOAD,
     download_phytosanitary_products,
@@ -86,7 +87,7 @@ def test_extract_zip():
     assert result["folder/file2.txt"].getvalue() == b"World"
 
 
-def test_download_phytosanitary_products(tmp_path: Path) -> None:
+def test_download_phytosanitary_products_success(tmp_path: Path) -> None:
     # Build a minimal XML document with one element for each index
     root = ET.Element("Root")
 
@@ -129,3 +130,64 @@ def test_download_phytosanitary_products(tmp_path: Path) -> None:
             assert len(root) == 1
             assert root[0].tag == f"Section{index}"
             assert root[0].text == f"value-{index}"
+
+
+def test_download_phytosanitary_products_empty_xml(tmp_path: Path) -> None:
+    # Build a minimal XML document with one element for each index
+    root = ET.Element("Root")
+
+    xml_buffer = io.BytesIO()
+    ET.ElementTree(root).write(
+        xml_buffer,
+        encoding="utf-8",
+        xml_declaration=True,
+    )
+    xml_buffer.seek(0)
+
+    with (
+        patch(
+            "manexp_web_lists.phytosanitary_products.extract.download_phytosanitary_products.download_zip",
+            return_value=io.BytesIO(b"dummy zip"),
+        ),
+        patch(
+            "manexp_web_lists.phytosanitary_products.extract.download_phytosanitary_products.extract_zip",
+            return_value={
+                "PublicationData.xml": xml_buffer,
+            },
+        ),
+        pytest.raises(InvalidXMLError),
+    ):
+        download_phytosanitary_products("https://example.com/data.zip", tmp_path)
+
+
+def test_download_phytosanitary_products_incomplete_xml(tmp_path: Path) -> None:
+    # Build a minimal XML document with one element for each index
+    root = ET.Element("Root")
+
+    max_index = max(FILES_TO_DOWNLOAD.keys())
+    for i in range(max_index):
+        child = ET.SubElement(root, f"Section{i}")
+        child.text = f"value-{i}"
+
+    xml_buffer = io.BytesIO()
+    ET.ElementTree(root).write(
+        xml_buffer,
+        encoding="utf-8",
+        xml_declaration=True,
+    )
+    xml_buffer.seek(0)
+
+    with (
+        patch(
+            "manexp_web_lists.phytosanitary_products.extract.download_phytosanitary_products.download_zip",
+            return_value=io.BytesIO(b"dummy zip"),
+        ),
+        patch(
+            "manexp_web_lists.phytosanitary_products.extract.download_phytosanitary_products.extract_zip",
+            return_value={
+                "PublicationData.xml": xml_buffer,
+            },
+        ),
+        pytest.raises(InvalidXMLError),
+    ):
+        download_phytosanitary_products("https://example.com/data.zip", tmp_path)
