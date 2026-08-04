@@ -90,9 +90,14 @@ nav:
   - Invalid chemical: manexp_web_lists/exceptions/invalid_chemical.md
   - Invalid pseudo boolean:
       manexp_web_lists/exceptions/invalid_pseudo_boolean.md
+  - Invalid xml: manexp_web_lists/exceptions/invalid_xml.md
   - Separator error: manexp_web_lists/exceptions/separator_error.md
-- Pesticides:
-  - Get pesticides: manexp_web_lists/pesticides/get_pesticides.md
+- Phytosanitary products:
+  - Get phytosanitary products:
+      manexp_web_lists/phytosanitary_products/get_phytosanitary_products.md
+  - Extract:
+    - Download phytosanitary products:
+        manexp_web_lists/phytosanitary_products/extract/download_phytosanitary_products.md
 - Register subtypes:
   - Get register subtypes:
       manexp_web_lists/register_subtypes/get_register_subtypes.md
