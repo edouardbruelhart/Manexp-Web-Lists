@@ -2,6 +2,7 @@ import logging
 
 from manexp_web_lists.core import Mailer, configure_logging, log_section
 from manexp_web_lists.countries import get_countries
+from manexp_web_lists.phytosanitary_products import get_phytosanitary_products
 from manexp_web_lists.register_subtypes import get_register_subtypes
 from manexp_web_lists.register_types import get_register_types
 from manexp_web_lists.seeds import get_seeds
@@ -48,9 +49,10 @@ def run() -> None:
         get_taxonomy()
         logger.info("✅ Done ✅")
 
-        # # Generate pesticides list
-        # log_section("GETTING PESTICIDES")
-        # get_pesticides()
+        # Generate phytosanitary products list
+        log_section("GETTING PHYTOSANITARY PRODUCTS")
+        get_phytosanitary_products()
+        logger.info("✅ Done ✅")
 
         # TODO: Uncomment this for prod
         # Send success recap

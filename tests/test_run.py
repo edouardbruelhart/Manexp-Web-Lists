@@ -14,7 +14,7 @@ def test_run_calls_fetches_and_mailer():
         patch("manexp_web_lists.run.get_seeds") as mock_seeds,
         patch("manexp_web_lists.run.get_seeds") as mock_seeds,
         patch("manexp_web_lists.run.get_taxonomy") as mock_taxonomy,
-        # patch("manexp_web_lists.run.get_pesticides") as mock_pest,
+        patch("manexp_web_lists.run.get_phytosanitary_products") as mock_sanitary,
         # patch("manexp_web_lists.run.mailer.send_email") as mock_mail,
         patch("manexp_web_lists.run.configure_logging") as mock_log,
         patch("manexp_web_lists.run.log_section") as mock_section,
@@ -35,7 +35,7 @@ def test_run_calls_fetches_and_mailer():
         mock_reg_subtypes.assert_called_once()
         mock_seeds.assert_called_once()
         mock_taxonomy.assert_called_once()
-        # mock_pest.assert_called_once()
+        mock_sanitary.assert_called_once()
         # mock_mail.assert_called_once()
         mock_section.assert_called()
 
