@@ -16,6 +16,8 @@ class TestTaxonRank(unittest.TestCase):
             "subgen.",
             "gen.",
             "sect.",
+            "convar.",
+            "subvar.",
             "unknown",
         }
 
