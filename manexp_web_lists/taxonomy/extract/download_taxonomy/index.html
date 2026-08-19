@@ -2549,6 +2549,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../transform/merge_taxonomy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Merge taxonomy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -2716,7 +2744,11 @@
 
 
 </h2>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">download_taxonomy</span><span class="p">(</span><span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">file_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">download_taxonomy</span><span class="p">(</span>
+    <span class="n">urls</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
+    <span class="n">file_paths</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">Path</span><span class="p">],</span>
+    <span class="n">columns</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]],</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
@@ -2737,14 +2769,14 @@
       <tbody>
           <tr class="doc-section-item">
             <td>
-                <code>url</code>
+                <code>urls</code>
             </td>
             <td>
-                  <code><span title="str">str</span></code>
+                  <code><span title="list">list</span>[<span title="str">str</span>]</code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>The url of the page to download</p>
+                <p>The urls of the page to download</p>
               </div>
             </td>
             <td>
@@ -2753,14 +2785,30 @@
           </tr>
           <tr class="doc-section-item">
             <td>
-                <code>file_path</code>
+                <code>file_paths</code>
             </td>
             <td>
-                  <code><span title="pathlib.Path">Path</span></code>
+                  <code><span title="list">list</span>[<span title="pathlib.Path">Path</span>]</code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>the path where to save the file</p>
+                <p>the paths where to save the file</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>columns</code>
+            </td>
+            <td>
+                  <code><span title="list">list</span>[<span title="list">list</span>[<span title="str">str</span>]]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>the columns corresponding to the different CSVs</p>
               </div>
             </td>
             <td>
