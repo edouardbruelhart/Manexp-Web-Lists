@@ -4,6 +4,8 @@ from email.message import EmailMessage
 
 from dotenv import load_dotenv
 
+from manexp_web_lists.exceptions import InvalidEnvironmentError
+
 
 class Mailer:
     """Client to send emails using SMTP."""
@@ -17,13 +19,20 @@ class Mailer:
         Args:
             subject: The subject of the email
             body: The body of the email
+
+        Raises:
+            InvalidEnvironmentError: Raised when environment variables are invalid or incomplete
         """
 
         # Get environment variables
-        email_sender = str(os.getenv("EMAIL_SENDER"))
-        smtp = str(os.getenv("SMTP"))
-        email_receiver = str(os.getenv("EMAIL_RECEIVER"))
-        password = str(os.getenv("PASSWORD"))
+        email_sender = os.getenv("EMAIL_SENDER")
+        smtp = os.getenv("SMTP")
+        email_receiver = os.getenv("EMAIL_RECEIVER")
+        password = os.getenv("PASSWORD")
+
+        # Check that variables are not null
+        if email_sender is None or smtp is None or email_receiver is None or password is None:
+            raise InvalidEnvironmentError
 
         msg = EmailMessage()
         msg["From"] = email_sender
