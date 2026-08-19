@@ -90,3 +90,6 @@ Used for:
 ### [UPOV Code List and Denomination Classes](https://www.upov.int/genie/updates/upov_code.xhtml?lang=en)
 
 Documentation: https://www.upov.int/en/find-and-explore/databases/genie
+
+Used for:
+- taxonomy
