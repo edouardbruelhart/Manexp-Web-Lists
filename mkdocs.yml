@@ -88,6 +88,7 @@ nav:
         manexp_web_lists/countries/transform/translate_countries.md
 - Exceptions:
   - Invalid chemical: manexp_web_lists/exceptions/invalid_chemical.md
+  - Invalid environment: manexp_web_lists/exceptions/invalid_environment.md
   - Invalid pseudo boolean:
       manexp_web_lists/exceptions/invalid_pseudo_boolean.md
   - Invalid xml: manexp_web_lists/exceptions/invalid_xml.md
