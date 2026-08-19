@@ -14,5 +14,6 @@ class TaxonRank(str, Enum):
     SPECIES = "sp."
     SUBGENUS = "subgen."
     GENUS = "gen."
+    SECTION = "sect."
 
     UNKNOWN = "unknown"

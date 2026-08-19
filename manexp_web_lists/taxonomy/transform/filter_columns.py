@@ -11,8 +11,6 @@ def filter_columns(taxonomy: DataFrame) -> DataFrame:
     Returns:
         DataFrame: The filtered taxonomy list
     """
-    filtered_taxonomy = taxonomy.drop(
-        "upov_short_code",
-    )
+    filtered_taxonomy = taxonomy.select("upov_code", "botanical_name")
 
     return filtered_taxonomy

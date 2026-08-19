@@ -54,12 +54,11 @@ def run() -> None:
         get_phytosanitary_products()
         logger.info("✅ Done ✅")
 
-        # TODO: Uncomment this for prod
         # Send success recap
-        # mailer.send_email(
-        #     subject="Manexp-Web-List SUCCESS Report",
-        #     body=log_stream.getvalue(),
-        # )
+        mailer.send_email(
+            subject="Manexp-Web-List SUCCESS Report",
+            body=log_stream.getvalue(),
+        )
 
     except Exception:
         logger.exception("Error while generating lists")
