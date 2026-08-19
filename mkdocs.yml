@@ -135,6 +135,7 @@ nav:
     - Filter columns: manexp_web_lists/taxonomy/transform/filter_columns.md
     - Filter rows: manexp_web_lists/taxonomy/transform/filter_rows.md
     - Iconize taxonomy: manexp_web_lists/taxonomy/transform/iconize_taxonomy.md
+    - Merge taxonomy: manexp_web_lists/taxonomy/transform/merge_taxonomy.md
 extra:
   social:
   - icon: fontawesome/brands/github
