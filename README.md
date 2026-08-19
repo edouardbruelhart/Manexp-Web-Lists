@@ -11,23 +11,23 @@ This repository aggregates and transforms data originating from multiple third-p
 
 **Documentation** <https://edouardbruelhart.github.io/Manexp-Web-Lists/>
 
-## [Available lists](https://github.com/edouardbruelhart/Manexp-Web-Lists/tree/main/lists/out):
+## Available lists:
 
-- ### [Taxon list](https://raw.githubusercontent.com/edouardbruelhart/Manexp-Web-Lists/refs/heads/main/lists/out/generated_taxon_list.json):
+- ### Seeds list:
 
 Cleaned, resolved, translated, iconed and colored taxon list with related commercial crops denomination and information
 
-Source documentation: https://www.i14y.admin.ch/en/catalog/datasets/BLW_DS_VARIETIES/description
+Source documentation: https://food.ec.europa.eu/plants/plant-reproductive-material/plant-variety-catalogues-databases-information-systems_en
 
-Source dataset: https://raw.githubusercontent.com/blw-ofag-ufag/blw-ogd-data/refs/heads/main/data/plant_varieties_in_switzerland.json
+Source dataset: https://ec.europa.eu/food/plant-variety-portal/index.xhtml
 
-- ### [Pesticide list](https://raw.githubusercontent.com/edouardbruelhart/Manexp-Web-Lists/refs/heads/main/lists/out/generated_pesticide_list.json)
+- ### Phytosanitary products list
 
-Cleaned pesticide list
+Cleaned phytosanitary products list
 
-Source documentation: https://www.i14y.admin.ch/en/catalog/datasets/BLW_DS_PESTICIDES/description
+Source documentation: https://www.blv.admin.ch/fr/index-des-produits-phytosanitaires
 
-Source dataset: https://raw.githubusercontent.com/blw-ofag-ufag/blw-ogd-data/refs/heads/main/data/pesticides_in_switzerland.json
+Source dataset: https://www.blv.admin.ch/dam/fr/sd-web/He9bAfs8CmFT/daten-pflanzenschutzmittelverzeichnis-fr.zip
 
 
 ## [Contributing](https://github.com/edouardbruelhart/Manexp-Web-Lists/blob/main/CONTRIBUTING.md)

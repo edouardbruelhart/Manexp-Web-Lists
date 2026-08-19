@@ -41,3 +41,52 @@ As a result, the datasets produced by this project are **derived works** and are
 - Described with their publisher, scope, and update date
 
 This project is **not affiliated with nor endorsed by any data provider**, unless explicitly stated.
+
+## Source material
+
+### [Pycountry](https://pypi.org/project/pycountry/)
+
+Documentation: https://github.com/pycountry/pycountry
+
+Used for:
+- countries
+
+### [Phytosanitary Products Index](https://www.blv.admin.ch/dam/fr/sd-web/He9bAfs8CmFT/daten-pflanzenschutzmittelverzeichnis-fr.zip)
+
+Documentation: https://www.blv.admin.ch/fr/index-des-produits-phytosanitaires
+
+Used for:
+- application areas
+- application comments
+- cities
+- culture additionals
+- cultures forms
+- cultures
+- danger symbols
+- formulation codes
+- ingredient additionals
+- obligations
+- periods
+- permission holders
+- pest additionals
+- pest
+- phytosanitary products
+- product categories
+- r codes
+- s codes
+- signal words
+- substances
+- units
+
+### [EU Plant Variety Portal](https://ec.europa.eu/food/plant-variety-portal/index.xhtml)
+
+Documentation: https://food.ec.europa.eu/plants/plant-reproductive-material/plant-variety-catalogues-databases-information-systems_en
+
+Used for:
+- seeds
+- register types
+- register subtypes
+
+### [UPOV Code List and Denomination Classes](https://www.upov.int/genie/updates/upov_code.xhtml?lang=en)
+
+Documentation: https://www.upov.int/en/find-and-explore/databases/genie
