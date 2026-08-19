@@ -21,6 +21,20 @@ class TestGBIFClient(unittest.TestCase):
         self.assertEqual(response, {"focal_name": "Taxon Name", "genus": "Genus", "rank": "SPECIES", "parsed": True})
 
     @requests_mock.mock()
+    def test_no_data(self, m):
+        # Mock the response from GBIF API
+        m.get(
+            "https://api.gbif.org/v1/parser/name",
+            json=[],
+        )
+
+        # Call the function
+        response = gbif_parser_request("Taxon Name")
+
+        # Assert the expected result
+        self.assertEqual(response, {"focal_name": "Taxon Name", "genus": None, "rank": "UNKNOWN", "parsed": False})
+
+    @requests_mock.mock()
     def test_partial_parsing(self, m):
         # Mock the response from GBIF API
         m.get(

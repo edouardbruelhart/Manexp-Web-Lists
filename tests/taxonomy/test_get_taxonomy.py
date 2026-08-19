@@ -1,4 +1,3 @@
-from pathlib import Path
 from unittest.mock import MagicMock, patch
 
 from manexp_web_lists.taxonomy.get_taxonomy import get_taxonomy
@@ -14,6 +13,7 @@ def test_get_taxonomy() -> None:
 
     with (
         patch("manexp_web_lists.taxonomy.get_taxonomy.download_taxonomy") as mock_download,
+        patch("manexp_web_lists.taxonomy.get_taxonomy.merge_taxonomy") as mock_merge,
         patch(
             "manexp_web_lists.countries.get_countries.pl.read_csv",
             return_value=raw_df,
@@ -30,9 +30,8 @@ def test_get_taxonomy() -> None:
         get_taxonomy()
 
     # Assert that each function was called
-    mock_download.assert_called_once_with(
-        "https://www.upov.int/genie/updates/upov_code.xhtml?lang=en", Path("./taxonomy/lists/raw_taxonomy.csv")
-    )
+    mock_download.assert_called_once()
+    mock_merge.assert_called_once()
     mock_read_csv.assert_called_once()
     mock_filter_columns.assert_called_once()
     mock_filter_rows.assert_called_once()

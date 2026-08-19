@@ -6,7 +6,18 @@ from manexp_web_lists.taxonomy.models.taxon_rank import TaxonRank
 class TestTaxonRank(unittest.TestCase):
     def test_enum_values(self):
         # Check that all expected values are present in the enum
-        expected_values = {"cultivar group", "var.", "subsp.", "infrasp.", "morph", "sp.", "subgen.", "gen.", "unknown"}
+        expected_values = {
+            "cultivar group",
+            "var.",
+            "subsp.",
+            "infrasp.",
+            "morph",
+            "sp.",
+            "subgen.",
+            "gen.",
+            "sect.",
+            "unknown",
+        }
 
         actual_values = {value.value for value in TaxonRank}
 

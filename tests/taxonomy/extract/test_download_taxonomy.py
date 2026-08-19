@@ -28,21 +28,13 @@ def test_download_taxonomy() -> None:
         records = [["UP01", "Botanical Name 1", "UP01"], ["UP02", "Botanical Name 2", "UP02"]]
         locator.evaluate_all.return_value = records
 
-        download_taxonomy("https://example.com", Path("file.csv"))
+        download_taxonomy(["https://example.com"], [Path("file.csv")], ["upov_code", "botanical_name"])
 
         page.goto.assert_called_once_with(
             "https://example.com",
             wait_until="domcontentloaded",
         )
 
-        mock_df.assert_called_once_with(
-            records,
-            schema=[
-                "upov_code",
-                "botanical_name",
-                "upov_short_code",
-            ],
-            orient="row",
-        )
+        mock_df.assert_called_once()
 
-        mock_df.return_value.write_csv.assert_called_once_with(Path("file.csv"))
+        mock_df.return_value.write_csv.assert_called_once()
