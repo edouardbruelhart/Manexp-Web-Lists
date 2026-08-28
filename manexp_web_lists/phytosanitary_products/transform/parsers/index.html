@@ -1046,6 +1046,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../exceptions/unexpected_indication_element/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unexpected indication element
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1413,6 +1441,17 @@
     <span class="md-ellipsis">
       
         parsers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manexp_web_lists.phytosanitary_products.transform.parsers.parse_xml_root" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        parse_xml_root
       
     </span>
   </a>
@@ -2818,6 +2857,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#manexp_web_lists.phytosanitary_products.transform.parsers.parse_xml_root" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        parse_xml_root
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#manexp_web_lists.phytosanitary_products.transform.parsers.metadata_parser" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2945,6 +2995,103 @@
 
 
 
+
+<div class="doc doc-object doc-function">
+
+
+<h2 id="manexp_web_lists.phytosanitary_products.transform.parsers.parse_xml_root" class="doc doc-heading">
+            <span class="doc doc-object-name doc-function-name">parse_xml_root</span>
+
+
+</h2>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">parse_xml_root</span><span class="p">(</span><span class="n">filename</span><span class="p">:</span> <span class="n">Path</span> <span class="o">|</span> <span class="n">BytesIO</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ET</span><span class="o">.</span><span class="n">Element</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Parse an XML file and return its root element.</p>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>filename</code>
+            </td>
+            <td>
+                  <code><span title="pathlib.Path">Path</span> | <span title="io.BytesIO">BytesIO</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The XML file to parse.</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                  <code><span title="xml.etree.ElementTree.Element">Element</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>ET.Element: The root element of the XML document.</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+<p><span class="doc-section-title">Raises:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                  <code><a class="autorefs autorefs-internal" href="../../../exceptions/invalid_xml/#manexp_web_lists.exceptions.invalid_xml.InvalidXMLError">InvalidXMLError</a></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>If the XML document has no root element.</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
 
 <div class="doc doc-object doc-function">
 
