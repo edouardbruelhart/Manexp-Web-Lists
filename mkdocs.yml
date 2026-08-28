@@ -93,12 +93,20 @@ nav:
       manexp_web_lists/exceptions/invalid_pseudo_boolean.md
   - Invalid xml: manexp_web_lists/exceptions/invalid_xml.md
   - Separator error: manexp_web_lists/exceptions/separator_error.md
+  - Unexpected indication element:
+      manexp_web_lists/exceptions/unexpected_indication_element.md
 - Phytosanitary products:
   - Get phytosanitary products:
       manexp_web_lists/phytosanitary_products/get_phytosanitary_products.md
   - Extract:
     - Download phytosanitary products:
         manexp_web_lists/phytosanitary_products/extract/download_phytosanitary_products.md
+  - Transform:
+    - Extract indications:
+        manexp_web_lists/phytosanitary_products/transform/extract_indications.md
+    - Merge phyto:
+        manexp_web_lists/phytosanitary_products/transform/merge_phyto.md
+    - Parsers: manexp_web_lists/phytosanitary_products/transform/parsers.md
 - Register subtypes:
   - Get register subtypes:
       manexp_web_lists/register_subtypes/get_register_subtypes.md

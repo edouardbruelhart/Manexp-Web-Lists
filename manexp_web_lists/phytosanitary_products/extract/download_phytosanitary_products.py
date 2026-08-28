@@ -1,50 +1,20 @@
 import io
-import xml.etree.ElementTree as ET
+import re
 import zipfile
+from copy import deepcopy
 from pathlib import Path
+from xml.etree.ElementTree import ElementTree
 
 import requests
-from defusedxml.ElementTree import parse
 
 from manexp_web_lists.exceptions import InvalidXMLError
 
-FILES_TO_DOWNLOAD = {
-    0: "phytosanitary_products.xml",
-    1: "parallel_import_phytosanitary_products.xml",
-    2: "countries.xml",
-    3: "culture_additionals.xml",
-    4: "culture_forms.xml",
-    5: "ingredient_additionals.xml",
-    6: "application_areas.xml",
-    7: "pest_additionals.xml",
-    8: "substances.xml",
-    9: "pests.xml",
-    10: "cities.xml",
-    11: "r_codes.xml",
-    12: "formulation_codes.xml",
-    13: "product_categories.xml",
-    14: "signal_words.xml",
-    15: "s_codes.xml",
-    16: "danger_symbols.xml",
-    17: "units.xml",
-    18: "application_comments.xml",
-    19: "periods.xml",
-    20: "cultures.xml",
-    21: "obligations.xml",
-    22: "permission_holders.xml",
-}
+from ..transform.parsers import parse_xml_root
 
 
 def download_zip(url: str) -> io.BytesIO:
-    """section = root[index]
-
-    tree = ET.ElementTree(section)
-
-    tree.write(
-        output_dir / filename,
-        encoding="utf-8",
-        xml_declaration=True,
-    Download zip folder.
+    """
+    Download a zip file from a url
 
     Args:
         url: The url of the zip to download
@@ -95,18 +65,42 @@ def download_phytosanitary_products(url: str, path: Path) -> None:
     # Get interesting data
     data = files["PublicationData.xml"]
 
-    tree = parse(data)
-    root = tree.getroot()
+    root = parse_xml_root(data)
 
-    for index, filename in FILES_TO_DOWNLOAD.items():
+    # Iterate through each section of the xmla
+    for section in root:
+        # Make a copy so the original XML tree is not modified
+        section = deepcopy(section)
+
+        # Basic section name
+        name = section.tag
+
+        if section.tag == "MetaData" and "name" in section.attrib:
+            name = section.attrib["name"]
+
+            # Change MetaData into <ApplicationArea>
+            section.tag = name
+
+            # Remove metadata-specific attributes
+            section.attrib.pop("name", None)
+            section.attrib.pop("numberOfRows", None)
+
+        else:
+            # Normal sections:
+            # <Products numberOfProducts="1710">
+            name = section.tag
+
+            # Remove section-specific count attributes
+            section.attrib.pop("numberOfProducts", None)
+            section.attrib.pop("numberOfParallelimports", None)
+
+        # Convert CamelCase to snake_case
+        filename = re.sub(r"(?<!^)(?=[A-Z])", "_", name).lower() + ".xml"
+
+        # Create a new XML document with this section as the root
+        new_tree = ElementTree(section)
+
         try:
-            wrapper = ET.Element("Data")
-            wrapper.append(root[index])  # type: ignore[index]
-
-            ET.ElementTree(wrapper).write(
-                path / filename,
-                encoding="utf-8",
-                xml_declaration=True,
-            )
+            new_tree.write(path / filename, encoding="utf-8", xml_declaration=True)
         except IndexError as exc:
             raise InvalidXMLError() from exc
