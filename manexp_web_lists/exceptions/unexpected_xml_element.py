@@ -1,6 +1,6 @@
-class UnexpectedIndicationError(Exception):
+class UnexpectedXMLElementError(Exception):
     """
-    Raised when an unexpected indication element is met.
+    Raised when an unexpected XML element is met.
 
     Args:
             element: The unexpected element that triggered the error
@@ -12,5 +12,5 @@ class UnexpectedIndicationError(Exception):
     ):
         self.element = element
 
-        message = f"Unexpected element in Indication: {self.element}"
+        message = f"Unexpected element: {self.element}"
         super().__init__(message)
