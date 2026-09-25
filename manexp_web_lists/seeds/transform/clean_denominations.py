@@ -1,7 +1,7 @@
-import re
-
 import polars as pl
 from polars import DataFrame
+
+from manexp_web_lists.core import parse_strings_to_list
 
 NAME_COLUMNS = [
     "denomination",
@@ -12,47 +12,6 @@ NAME_COLUMNS = [
 
 DENOMINATION_FALLBACK_COLUMNS = NAME_COLUMNS.copy()
 DENOMINATION_FALLBACK_COLUMNS.remove("denomination_synonym")
-
-SEPARATORS = {
-    "/",
-    ",",
-    "+",
-}
-
-
-def parse_synonyms(text: str | None) -> list[str] | None:
-    """
-    Parse synonyms from a string into a list of strings.
-
-    Args:
-        text: The string to parse
-
-    Returns:
-        list[str] | None: The list of synonyms
-    """
-
-    if not text:
-        return None
-
-    # Protect numeric slashes as these are not separators but part of the denomination
-    text = re.sub(r"(\d)//(\d)", r"\1§DOUBLE_SLASH§\2", text)
-    text = re.sub(r"(\d)/(\d)", r"\1§SLASH§\2", text)
-
-    # Replace every separator by ';'
-    for sep in SEPARATORS:
-        text = text.replace(sep, ";")
-
-    # Restore protected slashes
-    text = text.replace("§DOUBLE_SLASH§", "//").replace("§SLASH§", "/")
-
-    # Split into list
-    result = []
-
-    for name in text.split(";"):
-        if name:
-            result.append(name)
-
-    return result
 
 
 def aggregate_denominations(seeds: DataFrame) -> DataFrame:
@@ -115,7 +74,7 @@ def clean_denominations(seeds: DataFrame) -> DataFrame:
         pl
         .col("denomination_synonym")
         .map_elements(
-            parse_synonyms,
+            parse_strings_to_list,
             return_dtype=pl.List(pl.String),
         )
         .fill_null(pl.lit([], dtype=pl.List(pl.String)))

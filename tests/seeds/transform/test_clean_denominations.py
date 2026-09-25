@@ -6,26 +6,7 @@ from polars.testing import assert_frame_equal
 from manexp_web_lists.seeds.transform.clean_denominations import (
     aggregate_denominations,
     clean_denominations,
-    parse_synonyms,
 )
-
-
-def test_parse_synonyms_success():
-    result = parse_synonyms("test/test2,test3+test4")
-
-    assert result == ["test", "test2", "test3", "test4"]
-
-
-def test_parse_synonyms_none():
-    result = parse_synonyms(None)
-
-    assert result is None
-
-
-def test_parse_synonyms_null():
-    result = parse_synonyms(",")
-
-    assert not result
 
 
 def test_aggregate_denominations() -> None:
