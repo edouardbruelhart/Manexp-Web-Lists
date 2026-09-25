@@ -74,9 +74,12 @@ theme:
 
 nav:
 - Run: manexp_web_lists/run.md
+- Clients:
+  - Translation client: manexp_web_lists/clients/translation_client.md
 - Core:
   - Logging config: manexp_web_lists/core/logging_config.md
   - Mailer: manexp_web_lists/core/mailer.md
+  - Parsers: manexp_web_lists/core/parsers.md
   - Strict model: manexp_web_lists/core/strict_model.md
 - Countries:
   - Get countries: manexp_web_lists/countries/get_countries.md
@@ -87,23 +90,35 @@ nav:
     - Translate countries:
         manexp_web_lists/countries/transform/translate_countries.md
 - Exceptions:
+  - Code mismatch: manexp_web_lists/exceptions/code_mismatch.md
   - Invalid chemical: manexp_web_lists/exceptions/invalid_chemical.md
   - Invalid environment: manexp_web_lists/exceptions/invalid_environment.md
   - Invalid pseudo boolean:
       manexp_web_lists/exceptions/invalid_pseudo_boolean.md
   - Invalid xml: manexp_web_lists/exceptions/invalid_xml.md
+  - Language installation failed:
+      manexp_web_lists/exceptions/language_installation_failed.md
   - Separator error: manexp_web_lists/exceptions/separator_error.md
-  - Unexpected indication element:
-      manexp_web_lists/exceptions/unexpected_indication_element.md
+  - Unexpected xml child: manexp_web_lists/exceptions/unexpected_xml_child.md
+  - Unexpected xml element:
+      manexp_web_lists/exceptions/unexpected_xml_element.md
+  - Unexpected xml language:
+      manexp_web_lists/exceptions/unexpected_xml_language.md
 - Phytosanitary products:
   - Get phytosanitary products:
       manexp_web_lists/phytosanitary_products/get_phytosanitary_products.md
   - Extract:
     - Download phytosanitary products:
         manexp_web_lists/phytosanitary_products/extract/download_phytosanitary_products.md
-  - Transform:
     - Extract indications:
-        manexp_web_lists/phytosanitary_products/transform/extract_indications.md
+        manexp_web_lists/phytosanitary_products/extract/extract_indications.md
+  - Transform:
+    - Clean indications:
+        manexp_web_lists/phytosanitary_products/transform/clean_indications.md
+    - Clean metadata:
+        manexp_web_lists/phytosanitary_products/transform/clean_metadata.md
+    - Clean products:
+        manexp_web_lists/phytosanitary_products/transform/clean_products.md
     - Merge phyto:
         manexp_web_lists/phytosanitary_products/transform/merge_phyto.md
     - Parsers: manexp_web_lists/phytosanitary_products/transform/parsers.md
