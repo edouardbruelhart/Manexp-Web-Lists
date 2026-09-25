@@ -8,26 +8,29 @@ from .transform.clean_products import clean_products
 from .transform.merge_phyto import merge_phyto
 
 PHYTO_URL = "https://www.blv.admin.ch/dam/fr/sd-web/He9bAfs8CmFT/daten-pflanzenschutzmittelverzeichnis-fr.zip"
-PHYTO_PATH = Path("./phytosanitary_products/lists")
+LISTS_PATH = Path("./phytosanitary_products/lists")
 
 
 def get_phytosanitary_products() -> None:
     """Function to fetch, enrich and validate official swiss phytosanitary products list."""
 
+    # Create lists path if it doesn't exist
+    LISTS_PATH.mkdir(parents=True, exist_ok=True)
+
     # Download phytosanitary products and split the xml in multiple ones
-    download_phytosanitary_products(PHYTO_URL, PHYTO_PATH)
+    download_phytosanitary_products(PHYTO_URL, LISTS_PATH)
 
     # Merge products and parallel imports
-    merge_phyto(PHYTO_PATH)
+    merge_phyto(LISTS_PATH)
 
     # Extract indications from products
-    extract_indications(PHYTO_PATH)
+    extract_indications(LISTS_PATH)
 
     # Clean and build metadata tables
-    clean_metadata(PHYTO_PATH)
+    clean_metadata(LISTS_PATH)
 
     # Clean and build products tables
-    clean_products(PHYTO_PATH)
+    clean_products(LISTS_PATH)
 
     # Clean and build indications tables
-    clean_indications(PHYTO_PATH)
+    clean_indications(LISTS_PATH)

@@ -10,13 +10,18 @@ from .transform.remove_unnecessary_seeds import remove_unnecessary_seeds
 from .transform.rename_columns import rename_columns
 
 PLANT_LIST_URL = "https://ec.europa.eu/food/plant-variety-portal/index.xhtml"
-RAW_EXCEL_PATH = Path("./seeds/lists/raw_seeds.xlsx")
-RAW_CSV_PATH = Path("./seeds/lists/raw_seeds.csv")
-CLEAN_PARQUET_PATH = Path("./seeds/lists/cleaned_seeds.parquet")
+
+LISTS_PATH = Path("./seeds/lists")
+RAW_EXCEL_PATH = LISTS_PATH / "raw_seeds.xlsx"
+RAW_CSV_PATH = LISTS_PATH / "raw_seeds.csv"
+CLEAN_PARQUET_PATH = LISTS_PATH / "cleaned_seeds.parquet"
 
 
 def get_seeds() -> None:
     """Function to fetch, enrich and validate official european seeds list."""
+
+    # Create lists path if it doesn't exist
+    LISTS_PATH.mkdir(parents=True, exist_ok=True)
 
     # 1. Download raw excel
     download_seeds(PLANT_LIST_URL, RAW_EXCEL_PATH)

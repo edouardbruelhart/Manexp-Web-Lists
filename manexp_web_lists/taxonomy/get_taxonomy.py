@@ -14,7 +14,9 @@ TAXONOMY_URLS = [
     "https://www.upov.int/genie/reports/twp.xhtml?faces-redirect=true",
     "https://www.upov.int/genie/updates/upov_code.xhtml?lang=en",
 ]
-RAW_CSV_PATHS = [Path("./taxonomy/lists/raw_taxonomy_reports.csv"), Path("./taxonomy/lists/raw_taxonomy_updates.csv")]
+
+LISTS_PATH = Path("./taxonomy/lists")
+RAW_CSV_PATHS = [LISTS_PATH / "raw_taxonomy_reports.csv", LISTS_PATH / "raw_taxonomy_updates.csv"]
 RAW_COLUMNS = [
     [
         "upov_code",
@@ -35,12 +37,15 @@ RAW_COLUMNS = [
         "upov_short_code",
     ],
 ]
-MERGED_CSV_PATH = Path("./taxonomy/lists/merged_taxonomy.csv")
-CLEAN_PARQUET_PATH = Path("./taxonomy/lists/clean_taxonomy.parquet")
+MERGED_CSV_PATH = LISTS_PATH / "merged_taxonomy.csv"
+CLEAN_PARQUET_PATH = LISTS_PATH / "clean_taxonomy.parquet"
 
 
 def get_taxonomy() -> None:
     """Function to fetch, enrich and validate official UPOV taxonomy list."""
+
+    # Create lists path if it doesn't exist
+    LISTS_PATH.mkdir(parents=True, exist_ok=True)
 
     # 1. Download raw taxonomy
     download_taxonomy(TAXONOMY_URLS, RAW_CSV_PATHS, RAW_COLUMNS)
