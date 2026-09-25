@@ -234,18 +234,17 @@ def test_products_parser(tmp_path: Path) -> None:
     result = products_parser(filename)
 
     expected = pl.DataFrame({
-        "id": ["8132"],
-        "soldoutDeadline": ["2026-12-31"],
-        "exhaustionDeadline": ["2027-12-31"],
-        "wNbr": ["6823"],
+        "soldout_deadline": ["2026-12-31"],
+        "exhaustion_deadline": ["2027-12-31"],
+        "id": ["6823"],
         "name": ["Gesal"],
-        "ProductCategory": [["category-1", "category-2"]],
-        "FormulationCode": [["formulation-1"]],
-        "DangerSymbol": [["danger-1", "danger-2"]],
-        "SignalWords": [["signal-1"]],
-        "CodeS": [["code-s-1", "code-s-2"]],
-        "CodeR": [["code-r-1"]],
-        "Indication": [["indication-1", "indication-2"]],
+        "product_category": [["category-1", "category-2"]],
+        "formulation_code": [["formulation-1"]],
+        "danger_symbol": [["danger-1", "danger-2"]],
+        "signal_word": [["signal-1"]],
+        "s_code": [["code-s-1", "code-s-2"]],
+        "r_code": [["code-r-1"]],
+        "indication": [["indication-1", "indication-2"]],
     })
 
     assert_frame_equal(result, expected)
@@ -280,18 +279,17 @@ def test_products_parser_without_product_information(
     result = products_parser(filename)
 
     expected = pl.DataFrame({
-        "id": ["8132"],
-        "soldoutDeadline": [""],
-        "exhaustionDeadline": [""],
-        "wNbr": ["6823"],
+        "soldout_deadline": [""],
+        "exhaustion_deadline": [""],
+        "id": ["6823"],
         "name": ["Gesal"],
-        "ProductCategory": [[]],
-        "FormulationCode": [[]],
-        "DangerSymbol": [[]],
-        "SignalWords": [[]],
-        "CodeS": [[]],
-        "CodeR": [[]],
-        "Indication": [[]],
+        "product_category": [[]],
+        "formulation_code": [[]],
+        "danger_symbol": [[]],
+        "signal_word": [[]],
+        "s_code": [[]],
+        "r_code": [[]],
+        "indication": [[]],
     })
 
     assert_frame_equal(result, expected)
@@ -359,9 +357,9 @@ def test_products_parser_multiple_products(tmp_path: Path) -> None:
 
     assert result.height == 2
 
-    assert result["id"].to_list() == ["1", "2"]
+    assert result["id"].to_list() == ["100", "200"]
 
-    assert result["Indication"].to_list() == [
+    assert result["indication"].to_list() == [
         ["indication-1"],
         ["indication-2"],
     ]
@@ -413,26 +411,46 @@ def test_indications_parser(tmp_path: Path) -> None:
         {"primaryKey": "comment-2"},
     )
 
+    ET.SubElement(indication, "Culture", {"primaryKey": "culture-1", "additionalTextPrimaryKey": ""})
     ET.SubElement(
         indication,
         "Culture",
-        {"primaryKey": "culture-1"},
+        {
+            "primaryKey": "culture-2",
+            "additionalTextPrimaryKey": "",
+        },
     )
+
     ET.SubElement(
         indication,
-        "Culture",
-        {"primaryKey": "culture-2"},
+        "CultureForm",
+        {"primaryKey": "outdoor"},
+    )
+
+    ET.SubElement(
+        indication,
+        "CultureForm",
+        {"primaryKey": "indoor"},
     )
 
     ET.SubElement(
         indication,
         "Pest",
-        {"primaryKey": "pest-1"},
+        {
+            "primaryKey": "pest-1",
+            "additionalTextPrimaryKey": "",
+            "type": "PEST_FULL_EFFECT",
+        },
     )
+
     ET.SubElement(
         indication,
         "Pest",
-        {"primaryKey": "pest-2"},
+        {
+            "primaryKey": "pest-2",
+            "additionalTextPrimaryKey": "",
+            "type": "PEST_FULL_EFFECT",
+        },
     )
 
     ET.SubElement(
@@ -457,19 +475,25 @@ def test_indications_parser(tmp_path: Path) -> None:
     result = indications_parser(filename)
 
     expected = pl.DataFrame({
-        "dosageFrom": ["1"],
-        "dosageTo": ["2"],
-        "waitingPeriod": ["3"],
-        "expenditureFrom": ["13.000000"],
-        "expenditureTo": ["4"],
+        "dosage_from": ["1"],
+        "dosage_to": ["2"],
+        "waiting_period": ["3"],
+        "expenditure_from": ["13.000000"],
+        "expenditure_to": ["4"],
         "id": ["indication-1"],
-        "Measure": ["measure-1"],
-        "TimeMeasure": ["time-measure-1"],
-        "ApplicationArea": ["application-area-1"],
-        "ApplicationComment": [["comment-1", "comment-2"]],
-        "Culture": [["culture-1", "culture-2"]],
-        "Pest": [["pest-1", "pest-2"]],
-        "Obligation": [["obligation-1", "obligation-2"]],
+        "measure": [["measure-1"]],
+        "time_measure": [["time-measure-1"]],
+        "application_area": [["application-area-1"]],
+        "application_comment": [["comment-1", "comment-2"]],
+        "culture": [[{"id": "culture-1", "additional_text": ""}, {"id": "culture-2", "additional_text": ""}]],
+        "culture_form": [["outdoor", "indoor"]],
+        "pest": [
+            [
+                {"id": "pest-1", "additional_text": "", "type": "PEST_FULL_EFFECT"},
+                {"id": "pest-2", "additional_text": "", "type": "PEST_FULL_EFFECT"},
+            ]
+        ],
+        "obligation": [["obligation-1", "obligation-2"]],
     })
 
     assert_frame_equal(result, expected)
@@ -505,19 +529,20 @@ def test_indications_parser_with_missing_elements(
     result = indications_parser(filename)
 
     expected = pl.DataFrame({
-        "dosageFrom": [""],
-        "dosageTo": [""],
-        "waitingPeriod": [""],
-        "expenditureFrom": [""],
-        "expenditureTo": [""],
+        "dosage_from": [""],
+        "dosage_to": [""],
+        "waiting_period": [""],
+        "expenditure_from": [""],
+        "expenditure_to": [""],
         "id": ["indication-1"],
-        "Measure": [None],
-        "TimeMeasure": [None],
-        "ApplicationArea": [None],
-        "ApplicationComment": [[]],
-        "Culture": [[]],
-        "Pest": [[]],
-        "Obligation": [[]],
+        "measure": [[]],
+        "time_measure": [[]],
+        "application_area": [[]],
+        "application_comment": [[]],
+        "culture": [[]],
+        "culture_form": [[]],
+        "pest": [[]],
+        "obligation": [[]],
     })
 
     assert_frame_equal(result, expected)
@@ -574,11 +599,11 @@ def test_indications_parser_multiple_indications(
         "indication-1",
         "indication-2",
     ]
-    assert result["Measure"].to_list() == [
-        "measure-1",
-        "measure-2",
+    assert result["measure"].to_list() == [
+        ["measure-1"],
+        ["measure-2"],
     ]
-    assert result["expenditureFrom"].to_list() == [
+    assert result["expenditure_from"].to_list() == [
         "13.000000",
         "9.000000",
     ]

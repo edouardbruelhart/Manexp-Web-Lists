@@ -11,6 +11,8 @@ from manexp_web_lists.exceptions import InvalidXMLError
 
 from ..transform.parsers import parse_xml_root
 
+METADATA_TO_IGNORE = ["City", "Country", "PermissionHolder", "Substance", "IngredientAdditionalText"]
+
 
 def download_zip(url: str) -> io.BytesIO:
     """
@@ -78,6 +80,10 @@ def download_phytosanitary_products(url: str, path: Path) -> None:
         if section.tag == "MetaData" and "name" in section.attrib:
             name = section.attrib["name"]
 
+            # Ignore useless metadata
+            if name in METADATA_TO_IGNORE:
+                continue
+
             # Change MetaData into <ApplicationArea>
             section.tag = name
 
@@ -87,7 +93,6 @@ def download_phytosanitary_products(url: str, path: Path) -> None:
 
         else:
             # Normal sections:
-            # <Products numberOfProducts="1710">
             name = section.tag
 
             # Remove section-specific count attributes

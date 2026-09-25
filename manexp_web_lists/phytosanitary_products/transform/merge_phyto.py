@@ -15,6 +15,7 @@ KEEP_PRODUCT_INFORMATION = {
     "ProductCategory",
     "FormulationCode",
     "DangerSymbol",
+    "SignalWords",
     "CodeS",
     "CodeR",
     "Indication",

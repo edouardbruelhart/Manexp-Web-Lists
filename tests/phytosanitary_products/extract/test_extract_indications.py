@@ -5,8 +5,8 @@ from xml.etree import ElementTree as ET
 import pytest
 from defusedxml.ElementTree import fromstring, parse
 
-from manexp_web_lists.exceptions import InvalidXMLError, UnexpectedIndicationError
-from manexp_web_lists.phytosanitary_products.transform.extract_indications import (
+from manexp_web_lists.exceptions import InvalidXMLError, UnexpectedXMLChildError
+from manexp_web_lists.phytosanitary_products.extract.extract_indications import (
     canonicalize_indication,
     extract_indications,
     indication_hash,
@@ -179,7 +179,7 @@ def test_extract_indications_raises_if_products_has_no_root(
 
     with (
         patch(
-            "manexp_web_lists.phytosanitary_products.transform.extract_indications.parse",
+            "manexp_web_lists.phytosanitary_products.extract.extract_indications.parse",
             return_value=mock_tree,
         ),
         pytest.raises(InvalidXMLError),
@@ -268,8 +268,8 @@ def test_canonicalize_indication_rejects_unknown_element() -> None:
     )
 
     with pytest.raises(
-        UnexpectedIndicationError,
-        match="Unexpected element in Indication: UnknownElement",
+        UnexpectedXMLChildError,
+        match="Unexpected XML child: UnknownElement",
     ):
         canonicalize_indication(indication)
 

@@ -1,7 +1,10 @@
 from pathlib import Path
 
 from .extract.download_phytosanitary_products import download_phytosanitary_products
-from .transform.extract_indications import extract_indications
+from .extract.extract_indications import extract_indications
+from .transform.clean_indications import clean_indications
+from .transform.clean_metadata import clean_metadata
+from .transform.clean_products import clean_products
 from .transform.merge_phyto import merge_phyto
 
 PHYTO_URL = "https://www.blv.admin.ch/dam/fr/sd-web/He9bAfs8CmFT/daten-pflanzenschutzmittelverzeichnis-fr.zip"
@@ -19,3 +22,12 @@ def get_phytosanitary_products() -> None:
 
     # Extract indications from products
     extract_indications(PHYTO_PATH)
+
+    # Clean and build metadata tables
+    clean_metadata(PHYTO_PATH)
+
+    # Clean and build products tables
+    clean_products(PHYTO_PATH)
+
+    # Clean and build indications tables
+    clean_indications(PHYTO_PATH)

@@ -5,7 +5,12 @@ from xml.etree import ElementTree as ET
 import polars as pl
 from defusedxml.ElementTree import parse
 
-from manexp_web_lists.exceptions import InvalidXMLError
+from manexp_web_lists.exceptions import (
+    CodeMismatchError,
+    InvalidXMLError,
+    UnexpectedXMLChildError,
+    UnexpectedXMLLanguageError,
+)
 
 
 def parse_xml_root(filename: Path | BytesIO) -> ET.Element:
@@ -29,30 +34,98 @@ def parse_xml_root(filename: Path | BytesIO) -> ET.Element:
     return root
 
 
+LANGUAGES = {
+    "fr": "french",
+    "de": "german",
+    "it": "italian",
+    "en": "english",
+}
+
+
+def _parse_description(
+    description: ET.Element,
+    row: dict[str, str | None],
+) -> None:
+    """
+    Parse a Description element and update the row.
+
+    Args:
+        description: The description XML element
+        row: The row where to store the description elements
+
+    Raises:
+        UnexpectedXMLLanguageError: Raised when the language met is not intended
+        CodeMismatchError: Raised when the universal code differs between languages
+    """
+
+    language = description.attrib.get("language")
+
+    if language not in LANGUAGES:
+        raise UnexpectedXMLLanguageError(language)
+
+    row[language] = description.attrib.get("value")
+
+    for child in description:
+        value = child.attrib.get("value")
+
+        if value is None:
+            continue
+
+        column = child.tag[0].lower() + child.tag[1:]
+
+        if column not in row:
+            row[column] = value
+        elif row[column] != value:
+            raise CodeMismatchError(column, row[column], value)
+
+
+def _parse_detail(
+    detail: ET.Element,
+) -> dict[str, str | None]:
+    """
+    Parse a single Detail element.
+
+    Args:
+        detail: The detail element to parse
+
+    Raises:
+        UnexpectedXMLChildError: Raised when an unexpected child element is met
+
+    Returns:
+        dict[str, str | None]: The parsed detail
+    """
+
+    row: dict[str, str | None] = dict(detail.attrib)
+
+    for child in detail:
+        if child.tag == "Parent":
+            parent = child.attrib.get("primaryKey")
+
+            if parent is not None:
+                row["parent"] = parent
+
+        elif child.tag == "Description":
+            _parse_description(child, row)
+
+        else:
+            raise UnexpectedXMLChildError(child.tag)
+
+    return row
+
+
 def metadata_parser(filename: Path) -> pl.DataFrame:
     """
-    Parse a metadata file to polars dataframe
+    Parse a metadata file to polars dataframe.
 
     Args:
         filename: The filename of the file to parse
 
     Returns:
-        pl.DataFrame: The polars dataframe corresponding to the given file
+        pl.DataFrame: The polars dataframe corresponding to the given file.
     """
     root = parse_xml_root(filename)
 
-    rows = []
-
-    for detail in root.findall(".//Detail"):
-        row: dict[str, str | None] = {
-            "primaryKey": detail.attrib["primaryKey"],
-        }
-
-        for description in detail.findall("Description"):
-            language = description.attrib["language"]
-            row[language] = description.attrib.get("value")
-
-        rows.append(row)
+    rows = [_parse_detail(detail) for detail in root.findall(".//Detail")]
 
     return pl.DataFrame(rows)
 
@@ -77,41 +150,42 @@ def products_parser(filename: Path) -> pl.DataFrame:
     for product in root.findall(section):
         row: dict = {
             # Product attributes
-            "id": product.attrib.get("id"),
-            "soldoutDeadline": product.attrib.get("soldoutDeadline"),
-            "exhaustionDeadline": product.attrib.get("exhaustionDeadline"),
-            "wNbr": product.attrib.get("wNbr"),
+            "soldout_deadline": product.attrib.get("soldoutDeadline"),
+            "exhaustion_deadline": product.attrib.get("exhaustionDeadline"),
+            "id": product.attrib.get("wNbr"),
             "name": product.attrib.get("name"),
             # ProductInformation
-            "ProductCategory": [],
-            "FormulationCode": [],
-            "DangerSymbol": [],
-            "SignalWords": [],
-            "CodeS": [],
-            "CodeR": [],
-            "Indication": [],
+            "product_category": [],
+            "formulation_code": [],
+            "danger_symbol": [],
+            "signal_word": [],
+            "s_code": [],
+            "r_code": [],
+            "indication": [],
         }
 
         product_info = product.find("ProductInformation")
 
         if product_info is not None:
-            row["ProductCategory"] = [
+            row["product_category"] = [
                 element.attrib.get("primaryKey") for element in product_info.findall("ProductCategory")
             ]
 
-            row["FormulationCode"] = [
+            row["formulation_code"] = [
                 element.attrib.get("primaryKey") for element in product_info.findall("FormulationCode")
             ]
 
-            row["DangerSymbol"] = [element.attrib.get("primaryKey") for element in product_info.findall("DangerSymbol")]
+            row["danger_symbol"] = [
+                element.attrib.get("primaryKey") for element in product_info.findall("DangerSymbol")
+            ]
 
-            row["SignalWords"] = [element.attrib.get("primaryKey") for element in product_info.findall("SignalWords")]
+            row["signal_word"] = [element.attrib.get("primaryKey") for element in product_info.findall("SignalWords")]
 
-            row["CodeS"] = [element.attrib.get("primaryKey") for element in product_info.findall("CodeS")]
+            row["s_code"] = [element.attrib.get("primaryKey") for element in product_info.findall("CodeS")]
 
-            row["CodeR"] = [element.attrib.get("primaryKey") for element in product_info.findall("CodeR")]
+            row["r_code"] = [element.attrib.get("primaryKey") for element in product_info.findall("CodeR")]
 
-            row["Indication"] = [element.attrib.get("primaryKey") for element in product_info.findall("Indication")]
+            row["indication"] = [element.attrib.get("primaryKey") for element in product_info.findall("Indication")]
 
         rows.append(row)
 
@@ -138,41 +212,52 @@ def indications_parser(filename: Path) -> pl.DataFrame:
     for indication in root.findall(section):
         row: dict = {
             # Indication attributes
-            "dosageFrom": indication.attrib.get("dosageFrom"),
-            "dosageTo": indication.attrib.get("dosageTo"),
-            "waitingPeriod": indication.attrib.get("waitingPeriod"),
-            "expenditureFrom": indication.attrib.get("expenditureForm"),
-            "expenditureTo": indication.attrib.get("expenditureTo"),
+            "dosage_from": indication.attrib.get("dosageFrom"),
+            "dosage_to": indication.attrib.get("dosageTo"),
+            "waiting_period": indication.attrib.get("waitingPeriod"),
+            "expenditure_from": indication.attrib.get("expenditureForm"),
+            "expenditure_to": indication.attrib.get("expenditureTo"),
             "id": indication.attrib.get("id"),
             # Indication elements
-            "Measure": None,
-            "TimeMeasure": None,
-            "ApplicationArea": None,
-            "ApplicationComment": [],
-            "Culture": [],
-            "Pest": [],
-            "Obligation": [],
+            "measure": [],
+            "time_measure": [],
+            "application_area": [],
+            "application_comment": [],
+            "culture": [],
+            "culture_form": [],
+            "pest": [],
+            "obligation": [],
         }
 
-        for field in [
-            "Measure",
-            "TimeMeasure",
-            "ApplicationArea",
-        ]:
-            element = indication.find(field)
+        row["measure"] = [element.attrib.get("primaryKey") for element in indication.findall("Measure")]
 
-            if element is not None:
-                row[field] = element.attrib.get("primaryKey")
+        row["time_measure"] = [element.attrib.get("primaryKey") for element in indication.findall("TimeMeasure")]
 
-        row["ApplicationComment"] = [
+        row["application_area"] = [
+            element.attrib.get("primaryKey") for element in indication.findall("ApplicationArea")
+        ]
+
+        row["application_comment"] = [
             element.attrib.get("primaryKey") for element in indication.findall("ApplicationComment")
         ]
 
-        row["Culture"] = [element.attrib.get("primaryKey") for element in indication.findall("Culture")]
+        row["culture"] = [
+            {"id": element.attrib.get("primaryKey"), "additional_text": element.attrib.get("additionalTextPrimaryKey")}
+            for element in indication.findall("Culture")
+        ]
 
-        row["Pest"] = [element.attrib.get("primaryKey") for element in indication.findall("Pest")]
+        row["culture_form"] = [element.attrib.get("primaryKey") for element in indication.findall("CultureForm")]
 
-        row["Obligation"] = [element.attrib.get("primaryKey") for element in indication.findall("Obligation")]
+        row["pest"] = [
+            {
+                "id": element.attrib.get("primaryKey"),
+                "additional_text": element.attrib.get("additionalTextPrimaryKey"),
+                "type": element.attrib.get("type"),
+            }
+            for element in indication.findall("Pest")
+        ]
+
+        row["obligation"] = [element.attrib.get("primaryKey") for element in indication.findall("Obligation")]
 
         rows.append(row)
 

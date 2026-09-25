@@ -6,7 +6,7 @@ from xml.etree import ElementTree as ET
 
 from defusedxml.ElementTree import fromstring, parse
 
-from manexp_web_lists.exceptions import InvalidXMLError, UnexpectedIndicationError
+from manexp_web_lists.exceptions import InvalidXMLError, UnexpectedXMLChildError
 
 
 def extract_indications(phyto_path: Path) -> None:
@@ -123,7 +123,7 @@ def canonicalize_indication(indication: ET.Element) -> dict:
         dict: The canonicalized indication
 
     Raises:
-        UnexpectedIndicationError: Raised when an element in indication is not managed by the code
+        UnexpectedXMLChildError: Raised when an element in indication is not managed by the code
     """
 
     result: dict[str, Any] = {
@@ -151,7 +151,7 @@ def canonicalize_indication(indication: ET.Element) -> dict:
 
     for child in indication:
         if child.tag not in unordered_elements:
-            raise UnexpectedIndicationError(child.tag)
+            raise UnexpectedXMLChildError(child.tag)
 
         child_data = {"attributes": {key: child.get(key, "") for key in sorted(child.attrib)}}
 
