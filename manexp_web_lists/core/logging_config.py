@@ -48,6 +48,24 @@ class IgnoreFastExcelDtypeWarnings(logging.Filter):
         return "Could not determine dtype for column" not in record.getMessage()
 
 
+class IgnoreStanzaMwtWarnings(logging.Filter):
+    """
+    Avoid to print mwt warnings from translation
+    """
+
+    def filter(self, record: logging.LogRecord) -> bool:
+        """
+        Filter mwt warnings
+
+        Args:
+            record: The logging record to check
+
+        Returns:
+            bool: If the log contains the critical warning or not.
+        """
+        return "package default expects mwt, which has been added" not in record.getMessage()
+
+
 def configure_logging() -> StringIO:
     """
     Configure logging
@@ -58,15 +76,20 @@ def configure_logging() -> StringIO:
     root_logger = logging.getLogger()
     root_logger.setLevel(logging.INFO)
 
+    # Silence translation verbose
+    logging.getLogger("argostranslate.utils").setLevel(logging.WARNING)
+
     formatter = SectionAwareFormatter("%(levelname)s: %(message)s")
 
     console = logging.StreamHandler()
     console.setFormatter(formatter)
     console.addFilter(IgnoreFastExcelDtypeWarnings())
+    console.addFilter(IgnoreStanzaMwtWarnings())
 
     memory = logging.StreamHandler(log_stream)
     memory.setFormatter(formatter)
     memory.addFilter(IgnoreFastExcelDtypeWarnings())
+    memory.addFilter(IgnoreStanzaMwtWarnings())
 
     root_logger.handlers.clear()
     root_logger.addHandler(console)
