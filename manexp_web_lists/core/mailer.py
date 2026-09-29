@@ -2,15 +2,11 @@ import os
 import smtplib
 from email.message import EmailMessage
 
-from dotenv import load_dotenv
-
 from manexp_web_lists.exceptions import InvalidEnvironmentError
 
 
 class Mailer:
     """Client to send emails using SMTP."""
-
-    load_dotenv()
 
     def send_email(self, subject: str, body: str) -> None:
         """

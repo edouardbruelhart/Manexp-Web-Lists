@@ -98,12 +98,15 @@ nav:
   - Invalid xml: manexp_web_lists/exceptions/invalid_xml.md
   - Language installation failed:
       manexp_web_lists/exceptions/language_installation_failed.md
+  - Postgresql configuration failed:
+      manexp_web_lists/exceptions/postgresql_configuration_failed.md
   - Separator error: manexp_web_lists/exceptions/separator_error.md
   - Unexpected xml child: manexp_web_lists/exceptions/unexpected_xml_child.md
   - Unexpected xml element:
       manexp_web_lists/exceptions/unexpected_xml_element.md
   - Unexpected xml language:
       manexp_web_lists/exceptions/unexpected_xml_language.md
+  - Unsupported os: manexp_web_lists/exceptions/unsupported_os.md
 - Phytosanitary products:
   - Get phytosanitary products:
       manexp_web_lists/phytosanitary_products/get_phytosanitary_products.md
@@ -122,6 +125,9 @@ nav:
     - Merge phyto:
         manexp_web_lists/phytosanitary_products/transform/merge_phyto.md
     - Parsers: manexp_web_lists/phytosanitary_products/transform/parsers.md
+- Postgresql configuration:
+  - Configure database:
+      manexp_web_lists/postgresql_configuration/configure_database.md
 - Register subtypes:
   - Get register subtypes:
       manexp_web_lists/register_subtypes/get_register_subtypes.md

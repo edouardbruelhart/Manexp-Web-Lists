@@ -8,6 +8,7 @@ from manexp_web_lists.run import run
 # Just to make codecov happy
 def test_run_calls_fetches_and_mailer():
     with (
+        patch("manexp_web_lists.run.configure_database") as mock_db,
         patch("manexp_web_lists.run.get_countries") as mock_countries,
         patch("manexp_web_lists.run.get_register_types") as mock_reg_types,
         patch("manexp_web_lists.run.get_register_subtypes") as mock_reg_subtypes,
@@ -30,6 +31,7 @@ def test_run_calls_fetches_and_mailer():
         run()
 
         # Assertions
+        mock_db.assert_called_once()
         mock_countries.assert_called_once()
         mock_reg_types.assert_called_once()
         mock_reg_subtypes.assert_called_once()
@@ -42,7 +44,7 @@ def test_run_calls_fetches_and_mailer():
 
 def test_run_exception_sends_error_email():
     with (
-        patch("manexp_web_lists.run.get_countries", side_effect=RuntimeError),
+        patch("manexp_web_lists.run.configure_database", side_effect=RuntimeError),
         patch("manexp_web_lists.core.mailer.Mailer.send_email") as mock_send,
     ):
         run()
