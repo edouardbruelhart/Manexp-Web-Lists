@@ -58,11 +58,11 @@ def test_clean_products(tmp_path: Path) -> None:
     )
 
     expected_product_category = pl.DataFrame({
-        "product": [
+        "product_id": [
             "product-1",
             "product-1",
         ],
-        "product_category": [
+        "product_category_id": [
             "category-1",
             "category-2",
         ],
@@ -77,8 +77,8 @@ def test_clean_products(tmp_path: Path) -> None:
     )
 
     expected_formulation_code = pl.DataFrame({
-        "product": ["product-1"],
-        "formulation_code": ["formulation-1"],
+        "product_id": ["product-1"],
+        "formulation_code_id": ["formulation-1"],
     })
 
     result_formulation_code = pl.read_parquet(tmp_path / "product_formulation_code.parquet")
@@ -90,11 +90,11 @@ def test_clean_products(tmp_path: Path) -> None:
     )
 
     expected_danger_symbol = pl.DataFrame({
-        "product": [
+        "product_id": [
             "product-1",
             "product-1",
         ],
-        "danger_symbol": [
+        "danger_symbol_id": [
             "danger-1",
             "danger-2",
         ],
@@ -109,8 +109,8 @@ def test_clean_products(tmp_path: Path) -> None:
     )
 
     expected_signal_word = pl.DataFrame({
-        "product": ["product-1"],
-        "signal_word": ["signal-1"],
+        "product_id": ["product-1"],
+        "signal_word_id": ["signal-1"],
     })
 
     result_signal_word = pl.read_parquet(tmp_path / "product_signal_word.parquet")
@@ -122,11 +122,11 @@ def test_clean_products(tmp_path: Path) -> None:
     )
 
     expected_s_code = pl.DataFrame({
-        "product": [
+        "product_id": [
             "product-1",
             "product-1",
         ],
-        "s_code": [
+        "s_code_id": [
             "S1",
             "S2",
         ],
@@ -141,11 +141,11 @@ def test_clean_products(tmp_path: Path) -> None:
     )
 
     expected_r_code = pl.DataFrame({
-        "product": [
+        "product_id": [
             "product-1",
             "product-1",
         ],
-        "r_code": [
+        "r_code_id": [
             "R1",
             "R2",
         ],
@@ -160,11 +160,11 @@ def test_clean_products(tmp_path: Path) -> None:
     )
 
     expected_indication = pl.DataFrame({
-        "product": [
+        "product_id": [
             "product-1",
             "product-1",
         ],
-        "indication": [
+        "indication_id": [
             "indication-1",
             "indication-2",
         ],

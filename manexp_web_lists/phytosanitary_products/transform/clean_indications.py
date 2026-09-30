@@ -36,28 +36,30 @@ def clean_indications(phyto_path: Path) -> None:
     indication_children.write_parquet(phyto_path / "indications.parquet")
 
     for relationship in RELATIONSHIP_COLUMNS:
+        relationship_id = relationship + "_id"
+
         relation_table = (
             indications
             .select(
-                pl.col("id").alias("indication"),
-                pl.col(relationship),
+                pl.col("id").alias("indication_id"),
+                pl.col(relationship).alias(relationship_id),
             )
-            .explode(relationship, empty_as_null=True)
-            .drop_nulls(relationship)
+            .explode(relationship_id, empty_as_null=True)
+            .drop_nulls(relationship_id)
         )
 
         if relationship == "culture":
             relation_table = relation_table.with_columns(
-                pl.col(relationship).struct.field("id").alias("culture"),
-                pl.col(relationship).struct.field("additional_text"),
-            ).drop_nulls(relationship)
+                pl.col(relationship_id).struct.field("id").alias("culture_id"),
+                pl.col(relationship_id).struct.field("additional_text").alias("additional_text_id"),
+            ).drop_nulls(relationship_id)
 
         elif relationship == "pest":
             relation_table = relation_table.with_columns(
-                pl.col(relationship).struct.field("id").alias("pest"),
-                pl.col(relationship).struct.field("additional_text"),
-                pl.col(relationship).struct.field("type"),
-            ).drop_nulls(relationship)
+                pl.col(relationship_id).struct.field("id").alias("pest_id"),
+                pl.col(relationship_id).struct.field("additional_text").alias("additional_text_id"),
+                pl.col(relationship_id).struct.field("type"),
+            ).drop_nulls(relationship_id)
 
         relation_table = relation_table.unique()
 

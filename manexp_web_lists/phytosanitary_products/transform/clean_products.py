@@ -54,14 +54,16 @@ def clean_products(phyto_path: Path) -> None:
     product_children.write_parquet(phyto_path / "products.parquet")
 
     for relationship in RELATIONSHIP_COLUMNS:
+        relationship_id = relationship + "_id"
+
         relation_table = (
             products
             .select(
-                pl.col("id").alias("product"),
-                pl.col(relationship),
+                pl.col("id").alias("product_id"),
+                pl.col(relationship).alias(relationship_id),
             )
-            .explode(relationship, empty_as_null=True)
-            .drop_nulls(relationship)
+            .explode(relationship_id, empty_as_null=True)
+            .drop_nulls(relationship_id)
             .unique()
         )
 

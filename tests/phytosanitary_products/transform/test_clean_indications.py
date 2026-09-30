@@ -56,8 +56,8 @@ def test_clean_indications(tmp_path: Path) -> None:
     )
 
     expected_measure = pl.DataFrame({
-        "indication": ["indication-1"],
-        "measure": ["measure-1"],
+        "indication_id": ["indication-1"],
+        "measure_id": ["measure-1"],
     })
 
     result_measure = pl.read_parquet(tmp_path / "indication_measure.parquet")
@@ -65,8 +65,8 @@ def test_clean_indications(tmp_path: Path) -> None:
     assert_frame_equal(result_measure, expected_measure, check_row_order=False)
 
     expected_time_measure = pl.DataFrame({
-        "indication": ["indication-1"],
-        "time_measure": ["time-measure-1"],
+        "indication_id": ["indication-1"],
+        "time_measure_id": ["time-measure-1"],
     })
 
     result_time_measure = pl.read_parquet(tmp_path / "indication_time_measure.parquet")
@@ -78,10 +78,10 @@ def test_clean_indications(tmp_path: Path) -> None:
     )
 
     expected_area = pl.DataFrame({
-        "indication": [
+        "indication_id": [
             "indication-1",
         ],
-        "application_area": [
+        "application_area_id": [
             "application-area-1",
         ],
     })
@@ -95,11 +95,11 @@ def test_clean_indications(tmp_path: Path) -> None:
     )
 
     expected_comments = pl.DataFrame({
-        "indication": [
+        "indication_id": [
             "indication-1",
             "indication-1",
         ],
-        "application_comment": [
+        "application_comment_id": [
             "comment-1",
             "comment-2",
         ],
@@ -114,15 +114,15 @@ def test_clean_indications(tmp_path: Path) -> None:
     )
 
     expected_culture = pl.DataFrame({
-        "indication": [
+        "indication_id": [
             "indication-1",
             "indication-1",
         ],
-        "culture": [
+        "culture_id": [
             "culture-1",
             "culture-2",
         ],
-        "additional_text": [
+        "additional_text_id": [
             "",
             "",
         ],
@@ -137,11 +137,11 @@ def test_clean_indications(tmp_path: Path) -> None:
     )
 
     expected_culture_form = pl.DataFrame({
-        "indication": [
+        "indication_id": [
             "indication-1",
             "indication-1",
         ],
-        "culture_form": [
+        "culture_form_id": [
             "outdoor",
             "indoor",
         ],
@@ -156,15 +156,15 @@ def test_clean_indications(tmp_path: Path) -> None:
     )
 
     expected_pest = pl.DataFrame({
-        "indication": [
+        "indication_id": [
             "indication-1",
             "indication-1",
         ],
-        "pest": [
+        "pest_id": [
             "pest-1",
             "pest-2",
         ],
-        "additional_text": [
+        "additional_text_id": [
             "",
             "",
         ],
@@ -183,11 +183,11 @@ def test_clean_indications(tmp_path: Path) -> None:
     )
 
     expected_obligation = pl.DataFrame({
-        "indication": [
+        "indication_id": [
             "indication-1",
             "indication-1",
         ],
-        "obligation": [
+        "obligation_id": [
             "obligation-1",
             "obligation-2",
         ],
