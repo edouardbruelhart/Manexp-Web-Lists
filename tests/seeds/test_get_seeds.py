@@ -12,6 +12,7 @@ def test_get_seeds() -> None:
     aggregated_df = MagicMock()
 
     with (
+        patch("manexp_web_lists.seeds.get_seeds.LISTS_PATH") as mock_path,
         patch("manexp_web_lists.seeds.get_seeds.download_seeds") as mock_download,
         patch(
             "manexp_web_lists.seeds.get_seeds.pl.read_excel",
@@ -40,6 +41,7 @@ def test_get_seeds() -> None:
     ):
         get_seeds()
 
+    mock_path.mkdir.assert_called_once()
     mock_download.assert_called_once()
     mock_read_excel.assert_called_once()
     mock_filter.assert_called_once_with(raw_df)

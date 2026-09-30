@@ -6,6 +6,7 @@ from manexp_web_lists.phytosanitary_products.get_phytosanitary_products import g
 def test_get_phytosanitary_products() -> None:
 
     with (
+        patch("manexp_web_lists.phytosanitary_products.get_phytosanitary_products.LISTS_PATH") as mock_path,
         patch(
             "manexp_web_lists.phytosanitary_products.get_phytosanitary_products.download_phytosanitary_products"
         ) as mock_download,
@@ -19,6 +20,7 @@ def test_get_phytosanitary_products() -> None:
     ):
         get_phytosanitary_products()
 
+    mock_path.mkdir.assert_called_once()
     mock_download.assert_called_once()
     mock_merge.assert_called_once()
     mock_extract.assert_called_once()

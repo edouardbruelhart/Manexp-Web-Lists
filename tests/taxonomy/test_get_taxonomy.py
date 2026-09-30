@@ -12,6 +12,7 @@ def test_get_taxonomy() -> None:
     colored_df = MagicMock()
 
     with (
+        patch("manexp_web_lists.taxonomy.get_taxonomy.LISTS_PATH") as mock_path,
         patch("manexp_web_lists.taxonomy.get_taxonomy.download_taxonomy") as mock_download,
         patch("manexp_web_lists.taxonomy.get_taxonomy.merge_taxonomy") as mock_merge,
         patch(
@@ -26,10 +27,9 @@ def test_get_taxonomy() -> None:
         patch("manexp_web_lists.taxonomy.get_taxonomy.iconize_taxonomy", return_value=iconized_df) as mock_iconize,
         patch("manexp_web_lists.taxonomy.get_taxonomy.color_taxonomy", return_value=colored_df) as mock_color,
     ):
-        # Call the get_taxonomy function
         get_taxonomy()
 
-    # Assert that each function was called
+    mock_path.mkdir.assert_called_once()
     mock_download.assert_called_once()
     mock_merge.assert_called_once()
     mock_read_csv.assert_called_once()

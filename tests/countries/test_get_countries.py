@@ -10,6 +10,7 @@ def test_get_countries() -> None:
     translated_df = MagicMock()
 
     with (
+        patch("manexp_web_lists.countries.get_countries.LISTS_PATH") as mock_path,
         patch("manexp_web_lists.countries.get_countries.download_countries") as mock_download,
         patch(
             "manexp_web_lists.countries.get_countries.pl.read_csv",
@@ -22,6 +23,7 @@ def test_get_countries() -> None:
     ):
         get_countries()
 
+    mock_path.mkdir.assert_called_once()
     mock_download.assert_called_once()
     mock_read_csv.assert_called_once()
     mock_translate.assert_called_once_with(raw_df)
