@@ -25,6 +25,8 @@ dependencies = [
     "fastexcel>=0.20.2",
     "playwright>=1.58.0",
     "polars>=1.42.1",
+    "psycopg[binary]>=3.3.6",
+    "pyarrow>=25.0.1",
     "pycountry>=26.2.16",
     "pydantic>=2.12.5",
     "requests>=2.32.5",
@@ -57,6 +59,7 @@ dev = [
     "interrogate>=1.7.0",
     "pytest-mock>=3.15.1",
     "pandas>=2.3.3",
+    "pyarrow-stubs>=20.0.0.20260819",
 ]
 
 [build-system]
@@ -151,6 +154,8 @@ ignore = [
     "E501",
     # DoNotAssignLambda
     "E731",
+    # Possible SQl injection - not possible here as there is no user input and data come from trusted sources.
+    "S608"
 ]
 
 [tool.ruff.lint.per-file-ignores]

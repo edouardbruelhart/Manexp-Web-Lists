@@ -2,6 +2,7 @@ from pathlib import Path
 
 from .extract.download_phytosanitary_products import download_phytosanitary_products
 from .extract.extract_indications import extract_indications
+from .load.load_phytosanitary_products import load_phytosanitary_products
 from .transform.clean_indications import clean_indications
 from .transform.clean_metadata import clean_metadata
 from .transform.clean_products import clean_products
@@ -34,3 +35,6 @@ def get_phytosanitary_products() -> None:
 
     # Clean and build indications tables
     clean_indications(LISTS_PATH)
+
+    # Load data into PostgreSQL
+    load_phytosanitary_products(LISTS_PATH)

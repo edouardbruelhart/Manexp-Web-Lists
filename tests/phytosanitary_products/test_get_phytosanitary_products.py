@@ -17,6 +17,9 @@ def test_get_phytosanitary_products() -> None:
         patch(
             "manexp_web_lists.phytosanitary_products.get_phytosanitary_products.clean_indications"
         ) as mock_indications,
+        patch(
+            "manexp_web_lists.phytosanitary_products.get_phytosanitary_products.load_phytosanitary_products",
+        ) as mock_load,
     ):
         get_phytosanitary_products()
 
@@ -27,3 +30,4 @@ def test_get_phytosanitary_products() -> None:
     mock_metadata.assert_called_once()
     mock_products.assert_called_once()
     mock_indications.assert_called_once()
+    mock_load.assert_called_once()

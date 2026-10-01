@@ -106,7 +106,10 @@ nav:
       manexp_web_lists/exceptions/unexpected_xml_element.md
   - Unexpected xml language:
       manexp_web_lists/exceptions/unexpected_xml_language.md
+  - Unresolved foreign key:
+      manexp_web_lists/exceptions/unresolved_foreign_key.md
   - Unsupported os: manexp_web_lists/exceptions/unsupported_os.md
+  - Unsupported type: manexp_web_lists/exceptions/unsupported_type.md
 - Phytosanitary products:
   - Get phytosanitary products:
       manexp_web_lists/phytosanitary_products/get_phytosanitary_products.md
@@ -115,6 +118,16 @@ nav:
         manexp_web_lists/phytosanitary_products/extract/download_phytosanitary_products.md
     - Extract indications:
         manexp_web_lists/phytosanitary_products/extract/extract_indications.md
+  - Load:
+    - Apply schema: manexp_web_lists/phytosanitary_products/load/apply_schema.md
+    - Generate create tables:
+        manexp_web_lists/phytosanitary_products/load/generate_create_tables.md
+    - Generate foreign key constraints:
+        manexp_web_lists/phytosanitary_products/load/generate_foreign_key_constraints.md
+    - Generate schema:
+        manexp_web_lists/phytosanitary_products/load/generate_schema.md
+    - Load phytosanitary products:
+        manexp_web_lists/phytosanitary_products/load/load_phytosanitary_products.md
   - Transform:
     - Clean indications:
         manexp_web_lists/phytosanitary_products/transform/clean_indications.md

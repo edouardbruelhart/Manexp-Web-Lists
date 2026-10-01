@@ -9,7 +9,9 @@ from .separator_error import SeparatorError
 from .unexpected_xml_child import UnexpectedXMLChildError
 from .unexpected_xml_element import UnexpectedXMLElementError
 from .unexpected_xml_language import UnexpectedXMLLanguageError
+from .unresolved_foreign_key import UnresolvedForeignKeyError
 from .unsupported_os import UnsupportedOSError
+from .unsupported_type import UnsupportedTypeError
 
 __all__ = [
     "CodeMismatchError",
@@ -23,5 +25,7 @@ __all__ = [
     "UnexpectedXMLChildError",
     "UnexpectedXMLElementError",
     "UnexpectedXMLLanguageError",
+    "UnresolvedForeignKeyError",
     "UnsupportedOSError",
+    "UnsupportedTypeError",
 ]
