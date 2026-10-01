@@ -72,7 +72,7 @@ def test_clean_metadata(tmp_path: Path) -> None:
     })
 
     for filename in METADATA_TO_CLEAN:
-        if filename in {"code_r.xml", "code_s.xml"}:
+        if filename in {"code_r.xml", "code_s.xml", "signal_words.xml"}:
             continue
 
         output_filename = filename.replace(".xml", ".parquet")
@@ -85,7 +85,7 @@ def test_clean_metadata(tmp_path: Path) -> None:
             check_row_order=False,
         )
 
-    expected_r_code = pl.DataFrame({
+    expected_code = pl.DataFrame({
         "id": ["code-1", "code-2"],
         "french": ["Texte français 1", "Texte français 2"],
         "german": ["Deutscher Text 1", "Deutscher Text 2"],
@@ -104,7 +104,7 @@ def test_clean_metadata(tmp_path: Path) -> None:
 
     assert_frame_equal(
         result_r_code,
-        expected_r_code,
+        expected_code,
         check_row_order=False,
     )
 
@@ -112,6 +112,14 @@ def test_clean_metadata(tmp_path: Path) -> None:
 
     assert_frame_equal(
         result_s_code,
-        expected_r_code,
+        expected_code,
+        check_row_order=False,
+    )
+
+    result_signal_word = pl.read_parquet(tmp_path / "signal_word.parquet")
+
+    assert_frame_equal(
+        result_signal_word,
+        expected_metadata,
         check_row_order=False,
     )

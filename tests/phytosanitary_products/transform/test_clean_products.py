@@ -31,7 +31,7 @@ def test_clean_products(tmp_path: Path) -> None:
     ) as mock_parser:
         clean_products(tmp_path)
 
-        result_products = pl.read_parquet(tmp_path / "products.parquet")
+        result_products = pl.read_parquet(tmp_path / "product.parquet")
 
     mock_parser.assert_called_once()
 

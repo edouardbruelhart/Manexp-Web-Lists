@@ -51,7 +51,7 @@ def clean_products(phyto_path: Path) -> None:
         .dt.date(),
     )
 
-    product_children.write_parquet(phyto_path / "products.parquet")
+    product_children.write_parquet(phyto_path / "product.parquet")
 
     for relationship in RELATIONSHIP_COLUMNS:
         relationship_id = relationship + "_id"

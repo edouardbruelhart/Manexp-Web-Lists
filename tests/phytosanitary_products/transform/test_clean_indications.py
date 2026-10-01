@@ -36,16 +36,16 @@ def test_clean_indications(tmp_path: Path) -> None:
     ) as mock_parser:
         clean_indications(tmp_path)
 
-        result_indications = pl.read_parquet(tmp_path / "indications.parquet")
+        result_indications = pl.read_parquet(tmp_path / "indication.parquet")
 
     mock_parser.assert_called_once()
 
     expected_indications = pl.DataFrame({
-        "dosage_from": ["1"],
-        "dosage_to": ["2"],
-        "waiting_period": ["3"],
-        "expenditure_from": ["13.000000"],
-        "expenditure_to": ["4"],
+        "dosage_from": [1.0],
+        "dosage_to": [2.0],
+        "waiting_period": [3],
+        "expenditure_from": [13.0],
+        "expenditure_to": [4.0],
         "id": ["indication-1"],
     })
 
@@ -122,7 +122,7 @@ def test_clean_indications(tmp_path: Path) -> None:
             "culture-1",
             "culture-2",
         ],
-        "additional_text_id": [
+        "culture_additional_text_id": [
             "",
             "",
         ],
@@ -164,7 +164,7 @@ def test_clean_indications(tmp_path: Path) -> None:
             "pest-1",
             "pest-2",
         ],
-        "additional_text_id": [
+        "pest_additional_text_id": [
             "",
             "",
         ],

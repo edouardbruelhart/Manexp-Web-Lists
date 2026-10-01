@@ -33,7 +33,16 @@ def clean_indications(phyto_path: Path) -> None:
     # Create the indications children table
     indication_children = indications.select(indication_columns)
 
-    indication_children.write_parquet(phyto_path / "indications.parquet")
+    # Transform numeric strings into int and float
+    indication_children = indication_children.with_columns(
+        pl.col("dosage_from").cast(pl.Float64, strict=False),
+        pl.col("dosage_to").cast(pl.Float64, strict=False),
+        pl.col("waiting_period").cast(pl.Int64, strict=False),
+        pl.col("expenditure_from").cast(pl.Float64, strict=False),
+        pl.col("expenditure_to").cast(pl.Float64, strict=False),
+    )
+
+    indication_children.write_parquet(phyto_path / "indication.parquet")
 
     for relationship in RELATIONSHIP_COLUMNS:
         relationship_id = relationship + "_id"
@@ -51,13 +60,13 @@ def clean_indications(phyto_path: Path) -> None:
         if relationship == "culture":
             relation_table = relation_table.with_columns(
                 pl.col(relationship_id).struct.field("id").alias("culture_id"),
-                pl.col(relationship_id).struct.field("additional_text").alias("additional_text_id"),
+                pl.col(relationship_id).struct.field("additional_text").alias("culture_additional_text_id"),
             ).drop_nulls(relationship_id)
 
         elif relationship == "pest":
             relation_table = relation_table.with_columns(
                 pl.col(relationship_id).struct.field("id").alias("pest_id"),
-                pl.col(relationship_id).struct.field("additional_text").alias("additional_text_id"),
+                pl.col(relationship_id).struct.field("additional_text").alias("pest_additional_text_id"),
                 pl.col(relationship_id).struct.field("type"),
             ).drop_nulls(relationship_id)
 

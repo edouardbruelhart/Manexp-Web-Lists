@@ -84,4 +84,7 @@ def clean_metadata(phyto_path: Path) -> None:
 
         else:
             # Write parquet
-            translated_metadata.write_parquet(phyto_path / file.replace(".xml", ".parquet"))
+            if file == "signal_words.xml":
+                translated_metadata.write_parquet(phyto_path / "signal_word.parquet")
+            else:
+                translated_metadata.write_parquet(phyto_path / file.replace(".xml", ".parquet"))

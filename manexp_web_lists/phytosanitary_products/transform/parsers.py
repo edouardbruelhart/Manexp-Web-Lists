@@ -102,7 +102,7 @@ def _parse_detail(
             parent = child.attrib.get("primaryKey")
 
             if parent is not None:
-                row["parent"] = parent
+                row["parent_id"] = parent
 
         elif child.tag == "Description":
             _parse_description(child, row)
