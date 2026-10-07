@@ -47,13 +47,13 @@ def extract_zip(byte: io.BytesIO) -> dict[str, io.BytesIO]:
         return {name: io.BytesIO(archive.read(name)) for name in archive.namelist()}
 
 
-def download_phytosanitary_products(url: str, path: Path) -> None:
+def download_phytosanitary_products(url: str, phyto_path: Path) -> None:
     """
     Download the official swiss phytosanitary products list from the internet.
 
     Args:
         url: The url of the phytosanitary products list
-        path: The path where to store phyto lists
+        phyto_path: The path where to store phyto lists
 
     Raises:
         InvalidXMLError: When empty xml is met
@@ -106,6 +106,6 @@ def download_phytosanitary_products(url: str, path: Path) -> None:
         new_tree = ElementTree(section)
 
         try:
-            new_tree.write(path / filename, encoding="utf-8", xml_declaration=True)
+            new_tree.write(phyto_path / filename, encoding="utf-8", xml_declaration=True)
         except IndexError as exc:
             raise InvalidXMLError() from exc

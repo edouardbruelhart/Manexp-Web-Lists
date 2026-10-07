@@ -9,32 +9,36 @@ from .transform.clean_products import clean_products
 from .transform.merge_phyto import merge_phyto
 
 PHYTO_URL = "https://www.blv.admin.ch/dam/fr/sd-web/He9bAfs8CmFT/daten-pflanzenschutzmittelverzeichnis-fr.zip"
-LISTS_PATH = Path("./phytosanitary_products/lists")
+FILES_PATH = Path("./phytosanitary_products/files")
 
 
 def get_phytosanitary_products() -> None:
-    """Function to fetch, enrich and validate official swiss phytosanitary products list."""
+    """Function to fetch, enrich, validate and load official swiss phytosanitary products lists."""
 
     # Create lists path if it doesn't exist
-    LISTS_PATH.mkdir(parents=True, exist_ok=True)
+    FILES_PATH.mkdir(parents=True, exist_ok=True)
 
     # Download phytosanitary products and split the xml in multiple ones
-    download_phytosanitary_products(PHYTO_URL, LISTS_PATH)
+    download_phytosanitary_products(PHYTO_URL, FILES_PATH)
 
     # Merge products and parallel imports
-    merge_phyto(LISTS_PATH)
+    merge_phyto(FILES_PATH)
 
     # Extract indications from products
-    extract_indications(LISTS_PATH)
+    extract_indications(FILES_PATH)
 
     # Clean and build metadata tables
-    clean_metadata(LISTS_PATH)
+    clean_metadata(FILES_PATH)
 
     # Clean and build products tables
-    clean_products(LISTS_PATH)
+    clean_products(FILES_PATH)
 
     # Clean and build indications tables
-    clean_indications(LISTS_PATH)
+    clean_indications(FILES_PATH)
 
     # Load data into PostgreSQL
-    load_phytosanitary_products(LISTS_PATH)
+    load_phytosanitary_products(FILES_PATH)
+
+    # Clean files folder
+    for item in FILES_PATH.iterdir():
+        item.unlink()

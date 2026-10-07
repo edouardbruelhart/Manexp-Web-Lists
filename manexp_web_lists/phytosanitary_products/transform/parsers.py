@@ -152,7 +152,11 @@ def products_parser(filename: Path) -> pl.DataFrame:
             # Product attributes
             "soldout_deadline": product.attrib.get("soldoutDeadline"),
             "exhaustion_deadline": product.attrib.get("exhaustionDeadline"),
-            "id": product.attrib.get("wNbr"),
+            "id": str(product.attrib.get("id"))
+            + str(
+                product.attrib.get("wNbr")
+            ),  # match id and wNbr to obtain unique values as there are multiple products with the same id and multiple products with the same wNbr
+            "w_number": product.attrib.get("wNbr"),
             "name": product.attrib.get("name"),
             # ProductInformation
             "product_category": [],

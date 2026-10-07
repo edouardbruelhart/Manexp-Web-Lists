@@ -27,6 +27,9 @@ def clean_indications(phyto_path: Path) -> None:
     # Load data
     indications = indications_parser(phyto_path / "indications.xml")
 
+    # Replace all empty strings with None
+    indications = indications.with_columns(pl.col(pl.String).str.strip_chars().replace("", None))
+
     # Get indications direct children columns
     indication_columns = [col for col in indications.columns if col not in RELATIONSHIP_COLUMNS]
 
@@ -70,6 +73,17 @@ def clean_indications(phyto_path: Path) -> None:
                 pl.col(relationship_id).struct.field("type"),
             ).drop_nulls(relationship_id)
 
-        relation_table = relation_table.unique()
+        uppercase_columns = [pl.col(relationship_id).str.to_uppercase()]
+
+        if relationship == "culture":
+            uppercase_columns.append(pl.col("culture_additional_text_id").str.to_uppercase())
+
+        elif relationship == "pest":
+            uppercase_columns.append(pl.col("pest_additional_text_id").str.to_uppercase())
+
+        # Replace all empty strings with None
+        relation_table = relation_table.with_columns(pl.col(pl.String).str.strip_chars().replace("", None))
+
+        relation_table = relation_table.unique().drop_nulls(relationship_id).with_columns(uppercase_columns)
 
         relation_table.write_parquet(phyto_path / f"indication_{relationship}.parquet")

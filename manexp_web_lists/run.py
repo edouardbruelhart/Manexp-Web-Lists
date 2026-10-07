@@ -1,15 +1,9 @@
 import logging
 
-from dotenv import load_dotenv
-
 from manexp_web_lists.core import Mailer, configure_logging, log_section
-from manexp_web_lists.countries import get_countries
 from manexp_web_lists.phytosanitary_products import get_phytosanitary_products
-from manexp_web_lists.postgresql_configuration import configure_database
-from manexp_web_lists.register_subtypes import get_register_subtypes
-from manexp_web_lists.register_types import get_register_types
+from manexp_web_lists.postgresql import configure_database
 from manexp_web_lists.seeds import get_seeds
-from manexp_web_lists.taxonomy import get_taxonomy
 
 # Initialize mailer
 mailer = Mailer()
@@ -26,39 +20,18 @@ def run() -> None:
     # Configure logging
     log_stream = configure_logging()
 
-    # Load environment variables
-    load_dotenv()
-
     try:
         # Check posgreSQL configuration
+        log_section("CONFIGURING DATABASE")
         configure_database()
-
-        # Generate countries list
-        log_section("GETTING COUNTRIES")
-        get_countries()
         logger.info("✅ Done ✅")
 
-        # Generate register types
-        log_section("GETTING REGISTER TYPES")
-        get_register_types()
-        logger.info("✅ Done ✅")
-
-        # Generate register subtypes
-        log_section("GETTING REGISTRER SUBTYPES")
-        get_register_subtypes()
-        logger.info("✅ Done ✅")
-
-        # Generate seeds list
+        # Generate seeds lists
         log_section("GETTING SEEDS")
         get_seeds()
         logger.info("✅ Done ✅")
 
-        # Generate taxonomy list
-        log_section("GETTING TAXONOMY")
-        get_taxonomy()
-        logger.info("✅ Done ✅")
-
-        # Generate phytosanitary products list
+        # Generate phytosanitary products lists
         log_section("GETTING PHYTOSANITARY PRODUCTS")
         get_phytosanitary_products()
         logger.info("✅ Done ✅")

@@ -2,48 +2,83 @@ from pathlib import Path
 
 import polars as pl
 
-from .extract.download_seeds import download_seeds
-from .transform.clean_booleans import clean_booleans
-from .transform.clean_denominations import clean_denominations
-from .transform.filter_columns import filter_columns
-from .transform.remove_unnecessary_seeds import remove_unnecessary_seeds
-from .transform.rename_columns import rename_columns
+# Countries
+from .extract.create_countries import create_countries
 
-PLANT_LIST_URL = "https://ec.europa.eu/food/plant-variety-portal/index.xhtml"
+# Register subtypes
+from .extract.create_register_subtypes import create_register_subtypes
 
-LISTS_PATH = Path("./seeds/lists")
-RAW_EXCEL_PATH = LISTS_PATH / "raw_seeds.xlsx"
-RAW_CSV_PATH = LISTS_PATH / "raw_seeds.csv"
-CLEAN_PARQUET_PATH = LISTS_PATH / "cleaned_seeds.parquet"
+# Register types
+from .extract.create_register_types import create_register_types
+
+# Plant varieties
+from .extract.download_plant_varieties import download_plant_varieties
+
+# Taxonomy
+from .extract.download_taxonomy import download_taxonomy
+from .load.load_seeds import load_seeds
+from .transform.booleanize_plant_varieties import booleanize_plant_varieties
+from .transform.clean_plant_varieties_denominations import clean_plant_varieties_denominations
+from .transform.clean_taxonomy import clean_taxonomy
+from .transform.color_taxonomy import color_taxonomy
+from .transform.filter_plant_varieties import filter_plant_varieties
+from .transform.filter_taxonomy import filter_taxonomy
+from .transform.iconize_taxonomy import iconize_taxonomy
+from .transform.merge_taxonomy import merge_taxonomy
+from .transform.replace_plant_varieties_relations import replace_plant_varieties_relations
+from .transform.translate_countries import translate_countries
+
+FILES_PATH = Path("./seeds/files/")
 
 
 def get_seeds() -> None:
-    """Function to fetch, enrich and validate official european seeds list."""
+    """
+    Function to fetch, enrich, validate and load seeds lists
+    """
 
-    # Create lists path if it doesn't exist
-    LISTS_PATH.mkdir(parents=True, exist_ok=True)
+    # Create files path if it doesn't exist
+    FILES_PATH.mkdir(parents=True, exist_ok=True)
 
-    # 1. Download raw excel
-    download_seeds(PLANT_LIST_URL, RAW_EXCEL_PATH)
+    # Extract and enrich countries list
+    raw_countries_file = FILES_PATH / "raw_countries.csv"
+    create_countries(raw_countries_file)
+    output_countries = FILES_PATH / "country.parquet"
+    translate_countries(pl.read_csv(raw_countries_file)).write_parquet(output_countries)
 
-    # 2. Load seeds as dataframe and save a csv version of it
-    raw_seeds = pl.read_excel(RAW_EXCEL_PATH)
-    raw_seeds.write_csv(RAW_CSV_PATH)
+    # Create register types
+    output_register_types = FILES_PATH / "register_type.parquet"
+    create_register_types(output_register_types)
 
-    # 3. Drop unnecessary columns
-    filtered_seeds = filter_columns(raw_seeds)
+    # Created register subtypes
+    output_register_subtypes = FILES_PATH / "register_subtype.parquet"
+    create_register_subtypes(output_register_subtypes)
 
-    # 4. Rename columns
-    renamed_seeds = rename_columns(filtered_seeds)
+    # Extract, clean and enrich plant varieties
+    raw_plant_varieties_file = FILES_PATH / "raw_plant_varieties.csv"
+    download_plant_varieties(raw_plant_varieties_file)
+    filtered_plant_varieties = filter_plant_varieties(pl.read_csv(raw_plant_varieties_file, infer_schema_length=0))
+    booleanized_plant_varieties = booleanize_plant_varieties(filtered_plant_varieties)
+    cleaned_plant_varieties = clean_plant_varieties_denominations(booleanized_plant_varieties)
+    output_plant_varieties = FILES_PATH / "seed.parquet"
+    replace_plant_varieties_relations(
+        cleaned_plant_varieties,
+        pl.read_parquet(output_countries),
+        pl.read_parquet(output_register_types),
+        pl.read_parquet(output_register_subtypes),
+    ).write_parquet(output_plant_varieties)
 
-    # 5. Drop unnecessary seeds
-    removed_seeds = remove_unnecessary_seeds(renamed_seeds)
+    # Extract, clean and enrich taxonomy
+    merged_file = FILES_PATH / "merged_taxonomy.csv"
+    download_taxonomy(FILES_PATH)
+    merge_taxonomy(FILES_PATH, merged_file)
+    filtered_taxonomy = filter_taxonomy(pl.read_csv(merged_file), output_plant_varieties)
+    cleaned_taxonomy = clean_taxonomy(filtered_taxonomy)
+    iconized_taxonomy = iconize_taxonomy(cleaned_taxonomy)
+    color_taxonomy(iconized_taxonomy).write_parquet(FILES_PATH / "taxon.parquet")
 
-    # 6. Replace pseudo booleans by real booleans
-    boolean_seeds = clean_booleans(removed_seeds)
+    # Load data
+    load_seeds(FILES_PATH)
 
-    # 7. Aggregate denominations
-    aggregated_seeds = clean_denominations(boolean_seeds)
-
-    # 8. Save final table as parquet
-    aggregated_seeds.write_parquet(CLEAN_PARQUET_PATH)
+    # Clean lists folder
+    for item in FILES_PATH.iterdir():
+        item.unlink()

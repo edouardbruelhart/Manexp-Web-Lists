@@ -1,29 +1,20 @@
-import os
 from pathlib import Path
 
-from .apply_schema import apply_schema
-from .generate_schema import generate_schema
+from manexp_web_lists.postgresql import DATABASE_URL, apply_schema, generate_schema, synchronize
 
 
-def load_phytosanitary_products(lists_path: Path) -> None:
+def load_phytosanitary_products(phyto_path: Path) -> None:
     """
     Load phytosanitary products in PostgreSQL from a list of Parquet files.
 
     Args:
-        lists_path: The path to Parquet files folder
+        phyto_path: The path to Parquet files folder
     """
 
-    DATABASE_URL = (
-        f"postgresql://"
-        f"{os.getenv('POSTGRES_PIPELINE_USER')}:"
-        f"{os.getenv('POSTGRES_PIPELINE_PASSWORD')}@"
-        "127.0.0.1:"
-        f"{os.getenv('POSTGRES_PORT')}/"
-        f"{os.getenv('POSTGRES_DB')}"
-    )
+    schema_path = phyto_path / "schema.sql"
 
-    schema_path = lists_path / "schema.sql"
+    generate_schema(phyto_path, schema_path)
 
-    generate_schema(lists_path, schema_path)
+    apply_schema(schema_path, DATABASE_URL, "products")
 
-    apply_schema(schema_path, DATABASE_URL)
+    synchronize(phyto_path, DATABASE_URL, "products")

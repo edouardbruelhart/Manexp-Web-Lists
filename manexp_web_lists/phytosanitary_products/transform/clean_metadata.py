@@ -39,6 +39,9 @@ def clean_metadata(phyto_path: Path) -> None:
         # Load data
         metadata = metadata_parser(phyto_path / file)
 
+        # Replace all empty strings with None
+        metadata = metadata.with_columns(pl.col(pl.String).str.strip_chars().replace("", None))
+
         # Rename columns
         renamed_metadata = metadata.rename({
             "primaryKey": "id",

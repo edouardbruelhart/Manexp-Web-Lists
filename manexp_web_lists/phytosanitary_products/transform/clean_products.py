@@ -26,6 +26,9 @@ def clean_products(phyto_path: Path) -> None:
     # Load data
     products = products_parser(phyto_path / "cleaned_products.xml")
 
+    # Replace all empty strings with None
+    products = products.with_columns(pl.col(pl.String).str.strip_chars().replace("", None))
+
     # Get products direct children columns
     product_columns = [col for col in products.columns if col not in RELATIONSHIP_COLUMNS]
 
