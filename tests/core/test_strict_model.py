@@ -1,5 +1,3 @@
-"""Tests for core/strict_model.py"""
-
 import pytest
 from pydantic import ValidationError
 

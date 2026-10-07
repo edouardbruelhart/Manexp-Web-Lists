@@ -19,11 +19,11 @@ def test_clean_indications(tmp_path: Path) -> None:
         "time_measure": [["time-measure-1"]],
         "application_area": [["application-area-1"]],
         "application_comment": [["comment-1", "comment-2"]],
-        "culture": [[{"id": "culture-1", "additional_text": ""}, {"id": "culture-2", "additional_text": ""}]],
+        "culture": [[{"id": "culture-1", "additional_text": "text-1"}, {"id": "culture-2", "additional_text": ""}]],
         "culture_form": [["outdoor", "indoor"]],
         "pest": [
             [
-                {"id": "pest-1", "additional_text": "", "type": "PEST_FULL_EFFECT"},
+                {"id": "pest-1", "additional_text": "TEXT-1", "type": "PEST_FULL_EFFECT"},
                 {"id": "pest-2", "additional_text": "", "type": "PEST_FULL_EFFECT"},
             ]
         ],
@@ -57,7 +57,7 @@ def test_clean_indications(tmp_path: Path) -> None:
 
     expected_measure = pl.DataFrame({
         "indication_id": ["indication-1"],
-        "measure_id": ["measure-1"],
+        "measure_id": ["MEASURE-1"],
     })
 
     result_measure = pl.read_parquet(tmp_path / "indication_measure.parquet")
@@ -66,7 +66,7 @@ def test_clean_indications(tmp_path: Path) -> None:
 
     expected_time_measure = pl.DataFrame({
         "indication_id": ["indication-1"],
-        "time_measure_id": ["time-measure-1"],
+        "time_measure_id": ["TIME-MEASURE-1"],
     })
 
     result_time_measure = pl.read_parquet(tmp_path / "indication_time_measure.parquet")
@@ -82,7 +82,7 @@ def test_clean_indications(tmp_path: Path) -> None:
             "indication-1",
         ],
         "application_area_id": [
-            "application-area-1",
+            "APPLICATION-AREA-1",
         ],
     })
 
@@ -100,8 +100,8 @@ def test_clean_indications(tmp_path: Path) -> None:
             "indication-1",
         ],
         "application_comment_id": [
-            "comment-1",
-            "comment-2",
+            "COMMENT-1",
+            "COMMENT-2",
         ],
     })
 
@@ -119,12 +119,12 @@ def test_clean_indications(tmp_path: Path) -> None:
             "indication-1",
         ],
         "culture_id": [
-            "culture-1",
-            "culture-2",
+            "CULTURE-1",
+            "CULTURE-2",
         ],
         "culture_additional_text_id": [
-            "",
-            "",
+            "TEXT-1",
+            None,
         ],
     })
 
@@ -142,8 +142,8 @@ def test_clean_indications(tmp_path: Path) -> None:
             "indication-1",
         ],
         "culture_form_id": [
-            "outdoor",
-            "indoor",
+            "OUTDOOR",
+            "INDOOR",
         ],
     })
 
@@ -161,12 +161,12 @@ def test_clean_indications(tmp_path: Path) -> None:
             "indication-1",
         ],
         "pest_id": [
-            "pest-1",
-            "pest-2",
+            "PEST-1",
+            "PEST-2",
         ],
         "pest_additional_text_id": [
-            "",
-            "",
+            "TEXT-1",
+            None,
         ],
         "type": [
             "PEST_FULL_EFFECT",
@@ -188,8 +188,8 @@ def test_clean_indications(tmp_path: Path) -> None:
             "indication-1",
         ],
         "obligation_id": [
-            "obligation-1",
-            "obligation-2",
+            "OBLIGATION-1",
+            "OBLIGATION-2",
         ],
     })
 

@@ -3,11 +3,12 @@ from unittest.mock import patch
 from manexp_web_lists.clients.translation_client import translate
 
 
-@patch("manexp_web_lists.clients.translation_client.argostranslate.translate.translate")
-def test_translate(mock_translate):
-    mock_translate.return_value = "Hello world"
+def test_translate():
 
-    result = translate("Bonjour le monde", "fr", "en")
+    with patch(
+        "manexp_web_lists.clients.translation_client.argostranslate.translate.translate", return_value="Hello world"
+    ) as mock_translate:
+        result = translate("Bonjour le monde", "fr", "en")
 
     assert result == "Hello world"
 

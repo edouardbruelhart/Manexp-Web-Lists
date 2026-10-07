@@ -1,5 +1,3 @@
-"""Tests for exceptions/invalid_pseudo_boolean.py"""
-
 from manexp_web_lists.exceptions import InvalidPseudoBoolError
 
 

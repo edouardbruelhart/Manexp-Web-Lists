@@ -1,5 +1,3 @@
-"""Tests for core/logging_config.py"""
-
 import logging
 
 from manexp_web_lists.core.logging_config import SectionAwareFormatter, configure_logging, log_section, log_sub_section

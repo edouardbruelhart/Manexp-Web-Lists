@@ -1,5 +1,3 @@
-"""Tests for exceptions/separator_error.py"""
-
 from manexp_web_lists.exceptions import SeparatorError
 
 

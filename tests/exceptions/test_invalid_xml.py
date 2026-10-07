@@ -1,5 +1,3 @@
-"""Tests for exceptions/invalid_xml.py"""
-
 from manexp_web_lists.exceptions import InvalidXMLError
 
 

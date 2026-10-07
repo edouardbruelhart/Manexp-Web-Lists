@@ -236,7 +236,8 @@ def test_products_parser(tmp_path: Path) -> None:
     expected = pl.DataFrame({
         "soldout_deadline": ["2026-12-31"],
         "exhaustion_deadline": ["2027-12-31"],
-        "id": ["6823"],
+        "id": ["81326823"],
+        "w_number": ["6823"],
         "name": ["Gesal"],
         "product_category": [["category-1", "category-2"]],
         "formulation_code": [["formulation-1"]],
@@ -281,7 +282,8 @@ def test_products_parser_without_product_information(
     expected = pl.DataFrame({
         "soldout_deadline": [""],
         "exhaustion_deadline": [""],
-        "id": ["6823"],
+        "id": ["81326823"],
+        "w_number": ["6823"],
         "name": ["Gesal"],
         "product_category": [[]],
         "formulation_code": [[]],
@@ -357,7 +359,7 @@ def test_products_parser_multiple_products(tmp_path: Path) -> None:
 
     assert result.height == 2
 
-    assert result["id"].to_list() == ["100", "200"]
+    assert result["id"].to_list() == ["1100", "2200"]
 
     assert result["indication"].to_list() == [
         ["indication-1"],
