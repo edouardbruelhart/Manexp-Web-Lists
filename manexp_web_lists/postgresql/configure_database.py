@@ -31,12 +31,13 @@ def configure_database() -> None:
     if platform.system() != "Linux":
         raise UnsupportedOSError(platform.system())
 
-    # Run configuration script
-    script = Path(__file__).resolve().parents[0] / "scripts" / "configure_database.sh"
+    # Construct script path
+    db_script = Path(__file__).resolve().parents[0] / "scripts" / "configure_database.sh"
 
+    # Run script
     try:
-        subprocess.run(  # noqa: S603 — script is a fixed file bundled with the package
-            ["/bin/bash", str(script)],
+        subprocess.run(  # noqa: S603 - Trusted static script
+            ["/bin/bash", str(db_script)],
             check=True,
         )
     except subprocess.CalledProcessError as exc:

@@ -75,20 +75,13 @@ theme:
 nav:
 - Run: manexp_web_lists/run.md
 - Clients:
+  - Gbif client: manexp_web_lists/clients/gbif_client.md
   - Translation client: manexp_web_lists/clients/translation_client.md
 - Core:
   - Logging config: manexp_web_lists/core/logging_config.md
   - Mailer: manexp_web_lists/core/mailer.md
   - Parsers: manexp_web_lists/core/parsers.md
   - Strict model: manexp_web_lists/core/strict_model.md
-- Countries:
-  - Get countries: manexp_web_lists/countries/get_countries.md
-  - Extract:
-    - Download countries:
-        manexp_web_lists/countries/extract/download_countries.md
-  - Transform:
-    - Translate countries:
-        manexp_web_lists/countries/transform/translate_countries.md
 - Exceptions:
   - Code mismatch: manexp_web_lists/exceptions/code_mismatch.md
   - Invalid chemical: manexp_web_lists/exceptions/invalid_chemical.md
@@ -119,13 +112,6 @@ nav:
     - Extract indications:
         manexp_web_lists/phytosanitary_products/extract/extract_indications.md
   - Load:
-    - Apply schema: manexp_web_lists/phytosanitary_products/load/apply_schema.md
-    - Generate create tables:
-        manexp_web_lists/phytosanitary_products/load/generate_create_tables.md
-    - Generate foreign key constraints:
-        manexp_web_lists/phytosanitary_products/load/generate_foreign_key_constraints.md
-    - Generate schema:
-        manexp_web_lists/phytosanitary_products/load/generate_schema.md
     - Load phytosanitary products:
         manexp_web_lists/phytosanitary_products/load/load_phytosanitary_products.md
   - Transform:
@@ -138,47 +124,45 @@ nav:
     - Merge phyto:
         manexp_web_lists/phytosanitary_products/transform/merge_phyto.md
     - Parsers: manexp_web_lists/phytosanitary_products/transform/parsers.md
-- Postgresql configuration:
-  - Configure database:
-      manexp_web_lists/postgresql_configuration/configure_database.md
-- Register subtypes:
-  - Get register subtypes:
-      manexp_web_lists/register_subtypes/get_register_subtypes.md
-  - Create:
-    - Create register subtypes:
-        manexp_web_lists/register_subtypes/create/create_register_subtypes.md
-- Register types:
-  - Get register types: manexp_web_lists/register_types/get_register_types.md
-  - Create:
-    - Create register types:
-        manexp_web_lists/register_types/create/create_register_types.md
+- Postgresql:
+  - Apply schema: manexp_web_lists/postgresql/apply_schema.md
+  - Configure database: manexp_web_lists/postgresql/configure_database.md
+  - Database url: manexp_web_lists/postgresql/database_url.md
+  - Generate create tables:
+      manexp_web_lists/postgresql/generate_create_tables.md
+  - Generate foreign key constraints:
+      manexp_web_lists/postgresql/generate_foreign_key_constraints.md
+  - Generate schema: manexp_web_lists/postgresql/generate_schema.md
+  - Synchronize: manexp_web_lists/postgresql/synchronize.md
 - Seeds:
   - Get seeds: manexp_web_lists/seeds/get_seeds.md
   - Extract:
-    - Download seeds: manexp_web_lists/seeds/extract/download_seeds.md
+    - Create countries: manexp_web_lists/seeds/extract/create_countries.md
+    - Create register subtypes:
+        manexp_web_lists/seeds/extract/create_register_subtypes.md
+    - Create register types:
+        manexp_web_lists/seeds/extract/create_register_types.md
+    - Download plant varieties:
+        manexp_web_lists/seeds/extract/download_plant_varieties.md
+    - Download taxonomy: manexp_web_lists/seeds/extract/download_taxonomy.md
+  - Load:
+    - Load seeds: manexp_web_lists/seeds/load/load_seeds.md
   - Transform:
-    - Clean booleans: manexp_web_lists/seeds/transform/clean_booleans.md
-    - Clean denominations:
-        manexp_web_lists/seeds/transform/clean_denominations.md
-    - Filter columns: manexp_web_lists/seeds/transform/filter_columns.md
-    - Remove unnecessary seeds:
-        manexp_web_lists/seeds/transform/remove_unnecessary_seeds.md
-    - Rename columns: manexp_web_lists/seeds/transform/rename_columns.md
-- Taxonomy:
-  - Get taxonomy: manexp_web_lists/taxonomy/get_taxonomy.md
-  - Clients:
-    - Gbif client: manexp_web_lists/taxonomy/clients/gbif_client.md
-  - Extract:
-    - Download taxonomy: manexp_web_lists/taxonomy/extract/download_taxonomy.md
-  - Models:
-    - Taxon rank: manexp_web_lists/taxonomy/models/taxon_rank.md
-  - Transform:
-    - Clean taxonomy: manexp_web_lists/taxonomy/transform/clean_taxonomy.md
-    - Color taxonomy: manexp_web_lists/taxonomy/transform/color_taxonomy.md
-    - Filter columns: manexp_web_lists/taxonomy/transform/filter_columns.md
-    - Filter rows: manexp_web_lists/taxonomy/transform/filter_rows.md
-    - Iconize taxonomy: manexp_web_lists/taxonomy/transform/iconize_taxonomy.md
-    - Merge taxonomy: manexp_web_lists/taxonomy/transform/merge_taxonomy.md
+    - Booleanize plant varieties:
+        manexp_web_lists/seeds/transform/booleanize_plant_varieties.md
+    - Clean plant varieties denominations:
+        manexp_web_lists/seeds/transform/clean_plant_varieties_denominations.md
+    - Clean taxonomy: manexp_web_lists/seeds/transform/clean_taxonomy.md
+    - Color taxonomy: manexp_web_lists/seeds/transform/color_taxonomy.md
+    - Filter plant varieties:
+        manexp_web_lists/seeds/transform/filter_plant_varieties.md
+    - Filter taxonomy: manexp_web_lists/seeds/transform/filter_taxonomy.md
+    - Iconize taxonomy: manexp_web_lists/seeds/transform/iconize_taxonomy.md
+    - Merge taxonomy: manexp_web_lists/seeds/transform/merge_taxonomy.md
+    - Replace plant varieties relations:
+        manexp_web_lists/seeds/transform/replace_plant_varieties_relations.md
+    - Translate countries:
+        manexp_web_lists/seeds/transform/translate_countries.md
 extra:
   social:
   - icon: fontawesome/brands/github

@@ -30,7 +30,26 @@ def generate_create_tables(file: Path) -> str:
 
     columns.append("    PRIMARY KEY (" + ", ".join(f'"{name}"' for name in pk) + ")")
 
-    return f'CREATE TABLE IF NOT EXISTS "{table_name}" (\n' + ",\n".join(columns) + "\n);\n"
+    create_sql = f'CREATE TABLE IF NOT EXISTS "{table_name}" (\n' + ",\n".join(columns) + "\n);"
+
+    add_columns = []
+
+    for column in columns:
+        stripped = column.strip()
+
+        # Skip table constraints
+        if stripped.upper().startswith((
+            "PRIMARY KEY",
+            "FOREIGN KEY",
+            "UNIQUE",
+            "CHECK",
+            "CONSTRAINT",
+        )):
+            continue
+
+        add_columns.append(f'ALTER TABLE "{table_name}" ADD COLUMN IF NOT EXISTS {stripped};')
+
+    return create_sql + "\n\n" + "\n".join(add_columns) + "\n"
 
 
 def primary_key(file: Path, schema: pa.Schema, table_name: str) -> list[str]:
@@ -50,6 +69,9 @@ def primary_key(file: Path, schema: pa.Schema, table_name: str) -> list[str]:
 
     if "id" in schema.names:
         return ["id"]
+
+    if "upov_code" in schema.names:
+        return ["upov_code"]
 
     return ["id"]
 

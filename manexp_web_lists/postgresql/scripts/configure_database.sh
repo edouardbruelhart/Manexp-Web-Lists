@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
 
+set -Eeuo pipefail
+
 # Configure Docker
-./postgresql_configuration/scripts/configure_docker.sh
+./postgresql/scripts/configure_docker.sh
 
 # Configure PostgreSQL
 sudo mkdir -p "$POSTGRES_DATA_DIR" # Create custom data dir
 sudo chown 999:999 "$POSTGRES_DATA_DIR" # Give this data dir to postgres user
 sudo chmod 700 "$POSTGRES_DATA_DIR" # Change permissions
 
-cd ./postgresql_configuration/docker || exit # Go to docker folder
+cd ./postgresql/docker || exit # Go to docker folder
 
 sudo docker compose --env-file "../../../.env" up -d # Run docker
 
@@ -40,12 +42,18 @@ sudo docker exec \
             END
             \$\$;
 
-            CREATE SCHEMA IF NOT EXISTS reference
+            CREATE SCHEMA IF NOT EXISTS products
                 AUTHORIZATION $POSTGRES_PIPELINE_USER;
 
-            ALTER SCHEMA reference
+            CREATE SCHEMA IF NOT EXISTS seeds
+                AUTHORIZATION $POSTGRES_PIPELINE_USER;
+
+            ALTER SCHEMA products
+                OWNER TO $POSTGRES_PIPELINE_USER;
+
+            ALTER SCHEMA seeds
                 OWNER TO $POSTGRES_PIPELINE_USER;
 
             ALTER ROLE $POSTGRES_PIPELINE_USER
-                SET search_path = reference;
+                SET search_path = products, seeds;
         " # Create pipeline user and make a schema for it

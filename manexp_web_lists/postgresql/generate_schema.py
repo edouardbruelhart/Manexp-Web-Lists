@@ -1,5 +1,9 @@
 from pathlib import Path
 
+import psycopg
+
+from manexp_web_lists.postgresql import DATABASE_URL
+
 from .generate_create_tables import generate_create_tables
 from .generate_foreign_key_constraints import generate_foreign_key_constraints
 
@@ -24,6 +28,9 @@ def generate_schema(
     # Generate FK statements.
     foreign_keys = generate_foreign_key_constraints(files)
 
+    with psycopg.connect(DATABASE_URL) as pg_conn:
+        foreign_key_sql = "\n\n".join(statement.as_string(pg_conn) for statement in foreign_keys)
+
     sql_parts = [
         "-- Generated automatically. Do not edit manually.",
         "",
@@ -34,7 +41,7 @@ def generate_schema(
         "",
         "-- Foreign keys",
         "",
-        "\n\n".join(foreign_keys),
+        foreign_key_sql,
         "",
     ]
 

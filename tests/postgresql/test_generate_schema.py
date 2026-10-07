@@ -1,5 +1,7 @@
 from unittest.mock import patch
 
+from psycopg import sql
+
 from manexp_web_lists.postgresql.generate_schema import (
     generate_schema,
 )
@@ -25,7 +27,7 @@ def test_generate_schema(tmp_path):
     }
 
     foreign_key_sql = [
-        'ALTER TABLE "products" ADD FOREIGN KEY ("ingredient_id") REFERENCES "ingredients" ("id");',
+        sql.SQL('ALTER TABLE "products" ADD FOREIGN KEY ("ingredient_id") REFERENCES "ingredients" ("id");'),
     ]
 
     with (
