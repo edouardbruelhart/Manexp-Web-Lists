@@ -58,16 +58,13 @@ Documentation: https://www.blv.admin.ch/fr/index-des-produits-phytosanitaires
 Used for:
 - application areas
 - application comments
-- cities
 - culture additionals
 - cultures forms
 - cultures
 - danger symbols
 - formulation codes
-- ingredient additionals
 - obligations
 - periods
-- permission holders
 - pest additionals
 - pest
 - phytosanitary products
@@ -75,7 +72,6 @@ Used for:
 - r codes
 - s codes
 - signal words
-- substances
 - units
 
 ### [EU Plant Variety Portal](https://ec.europa.eu/food/plant-variety-portal/index.xhtml)
@@ -83,11 +79,15 @@ Used for:
 Documentation: https://food.ec.europa.eu/plants/plant-reproductive-material/plant-variety-catalogues-databases-information-systems_en
 
 Used for:
-- seeds
+- plant varieties
 - register types
 - register subtypes
 
-### [UPOV Code List and Denomination Classes](https://www.upov.int/genie/updates/upov_code.xhtml?lang=en)
+### UPOV Code List and Denomination Classes
+
+datasets:
+- https://www.upov.int/genie/updates/upov_code.xhtml?lang=en
+- https://www.upov.int/genie/reports/twp.xhtml?faces-redirect=true
 
 Documentation: https://www.upov.int/en/find-and-explore/databases/genie
 
