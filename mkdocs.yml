@@ -91,6 +91,7 @@ nav:
   - Invalid xml: manexp_web_lists/exceptions/invalid_xml.md
   - Language installation failed:
       manexp_web_lists/exceptions/language_installation_failed.md
+  - No pk detected: manexp_web_lists/exceptions/no_pk_detected.md
   - Postgresql configuration failed:
       manexp_web_lists/exceptions/postgresql_configuration_failed.md
   - Separator error: manexp_web_lists/exceptions/separator_error.md
