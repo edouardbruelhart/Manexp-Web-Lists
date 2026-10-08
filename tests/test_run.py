@@ -6,7 +6,6 @@ from manexp_web_lists.run import run
 # Just to make codecov happy
 def test_run_calls_fetches_and_mailer():
     with (
-        patch("manexp_web_lists.run.configure_database") as mock_db,
         patch("manexp_web_lists.run.get_seeds") as mock_seeds,
         patch("manexp_web_lists.run.get_phytosanitary_products") as mock_sanitary,
         patch("manexp_web_lists.run.mailer.send_email") as mock_mail,
@@ -24,7 +23,6 @@ def test_run_calls_fetches_and_mailer():
         run()
 
         # Assertions
-        mock_db.assert_called_once()
         mock_seeds.assert_called_once()
         mock_sanitary.assert_called_once()
         mock_mail.assert_called_once()
@@ -33,7 +31,7 @@ def test_run_calls_fetches_and_mailer():
 
 def test_run_exception_sends_error_email():
     with (
-        patch("manexp_web_lists.run.configure_database", side_effect=RuntimeError),
+        patch("manexp_web_lists.run.get_seeds", side_effect=RuntimeError),
         patch("manexp_web_lists.core.mailer.Mailer.send_email") as mock_send,
     ):
         run()

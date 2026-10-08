@@ -2,7 +2,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 from psycopg import sql
 
-from manexp_web_lists.postgresql.generate_foreign_key_constraints import (
+from manexp_web_lists.postgres_helpers.generate_foreign_key_constraints import (
     generate_foreign_key_constraints,
 )
 

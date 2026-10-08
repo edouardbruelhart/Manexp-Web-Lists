@@ -1,0 +1,91 @@
+services:
+
+  database:
+    image: postgres:18
+    restart: unless-stopped
+
+    volumes:
+      - postgres_data:/var/lib/postgresql
+
+    environment:
+      POSTGRES_USER: "${POSTGRES_ADMIN_USER}"
+      POSTGRES_DB: "${POSTGRES_DB}"
+      POSTGRES_PASSWORD_FILE: /run/secrets/postgres_admin_password
+
+    secrets:
+      - postgres_admin_password
+      - postgres_pipeline_password
+
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT}:5432"
+
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U \"$${POSTGRES_USER}\" -d \"$${POSTGRES_DB}\""
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 50
+      start_period: 10s
+
+    networks:
+      - backend
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  pipeline:
+    build:
+      context: .
+      dockerfile: manexp_web_lists/Dockerfile
+
+    restart: no
+
+    working_dir: /app
+
+    environment:
+      POSTGRES_DB: "${POSTGRES_DB}"
+      POSTGRES_USER: "${POSTGRES_PIPELINE_USER}"
+      EMAIL_SENDER: "${EMAIL_SENDER}"
+      SMTP: "${SMTP}"
+      EMAIL_RECEIVER: "${EMAIL_RECEIVER}"
+
+    secrets:
+      - postgres_pipeline_password
+      - email_password
+
+    depends_on:
+      database:
+        condition: service_healthy
+
+    networks:
+      - backend
+      - outbound
+
+volumes:
+  postgres_data:
+
+secrets:
+
+  postgres_admin_password:
+    file: ./secrets/postgres_admin_password.txt
+
+  postgres_pipeline_password:
+    file: ./secrets/postgres_pipeline_password.txt
+
+  email_password:
+    file: ./secrets/email_password.txt
+
+
+networks:
+
+  backend:
+    driver: bridge
+
+  outbound:
+    driver: bridge

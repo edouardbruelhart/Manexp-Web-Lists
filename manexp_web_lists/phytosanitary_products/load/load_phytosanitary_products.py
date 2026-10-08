@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from manexp_web_lists.postgresql import DATABASE_URL, apply_schema, generate_schema, synchronize
+from manexp_web_lists.postgres_helpers import apply_schema, generate_schema, synchronize
 
 
 def load_phytosanitary_products(phyto_path: Path) -> None:
@@ -15,6 +15,6 @@ def load_phytosanitary_products(phyto_path: Path) -> None:
 
     generate_schema(phyto_path, schema_path)
 
-    apply_schema(schema_path, DATABASE_URL, "products")
+    apply_schema(schema_path, "products")
 
-    synchronize(phyto_path, DATABASE_URL, "products")
+    synchronize(phyto_path, "products")

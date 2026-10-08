@@ -1,6 +1,7 @@
 import os
 import smtplib
 from email.message import EmailMessage
+from pathlib import Path
 
 from manexp_web_lists.exceptions import InvalidEnvironmentError
 
@@ -24,7 +25,7 @@ class Mailer:
         email_sender = os.getenv("EMAIL_SENDER")
         smtp = os.getenv("SMTP")
         email_receiver = os.getenv("EMAIL_RECEIVER")
-        password = os.getenv("PASSWORD")
+        password = Path("/run/secrets/email_password").read_text().strip()
 
         # Check that variables are not null
         if email_sender is None or smtp is None or email_receiver is None or password is None:

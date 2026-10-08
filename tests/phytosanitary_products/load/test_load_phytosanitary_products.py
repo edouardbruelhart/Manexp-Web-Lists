@@ -17,10 +17,6 @@ def test_load_phytosanitary_products(tmp_path):
         patch(
             "manexp_web_lists.phytosanitary_products.load.load_phytosanitary_products.synchronize"
         ) as mock_synchronize,
-        patch(
-            "manexp_web_lists.phytosanitary_products.load.load_phytosanitary_products.DATABASE_URL",
-            new="postgresql://pipeline:secret@127.0.0.1:5432/mydb",
-        ),
     ):
         load_phytosanitary_products(files_path)
 
@@ -31,12 +27,9 @@ def test_load_phytosanitary_products(tmp_path):
         schema_path,
     )
 
-    mock_apply_schema.assert_called_once_with(
-        schema_path, "postgresql://pipeline:secret@127.0.0.1:5432/mydb", "products"
-    )
+    mock_apply_schema.assert_called_once_with(schema_path, "products")
 
     mock_synchronize.assert_called_once_with(
         files_path,
-        "postgresql://pipeline:secret@127.0.0.1:5432/mydb",
         "products",
     )

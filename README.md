@@ -11,24 +11,95 @@ This repository aggregates and transforms data originating from multiple third-p
 
 **Documentation** <https://edouardbruelhart.github.io/Manexp-Web-Lists/>
 
-## Available lists:
+## Available datasets:
 
-- ### Seeds list:
+- ### Seeds:
 
-Cleaned, resolved, translated, iconed and colored taxon list with related commercial crops denomination and information
+Cleaned, resolved, translated, iconed and colored official european seeds dataset with related commercial crops denomination and information
 
-Source documentation: https://food.ec.europa.eu/plants/plant-reproductive-material/plant-variety-catalogues-databases-information-systems_en
+Source documentations:
 
-Source dataset: https://ec.europa.eu/food/plant-variety-portal/index.xhtml
+    - https://food.ec.europa.eu/plants/plant-reproductive-material/plant-variety-catalogues-databases-information-systems_en
+    - https://www.upov.int/en/find-and-explore/databases/genie
 
-- ### Phytosanitary products list
+Source datasets:
 
-Cleaned phytosanitary products list
+    - https://ec.europa.eu/food/plant-variety-portal/index.xhtml
+    - https://www.upov.int/genie/reports/twp.xhtml?faces-redirect=true
+    - https://www.upov.int/genie/updates/upov_code.xhtml?lang=en
+    - https://github.com/pycountry/pycountry
 
-Source documentation: https://www.blv.admin.ch/fr/index-des-produits-phytosanitaires
+- ### Phytosanitary products
 
-Source dataset: https://www.blv.admin.ch/dam/fr/sd-web/He9bAfs8CmFT/daten-pflanzenschutzmittelverzeichnis-fr.zip
+Cleaned phytosanitary products dataset
 
+Source documentation:
+
+    https://www.blv.admin.ch/fr/index-des-produits-phytosanitaires
+
+Source dataset:
+
+    https://www.blv.admin.ch/dam/fr/sd-web/He9bAfs8CmFT/daten-pflanzenschutzmittelverzeichnis-fr.zip
+
+## Getting data
+
+The datasets are available as a PostgreSQL database. To get your own dataset version on your host, follow these few steps:
+
+### 1. Make sure to have docker installed and populate .env and secrets according to your needs
+
+Check that docker is installed. It should return something like: Docker version xx.x.x, build xxxx. If this is not the case, install it.
+
+```bash
+docker --version
+```
+
+Copy the .env.example file and rename it to .env. Use vim or any other text editor to edit it
+```bash
+cp .env.example .env
+
+vim .env
+```
+
+Create secret files
+```bash
+touch \
+    secrets/postgres_admin_password.txt \
+    secrets/postgres_pipeline_password.txt \
+    secrets/email_password.txt
+
+chmod 600 \
+    secrets/postgres_admin_password.txt \
+    secrets/postgres_pipeline_password.txt \
+    secrets/email_password.txt
+```
+
+Use vim or any other text editor to edit secrets
+
+```bash
+vim secrets/postgres_admin_password.txt
+vim secrets/postgres_pipeline_password.txt
+vim secrets/email_password.txt
+```
+
+### 2. Create and configure the database
+
+Run this command once in the root directory of the repository:
+
+```bash
+./scripts/configure_database.sh
+```
+
+### 3. Run the ingestion pipeline
+
+Run this command in the root directory of the repository when you want to update the database:
+
+```bash
+./scripts/ingest_data.sh
+```
+
+### 4. Access database
+
+You can access the database using any PostgreSQL client or tool of your choice. The docker-compose.yaml file is configured to expose database only on your own host (127.0.0.1:<POSTGRES_PORT>). Feel free to modify the configuration to connect to a different host or port if needed.
 
 ## [Contributing](https://github.com/edouardbruelhart/Manexp-Web-Lists/blob/main/CONTRIBUTING.md)
 

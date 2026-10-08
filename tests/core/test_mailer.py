@@ -11,12 +11,14 @@ def test_send_email_calls_smtp_ssl_correctly(monkeypatch):
     monkeypatch.setenv("EMAIL_SENDER", "sender@example.com")
     monkeypatch.setenv("SMTP", "smtp.example.com")
     monkeypatch.setenv("EMAIL_RECEIVER", "receiver@example.com")
-    monkeypatch.setenv("PASSWORD", "password123")
 
     mailer = Mailer()
 
     # Patch SMTP_SSL
-    with patch("manexp_web_lists.core.mailer.smtplib.SMTP_SSL") as mock_smtp:
+    with (
+        patch("manexp_web_lists.core.mailer.smtplib.SMTP_SSL") as mock_smtp,
+        patch("pathlib.Path.read_text", return_value="test-password\n"),
+    ):
         mock_server = MagicMock()
         mock_smtp.return_value.__enter__.return_value = mock_server
 
@@ -25,7 +27,7 @@ def test_send_email_calls_smtp_ssl_correctly(monkeypatch):
 
         # Assertions
         mock_smtp.assert_called_once_with("smtp.example.com", 465)
-        mock_server.login.assert_called_once_with("sender@example.com", "password123")
+        mock_server.login.assert_called_once_with("sender@example.com", "test-password")
         sent_msg = mock_server.send_message.call_args[0][0]  # get the EmailMessage sent
         assert sent_msg["From"] == "sender@example.com"
         assert sent_msg["To"] == "receiver@example.com"
@@ -39,7 +41,6 @@ def test_send_email_calls_smtp_ssl_correctly(monkeypatch):
         "EMAIL_SENDER",
         "SMTP",
         "EMAIL_RECEIVER",
-        "PASSWORD",
     ],
 )
 def test_send_email_raises_when_environment_variable_is_missing(
@@ -50,7 +51,6 @@ def test_send_email_raises_when_environment_variable_is_missing(
         "EMAIL_SENDER": "sender@example.com",
         "SMTP": "smtp.example.com",
         "EMAIL_RECEIVER": "receiver@example.com",
-        "PASSWORD": "password",
     }
 
     environment[missing_variable] = None
@@ -65,7 +65,10 @@ def test_send_email_raises_when_environment_variable_is_missing(
 
     mailer = Mailer()
 
-    with pytest.raises(InvalidEnvironmentError):
+    with (
+        pytest.raises(InvalidEnvironmentError),
+        patch("pathlib.Path.read_text"),
+    ):
         mailer.send_email(
             subject="Test",
             body="Test body",

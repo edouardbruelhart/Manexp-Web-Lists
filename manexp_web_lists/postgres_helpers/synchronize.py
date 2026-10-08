@@ -6,6 +6,8 @@ import duckdb
 import psycopg
 from psycopg import sql
 
+from manexp_web_lists.postgres_helpers.database_connection import psycopg_connection
+
 
 def get_tables_in_insert_order(conn: psycopg.Connection, schema_name: str) -> list[str]:
     """
@@ -123,13 +125,12 @@ def load_table(
                 copy.write_row(row)
 
 
-def synchronize(parquet_directory: Path, database_url: str, schema_name: str) -> None:
+def synchronize(parquet_directory: Path, schema_name: str) -> None:
     """
     Synchronize Parquet files to PostgreSQL database.
 
     Args:
         parquet_directory: Directory containing Parquet files.
-        database_url: URL of the PostgreSQL database.
         schema_name: Name of the PostgreSQL schema.
     """
 
@@ -138,7 +139,7 @@ def synchronize(parquet_directory: Path, database_url: str, schema_name: str) ->
     # DuckDB for reading Parquet
     duck_conn = duckdb.connect()
 
-    with psycopg.connect(database_url) as pg_conn:
+    with psycopg_connection() as pg_conn:
         # Get tables in FK dependency order.
         tables = get_tables_in_insert_order(pg_conn, schema_name)
 

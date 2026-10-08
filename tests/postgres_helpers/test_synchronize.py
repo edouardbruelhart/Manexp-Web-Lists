@@ -2,7 +2,7 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from manexp_web_lists.postgresql.synchronize import get_tables_in_insert_order, synchronize
+from manexp_web_lists.postgres_helpers.synchronize import get_tables_in_insert_order, synchronize
 
 # ---------------------------------------------------------------------------
 # get_tables_in_insert_order
@@ -91,13 +91,13 @@ def test_synchronize_loads_tables_in_dependency_order(tmp_path):
     child_file.touch()
 
     with (
-        patch("manexp_web_lists.postgresql.synchronize.duckdb.connect") as duck_connect,
-        patch("manexp_web_lists.postgresql.synchronize.psycopg.connect") as pg_connect,
+        patch("manexp_web_lists.postgres_helpers.synchronize.duckdb.connect") as duck_connect,
+        patch("manexp_web_lists.postgres_helpers.synchronize.psycopg_connection") as pg_connect,
         patch(
-            "manexp_web_lists.postgresql.synchronize.get_tables_in_insert_order",
+            "manexp_web_lists.postgres_helpers.synchronize.get_tables_in_insert_order",
             return_value=["parent", "child"],
         ) as get_tables,
-        patch("manexp_web_lists.postgresql.synchronize.load_table") as load_table,
+        patch("manexp_web_lists.postgres_helpers.synchronize.load_table") as load_table,
     ):
         duck_conn = MagicMock()
         duck_connect.return_value = duck_conn
@@ -110,7 +110,6 @@ def test_synchronize_loads_tables_in_dependency_order(tmp_path):
 
         synchronize(
             parquet_directory=tmp_path,
-            database_url="postgresql://example",
             schema_name="public",
         )
 
@@ -143,13 +142,13 @@ def test_synchronize_truncates_tables_before_loading(tmp_path):
     (tmp_path / "child.parquet").touch()
 
     with (
-        patch("manexp_web_lists.postgresql.synchronize.duckdb.connect") as duck_connect,
-        patch("manexp_web_lists.postgresql.synchronize.psycopg.connect") as pg_connect,
+        patch("manexp_web_lists.postgres_helpers.synchronize.duckdb.connect") as duck_connect,
+        patch("manexp_web_lists.postgres_helpers.synchronize.psycopg_connection") as pg_connect,
         patch(
-            "manexp_web_lists.postgresql.synchronize.get_tables_in_insert_order",
+            "manexp_web_lists.postgres_helpers.synchronize.get_tables_in_insert_order",
             return_value=["parent", "child"],
         ),
-        patch("manexp_web_lists.postgresql.synchronize.load_table") as load_table,
+        patch("manexp_web_lists.postgres_helpers.synchronize.load_table") as load_table,
     ):
         duck_conn = MagicMock()
         duck_connect.return_value = duck_conn
@@ -162,7 +161,6 @@ def test_synchronize_truncates_tables_before_loading(tmp_path):
 
         synchronize(
             parquet_directory=tmp_path,
-            database_url="postgresql://example",
             schema_name="public",
         )
 
@@ -184,13 +182,13 @@ def test_synchronize_connects_using_database_url(tmp_path):
     (tmp_path / "users.parquet").touch()
 
     with (
-        patch("manexp_web_lists.postgresql.synchronize.duckdb.connect") as duck_connect,
-        patch("manexp_web_lists.postgresql.synchronize.psycopg.connect") as pg_connect,
+        patch("manexp_web_lists.postgres_helpers.synchronize.duckdb.connect") as duck_connect,
+        patch("manexp_web_lists.postgres_helpers.synchronize.psycopg_connection") as pg_connect,
         patch(
-            "manexp_web_lists.postgresql.synchronize.get_tables_in_insert_order",
+            "manexp_web_lists.postgres_helpers.synchronize.get_tables_in_insert_order",
             return_value=["users"],
         ),
-        patch("manexp_web_lists.postgresql.synchronize.load_table"),
+        patch("manexp_web_lists.postgres_helpers.synchronize.load_table"),
     ):
         pg_conn = MagicMock()
         pg_connect.return_value.__enter__.return_value = pg_conn
@@ -200,13 +198,12 @@ def test_synchronize_connects_using_database_url(tmp_path):
 
         synchronize(
             parquet_directory=tmp_path,
-            database_url="postgresql://user:password@localhost/db",
             schema_name="public",
         )
 
-    pg_connect.assert_called_once_with("postgresql://user:password@localhost/db")
+    pg_connect.assert_called_once()
 
-    duck_connect.assert_called_once_with()
+    duck_connect.assert_called_once()
 
 
 def test_synchronize_uses_only_parquet_files(tmp_path):
@@ -215,13 +212,13 @@ def test_synchronize_uses_only_parquet_files(tmp_path):
     (tmp_path / "other.csv").touch()
 
     with (
-        patch("manexp_web_lists.postgresql.synchronize.duckdb.connect"),
-        patch("manexp_web_lists.postgresql.synchronize.psycopg.connect") as pg_connect,
+        patch("manexp_web_lists.postgres_helpers.synchronize.duckdb.connect"),
+        patch("manexp_web_lists.postgres_helpers.synchronize.psycopg_connection") as pg_connect,
         patch(
-            "manexp_web_lists.postgresql.synchronize.get_tables_in_insert_order",
+            "manexp_web_lists.postgres_helpers.synchronize.get_tables_in_insert_order",
             return_value=["users"],
         ),
-        patch("manexp_web_lists.postgresql.synchronize.load_table") as load_table,
+        patch("manexp_web_lists.postgres_helpers.synchronize.load_table") as load_table,
     ):
         pg_conn = MagicMock()
         pg_connect.return_value.__enter__.return_value = pg_conn
@@ -231,7 +228,6 @@ def test_synchronize_uses_only_parquet_files(tmp_path):
 
         synchronize(
             parquet_directory=tmp_path,
-            database_url="postgresql://example",
             schema_name="public",
         )
 
@@ -244,13 +240,13 @@ def test_synchronize_raises_key_error_for_missing_parquet_file(tmp_path):
     # The database contains a table, but there is no corresponding
     # Parquet file.
     with (
-        patch("manexp_web_lists.postgresql.synchronize.duckdb.connect"),
-        patch("manexp_web_lists.postgresql.synchronize.psycopg.connect") as pg_connect,
+        patch("manexp_web_lists.postgres_helpers.synchronize.duckdb.connect"),
+        patch("manexp_web_lists.postgres_helpers.synchronize.psycopg_connection") as pg_connect,
         patch(
-            "manexp_web_lists.postgresql.synchronize.get_tables_in_insert_order",
+            "manexp_web_lists.postgres_helpers.synchronize.get_tables_in_insert_order",
             return_value=["missing_table"],
         ),
-        patch("manexp_web_lists.postgresql.synchronize.load_table") as load_table,
+        patch("manexp_web_lists.postgres_helpers.synchronize.load_table") as load_table,
     ):
         pg_conn = MagicMock()
         pg_connect.return_value.__enter__.return_value = pg_conn
@@ -261,7 +257,6 @@ def test_synchronize_raises_key_error_for_missing_parquet_file(tmp_path):
         with pytest.raises(KeyError, match="missing_table"):
             synchronize(
                 parquet_directory=tmp_path,
-                database_url="postgresql://example",
                 schema_name="public",
             )
 
@@ -272,14 +267,14 @@ def test_synchronize_propagates_load_table_error(tmp_path):
     (tmp_path / "users.parquet").touch()
 
     with (
-        patch("manexp_web_lists.postgresql.synchronize.duckdb.connect"),
-        patch("manexp_web_lists.postgresql.synchronize.psycopg.connect") as pg_connect,
+        patch("manexp_web_lists.postgres_helpers.synchronize.duckdb.connect"),
+        patch("manexp_web_lists.postgres_helpers.synchronize.psycopg_connection") as pg_connect,
         patch(
-            "manexp_web_lists.postgresql.synchronize.get_tables_in_insert_order",
+            "manexp_web_lists.postgres_helpers.synchronize.get_tables_in_insert_order",
             return_value=["users"],
         ),
         patch(
-            "manexp_web_lists.postgresql.synchronize.load_table",
+            "manexp_web_lists.postgres_helpers.synchronize.load_table",
             side_effect=RuntimeError("COPY failed"),
         ),
     ):
@@ -292,6 +287,5 @@ def test_synchronize_propagates_load_table_error(tmp_path):
         with pytest.raises(RuntimeError, match="COPY failed"):
             synchronize(
                 parquet_directory=tmp_path,
-                database_url="postgresql://example",
                 schema_name="public",
             )

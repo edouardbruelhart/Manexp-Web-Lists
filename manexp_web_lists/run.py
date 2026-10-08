@@ -2,7 +2,6 @@ import logging
 
 from manexp_web_lists.core import Mailer, configure_logging, log_section
 from manexp_web_lists.phytosanitary_products import get_phytosanitary_products
-from manexp_web_lists.postgresql import configure_database
 from manexp_web_lists.seeds import get_seeds
 
 # Initialize mailer
@@ -21,11 +20,6 @@ def run() -> None:
     log_stream = configure_logging()
 
     try:
-        # Check posgreSQL configuration
-        log_section("CONFIGURING DATABASE")
-        configure_database()
-        logger.info("✅ Done ✅")
-
         # Generate seeds lists
         log_section("GETTING SEEDS")
         get_seeds()
