@@ -310,11 +310,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="manexp_web_lists/postgresql/apply_schema/" class="md-tabs__link">
+        <a href="manexp_web_lists/postgres_helpers/apply_schema/" class="md-tabs__link">
           
   
   
-  Postgresql
+  Postgres helpers
 
         </a>
       </li>
@@ -1660,7 +1660,7 @@
   <span class="md-ellipsis">
     
   
-    Postgresql
+    Postgres helpers
   
 
     
@@ -1676,7 +1676,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Postgresql
+    Postgres helpers
   
 
           </label>
@@ -1689,7 +1689,7 @@
   
   
     <li class="md-nav__item">
-      <a href="manexp_web_lists/postgresql/apply_schema/" class="md-nav__link">
+      <a href="manexp_web_lists/postgres_helpers/apply_schema/" class="md-nav__link">
         
   
   
@@ -1717,14 +1717,14 @@
   
   
     <li class="md-nav__item">
-      <a href="manexp_web_lists/postgresql/configure_database/" class="md-nav__link">
+      <a href="manexp_web_lists/postgres_helpers/database_connection/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Configure database
+    Database connection
   
 
     
@@ -1745,35 +1745,7 @@
   
   
     <li class="md-nav__item">
-      <a href="manexp_web_lists/postgresql/database_url/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Database url
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="manexp_web_lists/postgresql/generate_create_tables/" class="md-nav__link">
+      <a href="manexp_web_lists/postgres_helpers/generate_create_tables/" class="md-nav__link">
         
   
   
@@ -1801,7 +1773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="manexp_web_lists/postgresql/generate_foreign_key_constraints/" class="md-nav__link">
+      <a href="manexp_web_lists/postgres_helpers/generate_foreign_key_constraints/" class="md-nav__link">
         
   
   
@@ -1829,7 +1801,7 @@
   
   
     <li class="md-nav__item">
-      <a href="manexp_web_lists/postgresql/generate_schema/" class="md-nav__link">
+      <a href="manexp_web_lists/postgres_helpers/generate_schema/" class="md-nav__link">
         
   
   
@@ -1857,7 +1829,7 @@
   
   
     <li class="md-nav__item">
-      <a href="manexp_web_lists/postgresql/synchronize/" class="md-nav__link">
+      <a href="manexp_web_lists/postgres_helpers/synchronize/" class="md-nav__link">
         
   
   
@@ -2627,22 +2599,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#available-lists" class="md-nav__link">
+  <a href="#available-datasets" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Available lists:
+        Available datasets:
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Available lists:">
+    <nav class="md-nav" aria-label="Available datasets:">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#seeds-list" class="md-nav__link">
+  <a href="#seeds" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Seeds list:
+        Seeds:
       
     </span>
   </a>
@@ -2650,10 +2622,71 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#phytosanitary-products-list" class="md-nav__link">
+  <a href="#phytosanitary-products" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Phytosanitary products list
+        Phytosanitary products
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting data
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-make-sure-to-have-docker-installed-and-populate-env-and-secrets-according-to-your-needs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Make sure to have docker installed and populate .env and secrets according to your needs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-create-and-configure-the-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Create and configure the database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-run-the-ingestion-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Run the ingestion pipeline
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-access-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Access database
       
     </span>
   </a>
@@ -2718,23 +2751,72 @@
 <p>This repository aggregates and transforms data originating from multiple third-party sources, including public institutions and open data platforms for Manexp-Web project.</p>
 <p><strong>Github repository</strong>: <a href="https://github.com/edouardbruelhart/Manexp-Web-Lists/">https://github.com/edouardbruelhart/Manexp-Web-Lists/</a></p>
 <p><strong>Documentation</strong> <a href="https://edouardbruelhart.github.io/Manexp-Web-Lists/">https://edouardbruelhart.github.io/Manexp-Web-Lists/</a></p>
-<h2 id="available-lists">Available lists:</h2>
+<h2 id="available-datasets">Available datasets:</h2>
 <ul>
 <li>
-<h3 id="seeds-list">Seeds list:</h3>
+<h3 id="seeds">Seeds:</h3>
 </li>
 </ul>
-<p>Cleaned, resolved, translated, iconed and colored taxon list with related commercial crops denomination and information</p>
-<p>Source documentation: https://food.ec.europa.eu/plants/plant-reproductive-material/plant-variety-catalogues-databases-information-systems_en</p>
-<p>Source dataset: https://ec.europa.eu/food/plant-variety-portal/index.xhtml</p>
+<p>Cleaned, resolved, translated, iconed and colored official european seeds dataset with related commercial crops denomination and information</p>
+<p>Source documentations:</p>
+<div class="language-text highlight"><pre><span></span><code>- https://food.ec.europa.eu/plants/plant-reproductive-material/plant-variety-catalogues-databases-information-systems_en
+- https://www.upov.int/en/find-and-explore/databases/genie
+</code></pre></div>
+<p>Source datasets:</p>
+<div class="language-text highlight"><pre><span></span><code>- https://ec.europa.eu/food/plant-variety-portal/index.xhtml
+- https://www.upov.int/genie/reports/twp.xhtml?faces-redirect=true
+- https://www.upov.int/genie/updates/upov_code.xhtml?lang=en
+- https://github.com/pycountry/pycountry
+</code></pre></div>
 <ul>
 <li>
-<h3 id="phytosanitary-products-list">Phytosanitary products list</h3>
+<h3 id="phytosanitary-products">Phytosanitary products</h3>
 </li>
 </ul>
-<p>Cleaned phytosanitary products list</p>
-<p>Source documentation: https://www.blv.admin.ch/fr/index-des-produits-phytosanitaires</p>
-<p>Source dataset: https://www.blv.admin.ch/dam/fr/sd-web/He9bAfs8CmFT/daten-pflanzenschutzmittelverzeichnis-fr.zip</p>
+<p>Cleaned phytosanitary products dataset</p>
+<p>Source documentation:</p>
+<div class="language-text highlight"><pre><span></span><code>https://www.blv.admin.ch/fr/index-des-produits-phytosanitaires
+</code></pre></div>
+<p>Source dataset:</p>
+<div class="language-text highlight"><pre><span></span><code>https://www.blv.admin.ch/dam/fr/sd-web/He9bAfs8CmFT/daten-pflanzenschutzmittelverzeichnis-fr.zip
+</code></pre></div>
+<h2 id="getting-data">Getting data</h2>
+<p>The datasets are available as a PostgreSQL database. To get your own dataset version on your host, follow these few steps:</p>
+<h3 id="1-make-sure-to-have-docker-installed-and-populate-env-and-secrets-according-to-your-needs">1. Make sure to have docker installed and populate .env and secrets according to your needs</h3>
+<p>Check that docker is installed. It should return something like: Docker version xx.x.x, build xxxx. If this is not the case, install it.</p>
+<div class="language-bash highlight"><pre><span></span><code>docker<span class="w"> </span>--version
+</code></pre></div>
+<p>Copy the .env.example file and rename it to .env. Use vim or any other text editor to edit it
+<div class="language-bash highlight"><pre><span></span><code>cp<span class="w"> </span>.env.example<span class="w"> </span>.env
+
+vim<span class="w"> </span>.env
+</code></pre></div></p>
+<p>Create secret files
+<div class="language-bash highlight"><pre><span></span><code>touch<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>secrets/postgres_admin_password.txt<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>secrets/postgres_pipeline_password.txt<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>secrets/email_password.txt
+
+chmod<span class="w"> </span><span class="m">600</span><span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>secrets/postgres_admin_password.txt<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>secrets/postgres_pipeline_password.txt<span class="w"> </span><span class="se">\</span>
+<span class="w">    </span>secrets/email_password.txt
+</code></pre></div></p>
+<p>Use vim or any other text editor to edit secrets</p>
+<div class="language-bash highlight"><pre><span></span><code>vim<span class="w"> </span>secrets/postgres_admin_password.txt
+vim<span class="w"> </span>secrets/postgres_pipeline_password.txt
+vim<span class="w"> </span>secrets/email_password.txt
+</code></pre></div>
+<h3 id="2-create-and-configure-the-database">2. Create and configure the database</h3>
+<p>Run this command once in the root directory of the repository:</p>
+<div class="language-bash highlight"><pre><span></span><code>./scripts/configure_database.sh
+</code></pre></div>
+<h3 id="3-run-the-ingestion-pipeline">3. Run the ingestion pipeline</h3>
+<p>Run this command in the root directory of the repository when you want to update the database:</p>
+<div class="language-bash highlight"><pre><span></span><code>./scripts/ingest_data.sh
+</code></pre></div>
+<h3 id="4-access-database">4. Access database</h3>
+<p>You can access the database using any PostgreSQL client or tool of your choice. The docker-compose.yaml file is configured to expose database only on your own host (127.0.0.1:<POSTGRES_PORT>). Feel free to modify the configuration to connect to a different host or port if needed.</p>
 <h2 id="contributing"><a href="https://github.com/edouardbruelhart/Manexp-Web-Lists/blob/main/CONTRIBUTING.md">Contributing</a></h2>
 <p>Contributions are welcome, and they are greatly appreciated!</p>
 <h2 id="data-sources"><a href="https://github.com/edouardbruelhart/Manexp-Web-Lists/blob/main/DATA_SOURCES.md">Data sources</a></h2>

@@ -14,7 +14,7 @@
         <link rel="prev" href="../apply_schema/">
       
       
-        <link rel="next" href="../database_url/">
+        <link rel="next" href="../generate_create_tables/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Configure database - Manexp Web Lists Documentation</title>
+        <title>Database connection - Manexp Web Lists Documentation</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#configure-database" class="md-skip">
+        <a href="#database-connection" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Configure database
+              Database connection
             
           </span>
         </div>
@@ -320,7 +320,7 @@
           
   
   
-  Postgresql
+  Postgres helpers
 
         </a>
       </li>
@@ -1671,7 +1671,7 @@
   <span class="md-ellipsis">
     
   
-    Postgresql
+    Postgres helpers
   
 
     
@@ -1687,7 +1687,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Postgresql
+    Postgres helpers
   
 
           </label>
@@ -1744,7 +1744,7 @@
   <span class="md-ellipsis">
     
   
-    Configure database
+    Database connection
   
 
     
@@ -1762,7 +1762,7 @@
   <span class="md-ellipsis">
     
   
-    Configure database
+    Database connection
   
 
     
@@ -1788,10 +1788,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.configure_database" class="md-nav__link">
+  <a href="#manexp_web_lists.postgres_helpers.database_connection" class="md-nav__link">
     <span class="md-ellipsis">
       
-        configure_database
+        database_connection
       
     </span>
   </a>
@@ -1799,10 +1799,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.configure_database.configure_database" class="md-nav__link">
+  <a href="#manexp_web_lists.postgres_helpers.database_connection.psycopg_connection" class="md-nav__link">
     <span class="md-ellipsis">
       
-        configure_database
+        psycopg_connection
       
     </span>
   </a>
@@ -1813,34 +1813,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../database_url/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Database url
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -2707,10 +2679,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.configure_database" class="md-nav__link">
+  <a href="#manexp_web_lists.postgres_helpers.database_connection" class="md-nav__link">
     <span class="md-ellipsis">
       
-        configure_database
+        database_connection
       
     </span>
   </a>
@@ -2718,10 +2690,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.configure_database.configure_database" class="md-nav__link">
+  <a href="#manexp_web_lists.postgres_helpers.database_connection.psycopg_connection" class="md-nav__link">
     <span class="md-ellipsis">
       
-        configure_database
+        psycopg_connection
       
     </span>
   </a>
@@ -2751,14 +2723,14 @@
 
 
 
-<h1 id="configure-database">Configure database</h1>
+<h1 id="database-connection">Database connection</h1>
 
 
 <div class="doc doc-object doc-module">
 
 
 
-<a id="manexp_web_lists.postgresql.configure_database"></a>
+<a id="manexp_web_lists.postgres_helpers.database_connection"></a>
     <div class="doc doc-contents first">
 
 
@@ -2784,55 +2756,35 @@
 <div class="doc doc-object doc-function">
 
 
-<h2 id="manexp_web_lists.postgresql.configure_database.configure_database" class="doc doc-heading">
-            <span class="doc doc-object-name doc-function-name">configure_database</span>
+<h2 id="manexp_web_lists.postgres_helpers.database_connection.psycopg_connection" class="doc doc-heading">
+            <span class="doc doc-object-name doc-function-name">psycopg_connection</span>
 
 
 </h2>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">configure_database</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">psycopg_connection</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">Connection</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
 
-        <p>Configure Docker and PostgreSQL instances to then store the generated tables.</p>
+        <p>Connect to the PostgreSQL database.</p>
 
 
-<p><span class="doc-section-title">Raises:</span></p>
+    <p><span class="doc-section-title">Returns:</span></p>
     <table>
       <thead>
         <tr>
-          <th>Type</th>
+<th>Name</th>          <th>Type</th>
           <th>Description</th>
         </tr>
       </thead>
       <tbody>
           <tr class="doc-section-item">
-            <td>
-                  <code><a class="autorefs autorefs-internal" href="../../exceptions/invalid_environment/#manexp_web_lists.exceptions.invalid_environment.InvalidEnvironmentError">InvalidEnvironmentError</a></code>
+<td><code>Connection</code></td>            <td>
+                  <code><span title="psycopg.Connection">Connection</span></code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>Raised when environment variables are not set or bad</p>
-              </div>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                  <code><a class="autorefs autorefs-internal" href="../../exceptions/unsupported_os/#manexp_web_lists.exceptions.unsupported_os.UnsupportedOSError">UnsupportedOSError</a></code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>Raised when automatic setup is enabled on an unsupported operating system</p>
-              </div>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                  <code><a class="autorefs autorefs-internal" href="../../exceptions/postgresql_configuration_failed/#manexp_web_lists.exceptions.postgresql_configuration_failed.PostgresqlConfigurationFailedError">PostgresqlConfigurationFailedError</a></code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>Raised when the automatic setup encounters an error</p>
+                <p>A psycopg connection object.</p>
               </div>
             </td>
           </tr>

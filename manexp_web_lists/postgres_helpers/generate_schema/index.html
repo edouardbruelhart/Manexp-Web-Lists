@@ -11,10 +11,10 @@
       
       
       
-        <link rel="prev" href="../generate_schema/">
+        <link rel="prev" href="../generate_foreign_key_constraints/">
       
       
-        <link rel="next" href="../../seeds/get_seeds/">
+        <link rel="next" href="../synchronize/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Synchronize - Manexp Web Lists Documentation</title>
+        <title>Generate schema - Manexp Web Lists Documentation</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#synchronize" class="md-skip">
+        <a href="#generate-schema" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Synchronize
+              Generate schema
             
           </span>
         </div>
@@ -320,7 +320,7 @@
           
   
   
-  Postgresql
+  Postgres helpers
 
         </a>
       </li>
@@ -1671,7 +1671,7 @@
   <span class="md-ellipsis">
     
   
-    Postgresql
+    Postgres helpers
   
 
     
@@ -1687,7 +1687,7 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Postgresql
+    Postgres helpers
   
 
           </label>
@@ -1728,42 +1728,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../configure_database/" class="md-nav__link">
+      <a href="../database_connection/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Configure database
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../database_url/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Database url
+    Database connection
   
 
     
@@ -1837,34 +1809,6 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../generate_schema/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Generate schema
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
     
   
   
@@ -1884,7 +1828,7 @@
   <span class="md-ellipsis">
     
   
-    Synchronize
+    Generate schema
   
 
     
@@ -1902,7 +1846,7 @@
   <span class="md-ellipsis">
     
   
-    Synchronize
+    Generate schema
   
 
     
@@ -1928,10 +1872,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.synchronize" class="md-nav__link">
+  <a href="#manexp_web_lists.postgres_helpers.generate_schema" class="md-nav__link">
     <span class="md-ellipsis">
       
-        synchronize
+        generate_schema
       
     </span>
   </a>
@@ -1939,32 +1883,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.synchronize.get_tables_in_insert_order" class="md-nav__link">
+  <a href="#manexp_web_lists.postgres_helpers.generate_schema.generate_schema" class="md-nav__link">
     <span class="md-ellipsis">
       
-        get_tables_in_insert_order
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.synchronize.load_table" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        load_table
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.synchronize.synchronize" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        synchronize
+        generate_schema
       
     </span>
   </a>
@@ -1975,6 +1897,34 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../synchronize/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Synchronize
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -2729,10 +2679,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.synchronize" class="md-nav__link">
+  <a href="#manexp_web_lists.postgres_helpers.generate_schema" class="md-nav__link">
     <span class="md-ellipsis">
       
-        synchronize
+        generate_schema
       
     </span>
   </a>
@@ -2740,32 +2690,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.synchronize.get_tables_in_insert_order" class="md-nav__link">
+  <a href="#manexp_web_lists.postgres_helpers.generate_schema.generate_schema" class="md-nav__link">
     <span class="md-ellipsis">
       
-        get_tables_in_insert_order
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.synchronize.load_table" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        load_table
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.synchronize.synchronize" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        synchronize
+        generate_schema
       
     </span>
   </a>
@@ -2795,14 +2723,14 @@
 
 
 
-<h1 id="synchronize">Synchronize</h1>
+<h1 id="generate-schema">Generate schema</h1>
 
 
 <div class="doc doc-object doc-module">
 
 
 
-<a id="manexp_web_lists.postgresql.synchronize"></a>
+<a id="manexp_web_lists.postgres_helpers.generate_schema"></a>
     <div class="doc doc-contents first">
 
 
@@ -2828,116 +2756,19 @@
 <div class="doc doc-object doc-function">
 
 
-<h2 id="manexp_web_lists.postgresql.synchronize.get_tables_in_insert_order" class="doc doc-heading">
-            <span class="doc doc-object-name doc-function-name">get_tables_in_insert_order</span>
+<h2 id="manexp_web_lists.postgres_helpers.generate_schema.generate_schema" class="doc doc-heading">
+            <span class="doc doc-object-name doc-function-name">generate_schema</span>
 
 
 </h2>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">get_tables_in_insert_order</span><span class="p">(</span>
-    <span class="n">conn</span><span class="p">:</span> <span class="n">Connection</span><span class="p">,</span> <span class="n">schema_name</span><span class="p">:</span> <span class="nb">str</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
-</code></pre></div>
-
-    <div class="doc doc-contents ">
-
-        <p>Get the tables in a dependency order.</p>
-
-
-<p><span class="doc-section-title">Parameters:</span></p>
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Type</th>
-          <th>Description</th>
-          <th>Default</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr class="doc-section-item">
-            <td>
-                <code>conn</code>
-            </td>
-            <td>
-                  <code><span title="psycopg.Connection">Connection</span></code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>A psycopg connection to the database.</p>
-              </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                <code>schema_name</code>
-            </td>
-            <td>
-                  <code><span title="str">str</span></code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>The name of the schema to get tables from.</p>
-              </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-      </tbody>
-    </table>
-
-
-    <p><span class="doc-section-title">Returns:</span></p>
-    <table>
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr class="doc-section-item">
-            <td>
-                  <code><span title="list">list</span>[<span title="str">str</span>]</code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>list[str]: A list of table names in dependency order.</p>
-              </div>
-            </td>
-          </tr>
-      </tbody>
-    </table>
-
-
-    </div>
-
-</div>
-
-<div class="doc doc-object doc-function">
-
-
-<h2 id="manexp_web_lists.postgresql.synchronize.load_table" class="doc doc-heading">
-            <span class="doc doc-object-name doc-function-name">load_table</span>
-
-
-</h2>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">load_table</span><span class="p">(</span>
-    <span class="n">pg_conn</span><span class="p">:</span> <span class="n">Connection</span><span class="p">,</span>
-    <span class="n">duck_conn</span><span class="p">:</span> <span class="n">DuckDBPyConnection</span><span class="p">,</span>
-    <span class="n">parquet_file</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
-    <span class="n">schema_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
-    <span class="n">table_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
-    <span class="n">batch_size</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">10000</span><span class="p">,</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">generate_schema</span><span class="p">(</span>
+    <span class="n">parquet_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">output_file</span><span class="p">:</span> <span class="n">Path</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
 
-        <p>Load one Parquet file into one PostgreSQL table using COPY.</p>
+        <p>Generate the SQL schema for a list of Parquet files.</p>
 
 
 <p><span class="doc-section-title">Parameters:</span></p>
@@ -2953,46 +2784,14 @@
       <tbody>
           <tr class="doc-section-item">
             <td>
-                <code>pg_conn</code>
-            </td>
-            <td>
-                  <code><span title="psycopg.Connection">Connection</span></code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>PostgreSQL connection object.</p>
-              </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                <code>duck_conn</code>
-            </td>
-            <td>
-                  <code><span title="duckdb.DuckDBPyConnection">DuckDBPyConnection</span></code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>DuckDB connection object.</p>
-              </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                <code>parquet_file</code>
+                <code>parquet_path</code>
             </td>
             <td>
                   <code><span title="pathlib.Path">Path</span></code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>Path to the Parquet file.</p>
+                <p>the path to the directory containing the Parquet files</p>
               </div>
             </td>
             <td>
@@ -3001,133 +2800,14 @@
           </tr>
           <tr class="doc-section-item">
             <td>
-                <code>schema_name</code>
-            </td>
-            <td>
-                  <code><span title="str">str</span></code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>Name of the PostgreSQL schema.</p>
-              </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                <code>table_name</code>
-            </td>
-            <td>
-                  <code><span title="str">str</span></code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>Name of the PostgreSQL table.</p>
-              </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                <code>batch_size</code>
-            </td>
-            <td>
-                  <code><span title="int">int</span></code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>Number of rows to load at a time. Default is 10_000.</p>
-              </div>
-            </td>
-            <td>
-                  <code>10000</code>
-            </td>
-          </tr>
-      </tbody>
-    </table>
-
-
-    </div>
-
-</div>
-
-<div class="doc doc-object doc-function">
-
-
-<h2 id="manexp_web_lists.postgresql.synchronize.synchronize" class="doc doc-heading">
-            <span class="doc doc-object-name doc-function-name">synchronize</span>
-
-
-</h2>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">synchronize</span><span class="p">(</span>
-    <span class="n">parquet_directory</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span>
-    <span class="n">database_url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
-    <span class="n">schema_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
-</code></pre></div>
-
-    <div class="doc doc-contents ">
-
-        <p>Synchronize Parquet files to PostgreSQL database.</p>
-
-
-<p><span class="doc-section-title">Parameters:</span></p>
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Type</th>
-          <th>Description</th>
-          <th>Default</th>
-        </tr>
-      </thead>
-      <tbody>
-          <tr class="doc-section-item">
-            <td>
-                <code>parquet_directory</code>
+                <code>output_file</code>
             </td>
             <td>
                   <code><span title="pathlib.Path">Path</span></code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>Directory containing Parquet files.</p>
-              </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                <code>database_url</code>
-            </td>
-            <td>
-                  <code><span title="str">str</span></code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>URL of the PostgreSQL database.</p>
-              </div>
-            </td>
-            <td>
-                <em>required</em>
-            </td>
-          </tr>
-          <tr class="doc-section-item">
-            <td>
-                <code>schema_name</code>
-            </td>
-            <td>
-                  <code><span title="str">str</span></code>
-            </td>
-            <td>
-              <div class="doc-md-description">
-                <p>Name of the PostgreSQL schema.</p>
+                <p>the path where the generated SQL schema will be saved</p>
               </div>
             </td>
             <td>

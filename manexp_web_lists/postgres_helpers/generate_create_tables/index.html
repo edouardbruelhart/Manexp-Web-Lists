@@ -11,10 +11,10 @@
       
       
       
-        <link rel="prev" href="../../phytosanitary_products/transform/parsers/">
+        <link rel="prev" href="../database_connection/">
       
       
-        <link rel="next" href="../configure_database/">
+        <link rel="next" href="../generate_foreign_key_constraints/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Apply schema - Manexp Web Lists Documentation</title>
+        <title>Generate create tables - Manexp Web Lists Documentation</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#apply-schema" class="md-skip">
+        <a href="#generate-create-tables" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Apply schema
+              Generate create tables
             
           </span>
         </div>
@@ -316,11 +316,11 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../apply_schema/" class="md-tabs__link">
           
   
   
-  Postgresql
+  Postgres helpers
 
         </a>
       </li>
@@ -1671,7 +1671,7 @@
   <span class="md-ellipsis">
     
   
-    Postgresql
+    Postgres helpers
   
 
     
@@ -1687,11 +1687,67 @@
             <span class="md-nav__icon md-icon"></span>
             
   
-    Postgresql
+    Postgres helpers
   
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apply_schema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apply schema
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../database_connection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Database connection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -1716,7 +1772,7 @@
   <span class="md-ellipsis">
     
   
-    Apply schema
+    Generate create tables
   
 
     
@@ -1734,7 +1790,7 @@
   <span class="md-ellipsis">
     
   
-    Apply schema
+    Generate create tables
   
 
     
@@ -1760,10 +1816,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.apply_schema" class="md-nav__link">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables" class="md-nav__link">
     <span class="md-ellipsis">
       
-        apply_schema
+        generate_create_tables
       
     </span>
   </a>
@@ -1771,10 +1827,65 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.apply_schema.apply_schema" class="md-nav__link">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables.generate_create_tables" class="md-nav__link">
     <span class="md-ellipsis">
       
-        apply_schema
+        generate_create_tables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables.primary_key" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        primary_key
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables.is_association_table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        is_association_table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables.postgres_type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        postgres_type
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables.is_uuid_column" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        is_uuid_column
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables.contain_null" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        contain_null
       
     </span>
   </a>
@@ -1785,90 +1896,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../configure_database/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Configure database
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../database_url/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Database url
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../generate_create_tables/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Generate create tables
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -2707,10 +2734,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.apply_schema" class="md-nav__link">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables" class="md-nav__link">
     <span class="md-ellipsis">
       
-        apply_schema
+        generate_create_tables
       
     </span>
   </a>
@@ -2718,10 +2745,65 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#manexp_web_lists.postgresql.apply_schema.apply_schema" class="md-nav__link">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables.generate_create_tables" class="md-nav__link">
     <span class="md-ellipsis">
       
-        apply_schema
+        generate_create_tables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables.primary_key" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        primary_key
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables.is_association_table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        is_association_table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables.postgres_type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        postgres_type
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables.is_uuid_column" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        is_uuid_column
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manexp_web_lists.postgres_helpers.generate_create_tables.contain_null" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        contain_null
       
     </span>
   </a>
@@ -2751,14 +2833,14 @@
 
 
 
-<h1 id="apply-schema">Apply schema</h1>
+<h1 id="generate-create-tables">Generate create tables</h1>
 
 
 <div class="doc doc-object doc-module">
 
 
 
-<a id="manexp_web_lists.postgresql.apply_schema"></a>
+<a id="manexp_web_lists.postgres_helpers.generate_create_tables"></a>
     <div class="doc doc-contents first">
 
 
@@ -2784,19 +2866,17 @@
 <div class="doc doc-object doc-function">
 
 
-<h2 id="manexp_web_lists.postgresql.apply_schema.apply_schema" class="doc doc-heading">
-            <span class="doc doc-object-name doc-function-name">apply_schema</span>
+<h2 id="manexp_web_lists.postgres_helpers.generate_create_tables.generate_create_tables" class="doc doc-heading">
+            <span class="doc doc-object-name doc-function-name">generate_create_tables</span>
 
 
 </h2>
-<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">apply_schema</span><span class="p">(</span>
-    <span class="n">schema_path</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">database_url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">schema_name</span><span class="p">:</span> <span class="nb">str</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">generate_create_tables</span><span class="p">(</span><span class="n">file</span><span class="p">:</span> <span class="n">Path</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span>
 </code></pre></div>
 
     <div class="doc doc-contents ">
 
-        <p>Apply generated SQL schema to the specified PostgreSQL schema.</p>
+        <p>Generate the SQL CREATE TABLE statement from a Parquet file</p>
 
 
 <p><span class="doc-section-title">Parameters:</span></p>
@@ -2812,14 +2892,90 @@
       <tbody>
           <tr class="doc-section-item">
             <td>
-                <code>schema_path</code>
+                <code>file</code>
             </td>
             <td>
                   <code><span title="pathlib.Path">Path</span></code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>Path to the generated SQL schema file.</p>
+                <p>path to the Parquet file</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>str</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>SQL CREATE TABLE statement</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h2 id="manexp_web_lists.postgres_helpers.generate_create_tables.primary_key" class="doc doc-heading">
+            <span class="doc doc-object-name doc-function-name">primary_key</span>
+
+
+</h2>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">primary_key</span><span class="p">(</span>
+    <span class="n">file</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">schema</span><span class="p">:</span> <span class="n">Schema</span><span class="p">,</span> <span class="n">table_name</span><span class="p">:</span> <span class="nb">str</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Generate the primary key for a table from its schema</p>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>file</code>
+            </td>
+            <td>
+                  <code><span title="pathlib.Path">Path</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The path to the Parquet file</p>
               </div>
             </td>
             <td>
@@ -2828,14 +2984,14 @@
           </tr>
           <tr class="doc-section-item">
             <td>
-                <code>database_url</code>
+                <code>schema</code>
             </td>
             <td>
-                  <code><span title="str">str</span></code>
+                  <code><span title="pyarrow.Schema">Schema</span></code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>URL of the PostgreSQL database.</p>
+                <p>Parquet schema</p>
               </div>
             </td>
             <td>
@@ -2844,18 +3000,408 @@
           </tr>
           <tr class="doc-section-item">
             <td>
-                <code>schema_name</code>
+                <code>table_name</code>
             </td>
             <td>
                   <code><span title="str">str</span></code>
             </td>
             <td>
               <div class="doc-md-description">
-                <p>Name of the PostgreSQL schema.</p>
+                <p>name of the table</p>
               </div>
             </td>
             <td>
                 <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                  <code><span title="list">list</span>[<span title="str">str</span>]</code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>list[str]: primary key column(s)</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h2 id="manexp_web_lists.postgres_helpers.generate_create_tables.is_association_table" class="doc doc-heading">
+            <span class="doc doc-object-name doc-function-name">is_association_table</span>
+
+
+</h2>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">is_association_table</span><span class="p">(</span><span class="n">table_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Check if a table is an association table</p>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>table_name</code>
+            </td>
+            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>name of the table</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>bool</code></td>            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>True if the table is an association table, False otherwise</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h2 id="manexp_web_lists.postgres_helpers.generate_create_tables.postgres_type" class="doc doc-heading">
+            <span class="doc doc-object-name doc-function-name">postgres_type</span>
+
+
+</h2>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">postgres_type</span><span class="p">(</span><span class="n">file</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">field</span><span class="p">:</span> <span class="n">Field</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Get the PostgreSQL data type for a field.</p>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>file</code>
+            </td>
+            <td>
+                  <code><span title="pathlib.Path">Path</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Path to the Parquet file</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>field</code>
+            </td>
+            <td>
+                  <code><span title="pyarrow.Field">Field</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>pa.Field object</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>str</code></td>            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>The corresponding PostgreSQL data type</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+<p><span class="doc-section-title">Raises:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                  <code><a class="autorefs autorefs-internal" href="../../exceptions/unsupported_type/#manexp_web_lists.exceptions.unsupported_type.UnsupportedTypeError">UnsupportedTypeError</a></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>Raised when the type conversion is not supported</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h2 id="manexp_web_lists.postgres_helpers.generate_create_tables.is_uuid_column" class="doc doc-heading">
+            <span class="doc doc-object-name doc-function-name">is_uuid_column</span>
+
+
+</h2>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">is_uuid_column</span><span class="p">(</span><span class="n">file</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">column_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Check if a column in the Parquet file is a UUID column.</p>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>file</code>
+            </td>
+            <td>
+                  <code><span title="pathlib.Path">Path</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>path to the Parquet file</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>column_name</code>
+            </td>
+            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>name of the column to check</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>bool</code></td>            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>True if the column is a UUID column, False otherwise</p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+<h2 id="manexp_web_lists.postgres_helpers.generate_create_tables.contain_null" class="doc doc-heading">
+            <span class="doc doc-object-name doc-function-name">contain_null</span>
+
+
+</h2>
+<div class="language-python doc-signature highlight"><pre><span></span><code><span class="nf">contain_null</span><span class="p">(</span><span class="n">file</span><span class="p">:</span> <span class="n">Path</span><span class="p">,</span> <span class="n">column_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span>
+</code></pre></div>
+
+    <div class="doc doc-contents ">
+
+        <p>Check if a column in the Parquet file contains null values.</p>
+
+
+<p><span class="doc-section-title">Parameters:</span></p>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Description</th>
+          <th>Default</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+            <td>
+                <code>file</code>
+            </td>
+            <td>
+                  <code><span title="pathlib.Path">Path</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>path to the Parquet file</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+          <tr class="doc-section-item">
+            <td>
+                <code>column_name</code>
+            </td>
+            <td>
+                  <code><span title="str">str</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>name of the column to check</p>
+              </div>
+            </td>
+            <td>
+                <em>required</em>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+
+
+    <p><span class="doc-section-title">Returns:</span></p>
+    <table>
+      <thead>
+        <tr>
+<th>Name</th>          <th>Type</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="doc-section-item">
+<td><code>bool</code></td>            <td>
+                  <code><span title="bool">bool</span></code>
+            </td>
+            <td>
+              <div class="doc-md-description">
+                <p>True if the column contains null, False otherwise</p>
+              </div>
             </td>
           </tr>
       </tbody>
