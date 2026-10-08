@@ -5,10 +5,18 @@ from xml.etree import ElementTree as ET
 
 import polars as pl
 import pytest
+from defusedxml.ElementTree import fromstring
 from polars.testing import assert_frame_equal
 
-from manexp_web_lists.exceptions import InvalidXMLError
+from manexp_web_lists.exceptions import (
+    CodeMismatchError,
+    InvalidXMLError,
+    UnexpectedXMLChildError,
+    UnexpectedXMLLanguageError,
+)
 from manexp_web_lists.phytosanitary_products.transform.parsers import (
+    _parse_description,
+    _parse_detail,
     indications_parser,
     metadata_parser,
     parse_xml_root,
@@ -50,6 +58,170 @@ def test_parse_xml_root_raises_if_no_root() -> None:
         pytest.raises(InvalidXMLError),
     ):
         parse_xml_root(Path("dummy.xml"))
+
+
+def test_parse_description():
+    description = fromstring(
+        """
+        <Description language="fr" value="Bonjour">
+            <Code value="hello" />
+        </Description>
+        """
+    )
+    row: dict[str, str | None] = {}
+
+    _parse_description(description, row)
+
+    assert row == {
+        "fr": "Bonjour",
+        "code": "hello",
+    }
+
+
+def test_parse_description_ignores_child_without_value():
+    description = fromstring(
+        """
+        <Description language="fr" value="Bonjour">
+            <Code />
+        </Description>
+        """
+    )
+    row: dict[str, str | None] = {}
+
+    _parse_description(description, row)
+
+    assert row == {
+        "fr": "Bonjour",
+    }
+
+
+def test_parse_description_raises_for_unexpected_language():
+    description = fromstring(
+        """
+        <Description language="xx" value="Hello" />
+        """
+    )
+    row: dict[str, str | None] = {}
+
+    with pytest.raises(UnexpectedXMLLanguageError):
+        _parse_description(description, row)
+
+
+def test_parse_description_accepts_matching_existing_value():
+    description = fromstring(
+        """
+        <Description language="fr" value="Bonjour">
+            <Code value="hello" />
+        </Description>
+        """
+    )
+    row: dict[str, str | None] = {
+        "code": "hello",
+    }
+
+    _parse_description(description, row)
+
+    assert row == {
+        "fr": "Bonjour",
+        "code": "hello",
+    }
+
+
+def test_parse_description_raises_on_code_mismatch():
+    description = fromstring(
+        """
+        <Description language="fr" value="Bonjour">
+            <Code value="hello" />
+        </Description>
+        """
+    )
+    row: dict[str, str | None] = {
+        "code": "goodbye",
+    }
+
+    with pytest.raises(CodeMismatchError):
+        _parse_description(description, row)
+
+
+def test_parse_detail_with_attributes():
+    detail = fromstring(
+        """
+        <Detail id="123" name="Test" />
+        """
+    )
+
+    result = _parse_detail(detail)
+
+    assert result == {
+        "id": "123",
+        "name": "Test",
+    }
+
+
+def test_parse_detail_with_parent():
+    detail = fromstring(
+        """
+        <Detail id="123">
+            <Parent primaryKey="456" />
+        </Detail>
+        """
+    )
+
+    result = _parse_detail(detail)
+
+    assert result == {
+        "id": "123",
+        "parent_id": "456",
+    }
+
+
+def test_parse_detail_ignores_parent_without_primary_key():
+    detail = fromstring(
+        """
+        <Detail id="123">
+            <Parent />
+        </Detail>
+        """
+    )
+
+    result = _parse_detail(detail)
+
+    assert result == {
+        "id": "123",
+    }
+
+
+def test_parse_detail_with_description():
+    detail = fromstring(
+        """
+        <Detail id="123">
+            <Description language="fr" value="Bonjour" />
+        </Detail>
+        """
+    )
+
+    with patch(
+        "manexp_web_lists.phytosanitary_products.transform.parsers._parse_description"
+    ) as mock_parse_description:
+        _parse_detail(detail)
+
+    mock_parse_description.assert_called_once_with(
+        detail.find("Description"),
+        {"id": "123"},
+    )
+
+
+def test_parse_detail_raises_for_unexpected_child():
+    detail = fromstring(
+        """
+        <Detail id="123">
+            <SomethingUnexpected />
+        </Detail>
+        """
+    )
+
+    with pytest.raises(UnexpectedXMLChildError):
+        _parse_detail(detail)
 
 
 def test_metadata_parser(tmp_path: Path) -> None:

@@ -1,8 +1,9 @@
 from unittest.mock import MagicMock, patch
 
 import pytest
+from psycopg import sql
 
-from manexp_web_lists.postgres_helpers.synchronize import get_tables_in_insert_order, synchronize
+from manexp_web_lists.postgres_helpers.synchronize import get_tables_in_insert_order, load_table, synchronize
 
 # ---------------------------------------------------------------------------
 # get_tables_in_insert_order
@@ -57,25 +58,111 @@ def test_get_tables_in_insert_order_returns_empty_list_when_no_tables():
 # ---------------------------------------------------------------------------
 
 
-def make_pg_connection(columns):
-    """Create a mocked PostgreSQL connection with the given columns."""
-    conn = MagicMock()
-    cursor = MagicMock()
+def test_load_table_copy_statement(tmp_path):
+    pg_conn = MagicMock()
+    duck_conn = MagicMock()
 
-    cursor.fetchall.return_value = [(column,) for column in columns]
+    pg_cursor = MagicMock()
+    pg_conn.cursor.return_value.__enter__.return_value = pg_cursor
 
-    conn.cursor.return_value.__enter__.return_value = cursor
+    pg_cursor.fetchall.return_value = [
+        ("id",),
+        ("name",),
+    ]
 
-    return conn, cursor
+    reader = MagicMock()
+    duck_conn.from_parquet.return_value.select.return_value = reader
+    reader.fetchmany.return_value = []
 
-
-def make_copy_cursor(pg_conn):
-    """Configure the mocked PostgreSQL cursor for COPY."""
     copy = MagicMock()
+    copy_context = MagicMock()
+    copy_context.__enter__.return_value = copy
+    pg_cursor.copy.return_value = copy_context
 
-    pg_conn.cursor.return_value.__enter__.return_value.copy.return_value.__enter__.return_value = copy
+    load_table(
+        pg_conn,
+        duck_conn,
+        tmp_path / "data.parquet",
+        "public",
+        "users",
+    )
 
-    return copy
+    expected_sql = sql.SQL("COPY {} ({}) FROM STDIN").format(
+        sql.Identifier("public", "users"),
+        sql.SQL(", ").join(sql.Identifier(column) for column in ["id", "name"]),
+    )
+
+    pg_cursor.copy.assert_called_once_with(expected_sql)
+
+
+def test_load_table_with_no_rows(tmp_path):
+    pg_conn = MagicMock()
+    duck_conn = MagicMock()
+
+    pg_cursor = MagicMock()
+    pg_conn.cursor.return_value.__enter__.return_value = pg_cursor
+
+    pg_cursor.fetchall.return_value = [
+        ("id",),
+        ("name",),
+    ]
+
+    reader = MagicMock()
+    duck_conn.from_parquet.return_value.select.return_value = reader
+    reader.fetchmany.return_value = []
+
+    copy = MagicMock()
+    copy_context = MagicMock()
+    copy_context.__enter__.return_value = copy
+    pg_cursor.copy.return_value = copy_context
+
+    load_table(
+        pg_conn,
+        duck_conn,
+        tmp_path / "data.parquet",
+        "public",
+        "users",
+    )
+
+    reader.fetchmany.assert_called_once_with(10_000)
+
+    copy.write_row.assert_not_called()
+
+
+def test_load_table_uses_batch_size(tmp_path):
+    pg_conn = MagicMock()
+    duck_conn = MagicMock()
+
+    pg_cursor = MagicMock()
+    pg_conn.cursor.return_value.__enter__.return_value = pg_cursor
+    pg_cursor.fetchall.return_value = [("id",)]
+
+    reader = MagicMock()
+    duck_conn.from_parquet.return_value.select.return_value = reader
+    reader.fetchmany.side_effect = [
+        [(1,), (2,)],
+        [(3,)],
+        [],
+    ]
+
+    copy = MagicMock()
+    copy_context = MagicMock()
+    copy_context.__enter__.return_value = copy
+    pg_cursor.copy.return_value = copy_context
+
+    load_table(
+        pg_conn,
+        duck_conn,
+        tmp_path / "data.parquet",
+        "public",
+        "users",
+        batch_size=2,
+    )
+
+    assert reader.fetchmany.call_count == 3
+    reader.fetchmany.assert_called_with(2)
+
+    assert copy.write_row.call_count == 3
 
 
 # ---------------------------------------------------------------------------

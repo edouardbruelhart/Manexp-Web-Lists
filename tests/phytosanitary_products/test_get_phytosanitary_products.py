@@ -1,9 +1,13 @@
-from unittest.mock import patch
+from pathlib import Path
+from unittest.mock import MagicMock, patch
 
 from manexp_web_lists.phytosanitary_products.get_phytosanitary_products import get_phytosanitary_products
 
 
 def test_get_phytosanitary_products() -> None:
+
+    file_1 = MagicMock(spec=Path)
+    file_2 = MagicMock(spec=Path)
 
     with (
         patch("manexp_web_lists.phytosanitary_products.get_phytosanitary_products.FILES_PATH") as mock_path,
@@ -20,6 +24,10 @@ def test_get_phytosanitary_products() -> None:
         patch(
             "manexp_web_lists.phytosanitary_products.get_phytosanitary_products.load_phytosanitary_products",
         ) as mock_load,
+        patch(
+            "manexp_web_lists.phytosanitary_products.get_phytosanitary_products.FILES_PATH.iterdir",
+            return_value=[file_1, file_2],
+        ) as mock_iterdir,
     ):
         get_phytosanitary_products()
 
@@ -31,3 +39,6 @@ def test_get_phytosanitary_products() -> None:
     mock_products.assert_called_once()
     mock_indications.assert_called_once()
     mock_load.assert_called_once()
+    mock_iterdir.assert_called_once_with()
+    file_1.unlink.assert_called_once_with()
+    file_2.unlink.assert_called_once_with()

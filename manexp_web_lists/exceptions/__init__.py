@@ -4,6 +4,7 @@ from .invalid_environment import InvalidEnvironmentError
 from .invalid_pseudo_boolean import InvalidPseudoBoolError
 from .invalid_xml import InvalidXMLError
 from .language_installation_failed import LanguageInstallationFailedError
+from .no_pk_detected import NoPKDetectedError
 from .postgresql_configuration_failed import PostgresqlConfigurationFailedError
 from .separator_error import SeparatorError
 from .unexpected_xml_child import UnexpectedXMLChildError
@@ -20,6 +21,7 @@ __all__ = [
     "InvalidPseudoBoolError",
     "InvalidXMLError",
     "LanguageInstallationFailedError",
+    "NoPKDetectedError",
     "PostgresqlConfigurationFailedError",
     "SeparatorError",
     "UnexpectedXMLChildError",

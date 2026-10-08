@@ -6,7 +6,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 import pytest
 
-from manexp_web_lists.exceptions import UnsupportedTypeError
+from manexp_web_lists.exceptions import NoPKDetectedError, UnsupportedTypeError
 from manexp_web_lists.postgres_helpers.generate_create_tables import (
     contain_null,
     generate_create_tables,
@@ -141,6 +141,39 @@ def test_primary_key_with_all_nullable_id_columns(tmp_path):
         )
         == []
     )
+
+
+def test_primary_with_upov_code(tmp_path):
+    file = write_parquet(
+        tmp_path,
+        {
+            "upov_code": [1, 2, 3],
+            "name": ["foo", "bar", "baz"],
+        },
+    )
+
+    schema = pq.read_schema(file)
+
+    assert primary_key(file, schema, "products") == ["upov_code"]
+
+
+def test_primary_without_pk(tmp_path):
+    file = write_parquet(
+        tmp_path,
+        {
+            "no_id": [1, 2, 3],
+            "name": ["foo", "bar", "baz"],
+        },
+    )
+
+    schema = pq.read_schema(file)
+
+    with (
+        pytest.raises(
+            NoPKDetectedError,
+        ),
+    ):
+        primary_key(file, schema, "products")
 
 
 @pytest.mark.parametrize(

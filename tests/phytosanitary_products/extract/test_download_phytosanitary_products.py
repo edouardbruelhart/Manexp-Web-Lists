@@ -139,6 +139,21 @@ def test_download_phytosanitary_products_success(
         {"primaryKey": "area-1"},
     )
 
+    metadata = ET.SubElement(
+        root,
+        "MetaData",
+        {
+            "name": "PermissionHolder",
+            "numberOfRows": "210",
+        },
+    )
+
+    ET.SubElement(
+        metadata,
+        "City",
+        {"primaryKey": "area-1"},
+    )
+
     # Section that should be preserved with no special handling.
     measures = ET.SubElement(
         root,
@@ -196,6 +211,7 @@ def test_download_phytosanitary_products_success(
 
     assert product is not None
     assert product.get("id") == "8132"
+    assert product.get("Country") is None
 
     # ---------------------------------------------------------
     # Parallelimports
@@ -236,6 +252,10 @@ def test_download_phytosanitary_products_success(
 
     assert detail is not None
     assert detail.get("primaryKey") == "area-1"
+
+    permission_holder = tmp_path / "permission_holder.xml"
+
+    assert not permission_holder.exists()
 
     # ---------------------------------------------------------
     # Other sections

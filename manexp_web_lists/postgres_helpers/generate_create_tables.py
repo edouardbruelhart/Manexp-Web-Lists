@@ -4,7 +4,7 @@ from uuid import UUID
 import pyarrow as pa
 import pyarrow.parquet as pq
 
-from manexp_web_lists.exceptions import UnsupportedTypeError
+from manexp_web_lists.exceptions import NoPKDetectedError, UnsupportedTypeError
 
 
 def generate_create_tables(file: Path) -> str:
@@ -63,6 +63,9 @@ def primary_key(file: Path, schema: pa.Schema, table_name: str) -> list[str]:
 
     Returns:
         list[str]: primary key column(s)
+
+    Raises:
+        NoPKDetectedError: Raised when no primary key column(s) are detected
     """
     if is_association_table(table_name):
         return [field.name for field in schema if field.name.endswith("_id") and not contain_null(file, field.name)]
@@ -73,7 +76,7 @@ def primary_key(file: Path, schema: pa.Schema, table_name: str) -> list[str]:
     if "upov_code" in schema.names:
         return ["upov_code"]
 
-    return ["id"]
+    raise NoPKDetectedError(table_name)
 
 
 def is_association_table(table_name: str) -> bool:
