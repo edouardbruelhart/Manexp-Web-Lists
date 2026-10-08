@@ -101,6 +101,16 @@ Run this command in the root directory of the repository when you want to update
 
 You can access the database using any PostgreSQL client or tool of your choice. The docker-compose.yaml file is configured to expose database only on your own host (127.0.0.1:<POSTGRES_PORT>). Feel free to modify the configuration to connect to a different host or port if needed.
 
+### 5. Remove the database and stop the containers
+
+To remove the database and stop the containers, run this command in the root directory:
+
+Be careful, it will erase all, including the database and all the data stored in it.
+
+```bash
+docker compose down --volumes --remove-orphans
+```
+
 ## [Contributing](https://github.com/edouardbruelhart/Manexp-Web-Lists/blob/main/CONTRIBUTING.md)
 
 Contributions are welcome, and they are greatly appreciated!
