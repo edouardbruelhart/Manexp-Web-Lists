@@ -1,5 +1,5 @@
 # Synchronize
 
-::: manexp_web_lists.postgresql.synchronize
+::: manexp_web_lists.postgres_helpers.synchronize
     rendering:
       show_root_heading: false

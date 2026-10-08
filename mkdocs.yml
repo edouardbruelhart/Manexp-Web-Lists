@@ -124,16 +124,16 @@ nav:
     - Merge phyto:
         manexp_web_lists/phytosanitary_products/transform/merge_phyto.md
     - Parsers: manexp_web_lists/phytosanitary_products/transform/parsers.md
-- Postgresql:
-  - Apply schema: manexp_web_lists/postgresql/apply_schema.md
-  - Configure database: manexp_web_lists/postgresql/configure_database.md
-  - Database url: manexp_web_lists/postgresql/database_url.md
+- Postgres helpers:
+  - Apply schema: manexp_web_lists/postgres_helpers/apply_schema.md
+  - Database connection:
+      manexp_web_lists/postgres_helpers/database_connection.md
   - Generate create tables:
-      manexp_web_lists/postgresql/generate_create_tables.md
+      manexp_web_lists/postgres_helpers/generate_create_tables.md
   - Generate foreign key constraints:
-      manexp_web_lists/postgresql/generate_foreign_key_constraints.md
-  - Generate schema: manexp_web_lists/postgresql/generate_schema.md
-  - Synchronize: manexp_web_lists/postgresql/synchronize.md
+      manexp_web_lists/postgres_helpers/generate_foreign_key_constraints.md
+  - Generate schema: manexp_web_lists/postgres_helpers/generate_schema.md
+  - Synchronize: manexp_web_lists/postgres_helpers/synchronize.md
 - Seeds:
   - Get seeds: manexp_web_lists/seeds/get_seeds.md
   - Extract:
