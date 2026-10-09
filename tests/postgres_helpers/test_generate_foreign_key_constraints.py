@@ -45,7 +45,7 @@ def test_generate_foreign_key_constraints(tmp_path):
 
     result = generate_foreign_key_constraints(files)
 
-    assert len(result) == 1
+    assert len(result) == 2
     assert isinstance(result[0], sql.Composed)
 
 

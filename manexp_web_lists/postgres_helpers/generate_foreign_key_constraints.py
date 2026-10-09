@@ -77,6 +77,22 @@ def generate_foreign_key_constraints(
                 )
             )
 
+            # Add an index for this foreign key.
+            index_name = f"idx_{table_name}_{field.name}"
+
+            foreign_keys.append(
+                sql.SQL(
+                    """
+                    CREATE INDEX IF NOT EXISTS {index_name}
+                    ON {table_name} ({field_name});
+                    """
+                ).format(
+                    index_name=sql.Identifier(index_name),
+                    table_name=sql.Identifier(table_name),
+                    field_name=sql.Identifier(field.name),
+                )
+            )
+
     return foreign_keys
 
 
